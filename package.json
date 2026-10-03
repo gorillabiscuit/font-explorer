@@ -1,0 +1,41 @@
+{
+  "name": "font-explorer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c cyan,magenta \"tsx watch server/index.ts\" \"vite\"",
+    "build": "tsc --noEmit && vite build",
+    "build:static": "tsc --noEmit && VITE_STATIC=1 vite build && tsx server/export-static.ts",
+    "deploy:site": "bash scripts/deploy-site.sh",
+    "typecheck": "tsc --noEmit",
+    "check": "tsx server/check-vibe.ts",
+    "check:facts": "tsx server/check-facts.ts",
+    "check:layout": "tsx server/check-layout.ts",
+    "check:alternates": "tsx server/check-alternates.ts",
+    "check:italics": "tsx server/check-italics.ts",
+    "check:help": "tsx server/check-help.ts",
+    "sources": "tsx server/build-sources.ts"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "fontkit": "^2.0.4",
+    "js-yaml": "^5.4.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/fontkit": "^2.0.9",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^10.0.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  }
+}

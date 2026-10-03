@@ -1,0 +1,631 @@
+{
+ "builtAt": "2026-10-02T07:46:01.832Z",
+ "fonts": [
+  {
+   "id": "tunera:ampoule:neon",
+   "family": "Ampoule Neon",
+   "source": "tunera",
+   "category": "display",
+   "tags": [
+    "dot-grid",
+    "pixel",
+    "neon",
+    "modular",
+    "cyberpunk",
+    "signage",
+    "techno",
+    "rounded"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/daytonamess/Ampoule/raw/fonts/web/Ampoule/Ampoule-Neon.woff2?ref=master"
+   },
+   "italicFiles": {
+    "400": "https://codeberg.org/api/v1/repos/daytonamess/Ampoule/raw/fonts/web/Ampoule/Ampoule-NeonSlant.woff2?ref=master"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/ampoule/",
+   "added": "2026-02-20",
+   "proxy": true
+  },
+  {
+   "id": "tunera:ampoule:neon-tube",
+   "family": "Ampoule Neon Tube",
+   "source": "tunera",
+   "category": "display",
+   "tags": [
+    "outline",
+    "dot-grid",
+    "pixel",
+    "neon",
+    "modular",
+    "cyberpunk",
+    "signage",
+    "techno"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/daytonamess/Ampoule/raw/fonts/web/Ampoule/Ampoule-NeonTube.woff2?ref=master"
+   },
+   "italicFiles": {
+    "400": "https://codeberg.org/api/v1/repos/daytonamess/Ampoule/raw/fonts/web/Ampoule/Ampoule-NeonTubeSlant.woff2?ref=master"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/ampoule/",
+   "added": "2026-02-20",
+   "proxy": true
+  },
+  {
+   "id": "tunera:ampoule:rats",
+   "family": "Ampoule Rats",
+   "source": "tunera",
+   "category": "display",
+   "tags": [
+    "dot-grid",
+    "pixel",
+    "neon",
+    "modular",
+    "cyberpunk",
+    "signage",
+    "techno",
+    "rounded"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/daytonamess/Ampoule/raw/fonts/web/Ampoule/Ampoule-Rats.woff2?ref=master"
+   },
+   "italicFiles": {
+    "400": "https://codeberg.org/api/v1/repos/daytonamess/Ampoule/raw/fonts/web/Ampoule/Ampoule-RatsSlant.woff2?ref=master"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/ampoule/",
+   "added": "2026-02-20",
+   "proxy": true
+  },
+  {
+   "id": "tunera:ampoule:rats-tube",
+   "family": "Ampoule Rats Tube",
+   "source": "tunera",
+   "category": "display",
+   "tags": [
+    "outline",
+    "dot-grid",
+    "pixel",
+    "neon",
+    "modular",
+    "cyberpunk",
+    "signage",
+    "techno"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/daytonamess/Ampoule/raw/fonts/web/Ampoule/Ampoule-RatsTube.woff2?ref=master"
+   },
+   "italicFiles": {
+    "400": "https://codeberg.org/api/v1/repos/daytonamess/Ampoule/raw/fonts/web/Ampoule/Ampoule-RatsTubeSlant.woff2?ref=master"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/ampoule/",
+   "added": "2026-02-20",
+   "proxy": true
+  },
+  {
+   "id": "tunera:luperca",
+   "family": "Luperca",
+   "source": "tunera",
+   "category": "serif",
+   "tags": [
+    "roman",
+    "capitals",
+    "inscriptional",
+    "classical",
+    "ligatures",
+    "editorial",
+    "elegant",
+    "wide"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Luperca/raw/fonts/web/Luperca-72-96Banner.woff2?ref=main"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/luperca/",
+   "added": "2025-12-17",
+   "proxy": true
+  },
+  {
+   "id": "tunera:canarina",
+   "family": "Canarina",
+   "source": "tunera",
+   "category": "sans",
+   "tags": [
+    "angular",
+    "brush",
+    "informal",
+    "humanist",
+    "friendly",
+    "vernacular",
+    "canary islands"
+   ],
+   "weights": [
+    400,
+    500,
+    800
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Canarina/raw/fonts/web/Canarina-Chica.woff2?ref=master",
+    "500": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Canarina/raw/fonts/web/Canarina-Mediana.woff2?ref=master",
+    "800": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Canarina/raw/fonts/web/Canarina-Grande.woff2?ref=master"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/canarina/",
+   "added": "2020-01-13",
+   "proxy": true
+  },
+  {
+   "id": "tunera:azabache",
+   "family": "Azabache",
+   "source": "tunera",
+   "category": "handwriting",
+   "tags": [
+    "handwritten",
+    "modular",
+    "textured",
+    "calligraphic",
+    "digital",
+    "streamlined",
+    "slanted"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/azabache/raw/font%20files/web/Azabache-Regular.woff2?ref=main"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/azabache/",
+   "added": "2025-05-09",
+   "proxy": true
+  },
+  {
+   "id": "tunera:tanklager:kompakt",
+   "family": "Tanklager Kompakt",
+   "source": "tunera",
+   "category": "sans",
+   "tags": [
+    "condensed",
+    "grotesk",
+    "din",
+    "vernacular",
+    "swiss",
+    "hand-painted",
+    "quirky",
+    "signage"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Tanklager/raw/fonts/Web/Tanklager-Kompakt.woff2?ref=main"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/tanklager/",
+   "added": "2024-06-19",
+   "proxy": true
+  },
+  {
+   "id": "tunera:tanklager:original",
+   "family": "Tanklager Original",
+   "source": "tunera",
+   "category": "sans",
+   "tags": [
+    "grotesk",
+    "din",
+    "vernacular",
+    "swiss",
+    "hand-painted",
+    "quirky",
+    "signage"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Tanklager/raw/fonts/Web/Tanklager-Original.woff2?ref=main"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/tanklager/",
+   "added": "2024-06-19",
+   "proxy": true
+  },
+  {
+   "id": "tunera:lobular",
+   "family": "Lobular",
+   "source": "tunera",
+   "category": "display",
+   "tags": [
+    "bubble",
+    "inktrap",
+    "blobby",
+    "graffiti",
+    "organic",
+    "heavy",
+    "caps",
+    "playful"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Lobular/raw/fonts/web/Lobular-Regular.woff2?ref=main"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/lobular/",
+   "added": "2021-07-01",
+   "proxy": true
+  },
+  {
+   "id": "tunera:amakan:stripes",
+   "family": "Amakan Stripes",
+   "source": "tunera",
+   "category": "display",
+   "tags": [
+    "striped",
+    "pattern",
+    "woven",
+    "monospaced",
+    "geometric",
+    "textile",
+    "grid",
+    "caps"
+   ],
+   "weights": [
+    300
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://cdn.jsdelivr.net/gh/jadmaza/amakan@main/fonts/Webfonts/Amakan-Stripes.woff2"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/amakan/",
+   "added": "2024-02-08",
+   "proxy": true
+  },
+  {
+   "id": "tunera:amakan:strips",
+   "family": "Amakan Strips",
+   "source": "tunera",
+   "category": "display",
+   "tags": [
+    "striped",
+    "pattern",
+    "woven",
+    "monospaced",
+    "geometric",
+    "textile",
+    "grid",
+    "caps"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/jadmaza/amakan@main/fonts/Webfonts/Amakan-Strips.woff2"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/amakan/",
+   "added": "2024-02-08",
+   "proxy": true
+  },
+  {
+   "id": "tunera:nyght-serif",
+   "family": "Nyght Serif",
+   "source": "tunera",
+   "category": "serif",
+   "tags": [
+    "contemporary",
+    "high-contrast",
+    "sharp",
+    "spiky",
+    "spurs",
+    "editorial",
+    "cyrillic"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    700,
+    800
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://gitlab.com/api/v4/projects/mkobuzan%2Fnyght-serif/repository/files/fonts%2FWEB%2FNyghtSerif-Light.woff2/raw?ref=main",
+    "400": "https://gitlab.com/api/v4/projects/mkobuzan%2Fnyght-serif/repository/files/fonts%2FWEB%2FNyghtSerif-Regular.woff2/raw?ref=main",
+    "500": "https://gitlab.com/api/v4/projects/mkobuzan%2Fnyght-serif/repository/files/fonts%2FWEB%2FNyghtSerif-Medium.woff2/raw?ref=main",
+    "700": "https://gitlab.com/api/v4/projects/mkobuzan%2Fnyght-serif/repository/files/fonts%2FWEB%2FNyghtSerif-Bold.woff2/raw?ref=main",
+    "800": "https://gitlab.com/api/v4/projects/mkobuzan%2Fnyght-serif/repository/files/fonts%2FWEB%2FNyghtSerif-Dark.woff2/raw?ref=main"
+   },
+   "italicFiles": {
+    "300": "https://gitlab.com/api/v4/projects/mkobuzan%2Fnyght-serif/repository/files/fonts%2FWEB%2FNyghtSerif-LightItalic.woff2/raw?ref=main",
+    "400": "https://gitlab.com/api/v4/projects/mkobuzan%2Fnyght-serif/repository/files/fonts%2FWEB%2FNyghtSerif-RegularItalic.woff2/raw?ref=main",
+    "500": "https://gitlab.com/api/v4/projects/mkobuzan%2Fnyght-serif/repository/files/fonts%2FWEB%2FNyghtSerif-MediumItalic.woff2/raw?ref=main",
+    "700": "https://gitlab.com/api/v4/projects/mkobuzan%2Fnyght-serif/repository/files/fonts%2FWEB%2FNyghtSerif-BoldItalic.woff2/raw?ref=main",
+    "800": "https://gitlab.com/api/v4/projects/mkobuzan%2Fnyght-serif/repository/files/fonts%2FWEB%2FNyghtSerif-DarkItalic.woff2/raw?ref=main"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/nyght-serif/",
+   "added": "2023-01-13",
+   "proxy": true
+  },
+  {
+   "id": "tunera:piscolabis",
+   "family": "Piscolabis",
+   "source": "tunera",
+   "category": "sans",
+   "tags": [
+    "condensed",
+    "bold",
+    "hand-painted",
+    "signage",
+    "tall ascenders",
+    "headline",
+    "vernacular"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Piscolabis/raw/fonts/web/Piscolabis-Regular.woff2?ref=main"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/piscolabis/",
+   "added": "2023-06-06",
+   "proxy": true
+  },
+  {
+   "id": "tunera:roubaix-industrielle",
+   "family": "Roubaix Industrielle",
+   "source": "tunera",
+   "category": "display",
+   "tags": [
+    "modular",
+    "brick",
+    "striped",
+    "industrial",
+    "geometric",
+    "textile",
+    "blocky",
+    "caps"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/RoubaixIndustrielle/raw/fonts/Regular/Web/RoubaixIndustrielle-Regular60-96pt.woff2?ref=main"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/roubaix-industrielle/",
+   "added": "2022-05-11",
+   "proxy": true
+  },
+  {
+   "id": "tunera:pescante",
+   "family": "Pescante",
+   "source": "tunera",
+   "category": "sans",
+   "tags": [
+    "curveless",
+    "angular",
+    "flat brush",
+    "vernacular",
+    "geometric",
+    "signage",
+    "wide stems"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Pescante/raw/fonts/web/Pescante-Normal.woff2?ref=main"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/pescante/",
+   "added": "2022-05-17",
+   "proxy": true
+  },
+  {
+   "id": "tunera:isenheim",
+   "family": "Isenheim",
+   "source": "tunera",
+   "category": "serif",
+   "tags": [
+    "medieval",
+    "old-style",
+    "calligraphic",
+    "ligatures",
+    "lombardic",
+    "elegant",
+    "classical"
+   ],
+   "weights": [
+    200,
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "200": "https://gitlab.com/api/v4/projects/benoitsansterre%2Fisenheim/repository/files/fonts%2FOpenType-PS%2FIsenheim_Fin.otf/raw?ref=main",
+    "400": "https://gitlab.com/api/v4/projects/benoitsansterre%2Fisenheim/repository/files/fonts%2FOpenType-PS%2FIsenheim_Regulier.otf/raw?ref=main"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/isenheim/",
+   "added": "2021-08-07",
+   "proxy": true
+  },
+  {
+   "id": "tunera:picaflor",
+   "family": "Picaflor",
+   "source": "tunera",
+   "category": "serif",
+   "tags": [
+    "didone",
+    "high-contrast",
+    "calligraphic",
+    "condensed",
+    "vernacular",
+    "elegant",
+    "editorial",
+    "caps"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Picaflor/raw/fonts/web/Picaflor-96pt.woff2?ref=master"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/picaflor/",
+   "added": "2020-11-06",
+   "proxy": true
+  },
+  {
+   "id": "tunera:malebolge",
+   "family": "Malebolge",
+   "source": "tunera",
+   "category": "display",
+   "tags": [
+    "medieval",
+    "dark",
+    "spiky",
+    "gothic",
+    "caps",
+    "metal",
+    "ornate"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Malebolge/raw/fonts/web/Malebolge-Adversarial.woff2?ref=master"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/malebolge/",
+   "added": "2020-04-27",
+   "proxy": true
+  },
+  {
+   "id": "tunera:paysage",
+   "family": "Paysage",
+   "source": "tunera",
+   "category": "sans",
+   "tags": [
+    "humanist",
+    "calm",
+    "readable",
+    "swinging g",
+    "friendly",
+    "text"
+   ],
+   "weights": [
+    400,
+    500,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/antonmoglia%2FPaysage/repository/files/fonts%2Fwebfonts%2FPaysage-Regular.woff2/raw?ref=master",
+    "500": "https://gitlab.com/api/v4/projects/antonmoglia%2FPaysage/repository/files/fonts%2Fwebfonts%2FPaysage-Medium.woff2/raw?ref=master",
+    "700": "https://gitlab.com/api/v4/projects/antonmoglia%2FPaysage/repository/files/fonts%2Fwebfonts%2FPaysage-Bold.woff2/raw?ref=master",
+    "900": "https://gitlab.com/api/v4/projects/antonmoglia%2FPaysage/repository/files/fonts%2Fwebfonts%2FPaysage-Black.woff2/raw?ref=master"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/paysage/",
+   "added": "2019-02-04",
+   "proxy": true
+  },
+  {
+   "id": "tunera:manosque",
+   "family": "Manosque",
+   "source": "tunera",
+   "category": "handwriting",
+   "tags": [
+    "brush",
+    "sign painting",
+    "heavy",
+    "retro",
+    "flat brush",
+    "railway",
+    "french"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Manosque/raw/fonts/web/Manosque-Regular.woff2?ref=master"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/manosque/",
+   "added": "2020-04-09",
+   "proxy": true
+  },
+  {
+   "id": "tunera:kobata",
+   "family": "Kobata",
+   "source": "tunera",
+   "category": "sans",
+   "tags": [
+    "geometric",
+    "pixel",
+    "glitch",
+    "experimental",
+    "rectangles",
+    "circles",
+    "modular"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Kobata/raw/fonts/web/Kobata-Regular.woff2?ref=master",
+    "700": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Kobata/raw/fonts/web/Kobata-Bold.woff2?ref=master"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/kobata/",
+   "added": "2020-01-31",
+   "proxy": true
+  },
+  {
+   "id": "tunera:brassia",
+   "family": "Brassia",
+   "source": "tunera",
+   "category": "display",
+   "tags": [
+    "art nouveau",
+    "solarpunk",
+    "art deco",
+    "organic",
+    "caps",
+    "decorative",
+    "cyrillic-inspired"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://codeberg.org/api/v1/repos/ArielMartinPerez/Brassia/raw/fonts/web/Brassia-Regular.woff2?ref=master"
+   },
+   "homepage": "https://www.tunera.xyz/fonts/brassia/",
+   "added": "2020-01-13",
+   "proxy": true
+  }
+ ]
+}

@@ -1,0 +1,748 @@
+{
+ "builtAt": "2026-10-02T07:45:39.558Z",
+ "fonts": [
+  {
+   "id": "collletttivo:absans",
+   "family": "Absans",
+   "source": "collletttivo",
+   "category": "sans",
+   "tags": [
+    "sans",
+    "grotesk",
+    "geometric",
+    "clean",
+    "neutral",
+    "minimal",
+    "contemporary"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/absans@e1ba5d9a23/fonts/Absans-Regular.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/absans",
+   "added": "2023-08-26",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:apfel-grotezk",
+   "family": "Apfel Grotezk",
+   "source": "collletttivo",
+   "category": "sans",
+   "tags": [
+    "sans",
+    "grotesk",
+    "quirky",
+    "geometric",
+    "friendly",
+    "indie",
+    "contemporary"
+   ],
+   "weights": [
+    400,
+    500,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/apfel-grotezk@8b4c9f2682/fonts/ApfelGrotezk-Regular.woff2",
+    "500": "https://cdn.jsdelivr.net/gh/collletttivo/apfel-grotezk@8b4c9f2682/fonts/ApfelGrotezk-Mittel.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/apfel-grotezk@8b4c9f2682/fonts/ApfelGrotezk-Fett.woff2",
+    "900": "https://cdn.jsdelivr.net/gh/collletttivo/apfel-grotezk@8b4c9f2682/fonts/ApfelGrotezk-Satt.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/apfel-grotezk",
+   "added": "2023-10-16",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:apfel-grotezk:brukt",
+   "family": "Apfel Grotezk Brukt",
+   "source": "collletttivo",
+   "category": "display",
+   "tags": [
+    "display",
+    "sans",
+    "dotted",
+    "perforated",
+    "construction",
+    "technical",
+    "experimental",
+    "grotesk"
+   ],
+   "weights": [
+    300
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://cdn.jsdelivr.net/gh/collletttivo/apfel-grotezk@8b4c9f2682/fonts/ApfelGrotezk-Brukt.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/apfel-grotezk",
+   "added": "2023-10-16",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:aujournuit",
+   "family": "Aujournuit",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "high-contrast",
+    "elegant",
+    "art-nouveau",
+    "calligraphic",
+    "fashion",
+    "editorial",
+    "delicate"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/aujournuit@8b8aed12b6/fonts/Aujournuit-Regular.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/aujournuit",
+   "added": "2024-10-30",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:aujournuit:airy",
+   "family": "Aujournuit Airy",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "wide",
+    "high-contrast",
+    "elegant",
+    "art-nouveau",
+    "airy",
+    "luxury",
+    "editorial"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/aujournuit@8b8aed12b6/fonts/Aujournuit-Airy.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/aujournuit",
+   "added": "2024-10-30",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:aujournuit:condensed",
+   "family": "Aujournuit Condensed",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "condensed",
+    "high-contrast",
+    "elegant",
+    "art-nouveau",
+    "fashion",
+    "editorial",
+    "tall"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/aujournuit@8b8aed12b6/fonts/Aujournuit-Condensed.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/aujournuit",
+   "added": "2024-10-30",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:aujournuit:densed",
+   "family": "Aujournuit Densed",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "narrow",
+    "high-contrast",
+    "elegant",
+    "art-nouveau",
+    "fashion",
+    "editorial"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/aujournuit@8b8aed12b6/fonts/Aujournuit-Densed.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/aujournuit",
+   "added": "2024-10-30",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:aujournuit:wide",
+   "family": "Aujournuit Wide",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "wide",
+    "extended",
+    "high-contrast",
+    "elegant",
+    "art-nouveau",
+    "luxury",
+    "editorial"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/aujournuit@8b8aed12b6/fonts/Aujournuit-Wide.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/aujournuit",
+   "added": "2024-10-30",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:borges",
+   "family": "Borges",
+   "source": "collletttivo",
+   "category": "display",
+   "tags": [
+    "display",
+    "maze",
+    "pixel",
+    "experimental",
+    "hard-to-read",
+    "labyrinth",
+    "geometric",
+    "square"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/borges@f0c8518238/fonts/Borges-SquarePixelRegular.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/borges",
+   "added": "2026-03-04",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:coconat",
+   "family": "Coconat",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "flared",
+    "glyphic",
+    "wedge-serif",
+    "warm",
+    "display",
+    "retro",
+    "editorial"
+   ],
+   "weights": [
+    400,
+    500,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/coconat@75f0bf2147/fonts/Coconat-Regular.woff2",
+    "500": "https://cdn.jsdelivr.net/gh/collletttivo/coconat@75f0bf2147/fonts/Coconat-Demi.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/coconat@75f0bf2147/fonts/Coconat-Bold.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/coconat",
+   "added": "2023-12-18",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:halibut",
+   "family": "Halibut",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "quirky",
+    "warm",
+    "wedge-serif",
+    "bookish",
+    "editorial",
+    "retro"
+   ],
+   "weights": [
+    100,
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://cdn.jsdelivr.net/gh/collletttivo/halibut@13df8fd7ea/fonts/Halibut-Thin.woff2",
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/halibut@13df8fd7ea/fonts/Halibut-Regular.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/halibut",
+   "added": "2023-04-07",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:halibut:condensed",
+   "family": "Halibut Condensed",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "condensed",
+    "quirky",
+    "warm",
+    "wedge-serif",
+    "bookish",
+    "retro"
+   ],
+   "weights": [
+    100,
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://cdn.jsdelivr.net/gh/collletttivo/halibut@13df8fd7ea/fonts/Halibut-CondensedThin.woff2",
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/halibut@13df8fd7ea/fonts/Halibut-CondensedRegular.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/halibut",
+   "added": "2023-04-07",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:halibut:expanded",
+   "family": "Halibut Expanded",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "wide",
+    "extended",
+    "quirky",
+    "warm",
+    "wedge-serif",
+    "retro"
+   ],
+   "weights": [
+    100,
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://cdn.jsdelivr.net/gh/collletttivo/halibut@13df8fd7ea/fonts/Halibut-ExpandedThin.woff2",
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/halibut@13df8fd7ea/fonts/Halibut-ExpandedRegular.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/halibut",
+   "added": "2023-04-07",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:mattone",
+   "family": "Mattone",
+   "source": "collletttivo",
+   "category": "sans",
+   "tags": [
+    "sans",
+    "geometric",
+    "wide",
+    "extended",
+    "heavy",
+    "bold",
+    "punchy",
+    "poster"
+   ],
+   "weights": [
+    400,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/mattone@b1dc55dc6a/fonts/Mattone-Regular.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/mattone@b1dc55dc6a/fonts/Mattone-Bold.woff2",
+    "900": "https://cdn.jsdelivr.net/gh/collletttivo/mattone@b1dc55dc6a/fonts/Mattone-Black.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/mattone",
+   "added": "2023-04-19",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:mazius-display",
+   "family": "Mazius Display",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "display",
+    "high-contrast",
+    "elegant",
+    "calligraphic",
+    "editorial",
+    "classic",
+    "literary"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/mazius-display@5798d69b14/fonts/MaziusDisplay-Regular.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/mazius-display@5798d69b14/fonts/MaziusDisplay-Bold.woff2"
+   },
+   "italicFiles": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/mazius-display@5798d69b14/fonts/MaziusDisplay-Extraitalic.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/mazius-display@5798d69b14/fonts/MaziusDisplay-ExtraItalicBold.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/mazius-display",
+   "added": "2023-12-18",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:messapia",
+   "family": "Messapia",
+   "source": "collletttivo",
+   "category": "display",
+   "tags": [
+    "display",
+    "wide",
+    "glyphic",
+    "flared",
+    "inscriptional",
+    "ancient",
+    "elegant",
+    "extended"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/messapia@c7fbc66405/fonts/Messapia-Regular.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/messapia@c7fbc66405/fonts/Messapia-Bold.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/messapia",
+   "added": "2023-04-07",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:necto-mono",
+   "family": "Necto Mono",
+   "source": "collletttivo",
+   "category": "mono",
+   "tags": [
+    "mono",
+    "monospace",
+    "code",
+    "grotesk",
+    "technical",
+    "utilitarian"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/necto-mono@db9edb73ba/fonts/NectoMono-Regular.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/necto-mono",
+   "added": "2023-12-18",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:ortica:angular",
+   "family": "Ortica Angular",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "angular",
+    "faceted",
+    "chiseled",
+    "sharp",
+    "bold",
+    "display",
+    "editorial"
+   ],
+   "weights": [
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/ortica@27bf44d3ea/fonts/OrticaAngular-Bold.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/ortica",
+   "added": "2023-12-18",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:ortica:linear",
+   "family": "Ortica Linear",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "sharp",
+    "high-contrast",
+    "elegant",
+    "editorial",
+    "bookish",
+    "contemporary"
+   ],
+   "weights": [
+    300,
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://cdn.jsdelivr.net/gh/collletttivo/ortica@27bf44d3ea/fonts/OrticaLinear-Light.woff2",
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/ortica@27bf44d3ea/fonts/OrticaLinear-Regular.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/ortica@27bf44d3ea/fonts/OrticaLinear-Bold.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/ortica",
+   "added": "2023-12-18",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:ribes",
+   "family": "Ribes",
+   "source": "collletttivo",
+   "category": "sans",
+   "tags": [
+    "sans",
+    "geometric",
+    "quirky",
+    "playful",
+    "retro",
+    "funky",
+    "contemporary"
+   ],
+   "weights": [
+    300,
+    400,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://cdn.jsdelivr.net/gh/collletttivo/ribes@e5f58f6ef7/fonts/Ribes-Light.woff2",
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/ribes@e5f58f6ef7/fonts/Ribes-Regular.woff2",
+    "900": "https://cdn.jsdelivr.net/gh/collletttivo/ribes@e5f58f6ef7/fonts/Ribes-Black.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/ribes",
+   "added": "2023-10-16",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:ronzino",
+   "family": "Ronzino",
+   "source": "collletttivo",
+   "category": "sans",
+   "tags": [
+    "sans",
+    "grotesk",
+    "neo-grotesk",
+    "neutral",
+    "swiss",
+    "clean",
+    "workhorse"
+   ],
+   "weights": [
+    400,
+    500,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/ronzino@24df8cdde4/fonts/Ronzino-Regular.woff2",
+    "500": "https://cdn.jsdelivr.net/gh/collletttivo/ronzino@24df8cdde4/fonts/Ronzino-Medium.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/ronzino@24df8cdde4/fonts/Ronzino-Bold.woff2"
+   },
+   "italicFiles": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/ronzino@24df8cdde4/fonts/Ronzino-Oblique.woff2",
+    "500": "https://cdn.jsdelivr.net/gh/collletttivo/ronzino@24df8cdde4/fonts/Ronzino-MediumOblique.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/ronzino@24df8cdde4/fonts/Ronzino-BoldOblique.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/ronzino",
+   "added": "2023-03-31",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:sinistre",
+   "family": "Sinistre",
+   "source": "collletttivo",
+   "category": "display",
+   "tags": [
+    "display",
+    "calligraphic",
+    "uncial",
+    "medieval",
+    "gothic",
+    "mystical",
+    "flared",
+    "serif"
+   ],
+   "weights": [
+    400,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/sinistre@fbf85f1130/fonts/Sinistre-Regular.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/sinistre@fbf85f1130/fonts/Sinistre-Bold.woff2",
+    "900": "https://cdn.jsdelivr.net/gh/collletttivo/sinistre@fbf85f1130/fonts/Sinistre-Dark.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/sinistre",
+   "added": "2023-08-04",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:sneaky-times",
+   "family": "Sneaky Times",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "quirky",
+    "wonky",
+    "times",
+    "newspaper",
+    "transitional",
+    "editorial"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/sneaky-times@7094a62150/fonts/Sneaky-Times.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/sneaky-times",
+   "added": "2023-12-18",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:sprat",
+   "family": "Sprat",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "high-contrast",
+    "display",
+    "didone",
+    "fashion",
+    "editorial",
+    "elegant",
+    "wide"
+   ],
+   "weights": [
+    100,
+    300,
+    400,
+    500,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-Thin.woff2",
+    "300": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-Light.woff2",
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-Regular.woff2",
+    "500": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-Medium.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-Bold.woff2",
+    "900": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-Black.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/sprat",
+   "added": "2023-12-18",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:sprat:condensed",
+   "family": "Sprat Condensed",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "condensed",
+    "high-contrast",
+    "display",
+    "didone",
+    "fashion",
+    "editorial",
+    "poster"
+   ],
+   "weights": [
+    100,
+    300,
+    400,
+    500,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-CondensedThin.woff2",
+    "300": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-CondensedLight.woff2",
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-CondesedRegular.woff2",
+    "500": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-CondensedMedium.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-CondensedBold.woff2",
+    "900": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-CondensedBlack.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/sprat",
+   "added": "2023-12-18",
+   "proxy": true
+  },
+  {
+   "id": "collletttivo:sprat:extended",
+   "family": "Sprat Extended",
+   "source": "collletttivo",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "extended",
+    "wide",
+    "high-contrast",
+    "display",
+    "didone",
+    "fashion",
+    "luxury"
+   ],
+   "weights": [
+    100,
+    300,
+    400,
+    500,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-ExtendedThin.woff2",
+    "300": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-ExtendedLight.woff2",
+    "400": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-ExtendedRegular.woff2",
+    "500": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-ExtendedMedium.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-ExtendedBold.woff2",
+    "900": "https://cdn.jsdelivr.net/gh/collletttivo/sprat@bdf9c50243/fonts/Sprat-ExtendedBlack.woff2"
+   },
+   "homepage": "https://github.com/collletttivo/sprat",
+   "added": "2023-12-18",
+   "proxy": true
+  }
+ ]
+}

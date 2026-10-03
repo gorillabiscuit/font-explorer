@@ -1,0 +1,30 @@
+/* Coverage badges (CoverageBadge.tsx). The red is the hatch colour of a missing letter. */
+.badge.cov-missing {
+  background: rgba(229, 72, 77, 0.16);
+  color: #b4232a;
+  opacity: 1;
+}
+
+/* The letters keep their own case: a missing 'é' must not read as a missing 'É'. */
+.cov-chars {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 11px;
+}
+
+.badge.cov-licence {
+  background: #ffe7a8;
+  color: #7a4a00;
+  opacity: 1;
+}
+
+.inverted .badge.cov-missing {
+  color: #ff8a8e;
+}
+
+/* A card that carries these badges may run out of room on one line; its badges wrap to a second line
+   rather than squeezing the family name away. Cards without them keep their single meta line. */
+.meta-main:has(.cov) {
+  flex-wrap: wrap;
+  row-gap: 4px;
+}

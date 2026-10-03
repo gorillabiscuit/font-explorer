@@ -1,0 +1,114 @@
+topic: >-
+  How to make Font Explorer's LLM "vibe search" over ~2,100 free fonts return fonts that actually
+  look like the request (e.g. "fonts that imply fast movement or action"). Today Claude Haiku gets a
+  text catalog (family | category | sources | tags), never sees the letters, and ~340 indie and
+  Fontshare-only fonts have few or no tags.
+
+context:
+  catalog: >-
+    2,099 families: 1,760 Google Fonts (via Fontsource), 64 Fontshare, and the libre foundries
+    Velvetyne 63, Collletttivo 26, Tunera 23, Use & Modify 163. 481 have a real italic.
+  current_prompt: server/vibe.ts (INSTRUCTIONS, compactCatalog, buildPrompt)
+  font_files: >-
+    The app already reads every font with fontkit (src/facts/). Indie files are cached in
+    server/.cache/fonts/; Fontsource files are on cdn.jsdelivr.net; Fontshare on cdn.fontshare.com.
+  scratch_data: >-
+    The framework agent already pulled google/fonts tags (families.csv, quant.csv), the Fontsource and
+    Fontshare catalogs, the 1,754 Google DESCRIPTION files and Google's site metadata into the
+    session scratchpad; see the step-2 notes in the session.
+  etiquette: >-
+    Never request velvetyne.fr (its robots.txt opts out of AI agents). Respect site rate limits and
+    robots.txt; do not scrape bot-protected sites.
+
+items:
+  - id: google-tags
+    name: Google Fonts weighted tags
+    notes: >-
+      google/fonts tags/all/families.csv (Expressive, Theme, Quality, weights 0-100), quant.csv
+      (measured stroke widths), tags_metadata.csv, tags_ui_details.textproto; the same tags through the
+      Developer API (capability=FAMILY_TAGS, CC BY 4.0). Claimed coverage 1,936 of 1,980 Fontsource
+      Google families. Check how much of this the app already uses, and the noise (Kaushan Script
+      Hanukkah 92; Exo 2, Saira, Teko with no Active tag).
+
+  - id: ready-made-metadata
+    name: Ready-made metadata (Google METADATA.pb, Google site metadata, font-file tables)
+    notes: >-
+      METADATA.pb category, stroke and classifications; the unofficial fonts.google.com/metadata/fonts
+      endpoint with legacy 1-10 thickness/slant/width (claimed 714 of 1,950 families) and popularity;
+      OS/2 usWeightClass/usWidthClass, PANOSE, post.italicAngle, isFixedPitch inside the files.
+
+  - id: designer-descriptions
+    name: Designer descriptions
+    notes: >-
+      Google DESCRIPTION.en_us.html (claimed 1,754 files, median 63 words), Fontshare's `story`, indie
+      foundry pages. Plain keyword search is poor; an offline LLM could condense each into a short
+      "looks like" note.
+
+  - id: other-catalogs
+    name: Labels outside Google (Fontsource, Fontshare, indie foundries, curated directories, DaFont)
+    notes: >-
+      Fontsource API (no mood data), Fontshare font_tags (use cases, not moods), Use & Modify's ~48
+      keywords (extended, inktraps, curveless...), Collletttivo filters, Velvetyne collections, Tunera,
+      Font Squirrel classifications API, DaFont categories (no motion category; many fonts not free).
+
+  - id: impression-datasets
+    name: Research datasets of font impressions
+    notes: >-
+      O'Donovan et al. 2014 (37 crowd attributes, 2013 Google Fonts snapshot), FontLex 2018, Shaikh
+      2006 "Activity" factor, the MyFonts tag dataset (Chen et al. 2019) and its co-occurrence
+      embeddings as a query thesaurus ("fast" -> speed, racing, dynamic, italic).
+
+  - id: measured-traits
+    name: Shape measured from the font files
+    notes: >-
+      Slant, width, weight, x-height, stroke contrast, squareness. fontTools measureSlant/Width/Weight
+      and StatisticsPen; FontBase SuperSearch and Adobe Fonts definitions; fontkit in the existing app.
+      Claimed evidence: Google's legacy slant tracks Active (r~0.51), thickness tracks Loud (r~0.77),
+      nothing tracks Futuristic/Techno.
+
+  - id: vision-labels
+    name: A vision model looks at each font once and writes a description
+    notes: >-
+      Rendered neutral specimens (never the font name: Stroop effect). Claimed evidence that vision
+      LLMs barely tell regular/bold/italic apart (FontBench 2026: Claude Sonnet 4.6 28% vs 25% chance),
+      so only for overall look. Cost of a one-off batch run.
+
+  - id: image-embeddings
+    name: Font image search (embeddings)
+    notes: >-
+      FontCLIP (Eurographics 2024: 65% vs vanilla CLIP 52% vs hand-made features 66%), Impression-CLIP,
+      SigLIP 2, "Extending CLIP for Text-to-font Retrieval" (2024), tfrere/fontmap. Better for "looks
+      like this font" than for mood words?
+
+  - id: indie-gap
+    name: Filling the gap for untagged fonts (tag transfer or a short human pass)
+    notes: >-
+      Give each untagged font the weighted Google tags of its nearest tagged neighbours (by measured
+      traits or embeddings), or predict tags from traits; versus a person tagging ~340 fonts in Google's
+      vocabulary (~30 s each). Precedents: O'Donovan, FontLex, "Font Impression Estimation in the Wild".
+
+  - id: search-design
+    name: Search design and model choice
+    notes: >-
+      LLM turns the request into traits/tags, plain code scores all rows, LLM re-ranks a shortlist;
+      versus the whole catalog in one prompt (Lost in the Middle). Haiku vs Sonnet vs Opus through
+      `claude -p` on the subscription; prompt caching; how the user's candidates should weigh against
+      the request.
+
+  - id: evaluation
+    name: How to tell whether search got better
+    notes: >-
+      Silver labels from Google's weighted tags, held-out checks (hide tags, recover them), and a
+      person rating rendered result grids for 20-30 mood and motion queries. Must work within a small
+      budget of real searches.
+
+  - id: precedents
+    name: Existing products and precedents
+    notes: >-
+      Monotype/MyFonts AI Search (2025-26), Adobe Fonts filters, FontBase SuperSearch, Fonts In Use,
+      Typewolf, Fontjoy, IDEO Font Map, tfrere/fontmap, TypeSeek (unverified).
+
+execution:
+  batch_size: 4
+  items_per_agent: 3
+  output_dir: /Users/wouterschreuders/Code/font-explorer/docs/research/font-vibe-search/results

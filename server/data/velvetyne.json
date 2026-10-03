@@ -1,0 +1,1622 @@
+{
+ "builtAt": "2026-10-02T07:51:11.240Z",
+ "fonts": [
+  {
+   "id": "velvetyne:degheest:abordage",
+   "family": "Abordage",
+   "source": "velvetyne",
+   "category": "sans",
+   "tags": [
+    "geometric",
+    "sans",
+    "friendly",
+    "revival",
+    "rounded"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FAbordage-Regular.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/Eugenie-B/degheest-types",
+   "added": "2020-11-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:anthony",
+   "family": "Anthony",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "geometric",
+    "leaning",
+    "sculptural",
+    "wonky",
+    "thin",
+    "playful"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/23593627/repository/files/fonts%2Fweb%2FAnthony.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/anthony",
+   "added": "2021-01-11",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:avara",
+   "family": "Avara",
+   "source": "velvetyne",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "curveless",
+    "angular",
+    "lapidary",
+    "transitional",
+    "sharp",
+    "faceted"
+   ],
+   "weights": [
+    700,
+    800
+   ],
+   "license": "OFL",
+   "files": {
+    "700": "https://gitlab.com/api/v4/projects/10355600/repository/files/fonts%2Fwebfonts%2FBold%2FAvara-Bold.woff2/raw?ref=master",
+    "800": "https://gitlab.com/api/v4/projects/10355600/repository/files/fonts%2Fwebfonts%2FBlack%2FAvara-Black.woff2/raw?ref=master"
+   },
+   "italicFiles": {
+    "700": "https://gitlab.com/api/v4/projects/10355600/repository/files/fonts%2Fwebfonts%2FBoldItalic%2FAvara-BoldItalic.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/Avara",
+   "added": "2019-01-14",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:backout",
+   "family": "BackOut",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "incised",
+    "glyphic",
+    "brutalist",
+    "humanist",
+    "flared",
+    "african",
+    "albertus-like"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://gitlab.com/api/v4/projects/13365710/repository/files/fonts%2Fwebfonts%2FBackOut.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/backout",
+   "added": "2019-07-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:degheest:basalte",
+   "family": "Basalte",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "condensed",
+    "caps",
+    "bold",
+    "poster",
+    "chromatic",
+    "revival"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FBasalte-Fond.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/Eugenie-B/degheest-types",
+   "added": "2020-11-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:basteleur",
+   "family": "Basteleur",
+   "source": "velvetyne",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "fantasy",
+    "tarot",
+    "esoteric",
+    "human-made",
+    "high-contrast",
+    "sharp"
+   ],
+   "weights": [
+    300,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://gitlab.com/api/v4/projects/24775944/repository/files/fonts%2Fwebfonts%2FBasteleur-Moonlight.woff2/raw?ref=master",
+    "700": "https://gitlab.com/api/v4/projects/24775944/repository/files/fonts%2Fwebfonts%2FBasteleur-Bold.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/basteleur",
+   "added": "2021-03-01",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:bluu-next",
+   "family": "Bluu Next",
+   "source": "velvetyne",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "bold",
+    "high-contrast",
+    "sharp",
+    "flared",
+    "editorial",
+    "headline"
+   ],
+   "weights": [
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "700": "https://cdn.jsdelivr.net/gh/velvetyne/BluuNext@a1d39f03fa/Fonts/webfonts/bluunext-bold-webfont.woff2"
+   },
+   "italicFiles": {
+    "700": "https://cdn.jsdelivr.net/gh/velvetyne/BluuNext@a1d39f03fa/Fonts/webfonts/bluunext-bolditalic-webfont.woff2"
+   },
+   "homepage": "https://github.com/velvetyne/BluuNext",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:bluu-next:titling",
+   "family": "Bluu Next Titling",
+   "source": "velvetyne",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "titling",
+    "high-contrast",
+    "sharp",
+    "editorial",
+    "headline"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/velvetyne/BluuNext@a1d39f03fa/Fonts/webfonts/bluunext-titling.woff2"
+   },
+   "homepage": "https://github.com/velvetyne/BluuNext",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:boeticher",
+   "family": "Boeticher",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "caps",
+    "western",
+    "nautical",
+    "slab",
+    "tuscan",
+    "condensed",
+    "playful",
+    "fantasy"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/velvetyne/Boeticher@57388369a5/fonts/Boeticher_Web/boeticher-romanwebfont.woff"
+   },
+   "homepage": "https://github.com/velvetyne/Boeticher",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:cantique",
+   "family": "Cantique",
+   "source": "velvetyne",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "calligraphic",
+    "geometric",
+    "romantic",
+    "swash",
+    "elegant",
+    "ligatures",
+    "decorative"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/15497626/repository/files/fonts%2Fweb%2FCantique-Normal.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/cantique",
+   "added": "2019-11-23",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:commune-nuit-debout",
+   "family": "Commune Nuit Debout",
+   "source": "velvetyne",
+   "category": "sans",
+   "tags": [
+    "condensed",
+    "curveless",
+    "sans",
+    "geometric",
+    "tall",
+    "protest",
+    "political"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/velvetyne/Commune-Nuit-Debout@260989f3fe/fonts/webfonts/NuitDebout/Commune-Nuit_Debout_web.woff2"
+   },
+   "homepage": "https://github.com/velvetyne/Commune-Nuit-Debout",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:commune-nuit-debout:pochoir",
+   "family": "Commune Nuit Debout Pochoir",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "stencil",
+    "condensed",
+    "curveless",
+    "sans",
+    "tall",
+    "protest"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/velvetyne/Commune-Nuit-Debout@260989f3fe/fonts/webfonts/NuitDeboutPochoir/Commune-Nuit_Debout_Pochoir_web.woff2"
+   },
+   "homepage": "https://github.com/velvetyne/Commune-Nuit-Debout",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:compagnon",
+   "family": "Compagnon",
+   "source": "velvetyne",
+   "category": "mono",
+   "tags": [
+    "typewriter",
+    "monospace",
+    "serif",
+    "slab",
+    "retro"
+   ],
+   "weights": [
+    300,
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://gitlab.com/api/v4/projects/8260725/repository/files/fonts%2Fwebfonts%2FCompagnon-Light.woff2/raw?ref=master",
+    "400": "https://gitlab.com/api/v4/projects/8260725/repository/files/fonts%2Fwebfonts%2FCompagnon-Roman.woff2/raw?ref=master"
+   },
+   "italicFiles": {
+    "300": "https://gitlab.com/api/v4/projects/8260725/repository/files/fonts%2FCompagnon-LightItalic.otf/raw?ref=master",
+    "400": "https://gitlab.com/api/v4/projects/8260725/repository/files/fonts%2Fwebfonts%2FCompagnon-Italic.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/compagnon",
+   "added": "2018-09-06",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:compagnon:medium",
+   "family": "Compagnon Medium",
+   "source": "velvetyne",
+   "category": "mono",
+   "tags": [
+    "typewriter",
+    "monospace",
+    "sans",
+    "bold",
+    "retro"
+   ],
+   "weights": [
+    600
+   ],
+   "license": "OFL",
+   "files": {
+    "600": "https://gitlab.com/api/v4/projects/8260725/repository/files/fonts%2Fwebfonts%2FCompagnon-Medium.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/compagnon",
+   "added": "2018-09-06",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:compagnon:script",
+   "family": "Compagnon Script",
+   "source": "velvetyne",
+   "category": "handwriting",
+   "tags": [
+    "script",
+    "typewriter",
+    "monospace",
+    "connected",
+    "retro"
+   ],
+   "weights": [
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "700": "https://gitlab.com/api/v4/projects/8260725/repository/files/fonts%2Fwebfonts%2FCompagnon-Bold.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/compagnon",
+   "added": "2018-09-06",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:courrrier",
+   "family": "Courrrier",
+   "source": "velvetyne",
+   "category": "mono",
+   "tags": [
+    "typewriter",
+    "courier-like",
+    "monospace",
+    "quirky",
+    "experimental",
+    "slab",
+    "playful"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://cdn.jsdelivr.net/gh/velvetyne/courrrier@05bd07f885/fonts/Courrrier.otf"
+   },
+   "homepage": "https://github.com/velvetyne/courrrier",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:degheest:director",
+   "family": "Director",
+   "source": "velvetyne",
+   "category": "mono",
+   "tags": [
+    "typewriter",
+    "monospace",
+    "serif",
+    "slab",
+    "revival"
+   ],
+   "weights": [
+    100,
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FDirector-Light.woff2/raw?ref=master",
+    "400": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FDirector-Regular.woff2/raw?ref=master",
+    "700": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FDirector-Bold.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/Eugenie-B/degheest-types",
+   "added": "2020-11-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:degheest:equateur",
+   "family": "Equateur",
+   "source": "velvetyne",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "classic",
+    "editorial",
+    "revival"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FEquateur-Regular.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/Eugenie-B/degheest-types",
+   "added": "2020-11-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:facade",
+   "family": "Façade",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "condensed",
+    "architectural",
+    "grid",
+    "geometric",
+    "modular",
+    "monoline",
+    "sans"
+   ],
+   "weights": [
+    100,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://gitlab.com/api/v4/projects/46503156/repository/files/fonts%2FStatic%2FWEB%2FFacade-Sud.woff2/raw?ref=master",
+    "900": "https://gitlab.com/api/v4/projects/46503156/repository/files/fonts%2FStatic%2FWEB%2FFacade-Est.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/Facade-font",
+   "added": "2023-06-01",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:feroniapi",
+   "family": "Feroniapi",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "art-nouveau",
+    "flowing",
+    "elegant",
+    "curvy",
+    "ligatures",
+    "inclusive",
+    "human-made",
+    "italic only"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/76019933/repository/files/fonts%2Fwoff2%2FFeroniapi-MediumItalic.woff2/raw?ref=main"
+   },
+   "italicFiles": {
+    "400": "https://gitlab.com/api/v4/projects/76019933/repository/files/fonts%2Fwoff2%2FFeroniapi-MediumItalic.woff2/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/velvetyne/feroniapi",
+   "added": "2025-11-12",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:flor-de-ruina",
+   "family": "Flor de Ruina",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "serif",
+    "textured",
+    "eroded",
+    "grunge",
+    "organic",
+    "fractured",
+    "experimental"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://gitlab.com/api/v4/projects/77499518/repository/files/fonts%2Fwoff2%2FFlorDeRuina-Germen.woff2/raw?ref=main",
+    "400": "https://gitlab.com/api/v4/projects/77499518/repository/files/fonts%2Fwoff2%2FFlorDeRuina-Semilla.woff2/raw?ref=main",
+    "500": "https://gitlab.com/api/v4/projects/77499518/repository/files/fonts%2Fwoff2%2FFlorDeRuina-Flor.woff2/raw?ref=main",
+    "600": "https://gitlab.com/api/v4/projects/77499518/repository/files/fonts%2Fwoff2%2FFlorDeRuina-Ruina.woff2/raw?ref=main",
+    "700": "https://gitlab.com/api/v4/projects/77499518/repository/files/fonts%2Fwoff2%2FFlorDeRuina-Fractura.woff2/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/velvetyne/flor-des-ruina",
+   "added": "2026-01-06",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:format-1452",
+   "family": "Format 1452",
+   "source": "velvetyne",
+   "category": "sans",
+   "tags": [
+    "din-like",
+    "modular",
+    "industrial",
+    "technical",
+    "grotesque",
+    "condensed"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://gitlab.com/api/v4/projects/13340225/repository/files/fonts%2Fwebfonts%2FFormat_1452.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/format-1452",
+   "added": "2019-07-16",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:degheest:ft88",
+   "family": "FT88",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "pixel",
+    "bitmap",
+    "monospace",
+    "retro",
+    "computer",
+    "revival"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FFT88-Regular.woff2/raw?ref=master",
+    "700": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FFT88-Bold.woff2/raw?ref=master"
+   },
+   "italicFiles": {
+    "400": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FFT88-Italic.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/Eugenie-B/degheest-types",
+   "added": "2020-11-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:degheest:ft88-expanded",
+   "family": "FT88 Expanded",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "wide",
+    "extended",
+    "geometric",
+    "monoline",
+    "techno",
+    "retro"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FFT88-Expanded.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/Eugenie-B/degheest-types",
+   "added": "2020-11-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:degheest:ft88-gothique",
+   "family": "FT88 Gothique",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "pixel",
+    "blackletter",
+    "gothic",
+    "bitmap",
+    "retro"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FFT88-Gothique.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/Eugenie-B/degheest-types",
+   "added": "2020-11-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:degheest:ft88-school",
+   "family": "FT88 School",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "pixel",
+    "script",
+    "bitmap",
+    "school",
+    "retro"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FFT88-School.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/Eugenie-B/degheest-types",
+   "added": "2020-11-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:degheest:ft88-serif",
+   "family": "FT88 Serif",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "pixel",
+    "serif",
+    "bitmap",
+    "monospace",
+    "retro"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FFT88-Serif.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/Eugenie-B/degheest-types",
+   "added": "2020-11-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:fungal",
+   "family": "Fungal",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "organic",
+    "mycelium",
+    "biomorphic",
+    "generative",
+    "hairy",
+    "wonky",
+    "sans",
+    "mushrooms"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "Bitstream Vera",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/38850455/repository/files/fonts%2Fwebfonts%2FFungal-Grow500Thickness500.woff2/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/velvetyne/fungal",
+   "added": "2022-08-24",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:grotesk",
+   "family": "Grotesk",
+   "source": "velvetyne",
+   "category": "sans",
+   "tags": [
+    "geometric",
+    "sans",
+    "art-deco",
+    "wide",
+    "spaced",
+    "elegant"
+   ],
+   "weights": [
+    100,
+    300,
+    500,
+    600
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://gitlab.com/api/v4/projects/42536917/repository/files/fonts%2F_web%2FGrotesk-01Extrafin.woff2/raw?ref=master",
+    "300": "https://gitlab.com/api/v4/projects/42536917/repository/files/fonts%2F_web%2FGrotesk-02Mince.woff2/raw?ref=master",
+    "500": "https://gitlab.com/api/v4/projects/42536917/repository/files/fonts%2F_web%2FGrotesk-03Regular.woff2/raw?ref=master",
+    "600": "https://gitlab.com/api/v4/projects/42536917/repository/files/fonts%2F_web%2FGrotesk-04Gras.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/grotesk",
+   "added": "2023-01-12",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:gulax",
+   "family": "Gulax",
+   "source": "velvetyne",
+   "category": "sans",
+   "tags": [
+    "monolinear",
+    "geometric",
+    "sans",
+    "quirky",
+    "experimental"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/25502412/repository/files/fonts%2Fwebfonts%2FGulax-Regular.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/Gulax",
+   "added": "2021-03-29",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:hangul",
+   "family": "Hangul",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "hangul-inspired",
+    "korean",
+    "geometric",
+    "modular",
+    "quirky",
+    "experimental",
+    "sans"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://cdn.jsdelivr.net/gh/velvetyne/Hangul@3f04defa47/fonts/hangul_web/vtf_hngl-webfont.woff"
+   },
+   "homepage": "https://github.com/velvetyne/Hangul",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:happy-times-at-the-ikob",
+   "family": "Happy Times at the IKOB",
+   "source": "velvetyne",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "times-like",
+    "contemporary",
+    "editorial",
+    "quirky",
+    "transitional"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/7087616/repository/files/fonts%2Fwebfonts%2Fhappy-times-NG_regular_master_web.woff2/raw?ref=master",
+    "700": "https://gitlab.com/api/v4/projects/7087616/repository/files/fonts%2Fwebfonts%2Fhappy-times-NG_bold_master_web.woff2/raw?ref=master"
+   },
+   "italicFiles": {
+    "400": "https://gitlab.com/api/v4/projects/7087616/repository/files/fonts%2Fwebfonts%2Fhappy-times-NG_italic_master_web.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/Happy-Times-at-the-IKOB",
+   "added": "2018-06-15",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:interlope",
+   "family": "Interlope",
+   "source": "velvetyne",
+   "category": "handwriting",
+   "tags": [
+    "script",
+    "calligraphic",
+    "amateur",
+    "diy",
+    "1970s",
+    "ornamental",
+    "ligatures"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/74596720/repository/files/font%2Fweb%2FInterlope-Regular.woff2/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/velvetyne/interlope",
+   "added": "2025-09-20",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:jgs",
+   "family": "jgs",
+   "source": "velvetyne",
+   "category": "mono",
+   "tags": [
+    "pixel",
+    "ascii-art",
+    "monospace",
+    "bitmap",
+    "retro",
+    "computer"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/39479733/repository/files/fonts%2Fwebfonts%2Fjgs9.woff2/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/velvetyne/jgs",
+   "added": "2022-09-16",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:kaeru-kaeru",
+   "family": "Kaeru Kaeru",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "soft",
+    "blobby",
+    "organic",
+    "playful",
+    "woodcut",
+    "frog",
+    "rounded",
+    "experimental"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/13361703/repository/files/fonts%2Fwebfonts%2Fkaerukaeru-Regular.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/kaerukaeru",
+   "added": "2019-07-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:karrik",
+   "family": "Karrik",
+   "source": "velvetyne",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "raw",
+    "naive",
+    "clumsy",
+    "irregular",
+    "analog",
+    "charming"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/19079535/repository/files/fonts%2FWeb%2FWOFF2%2FKarrik-Regular.woff2/raw?ref=main"
+   },
+   "italicFiles": {
+    "400": "https://gitlab.com/api/v4/projects/19079535/repository/files/fonts%2FWeb%2FWOFF2%2FKarrik-Italic.woff2/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/phantomfoundry/karrik_fonts",
+   "added": "2020-05-29",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:degheest:latitude",
+   "family": "Latitude",
+   "source": "velvetyne",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "classic",
+    "elegant",
+    "humanist",
+    "revival"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FLatitude-Regular.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/Eugenie-B/degheest-types",
+   "added": "2020-11-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:le-murmure",
+   "family": "Le Murmure",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "condensed",
+    "sans",
+    "titling",
+    "high-contrast",
+    "sharp",
+    "editorial",
+    "tall",
+    "magazine"
+   ],
+   "weights": [
+    600
+   ],
+   "license": "OFL",
+   "files": {
+    "600": "https://gitlab.com/api/v4/projects/8262589/repository/files/fonts%2Fwebfonts%2FLeMurmure-Regular.woff2/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/velvetyne/murmure",
+   "added": "2018-09-06",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:letters",
+   "family": "Letters",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "caps",
+    "torn",
+    "paper",
+    "collage",
+    "decorative",
+    "textured",
+    "experimental"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/70041823/repository/files/fonts%2Fweb%2FLetters-Torn.woff2/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/velvetyne/letters",
+   "added": "2025-05-21",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:lineal",
+   "family": "Lineal",
+   "source": "velvetyne",
+   "category": "sans",
+   "tags": [
+    "geometric",
+    "sans",
+    "modular",
+    "futura-like",
+    "clean",
+    "art-deco"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    600,
+    700,
+    800,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "200": "https://gitlab.com/api/v4/projects/52830215/repository/files/fonts%2FStatic%2FWEB%2FLineal-Thin.woff2/raw?ref=main",
+    "300": "https://gitlab.com/api/v4/projects/52830215/repository/files/fonts%2FStatic%2FWEB%2FLineal-Light.woff2/raw?ref=main",
+    "400": "https://gitlab.com/api/v4/projects/52830215/repository/files/fonts%2FStatic%2FWEB%2FLineal-Regular.woff2/raw?ref=main",
+    "600": "https://gitlab.com/api/v4/projects/52830215/repository/files/fonts%2FStatic%2FWEB%2FLineal-Medium.woff2/raw?ref=main",
+    "700": "https://gitlab.com/api/v4/projects/52830215/repository/files/fonts%2FStatic%2FWEB%2FLineal-Bold.woff2/raw?ref=main",
+    "800": "https://gitlab.com/api/v4/projects/52830215/repository/files/fonts%2FStatic%2FWEB%2FLineal-Black.woff2/raw?ref=main",
+    "900": "https://gitlab.com/api/v4/projects/52830215/repository/files/fonts%2FStatic%2FWEB%2FLineal-Heavy.woff2/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/velvetyne/lineal",
+   "added": "2023-12-06",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:lment",
+   "family": "Lment",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "geometric",
+    "unicase",
+    "caps",
+    "modular",
+    "experimental",
+    "futuristic",
+    "sans"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://cdn.jsdelivr.net/gh/velvetyne/Lment_@5c461b4956/fonts/Lment-v02.otf"
+   },
+   "homepage": "https://github.com/velvetyne/Lment_",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:degheest:louise",
+   "family": "Louise",
+   "source": "velvetyne",
+   "category": "handwriting",
+   "tags": [
+    "script",
+    "calligraphic",
+    "elegant",
+    "swash",
+    "connected",
+    "revival"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/22513229/repository/files/fonts%2Fwebfonts%2FLouise-Regular.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/Eugenie-B/degheest-types",
+   "added": "2020-11-17",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:mourier",
+   "family": "Mourier",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "modular",
+    "geometric",
+    "labyrinth",
+    "abstract",
+    "hard-to-read",
+    "square",
+    "1970s",
+    "futuristic"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/19783635/repository/files/fonts%2Fwebfonts%2FMourier-Regular.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/mourier",
+   "added": "2020-07-06",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:ouroboros",
+   "family": "Ouroboros",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "art-nouveau",
+    "fantasy",
+    "occult",
+    "flared",
+    "organic",
+    "serif",
+    "decorative",
+    "human-made"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/9147608/repository/files/fonts%2Fwebfonts%2FOuroboros-Regular.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/ouroboros",
+   "added": "2018-10-31",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:outward",
+   "family": "Outward",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "ultra-condensed",
+    "black",
+    "dense",
+    "tall",
+    "geometric",
+    "poster",
+    "blocky"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/raoulaudouin/outward@e541c20e28/fonts/webfonts/outward-block-webfont.woff2"
+   },
+   "italicFiles": {
+    "400": "https://cdn.jsdelivr.net/gh/raoulaudouin/outward@e541c20e28/fonts/webfonts/outward-round-webfont.woff2"
+   },
+   "homepage": "https://github.com/raoulaudouin/outward",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:outward:borders",
+   "family": "Outward Borders",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "outline",
+    "inline",
+    "ultra-condensed",
+    "tall",
+    "geometric",
+    "poster"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/raoulaudouin/outward@e541c20e28/fonts/webfonts/outward-borders-webfont.woff2"
+   },
+   "homepage": "https://github.com/raoulaudouin/outward",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:pilowlava",
+   "family": "Pilowlava",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "fluid",
+    "lava",
+    "blobby",
+    "organic",
+    "caps",
+    "psychedelic",
+    "curvy",
+    "decorative"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/8459418/repository/files/Fonts%2Fwebfonts%2FPilowlava-Regular.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/StudioTriple/pilowlava",
+   "added": "2018-09-19",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:pilowlava:atome",
+   "family": "Pilowlava Atome",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "perforated",
+    "fluid",
+    "lava",
+    "blobby",
+    "caps",
+    "psychedelic",
+    "curvy"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://gitlab.com/api/v4/projects/8459418/repository/files/Fonts%2Fwebfonts%2FPilowlava-Atome.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/StudioTriple/pilowlava",
+   "added": "2018-09-19",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:resistance-generale",
+   "family": "Résistance Générale",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "grotesque",
+    "bold",
+    "workshop",
+    "experimental",
+    "quirky",
+    "80s",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/velvetyne/resistance-generale@b45a061aa8/fonts/webfonts/resistance_generale-webfont.woff2"
+   },
+   "homepage": "https://github.com/velvetyne/resistance-generale",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:runic-sans",
+   "family": "Runic Sans",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "rune-like",
+    "angular",
+    "unicase",
+    "caps",
+    "geometric",
+    "norse",
+    "sharp"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/velvetyne/runic@51ed441fb9/fonts/Runic_Sans_Plain.otf"
+   },
+   "homepage": "https://github.com/velvetyne/runic",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:runic-sans:inline",
+   "family": "Runic Sans Inline",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "inline",
+    "rune-like",
+    "angular",
+    "unicase",
+    "geometric",
+    "norse",
+    "sharp"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/velvetyne/runic@51ed441fb9/fonts/Runic_Sans_Inline.otf"
+   },
+   "homepage": "https://github.com/velvetyne/runic",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:sligoil",
+   "family": "Sligoil",
+   "source": "velvetyne",
+   "category": "mono",
+   "tags": [
+    "monospace",
+    "inktrap",
+    "sans",
+    "technical",
+    "sharp",
+    "micro"
+   ],
+   "weights": [
+    400,
+    500,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/35444113/repository/files/fonts%2Fweb%2FSligoil-Micro.woff2/raw?ref=main",
+    "500": "https://gitlab.com/api/v4/projects/35444113/repository/files/fonts%2Fweb%2FSligoil-MicroMedium.woff2/raw?ref=main",
+    "700": "https://gitlab.com/api/v4/projects/35444113/repository/files/fonts%2Fweb%2FSligoil-MicroBold.woff2/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/velvetyne/sligoil",
+   "added": "2022-04-18",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:solide-mirage:etroit",
+   "family": "Solide Mirage Etroit",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "didone",
+    "condensed",
+    "high-contrast",
+    "serif",
+    "unicase",
+    "experimental",
+    "fashion"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/8262744/repository/files/fonts%2Fwebfonts%2FEtroit%2FSolide_Mirage-Etroit_web.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/StudioTriple/Solide-Mirage",
+   "added": "2018-09-06",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:solide-mirage:mono",
+   "family": "Solide Mirage Mono",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "didone",
+    "monospace",
+    "high-contrast",
+    "serif",
+    "unicase",
+    "experimental"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/8262744/repository/files/fonts%2Fwebfonts%2FMono%2FSolide_Mirage-Mono_web.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/StudioTriple/Solide-Mirage",
+   "added": "2018-09-06",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:sporting-grotesque",
+   "family": "Sporting Grotesque",
+   "source": "velvetyne",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "wide",
+    "sans",
+    "sporty",
+    "quirky",
+    "titling"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/24865801/repository/files/webfonts%2FRegular%2FSporting_Grotesque-Regular_web.woff2/raw?ref=main",
+    "700": "https://gitlab.com/api/v4/projects/24865801/repository/files/webfonts%2FBold%2FSporting_Grotesque-Bold_web.woff2/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/velvetyne/Sporting-Grotesque",
+   "added": "2021-03-04",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:terminal-grotesque",
+   "family": "Terminal Grotesque",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "pixel",
+    "grotesque",
+    "bitmap",
+    "retro",
+    "computer",
+    "lo-fi"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/619601/repository/files/webspecimen%2Ffont%2Fterminal-grotesque-webfont.woff2/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/raphaelbastide/Terminal-Grotesque",
+   "added": "2015-11-23",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:terminal-grotesque:open",
+   "family": "Terminal Grotesque Open",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "outline",
+    "pixel",
+    "grotesque",
+    "bitmap",
+    "retro",
+    "lo-fi"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/619601/repository/files/terminal-grotesque_open.otf/raw?ref=main"
+   },
+   "homepage": "https://gitlab.com/raphaelbastide/Terminal-Grotesque",
+   "added": "2015-11-23",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:tiny",
+   "family": "TINY",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "pixel",
+    "dot-matrix",
+    "dots",
+    "bitmap",
+    "retro",
+    "modular",
+    "playful"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://cdn.jsdelivr.net/gh/jckfa/tinyfonts@259f633d77/fonts/webfonts/TINY5x3-40.woff2",
+    "200": "https://cdn.jsdelivr.net/gh/jckfa/tinyfonts@259f633d77/fonts/webfonts/TINY5x3-80.woff2",
+    "300": "https://cdn.jsdelivr.net/gh/jckfa/tinyfonts@259f633d77/fonts/webfonts/TINY5x3-120.woff2",
+    "400": "https://cdn.jsdelivr.net/gh/jckfa/tinyfonts@259f633d77/fonts/webfonts/TINY5x3-160.woff2",
+    "500": "https://cdn.jsdelivr.net/gh/jckfa/tinyfonts@259f633d77/fonts/webfonts/TINY5x3-200.woff2",
+    "600": "https://cdn.jsdelivr.net/gh/jckfa/tinyfonts@259f633d77/fonts/webfonts/TINY5x3-240.woff2",
+    "700": "https://cdn.jsdelivr.net/gh/jckfa/tinyfonts@259f633d77/fonts/webfonts/TINY5x3-280.woff2",
+    "800": "https://cdn.jsdelivr.net/gh/jckfa/tinyfonts@259f633d77/fonts/webfonts/TINY5x3-300.woff2"
+   },
+   "homepage": "https://github.com/jckfa/tinyfonts",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:trickster",
+   "family": "Trickster",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "blackletter",
+    "calligraphic",
+    "high-contrast",
+    "merovingian",
+    "wonky",
+    "sharp",
+    "headline"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/24865810/repository/files/webfonts%2FTrickster-Regular.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/Trickster",
+   "added": "2021-03-04",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:typefesse:claire-obscure",
+   "family": "Typefesse Claire-Obscure",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "butt",
+    "bodies",
+    "outline",
+    "playful",
+    "humorous",
+    "illustrative",
+    "caps"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/ohpla/typefesse@3a1d99ace3/Fonts/2-webfonts/Typefesse_Claire-Obscure.woff2"
+   },
+   "homepage": "https://github.com/ohpla/typefesse",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:typefesse:pleine",
+   "family": "Typefesse Pleine",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "butt",
+    "bodies",
+    "solid",
+    "playful",
+    "humorous",
+    "illustrative",
+    "caps"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://cdn.jsdelivr.net/gh/ohpla/typefesse@3a1d99ace3/Fonts/2-webfonts/Typefesse_Pleine.woff2"
+   },
+   "homepage": "https://github.com/ohpla/typefesse",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:vg5000",
+   "family": "VG5000",
+   "source": "velvetyne",
+   "category": "display",
+   "tags": [
+    "pixel",
+    "8-bit",
+    "retro",
+    "80s",
+    "computer",
+    "condensed",
+    "monospace",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://gitlab.com/api/v4/projects/9249801/repository/files/fonts%2Fwebfonts%2FVG5000-Regular_web.woff2/raw?ref=master"
+   },
+   "homepage": "https://gitlab.com/velvetyne/vg5000",
+   "added": "2018-11-06",
+   "proxy": true
+  },
+  {
+   "id": "velvetyne:victorianna",
+   "family": "Victorianna",
+   "source": "velvetyne",
+   "category": "serif",
+   "tags": [
+    "thin",
+    "victorian",
+    "serif",
+    "decorative",
+    "elegant",
+    "art-deco",
+    "ligatures"
+   ],
+   "weights": [
+    200
+   ],
+   "license": "OFL",
+   "files": {
+    "200": "https://cdn.jsdelivr.net/gh/velvetyne/Victorianna@4f23f75a6d/fonts/VictoriannaThint_Web/vtf_victorianna_thin-webfont.woff"
+   },
+   "italicFiles": {
+    "200": "https://cdn.jsdelivr.net/gh/velvetyne/Victorianna@4f23f75a6d/fonts/VictoriannaThint_Web/vtf_victorianna_thin_talic-webfont.woff"
+   },
+   "homepage": "https://github.com/velvetyne/Victorianna",
+   "proxy": true
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+/* The vibe chips sit on one line that scrolls sideways, so a chip arriving from a background
+   search never makes the top bar taller and never moves the grid under it. The containment keeps
+   the chips' total width out of the top bar's sizing; without it a long history widened the whole
+   bar past the window. */
+.vibe .vibe-strip {
+  flex: 1 1 260px;
+  min-width: 0;
+  contain: inline-size;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+
+.vibe .vibe-strip::-webkit-scrollbar {
+  display: none;
+}
+
+.vibe-strip > *,
+.vibe > .all-fonts {
+  flex: none;
+}
+
+/* A fade on each edge with chips hidden past it, so they read as 'more this way'. 24px matches
+   EDGE_FADE in VibeBar.tsx. */
+.vibe .vibe-strip.fade-start {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 24px);
+  mask-image: linear-gradient(to right, transparent, #000 24px);
+}
+
+.vibe .vibe-strip.fade-end {
+  -webkit-mask-image: linear-gradient(to left, transparent, #000 24px);
+  mask-image: linear-gradient(to left, transparent, #000 24px);
+}
+
+.vibe .vibe-strip.fade-start.fade-end {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 24px, #000 calc(100% - 24px), transparent);
+  mask-image: linear-gradient(to right, transparent, #000 24px, #000 calc(100% - 24px), transparent);
+}
+
+/* Still waiting on Claude. Same height as a finished chip, so nothing shifts when it lands. */
+.vibe-chip.is-running {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px dashed var(--line);
+  color: var(--muted);
+  white-space: nowrap;
+  cursor: default;
+}
+
+.vibe-chip.is-running .q {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spinner {
+  flex: none;
+  width: 9px;
+  height: 9px;
+  border: 1.5px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: vibe-spin 0.8s linear infinite;
+}
+
+@keyframes vibe-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.chip-x {
+  flex: none;
+  margin-right: -4px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-size: 11px;
+  line-height: inherit;
+}
+
+.chip-x:hover {
+  color: var(--ink);
+}
+
+/* Finished in the background and not opened yet. */
+.unread-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 6px 1px 0;
+  border-radius: 50%;
+  background: var(--accent);
+  vertical-align: middle;
+}
+
+.chip.on .unread-dot {
+  background: #fff;
+}

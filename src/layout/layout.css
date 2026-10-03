@@ -1,0 +1,152 @@
+/* The layout engine's surfaces: the drawn wordmark, its readout, the top-bar layout controls and the
+   line-break chips. Selectors stay specific: styles.css loads after this file. */
+
+.wordmark > .wm-svg {
+  display: block;
+  overflow: visible;
+  /* Unhinted, fractional glyph advances, so the browser draws letters where fontkit measured them. */
+  text-rendering: geometricPrecision;
+}
+
+/* Corrections the layout needed ('+0.04em · scaled 82%'): advice under the wordmark, never loud. */
+.wordmark > .wm-caption {
+  margin: -8px 18px 8px;
+  font: 10.5px/1.3 ui-sans-serif, system-ui, sans-serif;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.layout-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* The top bar's Line spacing (LineSpacing.tsx) is one width whatever its unit: the readout keeps
+   room for the longest one ('−0.50 x-height'), so the slider stays put when the case changes, and
+   the slider is shorter than its neighbours to pay for that room. At 1440 px a Stack then wraps the
+   bar where a Block does, instead of adding a row. */
+.topbar .line-spacing .val {
+  min-width: 7em;
+}
+
+.topbar .line-spacing input[type="range"] {
+  width: 80px;
+}
+
+/* Line, Mark and a one-line Lockup have no lines to space: the control stays in place, greyed like
+   a disabled button, so the bar keeps its shape when the layout changes. */
+.topbar .line-spacing.is-off {
+  opacity: 0.45;
+}
+
+.topbar .line-spacing.is-off input[type="range"] {
+  cursor: default;
+}
+
+.layout-pop-anchor {
+  position: relative;
+}
+
+.layout-gear {
+  padding: 5px 8px;
+  line-height: 1;
+}
+
+.layout-gear.on {
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+}
+
+.layout-pop {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 30;
+  min-width: 340px;
+  display: grid;
+  gap: 8px;
+  padding: 10px 12px 12px;
+  background: var(--chrome);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+}
+
+.layout-pop-title {
+  font-weight: 650;
+}
+
+.layout-field {
+  display: grid;
+  /* Wide enough for the longest label, 'Line spacing', on one line. */
+  grid-template-columns: 84px 1fr;
+  align-items: center;
+  gap: 8px;
+}
+
+.layout-field > * {
+  justify-self: start;
+}
+
+.layout-field-label {
+  color: var(--muted);
+}
+
+.layout-slider {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.layout-slider input[type="range"] {
+  width: 150px;
+  accent-color: var(--ink);
+}
+
+.layout-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Under the top bar, not in it (BreakChips.tsx): lined up with the grid's cards below. */
+.row.break-chips {
+  gap: 6px;
+  padding: 12px 16px 0;
+}
+
+.break-chips .break-hint {
+  margin-left: 4px;
+}
+
+/* F4: Block, Lockup and Container rows are wider than Stack's. A segmented control clips its own
+   overflow, which lets the grid squeeze it out of sight, so the popover takes its content's width. */
+.layout-controls .layout-pop {
+  width: max-content;
+  max-width: calc(100vw - 32px);
+}
+
+/* A second heading inside the ⚙ popover (Container, under the formation's own settings). */
+.layout-pop-section {
+  margin-top: 4px;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+  font-weight: 650;
+}
+
+.layout-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.layout-field input.layout-text {
+  width: 190px;
+  padding: 4px 8px;
+}

@@ -1,0 +1,163 @@
+/* The How it works panel (HowItWorks.tsx). The backdrop is see-through, so the grid can be seen
+   loading behind it on a first visit. */
+
+.how-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(10, 10, 10, 0.35);
+  animation: how-in 140ms ease-out;
+}
+
+.how {
+  width: min(560px, 100%);
+  max-height: calc(100vh - 48px);
+  max-height: calc(100dvh - 48px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  background: var(--chrome);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.25);
+  padding: 0 20px 18px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  outline: none;
+}
+
+/* The ✕ stays in reach while a phone scrolls the steps. */
+.how-head {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 14px 0 6px;
+  background: var(--chrome);
+}
+
+.how-head h2 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.how-intro {
+  margin: 0 0 12px;
+  font-size: 14px;
+}
+
+/* What the online build leaves out: said plainly, before the steps. */
+.how-online {
+  margin: 0 0 14px;
+  padding: 8px 12px 8px 26px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.how-online li + li {
+  margin-top: 2px;
+}
+
+.how-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: how-step;
+  display: grid;
+  gap: 10px;
+}
+
+/* The number hangs in the margin, so a step's words and key caps wrap as one paragraph. */
+.how-steps li {
+  counter-increment: how-step;
+  position: relative;
+  padding-left: 30px;
+}
+
+.how-steps li::before {
+  content: counter(how-step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.how-outro {
+  margin: 14px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+/* Key caps, as the '?' key map draws them. A binding's caps stay together on one line. */
+.how-keys {
+  white-space: nowrap;
+}
+
+.how-keys kbd + kbd {
+  margin-left: 3px;
+}
+
+.how kbd {
+  font: 500 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  padding: 2px 5px;
+  border: 1px solid var(--line);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  background: #fff;
+  color: var(--ink);
+  white-space: nowrap;
+  vertical-align: 1px;
+}
+
+/* A character typed into the name, not a key to press. */
+.how kbd.how-typed {
+  border-bottom-width: 1px;
+  background: transparent;
+}
+
+.how-button {
+  white-space: nowrap;
+}
+
+@media (max-width: 520px) {
+  .how-backdrop {
+    padding: 12px;
+  }
+
+  .how {
+    max-height: calc(100vh - 24px);
+    max-height: calc(100dvh - 24px);
+    padding: 0 16px 16px;
+  }
+}
+
+@keyframes how-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .how-backdrop {
+    animation: none;
+  }
+}

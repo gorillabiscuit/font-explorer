@@ -1,0 +1,5990 @@
+{
+ "builtAt": "2026-10-02T07:51:16.146Z",
+ "fonts": [
+  {
+   "id": "usemodify:0xa000",
+   "family": "0xA000",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "pixel",
+    "sans",
+    "small-size"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1067/0xa000-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1067/0xa000-bold.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/0xa000/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:0xa000:boxes",
+   "family": "0xA000 Boxes",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "pixel",
+    "sans",
+    "small-size"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1067/0xa000-boxes.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/0xa000/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:0xa000:dots",
+   "family": "0xA000 Dots",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "pixel",
+    "sans",
+    "small-size"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1067/0xa000-dots.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/0xa000/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:0xa000:mono",
+   "family": "0xA000 Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "wonky",
+    "damage",
+    "pixel",
+    "sans",
+    "monospace",
+    "small-size"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1067/0xa000-mono.woff",
+    "700": "https://usemodify.com/site/assets/files/1067/0xa000-mono-bold.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/0xa000/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:0xa000:monochrome",
+   "family": "0xA000 Monochrome",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "pixel",
+    "sans",
+    "small-size"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1067/0xa000-monochrome.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/0xa000/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:0xa000:pixelated",
+   "family": "0xA000 Pixelated",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "pixel",
+    "sans",
+    "small-size"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1067/0xa000-pixelated.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/0xa000/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:0xa000:squareish",
+   "family": "0xA000 Squareish",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "pixel",
+    "sans",
+    "small-size"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1067/0xa000-squareish.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/0xa000/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:3270",
+   "family": "3270",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "mechanistic",
+    "monospace",
+    "cyrillic"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://usemodify.com/site/assets/files/1277/3270medium.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/3270/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:a-mono",
+   "family": "A MONO",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "sans",
+    "monospace",
+    "2020s",
+    "variable"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1494/amonovf.ttf",
+    "500": "https://usemodify.com/site/assets/files/1494/amonovf.ttf",
+    "600": "https://usemodify.com/site/assets/files/1494/amonovf.ttf",
+    "700": "https://usemodify.com/site/assets/files/1494/amonovf.ttf",
+    "800": "https://usemodify.com/site/assets/files/1494/amonovf.ttf",
+    "900": "https://usemodify.com/site/assets/files/1494/amonovf.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/a-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:aboensis",
+   "family": "Aboensis",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "paleographic",
+    "script",
+    "revival"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1395/aboensis-regular.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/aboensis/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:adaxi",
+   "family": "ADAXI",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "graphic",
+    "pixel"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1496/adaxi.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/adaxi/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:aileron",
+   "family": "Aileron",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "sans",
+    "screen"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    600,
+    700,
+    800,
+    900
+   ],
+   "license": "CC0",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1139/aileron-thin-webfont.woff",
+    "200": "https://usemodify.com/site/assets/files/1139/aileron-ultralight-webfont.woff",
+    "300": "https://usemodify.com/site/assets/files/1139/aileron-light-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1139/aileron-semibold-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1139/aileron-bold-webfont.woff",
+    "800": "https://usemodify.com/site/assets/files/1139/aileron-heavy-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1139/aileron-black-webfont.woff"
+   },
+   "italicFiles": {
+    "100": "https://usemodify.com/site/assets/files/1139/aileron-thinitalic-webfont.woff",
+    "200": "https://usemodify.com/site/assets/files/1139/aileron-ultralightitalic-webfont.woff",
+    "300": "https://usemodify.com/site/assets/files/1139/aileron-lightitalic-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1139/aileron-italic-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1139/aileron-semibolditalic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1139/aileron-bolditalic-webfont.woff",
+    "800": "https://usemodify.com/site/assets/files/1139/aileron-heavyitalic-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1139/aileron-blackitalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/aileron/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:alef",
+   "family": "Alef",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "sans",
+    "symbols"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1286/alef-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1286/alef-bold.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/alef/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:alte-din-1451",
+   "family": "Alte DIN 1451",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "geometric",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "CC BY",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1252/din1451alt-webfont.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/alte-din-1451/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:alte-din-1451:gepragt",
+   "family": "Alte DIN 1451 Geprägt",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "geometric",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "CC BY",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1252/din1451alt_g-webfont.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/alte-din-1451/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ancial",
+   "family": "Ancial",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "damage",
+    "paleographic",
+    "revival"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1486/ancial-regular.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/ancial/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:anka-coder",
+   "family": "Anka/Coder",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "wonky",
+    "grotesque",
+    "monospace",
+    "code"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1149/ankacoder-r-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1149/ankacoder-b-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1149/ankacoder-i-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1149/ankacoder-bi-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/anka-coder/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:anka-coder:narrow",
+   "family": "Anka/Coder Narrow",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "wonky",
+    "narrow",
+    "grotesque",
+    "monospace",
+    "code"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1149/ankacoder-c75-r-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1149/ankacoder-c75-b-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1149/ankacoder-c75-i-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1149/ankacoder-c75-bi-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/anka-coder/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:anka-coder:condensed",
+   "family": "Anka/Coder Condensed",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "wonky",
+    "condensed",
+    "grotesque",
+    "monospace",
+    "code"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1149/ankacoder-c87-r-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1149/ankacoder-c87-b-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1149/ankacoder-c87-i-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1149/ankacoder-c87-bi-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/anka-coder/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:anonymous-pro",
+   "family": "Anonymous Pro",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "monospace"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1065/anonymous_pro_minus-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1065/anonymous_pro_minus_b-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1065/anonymous_pro_minus_i-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1065/anonymous_pro_minus_bi-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/anonymous-pro/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:apl333",
+   "family": "APL333",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "rounded",
+    "2010s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "Public Domain",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1465/apl333.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/apl333/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:apl386",
+   "family": "APL386",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "rounded",
+    "monospace"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "Public Domain",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1360/apl386.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/apl386/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:aquis",
+   "family": "Aquis",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "narrow",
+    "revival",
+    "serif",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1498/aquis-regular.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/aquis/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:archivo",
+   "family": "Archivo",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "narrow",
+    "grotesque"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1010/archivo-regular.woff",
+    "500": "https://usemodify.com/site/assets/files/1010/archivo-medium.woff",
+    "600": "https://usemodify.com/site/assets/files/1010/archivo-semibold.woff",
+    "700": "https://usemodify.com/site/assets/files/1010/archivo-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1010/archivo-italic.woff",
+    "500": "https://usemodify.com/site/assets/files/1010/archivo-mediumitalic.woff",
+    "600": "https://usemodify.com/site/assets/files/1010/archivo-semibolditalic.woff",
+    "700": "https://usemodify.com/site/assets/files/1010/archivo-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/archivo/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ark-typeface:dense",
+   "family": "Ark-es Dense",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "pixel",
+    "sans"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1335/arkesdenselight.ttf",
+    "400": "https://usemodify.com/site/assets/files/1335/arkesdenseregular.ttf",
+    "500": "https://usemodify.com/site/assets/files/1335/arkesdensemedium.ttf",
+    "700": "https://usemodify.com/site/assets/files/1335/arkesdensebold.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/ark-typeface/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ark-typeface:solid",
+   "family": "Ark-es Solid",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "pixel",
+    "sans"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1335/arkessolidlight.ttf",
+    "400": "https://usemodify.com/site/assets/files/1335/arkessolidregular.ttf",
+    "500": "https://usemodify.com/site/assets/files/1335/arkessolidmedium.ttf",
+    "700": "https://usemodify.com/site/assets/files/1335/arkessolidbold.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/ark-typeface/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:astloch",
+   "family": "Astloch",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "generative",
+    "blackletter",
+    "monolinear"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1228/astloch-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1228/astloch-bold-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/astloch/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:authentic-sans",
+   "family": "AUTHENTIC Sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "geometric",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    300,
+    400,
+    600,
+    700
+   ],
+   "license": "WTFPL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1401/authenticsans-60.woff",
+    "400": "https://usemodify.com/site/assets/files/1401/authenticsans-90.woff",
+    "600": "https://usemodify.com/site/assets/files/1401/authenticsans-130.woff",
+    "700": "https://usemodify.com/site/assets/files/1401/authenticsans-150.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/authentic-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:authentic-sans:condensed",
+   "family": "AUTHENTIC Sans Condensed",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "condensed",
+    "geometric",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    300,
+    400,
+    600,
+    700
+   ],
+   "license": "WTFPL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1401/authenticsans-condensed60.woff",
+    "400": "https://usemodify.com/site/assets/files/1401/authenticsans-condensed90.woff",
+    "600": "https://usemodify.com/site/assets/files/1401/authenticsans-condensed130.woff",
+    "700": "https://usemodify.com/site/assets/files/1401/authenticsans-condensed150.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/authentic-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:autopia",
+   "family": "Autopia",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "generative",
+    "glyphic",
+    "gaelic"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1285/autopia-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1285/autopiabold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1285/autopia-italic.woff",
+    "700": "https://usemodify.com/site/assets/files/1285/autopiabolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/autopia/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:avara",
+   "family": "Avara",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "curveless",
+    "mechanistic",
+    "serif"
+   ],
+   "weights": [
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "700": "https://usemodify.com/site/assets/files/1355/avara-bold.woff",
+    "900": "https://usemodify.com/site/assets/files/1355/avara-black.woff"
+   },
+   "italicFiles": {
+    "700": "https://usemodify.com/site/assets/files/1355/avara-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/avara/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:bagnard",
+   "family": "Bagnard",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1191/bagnard.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/bagnard/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:banquise",
+   "family": "Banquise",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "pixel",
+    "revival"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1464/banquise-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/banquise/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:barlow",
+   "family": "Barlow",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque"
+   ],
+   "weights": [
+    200,
+    400,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "200": "https://usemodify.com/site/assets/files/1380/barlow-extralight.woff",
+    "400": "https://usemodify.com/site/assets/files/1380/barlow-regular.woff",
+    "900": "https://usemodify.com/site/assets/files/1380/barlow-black.woff"
+   },
+   "italicFiles": {
+    "200": "https://usemodify.com/site/assets/files/1380/barlow-extralightitalic.woff",
+    "400": "https://usemodify.com/site/assets/files/1380/barlow-italic.woff",
+    "900": "https://usemodify.com/site/assets/files/1380/barlow-blackitalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/barlow/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:barlow:condensed",
+   "family": "Barlow Condensed",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "condensed",
+    "grotesque"
+   ],
+   "weights": [
+    200,
+    400,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "200": "https://usemodify.com/site/assets/files/1380/barlowcondensed-extralight.woff",
+    "400": "https://usemodify.com/site/assets/files/1380/barlowcondensed-regular.woff",
+    "900": "https://usemodify.com/site/assets/files/1380/barlowcondensed-black.woff"
+   },
+   "italicFiles": {
+    "200": "https://usemodify.com/site/assets/files/1380/barlowcondensed-extralightitalic.woff",
+    "400": "https://usemodify.com/site/assets/files/1380/barlowcondensed-italic.woff",
+    "900": "https://usemodify.com/site/assets/files/1380/barlowcondensed-blackitalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/barlow/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:barlow:semi-condensed",
+   "family": "Barlow Semi Condensed",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "condensed",
+    "grotesque"
+   ],
+   "weights": [
+    200,
+    400,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "200": "https://usemodify.com/site/assets/files/1380/barlowsemicondensed-extralight.woff",
+    "400": "https://usemodify.com/site/assets/files/1380/barlowsemicondensed-regular.woff",
+    "900": "https://usemodify.com/site/assets/files/1380/barlowsemicondensed-black.woff"
+   },
+   "italicFiles": {
+    "200": "https://usemodify.com/site/assets/files/1380/barlowsemicondensed-extralightitalic.woff",
+    "400": "https://usemodify.com/site/assets/files/1380/barlowsemicondensed-italic.woff",
+    "900": "https://usemodify.com/site/assets/files/1380/barlowsemicondensed-blackitalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/barlow/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:bluu",
+   "family": "Bluu Next",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "blackletter"
+   ],
+   "weights": [
+    600
+   ],
+   "license": "OFL",
+   "files": {
+    "600": "https://usemodify.com/site/assets/files/1046/bluunext-titling.woff"
+   },
+   "italicFiles": {
+    "700": "https://usemodify.com/site/assets/files/1046/bluunext-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/bluu/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:borel",
+   "family": "Borel",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "paleographic",
+    "script",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1446/borel-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/borel/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:boris",
+   "family": "Boris",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "script",
+    "monolinear",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1419/boris-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/boris/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:breite:grotesk-condensed",
+   "family": "Breite Grotesk Condensed",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "generative",
+    "condensed",
+    "geometric",
+    "grotesque",
+    "sans",
+    "cyrillic"
+   ],
+   "weights": [
+    300,
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1307/breitegrotesk-lightcondensed.woff",
+    "400": "https://usemodify.com/site/assets/files/1307/breitegrotesk-condensed.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/breite/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:breite:grotesk",
+   "family": "Breite Grotesk",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "generative",
+    "geometric",
+    "grotesque",
+    "sans",
+    "cyrillic"
+   ],
+   "weights": [
+    300,
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1307/breitegrotesk-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1307/breitegrotesk-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/breite/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:c-reduci",
+   "family": "C reduci",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "graphic",
+    "geometric",
+    "sans"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://usemodify.com/site/assets/files/1390/creduci.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/c-reduci/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:caladea",
+   "family": "Caladea",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "serif"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "Apache",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1280/caladea-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1280/caladea-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1280/caladea-italic.woff",
+    "700": "https://usemodify.com/site/assets/files/1280/caladea-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/caladea/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:canola:compressed",
+   "family": "Canola Compressed",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "generative",
+    "condensed",
+    "slab",
+    "serif"
+   ],
+   "weights": [
+    400,
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1303/seanslab-compressedregular.woff",
+    "500": "https://usemodify.com/site/assets/files/1303/seanslab-compressedmedium.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/canola/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:canola:condensed",
+   "family": "Canola Condensed",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "generative",
+    "condensed",
+    "slab",
+    "serif"
+   ],
+   "weights": [
+    100,
+    600
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1303/seanslab-condensedthin.woff",
+    "600": "https://usemodify.com/site/assets/files/1303/seanslab-condensedsemibold.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/canola/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:centaury",
+   "family": "Centaury",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "graphic",
+    "blackletter",
+    "revival",
+    "serif",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1500/centaury-display.ttf"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1500/centaury-displayitalic.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/centaury/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:charis-sil",
+   "family": "Charis SIL",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "humanist",
+    "serif"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1230/charissil-r-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1230/charissil-b-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1230/charissil-i-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1230/charissil-bi-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/charis-sil/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:chicago",
+   "family": "ChicagoFLF",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "graphic",
+    "sans",
+    "screen",
+    "small-size"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://usemodify.com/site/assets/files/1177/chicagoflf-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/chicago/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:chivo",
+   "family": "Chivo",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1035/chivo-regular.woff",
+    "900": "https://usemodify.com/site/assets/files/1035/chivo-black.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1035/chivo-italic.woff",
+    "900": "https://usemodify.com/site/assets/files/1035/chivo-blackitalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/chivo/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:clear-sans",
+   "family": "Clear Sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "sans",
+    "screen"
+   ],
+   "weights": [
+    100,
+    300,
+    400,
+    500,
+    700
+   ],
+   "license": "Apache",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1125/clearsans-thin-webfont.woff",
+    "300": "https://usemodify.com/site/assets/files/1125/clearsans-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1125/clearsans-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1125/clearsans-medium-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1125/clearsans-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1125/clearsans-italic-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1125/clearsans-mediumitalic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1125/clearsans-bolditalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/clear-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:cmrdd",
+   "family": "CMRDD",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "rounded",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700,
+    800
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1328/cmrdd-regular.ttf",
+    "700": "https://usemodify.com/site/assets/files/1328/cmrdd-bold.ttf",
+    "800": "https://usemodify.com/site/assets/files/1328/cmrdd-extrabold.ttf"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1328/cmrdd-italic.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/cmrdd/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:coaster-sans",
+   "family": "Coaster Sans",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "graphic",
+    "blackletter",
+    "geometric",
+    "sans",
+    "1970s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1479/coastersans-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/coaster-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:cormorant",
+   "family": "Cormorant",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1212/cormorant-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1212/cormorant-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1212/cormorant-book-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1212/cormorant-semibold-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1212/cormorant-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "300": "https://usemodify.com/site/assets/files/1212/cormorant-lightitalic-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1212/cormorant-italic-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1212/cormorant-bookitalic-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1212/cormorant-semibolditalic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1212/cormorant-bolditalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/cormorant/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:cormorant:garamond",
+   "family": "Cormorant Garamond",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1212/cormorantgaramond-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1212/cormorantgaramond-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1212/cormorantgaramond-book-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1212/cormorantgaramond-semibold-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1212/cormorantgaramond-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "300": "https://usemodify.com/site/assets/files/1212/cormorantgaramond-lightitalic-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1212/cormorantgaramond-italic-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1212/cormorantgaramond-bookitalic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1212/cormorantgaramond-bolditalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/cormorant/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:cormorant:infant",
+   "family": "Cormorant Infant",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1212/cormorantinfant-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1212/cormorantinfant-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1212/cormorantinfant-book-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1212/cormorantinfant-semibold-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1212/cormorantinfant-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "300": "https://usemodify.com/site/assets/files/1212/cormorantinfant-lightitalic-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1212/cormorantinfant-italic-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1212/cormorantinfant-bookitalic-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1212/cormorantinfant-semibolditalic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1212/cormorantinfant-bolditalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/cormorant/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:cormorant:sc",
+   "family": "Cormorant SC",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1212/cormorantsc-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1212/cormorantsc-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1212/cormorantsc-book-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1212/cormorantsc-semibold-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1212/cormorantsc-bold-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/cormorant/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:cormorant:unicase",
+   "family": "Cormorant Unicase",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1212/cormorantunicase-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1212/cormorantunicase-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1212/cormorantunicase-book-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1212/cormorantunicase-semibold-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1212/cormorantunicase-bold-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/cormorant/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:cormorant:upright",
+   "family": "Cormorant Upright",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1212/cormorantupright-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1212/cormorantupright-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1212/cormorantupright-book-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1212/cormorantupright-semibold-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1212/cormorantupright-bold-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/cormorant/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:cotham-sans",
+   "family": "Cotham Sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1189/cothamsans.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/cotham-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dauphine",
+   "family": "Dauphine",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "geometric",
+    "grotesque",
+    "sans",
+    "symbols"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1101/dauphine_regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dauphine/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dejavu:sans",
+   "family": "DejaVu Sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "sans",
+    "cyrillic"
+   ],
+   "weights": [
+    200,
+    400,
+    700
+   ],
+   "license": "Bitstream Vera",
+   "files": {
+    "200": "https://usemodify.com/site/assets/files/1019/dejavusans-extralight.woff",
+    "400": "https://usemodify.com/site/assets/files/1019/dejavusans.woff",
+    "700": "https://usemodify.com/site/assets/files/1019/dejavusans-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1019/dejavusans-oblique.woff",
+    "700": "https://usemodify.com/site/assets/files/1019/dejavusans-boldoblique.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dejavu/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dejavu:sans-condensed",
+   "family": "DejaVu Sans Condensed",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "condensed",
+    "sans",
+    "cyrillic"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "Bitstream Vera",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1019/dejavusanscondensed.woff",
+    "700": "https://usemodify.com/site/assets/files/1019/dejavusanscondensed-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1019/dejavusanscondensed-oblique.woff",
+    "700": "https://usemodify.com/site/assets/files/1019/dejavusanscondensed-boldoblique.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dejavu/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dejavu:sans-mono",
+   "family": "DejaVu Sans Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "sans",
+    "monospace",
+    "cyrillic"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "Bitstream Vera",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1019/dejavusansmono.woff",
+    "700": "https://usemodify.com/site/assets/files/1019/dejavusansmono-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1019/dejavusansmono-oblique.woff",
+    "700": "https://usemodify.com/site/assets/files/1019/dejavusansmono-boldoblique.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dejavu/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dejavu:serif",
+   "family": "DejaVu Serif",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "cyrillic"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "Bitstream Vera",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1019/dejavuserif.woff",
+    "700": "https://usemodify.com/site/assets/files/1019/dejavuserif-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1019/dejavuserif-italic.woff",
+    "700": "https://usemodify.com/site/assets/files/1019/dejavuserif-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dejavu/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dejavu:serif-condensed",
+   "family": "DejaVu Serif Condensed",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "condensed",
+    "serif",
+    "cyrillic"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "Bitstream Vera",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1019/dejavuserifcondensed.woff",
+    "700": "https://usemodify.com/site/assets/files/1019/dejavuserifcondensed-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1019/dejavuserifcondensed-italic.woff",
+    "700": "https://usemodify.com/site/assets/files/1019/dejavuserifcondensed-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dejavu/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:diamondgrotesk",
+   "family": "DiamondGrotesk",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "graphic",
+    "ink-traps",
+    "grotesque",
+    "sans",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "CC0",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1505/diamondgrotesk-regular.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/diamondgrotesk/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dinish",
+   "family": "DINish",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "revival",
+    "geometric",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1409/dinish-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1409/dinish-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1409/dinish-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dinish/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dinish:condensed",
+   "family": "DINish Condensed",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "condensed",
+    "revival",
+    "geometric",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1409/dinishcondensed-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1409/dinishcondensed-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1409/dinishcondensed-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dinish/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dinish:expanded",
+   "family": "DINish Expanded",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "wide",
+    "revival",
+    "geometric",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1409/dinishexpanded-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1409/dinishexpanded-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1409/dinishexpanded-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dinish/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dof:1-extended",
+   "family": "DOF 1 Extended",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "generative",
+    "script",
+    "wide",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1283/dof-1-extended-1.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dof/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dof:1",
+   "family": "DOF 1",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "generative",
+    "script",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1283/dof-1-regular-1.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1283/dof-1-italic-1.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dof/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dof:2-extended",
+   "family": "DOF 2 Extended",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "generative",
+    "script",
+    "wide",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1283/dof-2-extended-1.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dof/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dof:2",
+   "family": "DOF 2",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "generative",
+    "script",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1283/dof-2-regular-1.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1283/dof-2-italic-1.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dof/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dof:3-extended",
+   "family": "DOF 3 Extended",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "generative",
+    "script",
+    "wide",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1283/dof-3-extended-1.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dof/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dof:3",
+   "family": "DOF 3",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "generative",
+    "script",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1283/dof-3-regular-1.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1283/dof-3-italic-1.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dof/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:dof:afield",
+   "family": "DOF Afield",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "generative",
+    "script",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1283/dof-afield-regular.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1283/dof-afield-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/dof/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ductus:calligraphic",
+   "family": "Ductus Calligraphic",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "generative",
+    "graphic",
+    "rounded",
+    "sans",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "CC BY",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1457/ductuscalligraphic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/ductus/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ductus:geometric",
+   "family": "Ductus Geometric",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "generative",
+    "graphic",
+    "rounded",
+    "sans",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "CC BY",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1457/ductusgeometric.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/ductus/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ductus:mono-calligraphic",
+   "family": "Ductus Mono Calligraphic",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "generative",
+    "graphic",
+    "rounded",
+    "sans",
+    "monospace",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "CC BY",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1457/ductusmonocalligraphic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/ductus/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ductus:mono-geometric",
+   "family": "Ductus Mono Geometric",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "generative",
+    "graphic",
+    "rounded",
+    "sans",
+    "monospace",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "CC BY",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1457/ductusmonogeometric.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/ductus/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ductus:mono",
+   "family": "Ductus Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "generative",
+    "graphic",
+    "rounded",
+    "sans",
+    "monospace",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "CC BY",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1457/ductusmonoregular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/ductus/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ductus",
+   "family": "Ductus",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "generative",
+    "graphic",
+    "rounded",
+    "sans",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "CC BY",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1457/ductusregular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/ductus/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:eb-garamond",
+   "family": "EB Garamond",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "garalde",
+    "serif",
+    "cyrillic"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1291/ebgaramond12-regular.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1291/ebgaramond12-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/eb-garamond/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:eb-garamond:sc",
+   "family": "EB Garamond SC",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "garalde",
+    "serif",
+    "cyrillic"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1291/ebgaramondsc12-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/eb-garamond/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:elvenes",
+   "family": "Elvenes",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "curveless",
+    "mechanistic",
+    "geometric"
+   ],
+   "weights": [
+    100,
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1502/elvenes-thindisplay.ttf",
+    "400": "https://usemodify.com/site/assets/files/1502/elvenes-regulardisplay.ttf",
+    "700": "https://usemodify.com/site/assets/files/1502/elvenes-bolddisplay.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/elvenes/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:cosmic-sans-neue-mono",
+   "family": "Fantasque Sans",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "wonky",
+    "sans",
+    "monospace"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1059/cosmicsansneuemono-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1059/cosmicsansneuemonobold-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/cosmic-sans-neue-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ferrite-core",
+   "family": "Ferrite Core DX",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "monolinear",
+    "geometric",
+    "1990s"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1376/ferritecoredx-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1376/ferritecoredx-regular.woff",
+    "500": "https://usemodify.com/site/assets/files/1376/ferritecoredx-medium.woff",
+    "900": "https://usemodify.com/site/assets/files/1376/ferritecoredx-black.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/ferrite-core/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ferrite-core:display",
+   "family": "Ferrite Core DX Display",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "monolinear",
+    "geometric",
+    "1990s"
+   ],
+   "weights": [
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "900": "https://usemodify.com/site/assets/files/1376/ferritecoredx-display.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/ferrite-core/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:fibel:nord",
+   "family": "Fibel Nord",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "wide",
+    "geometric",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1145/fibel_nord-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1145/fibel_nord_italic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/fibel/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:fibel:sud",
+   "family": "Fibel Süd",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "wide",
+    "geometric",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1145/fibel_sued-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1145/fibel_sued_italic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/fibel/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:fifteentwenty",
+   "family": "FifteenTwenty",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "curveless",
+    "rounded",
+    "geometric",
+    "sans",
+    "monospace",
+    "code"
+   ],
+   "weights": [
+    300,
+    400,
+    600,
+    700
+   ],
+   "license": "WTFPL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1527/fifteentwenty-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1527/fifteentwenty.woff",
+    "600": "https://usemodify.com/site/assets/files/1527/fifteentwenty-demi.woff",
+    "700": "https://usemodify.com/site/assets/files/1527/fifteentwenty-bold.woff"
+   },
+   "italicFiles": {
+    "300": "https://usemodify.com/site/assets/files/1527/fifteentwenty-lightoblique.woff",
+    "400": "https://usemodify.com/site/assets/files/1527/fifteentwenty-oblique.woff",
+    "600": "https://usemodify.com/site/assets/files/1527/fifteentwenty-demioblique.woff",
+    "700": "https://usemodify.com/site/assets/files/1527/fifteentwenty-boldoblique.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/fifteentwenty/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:fivo-sans-modern",
+   "family": "Fivo Sans Modern",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "sans"
+   ],
+   "weights": [
+    400,
+    500,
+    700,
+    800,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1271/fivosansmodern-regular.woff",
+    "500": "https://usemodify.com/site/assets/files/1271/fivosansmodern-medium.woff",
+    "700": "https://usemodify.com/site/assets/files/1271/fivosansmodern-bold.woff",
+    "800": "https://usemodify.com/site/assets/files/1271/fivosansmodern-heavy.woff",
+    "900": "https://usemodify.com/site/assets/files/1271/fivosansmodern-extrablack.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1271/fivosansmodern-oblique.woff",
+    "500": "https://usemodify.com/site/assets/files/1271/fivosansmodern-mediumoblique.woff",
+    "700": "https://usemodify.com/site/assets/files/1271/fivosansmodern-boldoblique.woff",
+    "900": "https://usemodify.com/site/assets/files/1271/fivosansmodern-extblkobliq.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/fivo-sans-modern/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:fontlab-font",
+   "family": "Fontlab Font",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "pixel"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1315/fontlab.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/fontlab-font/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:frames-part-one",
+   "family": "Frames Part One",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "wonky",
+    "geometric",
+    "monospace",
+    "2020s"
+   ],
+   "weights": [
+    100,
+    300,
+    400,
+    500,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1462/framespartone-thin.woff",
+    "300": "https://usemodify.com/site/assets/files/1462/framespartone-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1462/framespartone-regular.woff",
+    "500": "https://usemodify.com/site/assets/files/1462/framespartone-medium.woff",
+    "700": "https://usemodify.com/site/assets/files/1462/framespartone-bold.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/frames-part-one/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:galgo-condensed",
+   "family": "Galgo Condensed",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "condensed",
+    "revival",
+    "sans",
+    "2020s"
+   ],
+   "weights": [
+    300
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1509/galgo-medium.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/galgo-condensed/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:gap-sans",
+   "family": "Gap Sans",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "curveless",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1167/gapsans-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1167/gapsansbold-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1167/gapsansblack-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/gap-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:garamon-d-t",
+   "family": "Garamon(d/t)",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "generative",
+    "monolinear",
+    "revival"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "WTFPL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1378/garamondt-regular.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1378/garamondt-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/garamon-d-t/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:garcia",
+   "family": "Garcia",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "humanist",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1260/garcia-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/garcia/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:guidole",
+   "family": "Gidole",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "rounded",
+    "geometric",
+    "grotesque"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1173/gidole-regular-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/guidole/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:guidole:gidolinya",
+   "family": "Gidolinya",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "rounded",
+    "geometric",
+    "grotesque"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1173/gidolinya-regular-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/guidole/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:glacier",
+   "family": "Glacier",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "wonky",
+    "script"
+   ],
+   "weights": [
+    400,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1485/glacier-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1485/glacier-bold.woff",
+    "900": "https://usemodify.com/site/assets/files/1485/glacier-black.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/glacier/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:grammatika-regular",
+   "family": "Grammatika",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "ink-traps",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1163/grammatika-regular-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/grammatika-regular/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:hack",
+   "family": "Hack",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "monospace",
+    "code"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "Bitstream Vera",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1201/hack-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1201/hack-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1201/hack-italic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1201/hack-bolditalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/hack/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:half",
+   "family": "Half",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "wonky",
+    "graphic",
+    "mechanistic",
+    "geometric",
+    "sans",
+    "monospace",
+    "cyrillic"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1305/half-21.woff",
+    "400": "https://usemodify.com/site/assets/files/1305/half-39.woff",
+    "500": "https://usemodify.com/site/assets/files/1305/half-51.woff",
+    "700": "https://usemodify.com/site/assets/files/1305/half-75.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/half/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:hanken",
+   "family": "Hanken",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "rounded",
+    "geometric"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1264/hanken-book-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/hanken/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:herbiflora",
+   "family": "Herbiflora",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "serif",
+    "2010s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1483/herbiflora-1.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/herbiflora/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:hibana",
+   "family": "Hibana",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "wide",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://usemodify.com/site/assets/files/1421/hibana-45submedium.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/hibana/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:hk-grotesk",
+   "family": "HK Grotesk",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "sans"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1242/hkgrotesk-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1242/hkgrotesk-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1242/hkgrotesk-medium-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1242/hkgrotesk-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "300": "https://usemodify.com/site/assets/files/1242/hkgrotesk-lightitalic-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1242/hkgrotesk-italic-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1242/hkgrotesk-mediumitalic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1242/hkgrotesk-bolditalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/hk-grotesk/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ia-writer:duo",
+   "family": "iA Writer Duo",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1336/iawriterduos-regular.ttf",
+    "700": "https://usemodify.com/site/assets/files/1336/iawriterduos-bold.ttf"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1336/iawriterduos-italic.ttf",
+    "700": "https://usemodify.com/site/assets/files/1336/iawriterduos-bolditalic.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/ia-writer/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ia-writer:mono",
+   "family": "iA Writer Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "grotesque",
+    "sans",
+    "monospace"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1336/iawritermonos-regular.ttf",
+    "700": "https://usemodify.com/site/assets/files/1336/iawritermonos-bold.ttf"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1336/iawritermonos-italic.ttf",
+    "700": "https://usemodify.com/site/assets/files/1336/iawritermonos-bolditalic.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/ia-writer/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ia-writer:quattro",
+   "family": "iA Writer Quattro",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1336/iawriterquattros-regular.ttf",
+    "700": "https://usemodify.com/site/assets/files/1336/iawriterquattros-bold.ttf"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1336/iawriterquattros-italic.ttf",
+    "700": "https://usemodify.com/site/assets/files/1336/iawriterquattros-bolditalic.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/ia-writer/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:inconsolata",
+   "family": "Inconsolata",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "monospace"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1063/inconsolata-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1063/inconsolata-bold-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/inconsolata/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:indira-k",
+   "family": "Indira K",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1224/indira_k-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/indira-k/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:inknut-antiqua",
+   "family": "Inknut Antiqua",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "screen"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1169/inknutantiqua-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1169/inknutantiqua-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1169/inknutantiqua-medium-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1169/inknutantiqua-semibold-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1169/inknutantiqua-bold-webfont.woff",
+    "800": "https://usemodify.com/site/assets/files/1169/inknutantiqua-extrabold-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1169/inknutantiqua-black-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/inknut-antiqua/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:inria:sans",
+   "family": "Inria Sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "sans"
+   ],
+   "weights": [
+    300,
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1321/inriasans-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1321/inriasans-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1321/inriasans-bold.woff"
+   },
+   "italicFiles": {
+    "300": "https://usemodify.com/site/assets/files/1321/inriasans-lightitalic.woff",
+    "400": "https://usemodify.com/site/assets/files/1321/inriasans-italic.woff",
+    "700": "https://usemodify.com/site/assets/files/1321/inriasans-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/inria/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:inria:serif",
+   "family": "Inria Serif",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "serif"
+   ],
+   "weights": [
+    300,
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1321/inriaserif-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1321/inriaserif-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1321/inriaserif-bold.woff"
+   },
+   "italicFiles": {
+    "300": "https://usemodify.com/site/assets/files/1321/inriaserif-lightitalic.woff",
+    "400": "https://usemodify.com/site/assets/files/1321/inriaserif-italic.woff",
+    "700": "https://usemodify.com/site/assets/files/1321/inriaserif-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/inria/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:instrument-serif",
+   "family": "Instrument Serif",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "narrow",
+    "garalde",
+    "serif",
+    "1980s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1444/instrumentserif-regular.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1444/instrumentserif-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/instrument-serif/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:interval",
+   "family": "Interval",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "monospace"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1039/interval.woff",
+    "700": "https://usemodify.com/site/assets/files/1039/interval_bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1039/interval_slanted.woff",
+    "700": "https://usemodify.com/site/assets/files/1039/interval_bold_slanted.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/interval/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:iosevka",
+   "family": "Iosevka",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "geometric",
+    "sans",
+    "monospace",
+    "code"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1216/iosevka-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1216/iosevka-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1216/iosevka-italic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1216/iosevka-bolditalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/iosevka/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:isobare",
+   "family": "Isobare",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "graphic",
+    "organic"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1403/isobare-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/isobare/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:jet-brains-mono",
+   "family": "Jet Brains Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "grotesque",
+    "monospace",
+    "code"
+   ],
+   "weights": [
+    400,
+    500,
+    700,
+    800
+   ],
+   "license": "Apache",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1333/jetbrainsmono-regular-1.ttf",
+    "500": "https://usemodify.com/site/assets/files/1333/jetbrainsmono-medium-1.ttf",
+    "700": "https://usemodify.com/site/assets/files/1333/jetbrainsmono-bold-1.ttf",
+    "800": "https://usemodify.com/site/assets/files/1333/jetbrainsmono-extrabold-1.ttf"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1333/jetbrainsmono-italic-1.ttf",
+    "500": "https://usemodify.com/site/assets/files/1333/jetbrainsmono-mediumitalic-1.ttf",
+    "700": "https://usemodify.com/site/assets/files/1333/jetbrainsmono-bolditalic-1.ttf",
+    "800": "https://usemodify.com/site/assets/files/1333/jetbrainsmono-extrabolditalic-1.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/jet-brains-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:jost",
+   "family": "Jost",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "geometric",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1265/jost-hairline.woff",
+    "200": "https://usemodify.com/site/assets/files/1265/jost-thin.woff",
+    "300": "https://usemodify.com/site/assets/files/1265/jost-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1265/jost-book.woff",
+    "500": "https://usemodify.com/site/assets/files/1265/jost-medium.woff",
+    "600": "https://usemodify.com/site/assets/files/1265/jost-semi.woff",
+    "700": "https://usemodify.com/site/assets/files/1265/jost-bold.woff",
+    "800": "https://usemodify.com/site/assets/files/1265/jost-heavy.woff",
+    "900": "https://usemodify.com/site/assets/files/1265/jost-black.woff"
+   },
+   "italicFiles": {
+    "100": "https://usemodify.com/site/assets/files/1265/jost-hairlineitalic.woff",
+    "200": "https://usemodify.com/site/assets/files/1265/jost-thinitalic.woff",
+    "300": "https://usemodify.com/site/assets/files/1265/jost-lightitalic.woff",
+    "400": "https://usemodify.com/site/assets/files/1265/jost-bookitalic.woff",
+    "500": "https://usemodify.com/site/assets/files/1265/jost-mediumitalic.woff",
+    "600": "https://usemodify.com/site/assets/files/1265/jost-semiitalic.woff",
+    "700": "https://usemodify.com/site/assets/files/1265/jost-bolditalic.woff",
+    "800": "https://usemodify.com/site/assets/files/1265/jost-heavyitalic.woff",
+    "900": "https://usemodify.com/site/assets/files/1265/jost-blackitalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/jost/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:jrug-punk",
+   "family": "JRUG PUNK",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "Apache",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1077/jrug_punk-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/jrug-punk/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:junicode",
+   "family": "Junicode",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    300,
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1214/junicode-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1214/junicode-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1214/junicode-bold.woff"
+   },
+   "italicFiles": {
+    "300": "https://usemodify.com/site/assets/files/1214/junicode-lightitalic.woff",
+    "700": "https://usemodify.com/site/assets/files/1214/junicode-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/junicode/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:junicode:condensed",
+   "family": "Junicode Condensed",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "condensed",
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    300,
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1214/junicode-condlight.woff",
+    "400": "https://usemodify.com/site/assets/files/1214/junicode-cond.woff"
+   },
+   "italicFiles": {
+    "300": "https://usemodify.com/site/assets/files/1214/junicode-condlightitalic.woff",
+    "400": "https://usemodify.com/site/assets/files/1214/junicode-conditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/junicode/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:junicode:expanded",
+   "family": "Junicode Expanded",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "wide",
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1214/junicode-exp.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1214/junicode-expitalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/junicode/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:junicode:semi-condensed",
+   "family": "Junicode Semi Condensed",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "condensed",
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://usemodify.com/site/assets/files/1214/junicode-smcondmedium.woff"
+   },
+   "italicFiles": {
+    "500": "https://usemodify.com/site/assets/files/1214/junicode-smcondmediumitalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/junicode/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:junicode:semi-expanded",
+   "family": "Junicode Semi Expanded",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "wide",
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    600
+   ],
+   "license": "OFL",
+   "files": {
+    "600": "https://usemodify.com/site/assets/files/1214/junicode-smexpsmbold.woff"
+   },
+   "italicFiles": {
+    "600": "https://usemodify.com/site/assets/files/1214/junicode-smexpsmbolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/junicode/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:karla",
+   "family": "Karla",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1030/karla-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1030/karla-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1030/karla-italic.woff",
+    "700": "https://usemodify.com/site/assets/files/1030/karla-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/karla/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:karmilla",
+   "family": "Karmilla",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1117/karmilla-regular-011-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1117/karmilla-bold-011-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/karmilla/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:karrik",
+   "family": "Karrik",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "grotesque"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1373/karrik-regular.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1373/karrik-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/karrik/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:kikuta",
+   "family": "Kikuta",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "graphic",
+    "rounded",
+    "sans",
+    "2020s",
+    "variable"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1493/kikuta-variable-vf.ttf",
+    "200": "https://usemodify.com/site/assets/files/1493/kikuta-variable-vf.ttf",
+    "300": "https://usemodify.com/site/assets/files/1493/kikuta-variable-vf.ttf",
+    "400": "https://usemodify.com/site/assets/files/1493/kikuta-variable-vf.ttf",
+    "500": "https://usemodify.com/site/assets/files/1493/kikuta-variable-vf.ttf",
+    "600": "https://usemodify.com/site/assets/files/1493/kikuta-variable-vf.ttf",
+    "700": "https://usemodify.com/site/assets/files/1493/kikuta-variable-vf.ttf",
+    "800": "https://usemodify.com/site/assets/files/1493/kikuta-variable-vf.ttf",
+    "900": "https://usemodify.com/site/assets/files/1493/kikuta-variable-vf.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/kikuta/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:lab-mono",
+   "family": "Lab Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "grotesque",
+    "monospace"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1209/labmono-regular-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/lab-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:league-mono",
+   "family": "League Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "grotesque",
+    "sans",
+    "monospace"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1343/leaguemono-thin.ttf",
+    "200": "https://usemodify.com/site/assets/files/1343/leaguemono-ultralight.ttf",
+    "300": "https://usemodify.com/site/assets/files/1343/leaguemono-light.ttf",
+    "400": "https://usemodify.com/site/assets/files/1343/leaguemono-regular.ttf",
+    "500": "https://usemodify.com/site/assets/files/1343/leaguemono-medium.ttf",
+    "600": "https://usemodify.com/site/assets/files/1343/leaguemono-semibold.ttf",
+    "700": "https://usemodify.com/site/assets/files/1343/leaguemono-bold.ttf",
+    "800": "https://usemodify.com/site/assets/files/1343/leaguemono-extrabold.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/league-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:liberation:mono",
+   "family": "Liberation Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "grotesque",
+    "sans",
+    "serif",
+    "monospace"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "GPL + font exception",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1081/liberationmono-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1081/liberationmono-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1081/liberationmono-italic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1081/liberationmono-bolditalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/liberation/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:liberation:sans",
+   "family": "Liberation Sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "GPL + font exception",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1081/liberationsans-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1081/liberationsans-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1081/liberationsans-italic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1081/liberationsans-bolditalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/liberation/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:liberation:sans-narrow",
+   "family": "Liberation Sans Narrow",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "narrow",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "GPL + font exception",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1081/liberationsansnarrow-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1081/liberationsansnarrow-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1081/liberationsansnarrow-italic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1081/liberationsansnarrow-bolditalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/liberation/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:liberation:serif",
+   "family": "Liberation Serif",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "serif"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "GPL + font exception",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1081/liberationserif-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1081/liberationserif-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1081/liberationserif-italic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1081/liberationserif-bolditalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/liberation/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:libre-baskerville",
+   "family": "Libre Baskerville",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "humanist",
+    "serif",
+    "screen"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1146/librebaskerville-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1146/librebaskerville-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1146/librebaskerville-italic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/libre-baskerville/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:lil-grotesk",
+   "family": "Lil Grotesk",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1034/lilgrotesk-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1034/lilgrotesk-bold.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/lil-grotesk/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:linux-libertine:linux-biolinum",
+   "family": "Linux Biolinum",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "glyphic",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1084/linbiolinum_rah-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1084/linbiolinum_rbah-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1084/linbiolinum_riah-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/linux-libertine/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:linux-libertine:display",
+   "family": "Linux Libertine Display",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "glyphic",
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1084/linlibertine_drah-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/linux-libertine/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:linux-libertine",
+   "family": "Linux Libertine",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "glyphic",
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    400,
+    600,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1084/linlibertine_rah-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1084/linlibertine_rzah-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1084/linlibertine_rbah-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1084/linlibertine_riah-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1084/linlibertine_rziah-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1084/linlibertine_rbiah-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/linux-libertine/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:lucette",
+   "family": "Lucette",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "mechanistic",
+    "serif"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1398/lucette-regular.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1398/lucette-regularitalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/lucette/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:luculent",
+   "family": "Luculent",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "wonky",
+    "bitmap",
+    "monospace",
+    "code",
+    "small-size"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1120/luculent-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1120/luculentb-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1120/luculenti-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1120/luculentbi-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/luculent/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:lunchtype",
+   "family": "Lunchtype",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    300,
+    400,
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1353/lunchtype22-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1353/lunchtype22-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1353/lunchtype22-medium-webfont.woff"
+   },
+   "italicFiles": {
+    "300": "https://usemodify.com/site/assets/files/1353/lunchtype23-light-italic-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1353/lunchtype23-regular-italic-webfont.ttf",
+    "500": "https://usemodify.com/site/assets/files/1353/lunchtype23-medium-italic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/lunchtype/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:lunchtype:expanded",
+   "family": "Lunchtype Expanded",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "wide",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    300,
+    400,
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1353/lunchtype24-light-expanded-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1353/lunchtype24-regular-expanded-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1353/lunchtype24-medium-expanded-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/lunchtype/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:lunchtype:condensed",
+   "family": "Lunchtype Condensed",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "condensed",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    300,
+    400,
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1353/lunchtype25-light_condensed-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1353/lunchtype25-regular_condensed-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1353/lunchtype25-medium-condensed-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/lunchtype/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:manusquared",
+   "family": "Manusquared",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "generative",
+    "curveless"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1345/manusquared-regular.ttf",
+    "700": "https://usemodify.com/site/assets/files/1345/manusquared-bold.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/manusquared/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:maplemono",
+   "family": "MapleMono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "rounded",
+    "monospace",
+    "2020s",
+    "code"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1514/maplemono-regular-1.ttf"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1514/maplemono-italic-1.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/maplemono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:metaaccanthis",
+   "family": "MetaAccanthis",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "monolinear",
+    "revival",
+    "slab",
+    "serif"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "CC BY",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1426/metaaccanthis.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/metaaccanthis/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:metaaccanthis:alternate",
+   "family": "MetaAccanthis Alternate",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "monolinear",
+    "revival",
+    "slab",
+    "serif"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "CC BY",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1426/metaaccanthisalternate.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/metaaccanthis/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:meyrin",
+   "family": "Meyrin",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "pixel",
+    "monospace",
+    "code"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1158/meyrin-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/meyrin/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:moche",
+   "family": "Moche",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "reverse-contrast",
+    "glyphic",
+    "sans"
+   ],
+   "weights": [
+    300,
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1313/moche-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1313/moche-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1313/moche-bold.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/moche/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:monoid",
+   "family": "Monoid",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "geometric",
+    "monospace",
+    "code",
+    "screen",
+    "small-size"
+   ],
+   "weights": [
+    300,
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1220/monoid-retina-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1220/monoid-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1220/monoid-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1220/monoid-italic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/monoid/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:monomusic",
+   "family": "MonoMusic",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "geometric",
+    "monospace"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1221/monomusic-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/monomusic/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:montagu-slab",
+   "family": "Montagu Slab",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "serif"
+   ],
+   "weights": [
+    100,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1529/montaguslab144pt-thin.woff",
+    "700": "https://usemodify.com/site/assets/files/1529/montaguslab144pt-bold.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/montagu-slab/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:nanook",
+   "family": "Nanook",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "mechanistic",
+    "serif"
+   ],
+   "weights": [
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "700": "https://usemodify.com/site/assets/files/1187/nanook_bold.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/nanook/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:national-park-typeface",
+   "family": "National Park",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "rounded",
+    "sans"
+   ],
+   "weights": [
+    100,
+    400,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1302/nationalpark-thin.woff",
+    "400": "https://usemodify.com/site/assets/files/1302/nationalpark-regular.woff",
+    "900": "https://usemodify.com/site/assets/files/1302/nationalpark-heavy.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/national-park-typeface/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:national-park-typeface:outline",
+   "family": "National Park Outline",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "rounded",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1302/nationalpark-outline.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/national-park-typeface/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:necto-mono",
+   "family": "Necto mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "grotesque",
+    "monospace"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1296/nectomono-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/necto-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:nighthawk",
+   "family": "Nighthawk",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1478/nighthawk02022021-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/nighthawk/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:now-alt",
+   "family": "Now Alt",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "geometric",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    100,
+    300,
+    400,
+    500,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1225/nowalt-thin-webfont.woff",
+    "300": "https://usemodify.com/site/assets/files/1225/nowalt-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1225/nowalt-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1225/nowalt-medium-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1225/nowalt-bold-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1225/nowalt-black-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/now-alt/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:old-standard-tt",
+   "family": "Old Standard TT",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "narrow",
+    "didone",
+    "cyrillic"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1036/oldstandard-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1036/oldstandard-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1036/oldstandard-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/old-standard-tt/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:orbit",
+   "family": "Orbit",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "geometric",
+    "sans",
+    "monospace"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1449/orbit-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/orbit/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:orchard-linear",
+   "family": "Orchard Linear",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "wonky",
+    "script",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1371/orchard-linear.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/orchard-linear/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:overpass",
+   "family": "Overpass",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "200": "https://usemodify.com/site/assets/files/1211/overpass-extralight-webfont.woff",
+    "300": "https://usemodify.com/site/assets/files/1211/overpass-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1211/overpass-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1211/overpass-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "200": "https://usemodify.com/site/assets/files/1211/overpass-extralight_italic-webfont.woff",
+    "300": "https://usemodify.com/site/assets/files/1211/overpass-light-italic-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1211/overpass-regular-italic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1211/overpass-bold-italic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/overpass/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:panamera",
+   "family": "Panamera",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "wide",
+    "grotesque"
+   ],
+   "weights": [
+    300,
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1171/panamera-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1171/panamera-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1171/panamera-bold-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/panamera/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:panchi-mono",
+   "family": "Panchi Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "wonky",
+    "rounded",
+    "revival",
+    "monospace",
+    "1960s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1475/panchimono-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/panchi-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:pecita",
+   "family": "Pecita",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "script",
+    "cyrillic"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1072/pecita.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/pecita/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:playfair-display",
+   "family": "Playfair Display",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "didone",
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    400,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1161/playfairdisplay-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1161/playfairdisplay-bold-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1161/playfairdisplay-black-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1161/playfairdisplay-italic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1161/playfairdisplay-bolditalic-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1161/playfairdisplay-blackitalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/playfair-display/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:playfair-display:sc",
+   "family": "Playfair Display SC",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "didone",
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    400,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1161/playfairdisplaysc-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1161/playfairdisplaysc-bold-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1161/playfairdisplaysc-black-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1161/playfairdisplaysc-italic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1161/playfairdisplaysc-bolditalic-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1161/playfairdisplaysc-blackitalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/playfair-display/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:profont",
+   "family": "Profont",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "bitmap",
+    "sans",
+    "monospace",
+    "1980s",
+    "code",
+    "screen",
+    "small-size"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "MIT",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1367/profontwindows.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/profont/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:prop-courier-sans",
+   "family": "PropCourier Sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "rounded",
+    "sans",
+    "cyrillic"
+   ],
+   "weights": [
+    400,
+    500,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1289/propcouriersans-regular.woff",
+    "500": "https://usemodify.com/site/assets/files/1289/propcouriersans-medium.woff",
+    "700": "https://usemodify.com/site/assets/files/1289/propcouriersans-bold.ttf"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1289/propcouriersans-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/prop-courier-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:pt-mono",
+   "family": "PT Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "monospace",
+    "cyrillic"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1045/ptm55f_w.woff",
+    "700": "https://usemodify.com/site/assets/files/1045/ptm75f_w.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/pt-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:pt-sans:narrow",
+   "family": "PT Sans Narrow",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "narrow",
+    "sans",
+    "cyrillic"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1041/ptn57f_w.woff",
+    "700": "https://usemodify.com/site/assets/files/1041/ptn77f_w.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/pt-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:pt-sans",
+   "family": "PT Sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "sans",
+    "cyrillic"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1041/pts55f_w.woff",
+    "700": "https://usemodify.com/site/assets/files/1041/pts75f_w.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1041/pts56f_w.woff",
+    "700": "https://usemodify.com/site/assets/files/1041/pts76f_w.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/pt-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:pt-serif",
+   "family": "PT Serif",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "cyrillic"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1044/ptf55f_w.woff",
+    "700": "https://usemodify.com/site/assets/files/1044/ptf75f_w.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1044/ptf56f_w.woff",
+    "700": "https://usemodify.com/site/assets/files/1044/ptf76f_w.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/pt-serif/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ptath",
+   "family": "Ptah",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1246/ptah-regular-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1246/ptah-italic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/ptath/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:quebec",
+   "family": "Québec",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "sans"
+   ],
+   "weights": [
+    300,
+    400,
+    600,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1317/quebec-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1317/quebec-regular.woff",
+    "600": "https://usemodify.com/site/assets/files/1317/quebec-semibold.woff",
+    "700": "https://usemodify.com/site/assets/files/1317/quebec-bold.woff"
+   },
+   "italicFiles": {
+    "300": "https://usemodify.com/site/assets/files/1317/quebec-lightitalic.woff",
+    "400": "https://usemodify.com/site/assets/files/1317/quebec-italic.woff",
+    "600": "https://usemodify.com/site/assets/files/1317/quebec-semibolditalic.woff",
+    "700": "https://usemodify.com/site/assets/files/1317/quebec-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/quebec/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:railway-sans",
+   "family": "Railway Sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "humanist",
+    "sans",
+    "symbols"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1195/railway.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/railway-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:ranchers",
+   "family": "Ranchers",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "reverse-contrast"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1227/ranchers-regular-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/ranchers/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:recursive:mono-casual",
+   "family": "Recursive Mono Casual",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "script",
+    "monospace"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://usemodify.com/site/assets/files/1362/recursivemonocslst-med.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/recursive/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:recursive:sans-casual",
+   "family": "Recursive Sans Casual",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "script",
+    "sans"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://usemodify.com/site/assets/files/1362/recursivesanscslst-med.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/recursive/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:recursive:sans-linear",
+   "family": "Recursive Sans Linear",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "script",
+    "sans"
+   ],
+   "weights": [
+    300,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1362/recursivesanslnrst-light.woff",
+    "700": "https://usemodify.com/site/assets/files/1362/recursivesanslnrst-bold.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/recursive/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:redaction",
+   "family": "Redaction",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "damage",
+    "pixel",
+    "serif"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1347/redaction-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/redaction/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:redaction:10",
+   "family": "Redaction 10",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "damage",
+    "pixel",
+    "serif"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction10-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1347/redaction10-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction10-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/redaction/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:redaction:100",
+   "family": "Redaction 100",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "damage",
+    "pixel",
+    "serif"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction100-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1347/redaction100-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction100-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/redaction/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:redaction:20",
+   "family": "Redaction 20",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "damage",
+    "pixel",
+    "serif"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction20-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1347/redaction20-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction20-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/redaction/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:redaction:35",
+   "family": "Redaction 35",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "damage",
+    "pixel",
+    "serif"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction35-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1347/redaction35-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction35-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/redaction/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:redaction:50",
+   "family": "Redaction 50",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "damage",
+    "pixel",
+    "serif"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction50-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1347/redaction50-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction50-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/redaction/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:redaction:70",
+   "family": "Redaction 70",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "damage",
+    "pixel",
+    "serif"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction70-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1347/redaction70-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1347/redaction70-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/redaction/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:routed-gothic-font",
+   "family": "Routed Gothic",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "1970s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1374/routedgothic.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1374/routedgothic-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/routed-gothic-font/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:routed-gothic-font:narrow",
+   "family": "Routed Gothic Narrow",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "narrow",
+    "1970s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1374/routedgothicnarrow.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1374/routedgothicnarrow-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/routed-gothic-font/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:routed-gothic-font:wide",
+   "family": "Routed Gothic Wide",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wide",
+    "1970s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1374/routedgothicwide.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1374/routedgothicwide-italic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/routed-gothic-font/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:rubik",
+   "family": "Rubik",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "rounded",
+    "grotesque"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1207/rubik-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1207/rubik-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1207/rubik-medium-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1207/rubik-bold-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1207/rubik-black-webfont.woff"
+   },
+   "italicFiles": {
+    "300": "https://usemodify.com/site/assets/files/1207/rubik-lightitalic-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1207/rubik-italic-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1207/rubik-mediumitalic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1207/rubik-bolditalic-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1207/rubik-blackitalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/rubik/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:rubik:mono-one",
+   "family": "Rubik Mono One",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "rounded",
+    "grotesque",
+    "monospace"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1207/rubikmonoone-regular-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/rubik/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:rubik:one",
+   "family": "Rubik One",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "rounded",
+    "grotesque"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1207/rubikone-regular-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/rubik/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:rumeur",
+   "family": "Rumeur",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "damage",
+    "graphic",
+    "geometric",
+    "sans"
+   ],
+   "weights": [
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "700": "https://usemodify.com/site/assets/files/1269/rumeur.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/rumeur/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:sani-trixie",
+   "family": "Sani Trixie Sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "sans",
+    "cyrillic"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1184/sanitrixiesans.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/sani-trixie/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:savate",
+   "family": "Savate",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "reverse-contrast"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "MIT",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1197/savate-regular-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1197/savate-italique-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/savate/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:selectric:mono",
+   "family": "Selectric Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "mechanistic",
+    "revival",
+    "serif",
+    "monospace"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1250/selectricmono-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/selectric/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:selectric",
+   "family": "Selectric",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "mechanistic",
+    "revival",
+    "serif"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1250/selectricroman-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/selectric/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:server-mono",
+   "family": "Server Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "ascii",
+    "monospace",
+    "2020s",
+    "screen"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1521/servermono-regular.ttf"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1521/servermono-regularoblique.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/server-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:sinkin-sans",
+   "family": "Sinkin Sans",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "ink-traps",
+    "wide",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    300,
+    500,
+    700,
+    900
+   ],
+   "license": "Apache",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1175/sinkinsans-300light-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1175/sinkinsans-500medium-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1175/sinkinsans-700bold-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1175/sinkinsans-900xblack-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/sinkin-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:snap-it",
+   "family": "Snap-it mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "curveless",
+    "mechanistic",
+    "sans",
+    "monospace"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1311/snap-itmono-16-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/snap-it/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:sometype-mono",
+   "family": "Sometype Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "monospace"
+   ],
+   "weights": [
+    400,
+    500,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1275/sometypemono-regular.woff",
+    "500": "https://usemodify.com/site/assets/files/1275/sometypemono-medium.woff",
+    "700": "https://usemodify.com/site/assets/files/1275/sometypemono-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1275/sometypemono-regularitalic.woff",
+    "500": "https://usemodify.com/site/assets/files/1275/sometypemono-mediumitalic.woff",
+    "700": "https://usemodify.com/site/assets/files/1275/sometypemono-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/sometype-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:sono",
+   "family": "Sono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "rounded",
+    "monospace"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    700,
+    800
+   ],
+   "license": "OFL",
+   "files": {
+    "200": "https://usemodify.com/site/assets/files/1453/sonomonospace-extralight.woff",
+    "300": "https://usemodify.com/site/assets/files/1453/sonomonospace-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1453/sonomonospace-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1453/sonomonospace-bold.woff",
+    "800": "https://usemodify.com/site/assets/files/1453/sonomonospace-extrabold.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/sono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:source-code-pro",
+   "family": "Source Code Pro",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "monospace"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "200": "https://usemodify.com/site/assets/files/1058/sourcecodepro-extralight.woff",
+    "300": "https://usemodify.com/site/assets/files/1058/sourcecodepro-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1058/sourcecodepro-regular.woff",
+    "500": "https://usemodify.com/site/assets/files/1058/sourcecodepro-medium.woff",
+    "600": "https://usemodify.com/site/assets/files/1058/sourcecodepro-semibold.woff",
+    "700": "https://usemodify.com/site/assets/files/1058/sourcecodepro-bold.woff",
+    "900": "https://usemodify.com/site/assets/files/1058/sourcecodepro-black.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/source-code-pro/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:source-sans-pro",
+   "family": "Source Sans Pro",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "sans"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    600,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "200": "https://usemodify.com/site/assets/files/1056/sourcesanspro-extralight.woff",
+    "300": "https://usemodify.com/site/assets/files/1056/sourcesanspro-light.woff",
+    "400": "https://usemodify.com/site/assets/files/1056/sourcesanspro-regular.woff",
+    "600": "https://usemodify.com/site/assets/files/1056/sourcesanspro-semibold.woff",
+    "700": "https://usemodify.com/site/assets/files/1056/sourcesanspro-bold.woff",
+    "900": "https://usemodify.com/site/assets/files/1056/sourcesanspro-black.woff"
+   },
+   "italicFiles": {
+    "200": "https://usemodify.com/site/assets/files/1056/sourcesanspro-extralightit.woff",
+    "300": "https://usemodify.com/site/assets/files/1056/sourcesanspro-lightit.woff",
+    "400": "https://usemodify.com/site/assets/files/1056/sourcesanspro-it.woff",
+    "600": "https://usemodify.com/site/assets/files/1056/sourcesanspro-semiboldit.woff",
+    "700": "https://usemodify.com/site/assets/files/1056/sourcesanspro-boldit.woff",
+    "900": "https://usemodify.com/site/assets/files/1056/sourcesanspro-blackit.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/source-sans-pro/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:source-serif-pro",
+   "family": "Source Serif Pro",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "serif",
+    "screen"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1148/sourceserifpro-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1148/sourceserifpro-bold-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/source-serif-pro/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:space-mono",
+   "family": "Space Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "geometric",
+    "monospace"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1273/spacemono-regular.woff",
+    "700": "https://usemodify.com/site/assets/files/1273/spacemono-bold.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1273/spacemono-italic.woff",
+    "700": "https://usemodify.com/site/assets/files/1273/spacemono-bolditalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/space-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:sprat:condensed",
+   "family": "Sprat Condensed",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "condensed",
+    "serif"
+   ],
+   "weights": [
+    100,
+    300,
+    400,
+    500,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1331/sprat-condensedthin.ttf",
+    "300": "https://usemodify.com/site/assets/files/1331/sprat-condensedlight.ttf",
+    "400": "https://usemodify.com/site/assets/files/1331/sprat-condesedregular.ttf",
+    "500": "https://usemodify.com/site/assets/files/1331/sprat-condensedmedium.ttf",
+    "700": "https://usemodify.com/site/assets/files/1331/sprat-condensedbold.ttf",
+    "900": "https://usemodify.com/site/assets/files/1331/sprat-condensedblack.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/sprat/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:sprat:extended",
+   "family": "Sprat Extended",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "wide",
+    "serif"
+   ],
+   "weights": [
+    100,
+    300,
+    400,
+    500,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1331/sprat-extendedthin.ttf",
+    "300": "https://usemodify.com/site/assets/files/1331/sprat-extendedlight.ttf",
+    "400": "https://usemodify.com/site/assets/files/1331/sprat-extendedregular.ttf",
+    "500": "https://usemodify.com/site/assets/files/1331/sprat-extendedmedium.ttf",
+    "700": "https://usemodify.com/site/assets/files/1331/sprat-extendedbold.ttf",
+    "900": "https://usemodify.com/site/assets/files/1331/sprat-extendedblack.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/sprat/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:sprat",
+   "family": "Sprat",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "serif"
+   ],
+   "weights": [
+    100,
+    300,
+    400,
+    500,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1331/sprat-regularthin.ttf",
+    "300": "https://usemodify.com/site/assets/files/1331/sprat-regularlight.ttf",
+    "400": "https://usemodify.com/site/assets/files/1331/sprat-regular.ttf",
+    "500": "https://usemodify.com/site/assets/files/1331/sprat-regularmedium.ttf",
+    "700": "https://usemodify.com/site/assets/files/1331/sprat-regularbold.ttf",
+    "900": "https://usemodify.com/site/assets/files/1331/sprat-regularblack.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/sprat/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:steps-mono",
+   "family": "Steps Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "narrow",
+    "geometric",
+    "sans",
+    "monospace"
+   ],
+   "weights": [
+    100,
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1279/steps-mono-thin.woff",
+    "400": "https://usemodify.com/site/assets/files/1279/steps-mono-mono.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/steps-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:struggle",
+   "family": "Struggle",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "graphic",
+    "organic",
+    "rounded",
+    "2020s",
+    "1970s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1523/struggle-regular_1.ttf"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1523/struggle-rotalics_1.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/struggle/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:syne",
+   "family": "Syne",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "curveless",
+    "wide",
+    "grotesque",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1267/syne-regular.ttf",
+    "700": "https://usemodify.com/site/assets/files/1267/syne-bold.ttf",
+    "900": "https://usemodify.com/site/assets/files/1267/syne-extra.ttf"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1267/syne-italic.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/syne/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:syne:mono",
+   "family": "Syne Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "curveless",
+    "wide",
+    "grotesque",
+    "sans",
+    "monospace"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1267/syne-mono.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/syne/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:techna-sans",
+   "family": "Techna Sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "geometric",
+    "sans"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1341/technasans-regular.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/techna-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:terminal-grotesque",
+   "family": "Terminal Grotesque",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "pixel",
+    "grotesque"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1152/terminal-grotesque.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/terminal-grotesque/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:tgl:0-16",
+   "family": "TGL 0-16",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "rounded"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1142/tgl_0-16-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/tgl/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:tgl:0-17",
+   "family": "TGL 0-17",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "rounded"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1142/tgl_0-17-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/tgl/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:tgl:0-17-alt",
+   "family": "TGL 0-17 Alt",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "rounded"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1142/tgl_0-17_alt-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/tgl/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:toren:mono",
+   "family": "Toren Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "serif",
+    "monospace"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1319/toren-mono.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/toren/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:toren",
+   "family": "Toren",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "serif"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1319/toren-proportional.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1319/toren-rotalic.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/toren/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:tribalium-neue:poster",
+   "family": "Tribalium Neue Poster",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "graphic",
+    "organic",
+    "script",
+    "gaelic",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "WTFPL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1507/tribaliumneue-poster.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/tribalium-neue/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:tribalium-neue",
+   "family": "Tribalium Neue",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "graphic",
+    "organic",
+    "script",
+    "gaelic",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "WTFPL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1507/tribaliumneue-regular.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/tribalium-neue/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:tuffy",
+   "family": "Tuffy",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "grotesque"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "Public Domain",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1075/tuffy-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1075/tuffy_bold-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1075/tuffy_italic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1075/tuffy_bold_italic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/tuffy/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:unifraktur:cook",
+   "family": "UniFraktur Cook",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "blackletter"
+   ],
+   "weights": [
+    300,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "300": "https://usemodify.com/site/assets/files/1222/unifrakturcook-light-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1222/unifrakturcook-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/unifraktur/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:unifraktur:maguntia",
+   "family": "UniFraktur Maguntia",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "blackletter"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1222/unifrakturmaguntia-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/unifraktur/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:vagra:pixel",
+   "family": "Vägra! Pixel",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "wonky",
+    "graphic",
+    "pixel",
+    "script"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1481/vagra-pixel.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/vagra/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:vagra",
+   "family": "Vägra!",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "wonky",
+    "graphic",
+    "pixel",
+    "script"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1481/vagra-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/vagra/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:verily-serif-mono",
+   "family": "Verily Serif Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "serif",
+    "monospace"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "Bitstream Vera",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1156/verilyserifmono-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/verily-serif-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:version",
+   "family": "Version",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "generative",
+    "graphic",
+    "curveless",
+    "mechanistic",
+    "monolinear",
+    "sans",
+    "serif"
+   ],
+   "weights": [
+    100,
+    200,
+    400,
+    500,
+    800,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1423/version_0_5_10.ttf",
+    "200": "https://usemodify.com/site/assets/files/1423/version_0_5_20.ttf",
+    "400": "https://usemodify.com/site/assets/files/1423/version_0_5_40.ttf",
+    "500": "https://usemodify.com/site/assets/files/1423/version_0_5_50.ttf",
+    "800": "https://usemodify.com/site/assets/files/1423/version_0_5_80.ttf",
+    "900": "https://usemodify.com/site/assets/files/1423/version_0_5_100.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/version/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:victor-mono",
+   "family": "Victor Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "grotesque",
+    "sans",
+    "monospace",
+    "code"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "license": "MIT",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1339/victormono-thin.ttf",
+    "200": "https://usemodify.com/site/assets/files/1339/victormono-extralight.ttf",
+    "300": "https://usemodify.com/site/assets/files/1339/victormono-light.ttf",
+    "400": "https://usemodify.com/site/assets/files/1339/victormono-regular.ttf",
+    "500": "https://usemodify.com/site/assets/files/1339/victormono-medium.ttf",
+    "600": "https://usemodify.com/site/assets/files/1339/victormono-semibold.ttf",
+    "700": "https://usemodify.com/site/assets/files/1339/victormono-bold.ttf"
+   },
+   "italicFiles": {
+    "100": "https://usemodify.com/site/assets/files/1339/victormono-thinitalic.ttf",
+    "200": "https://usemodify.com/site/assets/files/1339/victormono-extralightitalic.ttf",
+    "300": "https://usemodify.com/site/assets/files/1339/victormono-lightitalic.ttf",
+    "400": "https://usemodify.com/site/assets/files/1339/victormono-italic.ttf",
+    "500": "https://usemodify.com/site/assets/files/1339/victormono-mediumitalic.ttf",
+    "600": "https://usemodify.com/site/assets/files/1339/victormono-semibolditalic.ttf",
+    "700": "https://usemodify.com/site/assets/files/1339/victormono-bolditalic.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/victor-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:vintage-propagandist",
+   "family": "Vintage Propagandist",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "damage",
+    "graphic",
+    "revival",
+    "serif",
+    "1900s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1472/vintagepropagandist.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/vintage-propagandist/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:violet-sans",
+   "family": "Violet sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "wide",
+    "grotesque",
+    "sans",
+    "2010s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1454/violetsans-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/violet-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:vollkorn",
+   "family": "Vollkorn",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "serif"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1130/vollkorn-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1130/vollkorn-medium-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1130/vollkorn-semibold-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1130/vollkorn-bold-webfont.woff"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1130/vollkorn-italic-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1130/vollkorn-mediumitalic-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1130/vollkorn-semibolditalic-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1130/vollkorn-bolditalic-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/vollkorn/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:w-droge",
+   "family": "W droge",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "wonky",
+    "geometric",
+    "grotesque"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://usemodify.com/site/assets/files/1096/w-droge-itinerary-webfont-1.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/w-droge/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:westernic",
+   "family": "Westernic",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "italic only",
+    "blackletter",
+    "mechanistic",
+    "gaelic",
+    "1900s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1524/westernic-italic.ttf"
+   },
+   "italicFiles": {
+    "400": "https://usemodify.com/site/assets/files/1524/westernic-italic.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/westernic/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:whois-mono",
+   "family": "Whois Mono",
+   "source": "usemodify",
+   "category": "mono",
+   "tags": [
+    "geometric",
+    "monospace"
+   ],
+   "weights": [
+    500
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://usemodify.com/site/assets/files/1115/whois-mono.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/whois-mono/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:wontertype",
+   "family": "WonderType",
+   "source": "usemodify",
+   "category": "display",
+   "tags": [
+    "damage",
+    "graphic"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1405/wondertype-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/wontertype/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:work-avec",
+   "family": "Work Avec",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "sans"
+   ],
+   "weights": [
+    500,
+    600
+   ],
+   "license": "OFL",
+   "files": {
+    "500": "https://usemodify.com/site/assets/files/1240/workavec-medium-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1240/workavec-semibold-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/work-avec/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:work-sans",
+   "family": "Work Sans",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "grotesque",
+    "sans",
+    "screen"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "license": "OFL",
+   "files": {
+    "100": "https://usemodify.com/site/assets/files/1165/worksans-thin-webfont.woff",
+    "200": "https://usemodify.com/site/assets/files/1165/worksans-extralight-webfont.woff",
+    "300": "https://usemodify.com/site/assets/files/1165/worksans-light-webfont.woff",
+    "400": "https://usemodify.com/site/assets/files/1165/worksans-regular-webfont.woff",
+    "500": "https://usemodify.com/site/assets/files/1165/worksans-medium-webfont.woff",
+    "600": "https://usemodify.com/site/assets/files/1165/worksans-semibold-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1165/worksans-bold-webfont.woff",
+    "800": "https://usemodify.com/site/assets/files/1165/worksans-extrabold-webfont.woff",
+    "900": "https://usemodify.com/site/assets/files/1165/worksans-black-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/work-sans/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:xolonium",
+   "family": "Xolonium",
+   "source": "usemodify",
+   "category": "sans",
+   "tags": [
+    "geometric",
+    "sans"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1232/xolonium-regular-webfont.woff",
+    "700": "https://usemodify.com/site/assets/files/1232/xolonium-bold-webfont.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/xolonium/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:xxqueen:basic",
+   "family": "xxQueen Basic",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "wonky",
+    "damage",
+    "graphic",
+    "pixel",
+    "organic",
+    "script",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1488/xxqueen-basic.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/xxqueen/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:xxqueen:juicy",
+   "family": "xxQueen Juicy",
+   "source": "usemodify",
+   "category": "handwriting",
+   "tags": [
+    "wonky",
+    "damage",
+    "graphic",
+    "pixel",
+    "organic",
+    "script",
+    "2020s"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1488/xxqueen-juicy.ttf"
+   },
+   "homepage": "https://usemodify.com/fonts/xxqueen/",
+   "proxy": true
+  },
+  {
+   "id": "usemodify:young-serif",
+   "family": "Young Serif",
+   "source": "usemodify",
+   "category": "serif",
+   "tags": [
+    "garalde",
+    "serif"
+   ],
+   "weights": [
+    400
+   ],
+   "license": "OFL",
+   "files": {
+    "400": "https://usemodify.com/site/assets/files/1032/youngserif-regular.woff"
+   },
+   "homepage": "https://usemodify.com/fonts/young-serif/",
+   "proxy": true
+  }
+ ]
+}

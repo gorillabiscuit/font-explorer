@@ -1,0 +1,502 @@
+:root {
+  --bg: #efefec;
+  --chrome: #fafaf8;
+  --line: #deddd8;
+  --ink: #141414;
+  --muted: #77756f;
+  --accent: #1f5fff;
+  --star: #e8a300;
+  --card: #ffffff;
+  --card-ink: #0b0b0b;
+  --radius: 10px;
+  font: 13px/1.35 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+button,
+select,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+button,
+select {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 7px;
+  padding: 5px 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+button:hover:not(:disabled) {
+  border-color: #b9b7b0;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+input[type="text"],
+input[type="search"] {
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 6px 10px;
+  background: #fff;
+  min-width: 0;
+}
+
+input:focus-visible,
+button:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.faint {
+  color: var(--muted);
+}
+
+.spacer {
+  flex: 1;
+}
+
+/* Top bar */
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--chrome);
+  border-bottom: 1px solid var(--line);
+  padding: 10px 16px 8px;
+  display: grid;
+  gap: 8px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  margin-right: 4px;
+}
+
+.wordmark-input {
+  width: 220px;
+  font-weight: 600;
+}
+
+.ctl {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+}
+
+.ctl input[type="range"] {
+  width: 110px;
+  accent-color: var(--ink);
+}
+
+.val {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  min-width: 3.4em;
+  display: inline-block;
+}
+
+.seg {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.seg button {
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+}
+
+.seg button + button {
+  border-left: 1px solid var(--line);
+}
+
+.seg button.on,
+.toggle.on {
+  background: var(--ink);
+  color: #fff;
+}
+
+.vibe-form {
+  display: flex;
+  gap: 8px;
+  flex: 1 1 520px;
+  max-width: 760px;
+}
+
+.vibe-form input {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.vibe-form button[type="submit"] {
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+}
+
+.chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.chip {
+  border-radius: 999px;
+  padding: 3px 10px;
+  background: transparent;
+}
+
+.chip.on {
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+}
+
+.chip.on .faint {
+  color: #b5b5b5;
+}
+
+.chip.ghost {
+  border-style: dashed;
+  color: var(--muted);
+}
+
+.vibe-chip {
+  max-width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.divider {
+  width: 1px;
+  height: 18px;
+  background: var(--line);
+}
+
+.find {
+  width: 150px;
+}
+
+/* Grid */
+
+.grid {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  align-items: start;
+}
+
+.card {
+  position: relative;
+  background: var(--card);
+  color: var(--card-ink);
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  overflow: hidden;
+  content-visibility: auto;
+  /* --card-h is the grid's estimate for the current layout (layout/grid.ts), for cards not drawn yet. */
+  contain-intrinsic-size: auto var(--card-h, 160px);
+  transition: border-color 120ms;
+}
+
+.card:hover {
+  border-color: #c9c7c0;
+}
+
+.card.is-shortlisted {
+  border-color: var(--star);
+  box-shadow: inset 0 0 0 1px var(--star);
+}
+
+.card.is-culled {
+  opacity: 0.4;
+}
+
+/* The card X, M and S act on. An outline, so it never shifts the layout or fights the star's border. */
+.card.is-focused {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Maybe: a small hollow dot in the corner. */
+.card.is-maybe::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 10px;
+  height: 10px;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* The maybe toggle takes the dot's place on the card in hand only, so resting cards look as before. */
+.maybe-btn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: transparent;
+  border-color: rgba(127, 127, 127, 0.3);
+  font-size: 11px;
+  line-height: 1;
+  visibility: hidden;
+}
+
+.maybe-btn.on {
+  border-color: currentColor;
+}
+
+.card:hover .maybe-btn,
+.card.is-focused .maybe-btn {
+  visibility: visible;
+}
+
+.card.is-maybe:hover::after,
+.card.is-maybe.is-focused::after {
+  visibility: hidden;
+}
+
+/* The wordmark draws its own padding and never clips or fades: a name too wide is scaled and says so. */
+.wordmark {
+  transition: opacity 160ms;
+  /* Never a fake bold or italic: a weight or style the face lacks must not be drawn as if it had it. */
+  font-synthesis: none;
+}
+
+.wordmark.is-pending {
+  opacity: 0.12;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px 10px 18px;
+}
+
+.meta-main {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  flex: 1;
+  font: 12px/1.3 ui-sans-serif, system-ui, sans-serif;
+}
+
+.num {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.family {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badge {
+  font: 500 10px/1 ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 5px;
+  border-radius: 4px;
+  background: rgba(127, 127, 127, 0.14);
+  color: inherit;
+  opacity: 0.8;
+  white-space: nowrap;
+}
+
+.badge.faint {
+  opacity: 0.5;
+}
+
+.badge.warn {
+  background: #ffe1d6;
+  color: #9a2d00;
+  opacity: 1;
+}
+
+.src-local {
+  background: rgba(31, 95, 255, 0.14);
+}
+
+.src-fontshare {
+  background: rgba(232, 163, 0, 0.2);
+}
+
+.src-velvetyne {
+  background: rgba(214, 40, 110, 0.18);
+}
+
+.src-collletttivo {
+  background: rgba(0, 150, 110, 0.18);
+}
+
+.src-tunera {
+  background: rgba(120, 60, 220, 0.18);
+}
+
+.src-usemodify {
+  background: rgba(230, 90, 20, 0.18);
+}
+
+a.family {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.family:hover {
+  text-decoration: underline;
+}
+
+.ext {
+  opacity: 0.45;
+  font-weight: 400;
+}
+
+.actions {
+  display: flex;
+  gap: 4px;
+  opacity: 0.35;
+  transition: opacity 120ms;
+}
+
+.card:hover .actions,
+.card.is-focused .actions,
+.card.is-shortlisted .actions {
+  opacity: 1;
+}
+
+.icon-btn {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  background: transparent;
+  border-color: rgba(127, 127, 127, 0.3);
+  font-size: 13px;
+  line-height: 1;
+}
+
+.icon-btn.on {
+  color: var(--star);
+  border-color: var(--star);
+}
+
+
+.reason {
+  padding: 0 18px 12px;
+  font: 12px/1.4 ui-sans-serif, system-ui, sans-serif;
+  opacity: 0.7;
+}
+
+.inverted {
+  --card: #0b0b0b;
+  --card-ink: #f5f5f5;
+}
+
+.inverted .card:hover {
+  border-color: #444;
+}
+
+.sentinel {
+  height: 1px;
+  grid-column: 1 / -1;
+}
+
+.notice {
+  padding: 32px 16px;
+  color: var(--muted);
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.notice.error {
+  color: #9a2d00;
+}
+
+/* Toast */
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  background: var(--ink);
+  color: #fff;
+  padding: 8px 8px 8px 14px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  z-index: 20;
+  animation: toast-in 160ms ease-out;
+}
+
+.toast button {
+  background: #fff;
+  color: var(--ink);
+  border: 0;
+  font-weight: 600;
+}
+
+.toast .faint {
+  color: #9a9a9a;
+  padding-right: 6px;
+}
+
+/* Movement only: a frozen animation (background tab, preview panes) still leaves it visible. */
+@keyframes toast-in {
+  from {
+    transform: translate(-50%, 8px);
+  }
+}
+
+@media (max-width: 720px) {
+  .wordmark-input {
+    width: 100%;
+  }
+}

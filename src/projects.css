@@ -1,0 +1,185 @@
+/* The project menu and the brief, both small menus hanging off the top bar. */
+
+.popover-anchor {
+  position: relative;
+  display: inline-flex;
+}
+
+.popover {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 30;
+  min-width: 280px;
+  max-width: min(420px, calc(100vw - 32px));
+  background: #fff;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.14);
+  padding: 6px;
+  display: grid;
+  gap: 2px;
+}
+
+.project-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 220px;
+  font-weight: 600;
+}
+
+.project-btn .name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.project-btn .caret {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.project-btn.is-open {
+  border-color: #b9b7b0;
+}
+
+/* Amber: the last save did not reach the server. */
+.sync-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #e08a00;
+  flex: none;
+}
+
+.menu-head {
+  padding: 6px 8px 4px;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.menu-list {
+  display: grid;
+  gap: 2px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-width: 0;
+  text-align: left;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  padding: 6px 8px;
+}
+
+.menu-item:hover:not(:disabled) {
+  background: rgba(127, 127, 127, 0.1);
+}
+
+.menu-item.is-current {
+  font-weight: 600;
+}
+
+.menu-item .check {
+  width: 12px;
+  flex: none;
+}
+
+.menu-item .label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu-item .when {
+  margin-left: auto;
+  padding-left: 12px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.menu-sep {
+  height: 1px;
+  margin: 4px 2px;
+  background: var(--line);
+}
+
+.menu-note {
+  padding: 4px 8px 6px;
+  font-size: 12px;
+  color: var(--muted);
+  white-space: normal;
+}
+
+.menu-note.warn {
+  color: #9a2d00;
+}
+
+.menu-form {
+  gap: 8px;
+  padding: 6px 8px 8px;
+}
+
+.menu-form .menu-head {
+  padding: 0;
+}
+
+.menu-form label {
+  display: grid;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.menu-form input[type="text"] {
+  width: 100%;
+  color: var(--ink);
+}
+
+.menu-form .small {
+  font-size: 12px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.form-buttons .primary {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+
+.brief-pop {
+  width: min(400px, calc(100vw - 32px));
+}
+
+.brief-field {
+  width: 100%;
+}
+
+/* A brief is set: a small accent dot on the chip. */
+.brief-toggle .brief-set {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 0 1px 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  vertical-align: middle;
+}
+
+.chip.on .brief-set {
+  background: #fff;
+}

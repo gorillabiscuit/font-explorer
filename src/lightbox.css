@@ -1,0 +1,349 @@
+/* The lightbox (Lightbox.tsx) and the pinned reference band (ReferenceBand.tsx). */
+
+/* While the lightbox is up the page behind must not scroll. The gutter stays, so the grid keeps
+   its width (and its columns) and comes back exactly where it was. */
+html.lb-open {
+  overflow: hidden;
+  scrollbar-gutter: stable;
+}
+
+/* Above the sticky top bar and the band, below the toast (verdicts still show their Undo) and the key map. */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 15;
+  overflow: auto;
+  overscroll-behavior: contain;
+  background: var(--bg);
+}
+
+/* Always one line, so its height never depends on the font on stage: a header that wrapped for a
+   long name or an extra badge would drop the stage, and the word with it, for that one flip. */
+.lb-head {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+  padding: 10px 16px;
+  background: var(--chrome);
+  border-bottom: 1px solid var(--line);
+}
+
+.lb-head > * {
+  flex: none;
+}
+
+/* The family name and badges take the room the controls leave. Only the name gives way (down to a
+   few letters and an ellipsis); badges that still do not fit are cut off, fading out at the edge. */
+.lb-head > .lb-id {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent);
+  mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent);
+}
+
+.lb-id > * {
+  flex: none;
+}
+
+.lb-id > .family {
+  flex: 0 1 auto;
+  min-width: 5em;
+  font-size: 15px;
+}
+
+.lb-pos {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  min-width: 6.5em;
+}
+
+/* Narrow windows: the key hints go, so the controls leave the name some room. */
+@media (max-width: 699px) {
+  .lb-head kbd {
+    display: none;
+  }
+}
+
+.lb-head kbd {
+  font: 500 10px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  padding: 2px 4px;
+  margin-left: 4px;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  opacity: 0.55;
+}
+
+/* Two classes, to win over the global .badge, whose stylesheet loads after this one. */
+.badge.lb-star {
+  background: rgba(232, 163, 0, 0.22);
+}
+
+.badge.lb-ref {
+  background: rgba(255, 0, 128, 0.16);
+}
+
+.lb-body {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+}
+
+/* Positive left, reversed right; stacked on narrow screens. The tests rows line up across both. */
+.lb-stage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "lp dp"
+    "lt dt";
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+@media (max-width: 899px) {
+  .lb-stage {
+    grid-template-columns: 1fr;
+    grid-template-areas: "lp" "lt" "dp" "dt";
+  }
+}
+
+.lb-light {
+  background: #fff;
+  color: #0b0b0b;
+}
+
+.lb-dark {
+  background: #0b0b0b;
+  color: #f5f5f5;
+}
+
+/* Its layers are placed by Lightbox.tsx (anchored to one baseline), so it sets its own height. */
+.lb-panel {
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  /* The overlay blends with this panel only, not with the page. */
+  isolation: isolate;
+}
+
+.lb-strip {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 0;
+}
+
+.lb-layer {
+  position: absolute;
+  top: 0;
+}
+
+/* No transition: a swap is instant, or flipping stops being a flicker comparison. */
+.lb-layer .wordmark {
+  transition: none;
+}
+
+.lb-layer.is-hidden {
+  visibility: hidden;
+}
+
+/* The reference on top in magenta. Multiply on paper and screen on black both keep the shared ink
+   neutral, so only the difference shows in colour. */
+.lb-layer.is-overlay {
+  color: #ff0080;
+  mix-blend-mode: multiply;
+}
+
+.lb-dark .lb-layer.is-overlay {
+  mix-blend-mode: screen;
+}
+
+/* Overlaid, the reference is its letters only. Its tile (Block, Mark, any container) would be a
+   magenta slab with the letters cut out of it, which colours the font on stage instead of the
+   reference. The layout is unchanged, so the letters sit exactly where its tile put them. Its
+   caption would print over the stage font's own. */
+.lb-layer.is-overlay .wm-tile {
+  display: none;
+}
+
+.lb-layer.is-overlay .wm-svg text {
+  fill: currentColor !important;
+}
+
+.lb-layer.is-overlay .wm-caption {
+  display: none;
+}
+
+/* On a filled tile the ground is the other way round (ink tile, paper letters), so the blends swap:
+   the reference's letters show in magenta on the tile, and where they cover the stage font's
+   letters the shared shape stays neutral, as it does on bare paper. */
+.lb-light:has(.lb-layer:not(.is-overlay) .wm-container:not([fill="none"])) .lb-layer.is-overlay {
+  mix-blend-mode: screen;
+}
+
+.lb-dark:has(.lb-layer:not(.is-overlay) .wm-container:not([fill="none"])) .lb-layer.is-overlay {
+  mix-blend-mode: multiply;
+}
+
+/* A fixed height, whatever the font: stacked, the reversed panel sits right below this row and
+   would move with it. A face with an unusually tall box is cut off at the edges instead. */
+.lb-tests {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  height: 78px;
+  padding: 10px 28px 14px;
+  border-top: 1px solid rgba(127, 127, 127, 0.25);
+  overflow: hidden;
+}
+
+.lb-nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  min-width: 0;
+  flex: 1;
+  overflow: hidden;
+}
+
+.lb-nav-fake {
+  margin-left: auto;
+  font: 13px ui-sans-serif, system-ui, sans-serif;
+  opacity: 0.45;
+  white-space: nowrap;
+}
+
+/* The small tests are real sizes: no card padding, no fade. */
+.wordmark.lb-mini {
+  padding: 0;
+  line-height: 1;
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+/* A favicon tile: the ink colour as the ground, the letter knocked out in the paper colour. */
+.lb-favicon {
+  position: relative;
+  flex: none;
+  overflow: hidden;
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+}
+
+/* The wordmark is larger than the tile (it carries its own padding), so it is centred on the tile
+   by its own size; grid or flex centring would pin an overflowing child to the top left. */
+.lb-favicon > .wordmark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lb-favicon.f32 {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+}
+
+.lb-light .lb-favicon {
+  background: #0b0b0b;
+  color: #fff;
+}
+
+.lb-dark .lb-favicon {
+  background: #f5f5f5;
+  color: #0b0b0b;
+}
+
+.lb-telling {
+  background: #fff;
+  color: #0b0b0b;
+  border-radius: var(--radius);
+  padding: 4px 10px;
+  overflow: hidden;
+}
+
+.lb-readout {
+  font-variant-numeric: tabular-nums;
+  padding: 0 4px;
+}
+
+/* The reference band, sticky right under the top bar (its top is set from the bar's height). */
+.refband {
+  position: sticky;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+  background: var(--card);
+  color: var(--card-ink);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 8px 18px -14px rgba(0, 0, 0, 0.45);
+}
+
+.refband-label {
+  flex: 0 0 170px;
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+  font: 12px/1.3 ui-sans-serif, system-ui, sans-serif;
+}
+
+.refband-kicker {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #ff0080;
+}
+
+.refband-name {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.refband-recipe {
+  opacity: 0.6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 'no italic' under the recipe sits at its own width, not stretched across the label column. */
+.refband-label .badge {
+  justify-self: start;
+}
+
+.refband-mark {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* A filled container (Block and Mark's tile) draws its letters in var(--card), the ground they are
+   cut out of, so each ground here names its own colour or the letters vanish into the tile. */
+.lb-light {
+  --card: #fff;
+}
+
+.lb-dark {
+  --card: #0b0b0b;
+}
+
+.lb-light .lb-favicon {
+  --card: #0b0b0b;
+}
+
+.lb-dark .lb-favicon {
+  --card: #f5f5f5;
+}

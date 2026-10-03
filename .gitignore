@@ -1,0 +1,10 @@
+node_modules
+dist
+# The online build (npm run build:static); published with npm run deploy:site.
+dist-static
+.env
+server/.cache
+# The repo root ignores every "data/" folder; the saved indie catalogs are source, not build output.
+!server/data/
+# Projects hold client names and briefs (one file per project, written by the local server).
+server/projects/

@@ -1,0 +1,149 @@
+# What to record for every item in outline.yaml.
+# detail_level: brief (a line or two), moderate (a short paragraph), detailed (as long as the evidence needs).
+# Numbers that matter (coverage, correlations, costs) must say where they come from: a source link, or
+# "measured by me" with the command or file. Unverified claims are marked unverified.
+# Reserved: filled in during the deep phase with fields an agent could not settle.
+# Write the result JSON flat: every field name below is a top-level key (no category objects).
+
+field_categories:
+- category: basic
+  fields:
+  - name: name
+    description: The approach or data source, in plain words.
+    detail_level: brief
+    required: true
+  - name: what_it_is
+    description: What it gives us, concretely (a file, an API field, a measurement, a model).
+    detail_level: brief
+    required: false
+  - name: provider_and_url
+    description: Who publishes it, and links.
+    detail_level: brief
+    required: false
+- category: coverage
+  fields:
+  - name: catalog_coverage
+    description: How many of Font Explorer's 2,099 families it covers, split by source (Google 1,760,
+      Fontshare 64, Velvetyne 63, Collletttivo 26, Tunera 23, Use & Modify 163). Counted, not guessed.
+    detail_level: moderate
+    required: true
+  - name: granularity
+    description: Per family, or per style (italic) and per point on a variable axis.
+    detail_level: brief
+    required: false
+- category: signal
+  fields:
+  - name: signal_type
+    description: Semantic mood, geometric shape, or overall visual look.
+    detail_level: brief
+    required: false
+  - name: mood_dimensions_covered
+    description: Which moods it can actually express (motion/active, loud, calm, futuristic/techno, elegant,
+      handmade...), with evidence for each.
+    detail_level: detailed
+    required: true
+  - name: query_style_specificity
+    description: Whether it helps more for tight requests ("fast", "techno") or loose ones ("friendly").
+    detail_level: moderate
+    required: false
+- category: quality
+  fields:
+  - name: quality_evidence
+    description: Evidence it improves mood and motion queries; papers, measurements, or our own test.
+    detail_level: detailed
+    required: true
+  - name: known_noise
+    description: Known errors and their rough rate.
+    detail_level: moderate
+    required: false
+  - name: name_and_memory_bias
+    description: How much results would still depend on evocative names or the model's memory of popular
+      fonts.
+    detail_level: moderate
+    required: false
+  - name: untagged_rows
+    description: What happens to fonts it does not cover; ranked fairly, or silently pushed down.
+    detail_level: moderate
+    required: false
+  - name: text_interference_risk
+    description: For visual methods, whether rendered text can sway the result.
+    detail_level: brief
+    required: false
+- category: integration
+  fields:
+  - name: integration_path
+    description: 'How it plugs into server/vibe.ts: extra catalog fields, a precomputed data file, a scoring
+      step before the LLM, or a re-rank after. Include the data format.'
+    detail_level: detailed
+    required: true
+  - name: tokens_per_row
+    description: Extra prompt tokens per catalog row, and whether it stays cacheable.
+    detail_level: brief
+    required: false
+  - name: vocabulary_alignment
+    description: Whether it maps onto one shared vocabulary (Google's tags) or adds new terms.
+    detail_level: moderate
+    required: false
+  - name: explainability
+    description: Whether a result can say why it matched (a measured value, a tag, a quoted description).
+    detail_level: brief
+    required: false
+  - name: determinism
+    description: Whether the same request gives the same ranking.
+    detail_level: brief
+    required: false
+- category: cost
+  fields:
+  - name: build_effort
+    description: Rough effort to build and test, for an agent working in this codebase.
+    detail_level: moderate
+    required: true
+  - name: per_search_cost_and_latency
+    description: Added cost and time per search (Claude subscription use through claude -p, or API dollars).
+    detail_level: moderate
+    required: true
+  - name: one_off_cost
+    description: One-off compute or API cost (downloads, rendering, a batch labelling run).
+    detail_level: brief
+    required: false
+  - name: human_effort
+    description: Hours of a person's review or tagging, first time and as the catalog grows.
+    detail_level: brief
+    required: false
+- category: access
+  fields:
+  - name: asset_access
+    description: Whether the font files or data can be fetched, from where, and politely.
+    detail_level: moderate
+    required: false
+  - name: licence_and_provenance
+    description: Licence of the data (CC BY 4.0, none stated, undocumented endpoint), and of the fonts
+      for derived images (OFL vs ITF Free Font License).
+    detail_level: moderate
+    required: true
+  - name: etiquette
+    description: Rate limits, robots.txt, bot protection; never velvetyne.fr.
+    detail_level: brief
+    required: false
+- category: upkeep
+  fields:
+  - name: maintenance_and_freshness
+    description: How current it is, and the work to keep it current as fonts are added.
+    detail_level: moderate
+    required: false
+- category: verdict
+  fields:
+  - name: risks_and_limitations
+    description: What could go wrong or mislead.
+    detail_level: moderate
+    required: true
+  - name: evaluation_hook
+    description: How we would test it (held-out Google tags, rated result grids).
+    detail_level: brief
+    required: false
+  - name: recommendation_for_font_explorer
+    description: Use it, use it partly, or skip it, and why; where it sits relative to the other items;
+      and the smallest first step.
+    detail_level: detailed
+    required: true
+uncertain: []

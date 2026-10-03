@@ -1,0 +1,456 @@
+/* Compare as a candidate matrix (Compare.tsx), its tuner (CandidateTuner.tsx), the letter lineup
+   (LetterLineup.tsx), and the grid's stress views (StressView.tsx). Cells use the card colours, so
+   they follow the White on black toggle; Reversed swaps them. */
+
+.compare {
+  padding: 16px;
+  display: grid;
+  gap: 16px;
+  align-content: start;
+}
+
+.cmp-row {
+  background: var(--chrome);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  min-width: 0;
+}
+
+.cmp-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px 10px 16px;
+  border-bottom: 1px solid var(--line);
+  min-width: 0;
+}
+
+.cmp-label {
+  flex: 0 1 auto;
+  min-width: 6em;
+}
+
+.cmp-reason {
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+  flex: 0 1 auto;
+}
+
+.cmp-note {
+  border-style: dashed;
+  background: transparent;
+  max-width: 320px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.cmp-note.is-empty {
+  color: var(--muted);
+}
+
+.cmp-note-input {
+  width: 320px;
+  max-width: 40vw;
+}
+
+/* The columns. Every cell has a fixed width, so every row wraps at the same points and a column
+   stays under the same column in the rows above and below. Below the large cell's width the row
+   scrolls sideways instead. */
+.cmp-cells {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px;
+  overflow-x: auto;
+}
+
+/* A row not drawn yet keeps roughly its height, so the page does not jump when it fills in. */
+.cmp-cells.is-waiting {
+  min-height: 420px;
+}
+
+.cmp-cell {
+  margin: 0;
+  flex: none;
+  width: 220px;
+  background: var(--card);
+  color: var(--card-ink);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cmp-cell-label {
+  padding: 6px 10px 0;
+  font: 500 10px/1.2 ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cmp-art {
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* The candidate's own layout, large and highlighted. Click a letter in it for the lineup. */
+.cmp-cell.cmp-own {
+  width: 520px;
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.cmp-own .cmp-art {
+  min-height: 220px;
+  cursor: pointer;
+}
+
+/* The mark at 64, 32 and 16 px, and the two 40 px avatars: real sizes, side by side. */
+.cmp-cell.cmp-small {
+  width: auto;
+  min-width: 120px;
+}
+
+.cmp-small .cmp-art {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+  padding: 0 14px;
+}
+
+.cmp-slot {
+  position: relative;
+  flex: none;
+}
+
+/* A faint outline of the avatar circle, so its edge shows even where the layout draws no container. */
+.cmp-slot.is-round {
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(127, 127, 127, 0.3);
+}
+
+/* The wordmark is larger than its slot (it carries its own padding), so it is centred on the slot
+   by its own size; flex centring would pin an overflowing child to the top left. */
+.cmp-slot > .wordmark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cmp-slot .wm-caption,
+.cmp-mini .wm-caption {
+  display: none;
+}
+
+.cmp-cell.cmp-nav {
+  width: 340px;
+}
+
+.cmp-nav .cmp-art {
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  padding-right: 14px;
+  overflow: hidden;
+}
+
+.cmp-nav .cmp-mini {
+  flex: none;
+}
+
+.cmp-nav-fake {
+  margin-left: auto;
+  font: 13px ui-sans-serif, system-ui, sans-serif;
+  opacity: 0.45;
+  white-space: nowrap;
+}
+
+.cmp-blur .wm-svg {
+  filter: blur(var(--cmp-blur, 0px));
+}
+
+/* Until the blur is known the cell would flash the sharp name. */
+.cmp-squint.is-measuring .cmp-blur {
+  visibility: hidden;
+}
+
+/* Reversed: the card colours swapped. Letters knocked out of a filled container take the cell's
+   ground, which is now the card ink. */
+.cmp-cell.cmp-reversed {
+  --rev-ground: var(--card-ink);
+  background: var(--card-ink);
+  color: var(--card);
+}
+
+.cmp-reversed .wordmark {
+  --card: var(--rev-ground);
+}
+
+.cmp-tune-toggle {
+  display: block;
+  margin: 0 12px 12px;
+  border-style: dashed;
+  background: transparent;
+  color: var(--muted);
+}
+
+/* Tuner */
+
+.tuner {
+  display: grid;
+  grid-template-columns: minmax(0, 300px) minmax(0, 300px) minmax(200px, 1fr);
+  gap: 18px;
+  padding: 12px 16px 16px;
+  border-top: 1px solid var(--line);
+}
+
+.tuner-col {
+  min-width: 0;
+}
+
+.tuner-title {
+  margin: 0 0 6px;
+  font: 600 10.5px/1.2 ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.tuner-list {
+  display: grid;
+  gap: 6px;
+}
+
+.tuner-option {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+  padding: 5px 0 0;
+  text-align: left;
+  white-space: normal;
+  background: var(--card);
+  color: var(--card-ink);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tuner-option.on {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.tuner-label {
+  padding: 0 10px;
+  font: 11px/1.3 ui-sans-serif, system-ui, sans-serif;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+.tuner-option .wm-caption {
+  display: none;
+}
+
+.tuner-settings {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+  gap: 6px;
+}
+
+.tuner-settings .tuner-title:not(:first-child) {
+  margin-top: 8px;
+}
+
+.tuner-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tuner-alternates p {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .tuner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Letter lineup: sticks under the top bar while the rows scroll beneath it. */
+
+.lineup {
+  position: sticky;
+  z-index: 5;
+  background: var(--chrome);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.lineup-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px 8px 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.lineup-letter {
+  font-size: 15px;
+  padding: 0 4px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #fff;
+}
+
+.lineup-strip {
+  display: flex;
+  align-items: flex-start;
+  overflow-x: auto;
+  background: var(--card);
+  color: var(--card-ink);
+}
+
+.lineup-entry {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid var(--line);
+}
+
+/* Tiles start level and are nudged down (margin-top) onto one shared baseline. */
+.lineup-glyphs {
+  display: flex;
+  align-items: flex-start;
+}
+
+.lineup-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lineup-tile .wm-caption {
+  display: none;
+}
+
+.lineup-tag {
+  margin-top: -10px;
+  font: 500 10px/1.2 ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.lineup-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 260px;
+  padding: 4px 10px 10px;
+  font: 12px/1.3 ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Stress views on the grid's cards */
+
+.stress {
+  position: relative;
+}
+
+.stress-squint > .wordmark > .wm-svg {
+  filter: blur(var(--stress-blur, 2px));
+}
+
+/* Reversed: the whole card in swapped colours. Letters knocked out of a filled container take the
+   card's ground, which is now the ink colour. The wrapper is painted too, for browsers without :has. */
+.card:has(> .stress-reversed) {
+  background: var(--card-ink);
+  color: var(--card);
+}
+
+.stress-reversed {
+  --rev-ground: var(--card-ink);
+  background: var(--card-ink);
+  color: var(--card);
+}
+
+.stress-reversed > .wordmark {
+  --card: var(--rev-ground);
+}
+
+/* A wide face's copies wrap onto a second line rather than run off the card. */
+.stress-small-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 4px 10px;
+  padding: 0 18px 8px;
+  overflow: hidden;
+}
+
+/* One small copy. Not '.stress-small': that is the wrapper's mode class, which must stay a plain block. */
+.stress-small-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  flex: none;
+}
+
+/* The small tests carry the wordmark's 18 px padding; most of it is taken back so they sit close. */
+.wordmark.stress-mini {
+  margin: -14px -12px -12px;
+}
+
+.stress-mini .wm-caption {
+  display: none;
+}
+
+.stress-small-label {
+  font: 9.5px/1 ui-sans-serif, system-ui, sans-serif;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+/* Pixel: the card's own wordmark stays laid out (it supplies the layout) but out of sight. */
+.stress-pixel > .wordmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.stress-pixels {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+
+.stress-canvas {
+  display: block;
+  /* Canvas text takes this from its element: an installed font with no italic (or weight) installed
+     is drawn as its card draws it, upright, never slanted or thickened to fake one. */
+  font-synthesis: none;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}

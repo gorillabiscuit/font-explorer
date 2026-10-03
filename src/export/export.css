@@ -1,0 +1,13 @@
+/* The Export menu (ExportControls.tsx). It hangs off the right side of the top bar, so it opens
+   leftwards; the menu styles come from projects.css. */
+
+.export-menu .popover {
+  left: auto;
+  right: 0;
+  min-width: 260px;
+}
+
+.export-menu .caret {
+  color: var(--muted);
+  font-size: 10px;
+}
