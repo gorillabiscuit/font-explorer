@@ -4890,6 +4890,26 @@
    "sheet": "sheet-032",
    "at": "2026-10-03T14:02:49.461Z"
   },
+  "Labrada": {
+   "moods": {
+    "Sincere": 70,
+    "Calm": 65,
+    "Sophisticated": 50,
+    "Competent": 50,
+    "Vintage": 45
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "bracketed serifs",
+    "old-style",
+    "calligraphic touch",
+    "oldstyle numerals"
+   ],
+   "note": "Warm old-style serif with sloped bracketed serifs and slight calligraphic modulation.",
+   "sheet": "sheet-078",
+   "at": "2026-10-04T09:21:08.309Z"
+  },
   "Latitude": {
    "moods": {
     "Sophisticated": 70,
@@ -5977,6 +5997,24 @@
    "note": "Neutral regular-weight grotesque sans with even strokes and open forms.",
    "sheet": "sheet-049",
    "at": "2026-10-03T14:04:19.797Z"
+  },
+  "Open Sauce Sans": {
+   "moods": {
+    "Business": 80,
+    "Competent": 75,
+    "Calm": 55,
+    "Sincere": 45
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "neo-grotesque",
+    "medium weight",
+    "clean"
+   ],
+   "note": "Clean neutral grotesque sans with even strokes and tidy spacing.",
+   "sheet": "sheet-078",
+   "at": "2026-10-04T09:21:08.309Z"
   },
   "Open Sauce Two": {
    "moods": {
@@ -7201,6 +7239,25 @@
    "note": "Light geometric sans with round bowls and even, open spacing.",
    "sheet": "sheet-014",
    "at": "2026-10-03T14:01:14.016Z"
+  },
+  "Savate": {
+   "moods": {
+    "Innovative": 65,
+    "Playful": 50,
+    "Active": 45,
+    "Business": 45
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "light weight",
+    "tight spacing",
+    "quirky details",
+    "monoline"
+   ],
+   "note": "Light, tightly spaced sans with quirky geometric shapes and slightly squarish curves.",
+   "sheet": "sheet-078",
+   "at": "2026-10-04T09:21:08.309Z"
   },
   "Scoutie Sans": {
    "moods": {
