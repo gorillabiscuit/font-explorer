@@ -19,6 +19,8 @@ export interface Settings {
   /** Draw each family's real italic; a family without one stays upright and says so. */
   italic: boolean;
   invert: boolean;
+  /** Names in vermilion seal paste on warm paper, drawn through a worn print (Seal.tsx). Overrides invert while on. */
+  seal: boolean;
   layout: LayoutSettings;
   stress: StressMode;
 }
@@ -31,6 +33,7 @@ export const DEFAULT_SETTINGS: Settings = {
   tracking: 0,
   italic: false,
   invert: false,
+  seal: false,
   layout: DEFAULT_LAYOUT,
   stress: "off",
 };

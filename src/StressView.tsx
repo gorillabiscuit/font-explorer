@@ -206,6 +206,7 @@ function Pixels({ latest, draws, wordmark }: { latest: { current: LayoutResult |
   // An italic face shares its upright's family name: the style is what picks it.
   const style = fontStyle(wordmark.font);
   const invert = wordmark.settings.invert;
+  const seal = wordmark.settings.seal;
   const formation = (wordmark.recipe?.layout ?? wordmark.settings.layout).formation;
 
   const draw = () => {
@@ -214,7 +215,7 @@ function Pixels({ latest, draws, wordmark }: { latest: { current: LayoutResult |
     const layout = latest.current;
     if (!c || !el || !layout || !inView) return;
     const css = getComputedStyle(el);
-    const drawn = drawPixels(c, layout, formation, family, style, css.color, css.getPropertyValue("--card").trim() || "#fff");
+    const drawn = drawPixels(c, layout, formation, family, style, css.color, css.getPropertyValue("--card").trim() || "#fff", css.getPropertyValue("--hatch").trim() || HATCH);
     if (!drawn) return;
     const room = width ?? el.clientWidth - 2 * DEFAULT_PAD;
     const zoom = Math.max(1, Math.min(PIXEL_ZOOM, Math.floor(room / c.width)));
@@ -232,7 +233,7 @@ function Pixels({ latest, draws, wordmark }: { latest: { current: LayoutResult |
     [draws],
   );
   // Coming into view, or a change to how the card looks, draws the latest layout again.
-  useEffect(() => draw(), [inView, family, style, invert, width, formation]);
+  useEffect(() => draw(), [inView, family, style, invert, seal, width, formation]);
 
   return (
     <div ref={own} className="stress-pixels" style={{ minHeight: (PIXEL_HEIGHT + 2) * PIXEL_ZOOM + 2 * DEFAULT_PAD }}>
@@ -262,7 +263,7 @@ function pixelPart(r: LayoutResult, formation: Formation): { runs: Run[]; missin
 }
 
 /** Draws the layout at PIXEL_HEIGHT px tall. False when there is nothing to draw. */
-function drawPixels(c: HTMLCanvasElement, r: LayoutResult, formation: Formation, family: string, style: "normal" | "italic", ink: string, paper: string): boolean {
+function drawPixels(c: HTMLCanvasElement, r: LayoutResult, formation: Formation, family: string, style: "normal" | "italic", ink: string, paper: string, hatch: string): boolean {
   const { runs, missing, frame } = pixelPart(r, formation);
   if (frame.h <= 0 || frame.w <= 0) return false;
   const k = PIXEL_HEIGHT / frame.h;
@@ -283,7 +284,7 @@ function drawPixels(c: HTMLCanvasElement, r: LayoutResult, formation: Formation,
     for (const cell of cellsOf(run.glyphs)) ctx.fillText(cell.text, cell.x * k, run.y * k);
   }
   ctx.globalAlpha = 1;
-  ctx.fillStyle = HATCH;
+  ctx.fillStyle = hatch;
   for (const m of missing) ctx.fillRect(m.x * k, m.y * k, m.w * k, m.h * k);
   return true;
 }

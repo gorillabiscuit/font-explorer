@@ -1,0 +1,52 @@
+/* The Seal look (Seal.tsx): names in vermilion seal paste on warm paper, drawn through a worn print.
+   The card labels keep the card ink; only the names turn red. */
+
+.seal {
+  --card: #f6f1e6;
+  --seal-ink: #c8372d;
+  /* Missing letters are hatched in red elsewhere, which would vanish into the seal. */
+  --hatch: var(--accent);
+}
+
+.seal-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.seal .wordmark,
+.seal .stress-pixels {
+  color: var(--seal-ink);
+}
+
+.seal .wm-svg {
+  filter: url(#seal-wear);
+}
+
+/* The stress views that blur keep their blur, on top of the wear. */
+.seal .cmp-blur .wm-svg {
+  filter: url(#seal-wear) blur(var(--cmp-blur, 0px));
+}
+
+.seal .stress-squint > .wordmark > .wm-svg {
+  filter: url(#seal-wear) blur(var(--stress-blur, 2px));
+}
+
+/* Reversed: the paper colour out of a red ground, the carved kind of seal. */
+.seal .card:has(> .stress-reversed),
+.seal .stress-reversed,
+.seal .cmp-cell.cmp-reversed {
+  --rev-ground: var(--seal-ink);
+  background: var(--seal-ink);
+}
+
+.seal .stress-reversed > .wordmark,
+.seal .cmp-reversed .wordmark {
+  color: inherit;
+}
+
+/* Black on white / White on black wait while Seal sets the colours, greyed like a disabled button. */
+.topbar .toggle.is-off {
+  opacity: 0.45;
+}

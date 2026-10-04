@@ -53,6 +53,10 @@ Open http://localhost:5173 in Chrome. "Load local fonts" only works in Chromium 
   the ✕ on a running chip cancels it.
 - Compare shows each candidate large and at 16px, positive and inverted. Export gives JSON (with each
   recipe) and a PNG contact sheet.
+- **Seal** (next to Black on white) previews every name as a red Japanese seal: vermilion on warm
+  paper, through a worn print (rough edges, uneven ink, a few specks). Block and Mark's filled square
+  becomes the red block with the letters cut out. It is a way of looking, like White on black: copied
+  SVGs and exports stay black on white.
 - Projects (the menu at the far left): one per client and name, each with its own settings, verdicts,
   candidates, vibe searches and brief. Each is saved in the browser (`fx:p:<project>:*` keys) and on
   disk in `server/projects/<id>.json`, so clearing the browser loses nothing; when a project opens, the

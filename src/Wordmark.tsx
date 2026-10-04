@@ -46,7 +46,8 @@ export interface WordmarkProps {
  */
 export const NEAR = "1500px 0px";
 
-const HATCH = "#e5484d";
+/** Missing letters' hatch. A CSS colour, so the Seal look can swap it for one that shows on red. */
+const HATCH = "var(--hatch, #e5484d)";
 
 export const Wordmark = memo(function Wordmark(props: WordmarkProps) {
   const ref = useRef<HTMLDivElement>(null);
@@ -197,7 +198,7 @@ function draw(result: LayoutResult, real: boolean, family: string, italic: boole
         {result.missing.length > 0 && (
           <defs>
             <pattern id={hatchId} width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-              <line x1="0" y1="0" x2="0" y2="5" stroke={HATCH} strokeWidth="1.5" />
+              <line x1="0" y1="0" x2="0" y2="5" style={{ stroke: HATCH }} strokeWidth="1.5" />
             </pattern>
           </defs>
         )}
@@ -205,7 +206,7 @@ function draw(result: LayoutResult, real: boolean, family: string, italic: boole
         {result.tiles?.map((c, i) => <Container key={`t${i}`} c={c} />)}
         {result.runs.map((run, i) => drawRun(run, i, family, italic, paper, real))}
         {result.missing.map((m, i) => (
-          <rect key={`m${i}`} x={round(m.x)} y={round(m.y)} width={round(m.w)} height={round(m.h)} fill={`url(#${hatchId})`} stroke={HATCH} strokeWidth="1" />
+          <rect key={`m${i}`} x={round(m.x)} y={round(m.y)} width={round(m.w)} height={round(m.h)} fill={`url(#${hatchId})`} style={{ stroke: HATCH }} strokeWidth="1" />
         ))}
       </svg>
       {caption && <div className="wm-caption">{caption}</div>}

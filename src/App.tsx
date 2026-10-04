@@ -15,6 +15,7 @@ import { SORT_LABELS, type Settings, type SortMode, type TextCase } from "./sett
 import { ABOVE_GRID, BELOW_VIBE, FILTER_CHIPS, GRID_PANELS, OVERLAYS, Slots, TOPBAR_CONTROLS, TOPBAR_LEFT, TOPBAR_RIGHT } from "./slots";
 import { PAGE, useStore } from "./store";
 import { CATEGORIES, SOURCE_LABELS, SOURCES, type Category, type Source } from "./types";
+import { SealFilter } from "./Seal";
 import { VibeBar } from "./VibeBar";
 
 export function App() {
@@ -155,7 +156,8 @@ export function App() {
   usePublishCardSettings(settings, view === "grid");
 
   return (
-    <div className={`app ${settings.invert ? "inverted" : ""}`}>
+    <div className={`app ${settings.seal ? "seal" : settings.invert ? "inverted" : ""}`}>
+      {settings.seal && <SealFilter />}
       <header className="topbar">
         <div className="row controls">
           <Slots of={TOPBAR_LEFT} />
@@ -212,8 +214,19 @@ export function App() {
               onDoubleClick={() => set("tracking", 0)}
             />
           </label>
-          <button className={`toggle ${settings.invert ? "on" : ""}`} onClick={() => set("invert", !settings.invert)}>
+          {/* While Seal is on it sets the colours, so this button first turns Seal off. */}
+          <button
+            className={`toggle ${settings.invert && !settings.seal ? "on" : ""} ${settings.seal ? "is-off" : ""}`}
+            onClick={() => (settings.seal ? set("seal", false) : set("invert", !settings.invert))}
+          >
             {settings.invert ? "White on black" : "Black on white"}
+          </button>
+          <button
+            className={`toggle ${settings.seal ? "on" : ""}`}
+            title="Red seal: every name in vermilion on paper, as a Japanese hanko stamps it. Block and Mark become the red square with the letters cut out"
+            onClick={() => set("seal", !settings.seal)}
+          >
+            Seal
           </button>
           <div className="spacer" />
           <Slots of={TOPBAR_RIGHT} />
