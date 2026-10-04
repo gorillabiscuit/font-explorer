@@ -1,0 +1,101 @@
+{
+  "id": "q04",
+  "kind": "motion",
+  "query": "kinetic and dynamic, always moving forward",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 8153,
+  "results": [
+    {
+      "family": "TGL 0-16",
+      "reason": "Slanted rounded letters lean forward, lively lowercase with momentum"
+    },
+    {
+      "family": "Faster One",
+      "reason": "Slanted wide racing letters with speed cuts, built for motion"
+    },
+    {
+      "family": "Elvenes",
+      "reason": "Slanted, straight-edged cuts feel like a fast, broken stroke"
+    },
+    {
+      "family": "Racing Sans One",
+      "reason": "Bold wide slanted racing sans, clear forward lean"
+    },
+    {
+      "family": "Azabache",
+      "reason": "Slanted modular brush strokes with streamlined forward motion"
+    },
+    {
+      "family": "Kihim",
+      "reason": "Heavy slanted straight-edged display, aggressive forward thrust"
+    },
+    {
+      "family": "Ferrite Core DX",
+      "reason": "Very wide squared stance reads as stretched, speeding horizontals"
+    },
+    {
+      "family": "Fugaz One",
+      "reason": "Heavy slanted geometric sans, sporty and compact"
+    },
+    {
+      "family": "Mattone",
+      "reason": "Wide heavy extended sans, punchy low stance suggests drive"
+    },
+    {
+      "family": "Oxanium",
+      "reason": "Squared techno letters with cut corners, shortlist-friendly"
+    },
+    {
+      "family": "DOF 3 Extended",
+      "reason": "Bold very wide squared forms, stretched and forward-pushing"
+    },
+    {
+      "family": "Exo 2",
+      "reason": "Squared sporty sans with italics, clean forward energy"
+    },
+    {
+      "family": "Xolonium",
+      "reason": "Wide squared techno sans, engineered and legible in mixed case"
+    },
+    {
+      "family": "Michroma",
+      "reason": "Wide squared stance stretches horizontally, techno speed"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "Wide sporty grotesque with quirky titling, athletic stance"
+    },
+    {
+      "family": "Audiowide",
+      "reason": "Bold wide rounded-square letters, strong horizontal drive"
+    },
+    {
+      "family": "Sharpie",
+      "reason": "Bold slanted pen strokes with brush momentum"
+    },
+    {
+      "family": "Nippo",
+      "reason": "Squared sporty jersey display, athletic and energetic"
+    },
+    {
+      "family": "Tourney",
+      "reason": "Squared racing forms with italic, cut and fast"
+    },
+    {
+      "family": "Panchang",
+      "reason": "Very wide light sans, stretched horizontals suggest speed"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 698,
+    "output": 833
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

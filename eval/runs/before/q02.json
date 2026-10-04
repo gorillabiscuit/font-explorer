@@ -1,0 +1,79 @@
+{
+  "id": "q02",
+  "kind": "motion",
+  "query": "sporty and energetic, like a running shoe brand",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 9200,
+  "results": [
+    {
+      "family": "Apfel Grotezk",
+      "reason": "Quirky geometric sans with playful bounce; energetic yet approachable for athletic wordmarks"
+    },
+    {
+      "family": "Quicksand",
+      "reason": "Rounded geometric sans with spritely weight; approachable sportiness for modern athletic brands"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "Wide, sporty grotesque with built-in dynamic tension; tailor-made for athletic branding"
+    },
+    {
+      "family": "Space Grotesk",
+      "reason": "Modern neo-grotesque with futuristic edge; technical precision meets dynamic stance"
+    },
+    {
+      "family": "Gulax",
+      "reason": "Monolinear geometric with experimental quirk; modern, active energy without heaviness"
+    },
+    {
+      "family": "Rajdhani",
+      "reason": "Superellipse geometric with stiff futuristic charm; tech-forward athletic energy"
+    },
+    {
+      "family": "Grotesk",
+      "reason": "Geometric art-deco sans, elegant yet dynamic; wide letterforms project confident movement"
+    },
+    {
+      "family": "Bungee",
+      "reason": "Experimental geometric display with thick-thin variation; bouncy, kinetic visual rhythm"
+    },
+    {
+      "family": "Karrik",
+      "reason": "Raw, naive irregularity reads as agile and unpretentious; casual athletic authenticity"
+    },
+    {
+      "family": "Exo 2",
+      "reason": "Superellipse sans with geometric precision; sleek, contemporary athletic feel"
+    },
+    {
+      "family": "Syncopate",
+      "reason": "Futuristic geometric with awkward humanist quirk; energetic asymmetry, dynamic tension"
+    },
+    {
+      "family": "Jost",
+      "reason": "Geometric rounded-square forms; minimalist, high-performance aesthetic perfect for sportswear"
+    },
+    {
+      "family": "Chakra Petch",
+      "reason": "Techno sans with stiff geometric edges; forward-leaning, muscular energy"
+    },
+    {
+      "family": "Sora",
+      "reason": "Neo-grotesque with legible athletic clarity; contemporary, logotype-ready for brands"
+    },
+    {
+      "family": "Outfit",
+      "reason": "Geometric sans screen-ready; modern, direct athletic identity with clean proportions"
+    }
+  ],
+  "dropped": [
+    "Tangata"
+  ],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 683,
+    "output": 778
+  }
+}

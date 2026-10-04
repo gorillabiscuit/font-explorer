@@ -1,0 +1,79 @@
+{
+  "id": "q17",
+  "kind": "mood",
+  "query": "handmade and organic, a ceramics studio",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 9569,
+  "results": [
+    {
+      "family": "Feroniapi",
+      "reason": "Flowing, elegant curves with human-made character; perfect for artisan ceramics"
+    },
+    {
+      "family": "Louise",
+      "reason": "Connected, elegant script with swash details; revival calligraphy for studios"
+    },
+    {
+      "family": "Interlope",
+      "reason": "Amateur, DIY script with 1970s warmth; feels handcrafted and unpretentious"
+    },
+    {
+      "family": "Courrrier",
+      "reason": "Quirky typewriter serif with playful personality; experimental retro warmth"
+    },
+    {
+      "family": "Kaeru Kaeru",
+      "reason": "Soft, blobby, organic shapes; handmade woodcut aesthetic suits studio vibe"
+    },
+    {
+      "family": "Latitude",
+      "reason": "Classic, elegant humanist serif; refined but personal and approachable"
+    },
+    {
+      "family": "Fungal",
+      "reason": "Organic, biomorphic, hairy forms; natural and experimental without being illegible"
+    },
+    {
+      "family": "Basteleur",
+      "reason": "Fantasy serif with sharp, human-made quality; eclectic artisan energy"
+    },
+    {
+      "family": "Flor de Ruina",
+      "reason": "Textured, eroded serif; fractured organic quality suggests handcrafted ceramics"
+    },
+    {
+      "family": "Balsamiq Sans",
+      "reason": "Rounded, friendly sans; hand-sketched appearance feels authentic and approachable"
+    },
+    {
+      "family": "Manosque",
+      "reason": "Sign-painter brush style with retro French charm; heavy, flat-brush warmth"
+    },
+    {
+      "family": "Equateur",
+      "reason": "Classic editorial serif with revival warmth; elegant yet organic sensibility"
+    },
+    {
+      "family": "Ouroboros",
+      "reason": "Art-nouveau organic curves with flared serifs; elegant, human-made decorative spirit"
+    },
+    {
+      "family": "Jomhuria",
+      "reason": "Large, expressive humanist serif; bold, handwritten warmth at display sizes"
+    },
+    {
+      "family": "Cantique",
+      "reason": "Calligraphic serif with swashes and ligatures; romantic, handwritten elegance"
+    }
+  ],
+  "dropped": [
+    "Brush Script MT"
+  ],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 682,
+    "output": 768
+  }
+}

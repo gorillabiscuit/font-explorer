@@ -1,0 +1,101 @@
+{
+  "id": "q14",
+  "kind": "mood",
+  "query": "slick and professional",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 7932,
+  "results": [
+    {
+      "family": "Ronzino",
+      "reason": "Clean neo-grotesk with steady widths, credible and understated"
+    },
+    {
+      "family": "Switzer",
+      "reason": "Swiss-style neutral sans, crisp and dependable"
+    },
+    {
+      "family": "Absans",
+      "reason": "Minimal geometric grotesk, neutral and crisp in mixed case"
+    },
+    {
+      "family": "General Sans",
+      "reason": "Clean geometric-grotesque, polished branding staple"
+    },
+    {
+      "family": "DiamondGrotesk",
+      "reason": "Ink-trapped grotesque gives polish with a subtle point of view"
+    },
+    {
+      "family": "Satoshi",
+      "reason": "Sleek geometric sans with calm, modern curves"
+    },
+    {
+      "family": "Grammatika",
+      "reason": "Ink-trap sans, squared and precise, businesslike"
+    },
+    {
+      "family": "Ranade",
+      "reason": "Refined grotesque with sharp, even strokes"
+    },
+    {
+      "family": "Now Alt",
+      "reason": "Calm geometric grotesque, refined and even"
+    },
+    {
+      "family": "Author",
+      "reason": "Light, elegant sans, composed and professional"
+    },
+    {
+      "family": "Lil Grotesk",
+      "reason": "Quiet grotesque with sophisticated, tidy proportions"
+    },
+    {
+      "family": "Cabinet Grotesk",
+      "reason": "Light grotesque with subtle character, slick finish"
+    },
+    {
+      "family": "Apfel Grotezk",
+      "reason": "Grotesk with a friendly quirk yet professional"
+    },
+    {
+      "family": "Supreme",
+      "reason": "Tidy neutral sans with even widths"
+    },
+    {
+      "family": "Breite Grotesk",
+      "reason": "Wide-set geometric grotesque, confident and corporate"
+    },
+    {
+      "family": "Hubot Sans",
+      "reason": "Precise grotesque, engineered and steady"
+    },
+    {
+      "family": "Mona Sans",
+      "reason": "Polished grotesque with confident, even rhythm"
+    },
+    {
+      "family": "Host Grotesk",
+      "reason": "Neat grotesque, business-ready, low contrast"
+    },
+    {
+      "family": "Special Gothic",
+      "reason": "Sharp grotesque with understated authority"
+    },
+    {
+      "family": "Stack Sans Text",
+      "reason": "Sturdy business grotesque with large x-height"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 589,
+    "output": 781
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

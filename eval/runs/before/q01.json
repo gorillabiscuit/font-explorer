@@ -1,0 +1,109 @@
+{
+  "id": "q01",
+  "kind": "motion",
+  "query": "fonts that imply fast movement or action",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 11654,
+  "results": [
+    {
+      "family": "Anka/Coder",
+      "reason": "Wonky, clumsy letterforms suggest urgent, skittering movement"
+    },
+    {
+      "family": "Outward",
+      "reason": "Ultra-condensed, black geometry creates compressed tension and forward propulsion"
+    },
+    {
+      "family": "Karrik",
+      "reason": "Raw, irregular angles create restless, forward-pushing energy"
+    },
+    {
+      "family": "Electrolize",
+      "reason": "Geometric sans with futuristic edge reads as sleek, accelerating movement"
+    },
+    {
+      "family": "Fibel Nord",
+      "reason": "Wide, dynamic geometry with off-kilter construction reads as sprinting"
+    },
+    {
+      "family": "Terminal Grotesque",
+      "reason": "Lo-fi pixel bitmap feels rapid-fire and urgent despite simplicity"
+    },
+    {
+      "family": "Le Murmure",
+      "reason": "Tall, condensed, sharp serifs slice through space like velocity"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "Wide, sporty proportions suggest athleticism and active motion"
+    },
+    {
+      "family": "Format 1452",
+      "reason": "Modular, industrial geometry with condensed width suggests speed and efficiency"
+    },
+    {
+      "family": "Exo",
+      "reason": "Superellipse geometry with active stance implies forward momentum and speed"
+    },
+    {
+      "family": "Commune Nuit Debout",
+      "reason": "Curveless, geometric, tall and geometric capitals suggest political urgency and momentum"
+    },
+    {
+      "family": "Space Grotesk",
+      "reason": "Techno grotesque with dynamic spacing creates sense of velocity and precision"
+    },
+    {
+      "family": "Mourier",
+      "reason": "Geometric labyrinth construction feels abstract and kinetic"
+    },
+    {
+      "family": "Spline Sans",
+      "reason": "Neo-grotesque with smooth rhythm and controlled form suggests smooth acceleration"
+    },
+    {
+      "family": "Bluu Next",
+      "reason": "Sharp serifs and high contrast create cutting, directional force through letterspace"
+    },
+    {
+      "family": "Quantico",
+      "reason": "Geometric sans with futuristic angles and tight construction implies rapid purpose"
+    },
+    {
+      "family": "Raleway",
+      "reason": "Elegant geometric with thin geometry creates slicing, directional energy"
+    },
+    {
+      "family": "Syne",
+      "reason": "Curveless, wide geometry with dynamic proportions suggests forceful forward motion"
+    },
+    {
+      "family": "Tilt Neon",
+      "reason": "Geometric display with neon edge and tilted construction feels kinetic and electric"
+    },
+    {
+      "family": "Turret Road",
+      "reason": "Techno futuristic with stiff geometry reads as purposeful, accelerating movement"
+    },
+    {
+      "family": "Rubik",
+      "reason": "Rounded grotesque with active, dynamic proportions suggests fluid, energetic motion"
+    },
+    {
+      "family": "Saira",
+      "reason": "Superellipse sans with wide stance and bold geometry implies assertive forward drive"
+    },
+    {
+      "family": "Jost",
+      "reason": "Geometric grotesque with dynamic letterforms and rounded energy implies momentum"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 3,
+    "cacheRead": 0,
+    "cacheWrite": 57034,
+    "output": 985
+  }
+}

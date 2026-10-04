@@ -14,7 +14,7 @@ const GF_TAGS_URL = "https://raw.githubusercontent.com/google/fonts/main/tags/al
 const TTL_MS = 24 * 60 * 60 * 1000;
 const here = path.dirname(fileURLToPath(import.meta.url));
 // Fontsource + Fontshare, refetched daily. Bump the version when the rules change, so an old cache is not served.
-const REMOTE_CACHE_FILE = path.join(here, ".cache", "remote-v7.json");
+const REMOTE_CACHE_FILE = path.join(here, ".cache", "remote-v9.json");
 // The indie sources' saved catalogs, written by `npm run sources`.
 const DATA_DIR = path.join(here, "data");
 
@@ -24,7 +24,7 @@ interface Cached {
 }
 
 /** Bump when the merge or exclusion rules change, so browsers replace their saved copy. */
-const RULES_VERSION = 5;
+const RULES_VERSION = 7;
 /** After a failed or partial refetch, keep serving what we have and try again this much later. */
 const RETRY_MS = 10 * 60 * 1000;
 
@@ -193,6 +193,7 @@ export function mergeSources(lists: FontEntry[][]): FontEntry[] {
       continue;
     }
     winner.tags = [...new Set([...winner.tags, ...f.tags])].slice(0, 10);
+    winner.tagScores ??= f.tagScores;
     if (f.source !== winner.source && !winner.alsoOn?.includes(f.source)) winner.alsoOn = [...(winner.alsoOn ?? []), f.source];
     winner.rank ??= f.rank;
     winner.common ||= f.common;
@@ -286,7 +287,7 @@ async function build(): Promise<{ result: Cached; complete: boolean }> {
   const meta = new Map((gfMeta?.familyMetadataList ?? []).map((m) => [m.family, m]));
   let italicFromMeta = 0;
   let italicAsListed = 0;
-  const tags = gfTags ? parseGoogleTags(gfTags) : new Map<string, string[]>();
+  const tags = gfTags ? parseGoogleTags(gfTags) : new Map<string, GoogleTags>();
   const fonts: FontEntry[] = [];
 
   for (const f of fontsource ?? []) {
@@ -294,6 +295,7 @@ async function build(): Promise<{ result: Cached; complete: boolean }> {
     if (isExcludedFamily(f.family)) continue;
     const m = meta.get(f.family);
     const extra = m?.stroke === "Slab Serif" ? ["Slab"] : [];
+    const google = tags.get(f.family) ?? tags.get(RENAMED[f.family] ?? "");
     // Fontsource only says a family has italics, not at which weights, and its per-family API lists an italic
     // at every weight even where the CDN has none (Cardo 700). Google's metadata names each real style ("400i"),
     // so Google families take their italic weights from it. The few families Google does not list keep
@@ -316,7 +318,8 @@ async function build(): Promise<{ result: Cached; complete: boolean }> {
       family: f.family,
       source: "fontsource",
       category: FONTSOURCE_CATEGORY[f.category] ?? "other",
-      tags: [...extra, ...(tags.get(f.family) ?? [])],
+      tags: [...extra, ...(google?.tags ?? [])],
+      ...(google && Object.keys(google.scores).length ? { tagScores: google.scores } : {}),
       weights: f.weights,
       ...(italicWeights.length ? { italicWeights } : {}),
       license: licenseLabel(f.license),
@@ -378,33 +381,134 @@ async function build(): Promise<{ result: Cached; complete: boolean }> {
 }
 
 /**
- * Rows look like `Orbitron,,/Theme/Techno,100`. Rows with axis ranges in the second
- * column describe a single axis position and are skipped. Quality and seasonal tags say
- * nothing about the look, so they are dropped.
+ * Fontsource still lists some Google families under a name Google has retired, and Google's tag file
+ * only knows the new one (both rows are in the catalog). The old row borrows the new name's tags.
+ * Checked against families.csv on 2026-10-03.
  */
-function parseGoogleTags(csv: string): Map<string, string[]> {
-  const scored = new Map<string, [string, number][]>();
+const RENAMED: Record<string, string> = {
+  "Arima Madurai": "Arima",
+  "BBH Sans Bartle": "BBH Bartle",
+  "BBH Sans Bogle": "BBH Bogle",
+  "BBH Sans Hegarty": "BBH Hegarty",
+  "Big Shoulders Display": "Big Shoulders",
+  "Big Shoulders Text": "Big Shoulders",
+  "Big Shoulders Inline Display": "Big Shoulders Inline",
+  "Big Shoulders Inline Text": "Big Shoulders Inline",
+  "Big Shoulders Stencil Display": "Big Shoulders Stencil",
+  "Big Shoulders Stencil Text": "Big Shoulders Stencil",
+  "Fredoka One": "Fredoka",
+  "Gentium Book Basic": "Gentium Book Plus",
+  "Merienda One": "Merienda",
+  "Montserrat Subrayada": "Montserrat Underline",
+  "Saira Stencil One": "Saira Stencil",
+  "Source Sans Pro": "Source Sans 3",
+  "Source Serif Pro": "Source Serif 4",
+};
+
+/** Google's tags for one family: labels strongest first, and the strength of the mood and theme ones. */
+interface GoogleTags {
+  tags: string[];
+  scores: Record<string, number>;
+}
+
+/** Mood and theme tags come in strengths worth keeping (Active 89 against Active 41); the rest are classifications. */
+const SCORED_GROUPS = new Set(["Expressive", "Theme"]);
+
+/**
+ * Rows look like `Orbitron,,/Theme/Techno,100`. A family is described by the rows with an empty second
+ * column. Rows with an axis position there (`wght@900`, `wdth,wght@75,300`) describe one instance; many
+ * variable families (Exo 2, Saira) have their moods only on those. A mood or theme the family rows lack
+ * is taken from the instances at weight 500 or lighter, averaged over the ones that carry it. Lighter
+ * only, because the catalog describes the regular style and Google rates some moods at bold weights
+ * alone (Loud: 185 rows at 600 and 311 at 900, none at 400), so Inter would otherwise read as loud.
+ * Averaged over carriers, because Google tags instances sparsely (Exo 2 has Competent 73 at 100 and 900
+ * and no row at 400). Quality, seasonal and purpose tags say nothing about the look, so they are
+ * dropped. Tags under 40 are dropped. Every classification and theme tag left is kept; moods are cut to
+ * the strongest 5 in the labels, but all their strengths stay in `scores`.
+ */
+function parseGoogleTags(csv: string): Map<string, GoogleTags> {
+  const familyRows = new Map<string, Map<string, number>>();
+  const instanceRows = new Map<string, Map<string, Map<string, number>>>();
   for (const line of csv.split("\n")) {
-    const parts = line.trim().split(",");
-    if (parts.length !== 4 || parts[1] !== "") continue;
-    const [family, , tagPath, scoreText] = parts;
+    const parts = csvFields(line.trim());
+    if (parts.length !== 4) continue;
+    const [family, instance, tagPath, scoreText] = parts;
     const score = Number(scoreText);
-    if (!tagPath.startsWith("/") || !(score >= 40)) continue;
+    if (!tagPath.startsWith("/") || !Number.isFinite(score)) continue;
     const [group, name] = tagPath.slice(1).split("/");
     if (!name || group === "Quality" || group === "Seasonal" || group === "Purpose") continue;
-    const label = ["Sans", "Serif", "Slab", "Script"].includes(group) ? `${name} ${group.toLowerCase()}` : name;
-    const list = scored.get(family) ?? [];
-    list.push([label, score]);
-    scored.set(family, list);
+    if (instance === "") {
+      const rows = familyRows.get(family) ?? new Map<string, number>();
+      rows.set(tagPath, score);
+      familyRows.set(family, rows);
+    } else {
+      const byInstance = instanceRows.get(family) ?? new Map<string, Map<string, number>>();
+      const rows = byInstance.get(instance) ?? new Map<string, number>();
+      rows.set(tagPath, score);
+      byInstance.set(instance, rows);
+      instanceRows.set(family, byInstance);
+    }
   }
-  const out = new Map<string, string[]>();
-  for (const [family, list] of scored) {
-    out.set(
-      family,
-      list.sort((a, b) => b[1] - a[1]).slice(0, 6).map(([label]) => label),
-    );
+  const groupOf = (tagPath: string) => tagPath.slice(1).split("/")[0];
+  const out = new Map<string, GoogleTags>();
+  for (const family of new Set([...familyRows.keys(), ...instanceRows.keys()])) {
+    const rows = new Map(familyRows.get(family));
+    const fromInstances = new Map<string, number[]>();
+    for (const [instance, instanceTags] of instanceRows.get(family) ?? []) {
+      if (instanceWeight(instance) > 500) continue;
+      for (const [tagPath, score] of instanceTags) {
+        if (rows.has(tagPath) || !SCORED_GROUPS.has(groupOf(tagPath))) continue;
+        fromInstances.set(tagPath, [...(fromInstances.get(tagPath) ?? []), score]);
+      }
+    }
+    for (const [tagPath, scores] of fromInstances) rows.set(tagPath, scores.reduce((a, b) => a + b, 0) / scores.length);
+    const strong = [...rows].filter(([, score]) => score >= 40).sort((a, b) => b[1] - a[1]);
+    if (!strong.length) continue;
+    const moods = strong.filter(([tagPath]) => groupOf(tagPath) === "Expressive");
+    const shown = new Set([...strong.filter(([tagPath]) => groupOf(tagPath) !== "Expressive"), ...moods.slice(0, 5)]);
+    const tags: string[] = [];
+    const scores: Record<string, number> = {};
+    for (const entry of strong) {
+      const [tagPath, score] = entry;
+      const [group, name] = tagPath.slice(1).split("/");
+      const label = ["Sans", "Serif", "Slab", "Script"].includes(group) ? `${name} ${group.toLowerCase()}` : name;
+      if (shown.has(entry)) tags.push(label);
+      if (SCORED_GROUPS.has(group)) scores[label] = Math.round(score);
+    }
+    out.set(family, { tags, scores });
   }
   return out;
+}
+
+/** The weight an instance name sets (`wght@900` → 900, `wdth,wght@75,300` → 300); 400 when it sets none. */
+function instanceWeight(instance: string): number {
+  const [axes, values] = instance.split("@");
+  const at = (axes ?? "").split(",").indexOf("wght");
+  const weight = at === -1 ? NaN : Number((values ?? "").split(",")[at]);
+  return Number.isFinite(weight) ? weight : 400;
+}
+
+/** One CSV line as fields. A quoted field may hold commas: `Fredoka,"wdth,wght@75,300",/Expressive/Active,20`. */
+function csvFields(line: string): string[] {
+  const fields: string[] = [];
+  let field = "";
+  let quoted = false;
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (quoted && c === '"' && line[i + 1] === '"') {
+      field += '"';
+      i++;
+    } else if (c === '"') {
+      quoted = !quoted;
+    } else if (c === "," && !quoted) {
+      fields.push(field);
+      field = "";
+    } else {
+      field += c;
+    }
+  }
+  fields.push(field);
+  return fields;
 }
 
 function licenseLabel(license: string): string {

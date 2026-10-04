@@ -1,0 +1,79 @@
+{
+  "id": "q15",
+  "kind": "mood",
+  "query": "playful and quirky, an independent toy shop",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 7913,
+  "results": [
+    {
+      "family": "Karrik",
+      "reason": "Raw, clumsy irregularity reads as handmade charm; perfect toy-shop personality"
+    },
+    {
+      "family": "Clash Display",
+      "reason": "Confident geometric sans with generous spacing; bold playful energy"
+    },
+    {
+      "family": "Kaeru Kaeru",
+      "reason": "Soft blobby shapes with playful roundness; woodcut warmth for quirky appeal"
+    },
+    {
+      "family": "Kiwi Maru",
+      "reason": "Rounded vintage serif; informal warmth for toy-shop nostalgia"
+    },
+    {
+      "family": "Apfel Grotezk",
+      "reason": "Quirky geometric proportions, friendly indent style; contemporary indie feel"
+    },
+    {
+      "family": "Chewy",
+      "reason": "Playful blobby rounded sans; cute but not saccharine"
+    },
+    {
+      "family": "Fungal",
+      "reason": "Organic hairy texture, wonky sans; genuinely distinctive playful character"
+    },
+    {
+      "family": "Fredoka",
+      "reason": "Geometric rounded sans with contemporary playfulness; friendly appeal"
+    },
+    {
+      "family": "Anthony",
+      "reason": "Geometric leaning lines, sculptural thinness; playful without being cute"
+    },
+    {
+      "family": "Cabin Sketch",
+      "reason": "Hand-sketched distressed texture; artisanal toy-maker aesthetic"
+    },
+    {
+      "family": "Gulax",
+      "reason": "Monolinear geometric with quirky spacing; experimental, toy-like modular rhythm"
+    },
+    {
+      "family": "Lexend Giga",
+      "reason": "Bold geometric sans with friendly proportions; confident readable playfulness"
+    },
+    {
+      "family": "Balsamiq Sans",
+      "reason": "Intentionally friendly rounded sans; wireframe-inspired quirk"
+    },
+    {
+      "family": "Chicle",
+      "reason": "Loud blobby shapes; genuinely playful without preciousness"
+    },
+    {
+      "family": "Chango",
+      "reason": "Cute woodtype-inspired weight; quirky vintage toy box feel"
+    }
+  ],
+  "dropped": [
+    "Snipperclips"
+  ],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 682,
+    "output": 599
+  }
+}

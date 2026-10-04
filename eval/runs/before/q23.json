@@ -1,0 +1,73 @@
+{
+  "id": "q23",
+  "kind": "literal",
+  "query": "pixel art, 8-bit video game",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 8424,
+  "results": [
+    {
+      "family": "FT88",
+      "reason": "Pixel bitmap monospace with authentic 8-bit computer aesthetic and retro charm"
+    },
+    {
+      "family": "Silkscreen",
+      "reason": "Pixel-perfect futuristic-retro; clean 8-bit feel with tech and vintage energy"
+    },
+    {
+      "family": "Terminal Grotesque",
+      "reason": "Lo-fi bitmap grotesque, wonky and distinctly retro-computing with strong wordmark presence"
+    },
+    {
+      "family": "Press Start 2P",
+      "reason": "Classic arcade bitmap font; unmistakable 8-bit video game typeface"
+    },
+    {
+      "family": "VG5000",
+      "reason": "Iconic 8-bit pixel font; condensed and bold for tight, game-like presence"
+    },
+    {
+      "family": "Jersey 10",
+      "reason": "Pixel font with stiff vintage awkwardness; authentic low-res game look"
+    },
+    {
+      "family": "jgs",
+      "reason": "ASCII-art monospace with bitmap feel; raw and authentic 1980s computer vernacular"
+    },
+    {
+      "family": "Pixelify Sans",
+      "reason": "Modern pixel techno; blocky and slightly awkward for game-art charm"
+    },
+    {
+      "family": "0xA000",
+      "reason": "Wonky pixel sans with damage aesthetic; feels glitchy and game-broken in best way"
+    },
+    {
+      "family": "VT323",
+      "reason": "Monospace pixel font; vintage terminal aesthetic with character"
+    },
+    {
+      "family": "TINY",
+      "reason": "Dot-matrix pixel font with playful modular structure; true 8-bit energy"
+    },
+    {
+      "family": "Tiny5",
+      "reason": "Pixel sans with futuristic stiffness; extreme small-size pixel energy"
+    },
+    {
+      "family": "Special Elite",
+      "reason": "Distressed clarendon with rugged vintage awkwardness; game-manual vibe"
+    },
+    {
+      "family": "Roboto Mono",
+      "reason": "Technical monospace fallback; clean geometric structure for readability at small scale"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 681,
+    "output": 603
+  }
+}

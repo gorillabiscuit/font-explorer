@@ -1,0 +1,101 @@
+{
+  "id": "q13",
+  "kind": "mood",
+  "query": "elegant and luxurious, a perfume house",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 8081,
+  "results": [
+    {
+      "family": "Aujournuit",
+      "reason": "Thin high-contrast art-nouveau serif, delicate and fashion-house elegant"
+    },
+    {
+      "family": "Boska",
+      "reason": "Thin high-contrast serif with sharp detail, modern luxury"
+    },
+    {
+      "family": "Mazius Display",
+      "reason": "High-contrast calligraphic display serif, literary and luxurious"
+    },
+    {
+      "family": "Gambarino",
+      "reason": "High-contrast editorial serif, sophisticated with character"
+    },
+    {
+      "family": "Sprat",
+      "reason": "Wide didone with fine hairlines, fashion editorial feel"
+    },
+    {
+      "family": "Melodrama",
+      "reason": "Thin high-contrast display with fine flair, couture feel"
+    },
+    {
+      "family": "Aujournuit Airy",
+      "reason": "Airy wide thin serif, luxury spacing suits mixed case"
+    },
+    {
+      "family": "Bodoni Moda",
+      "reason": "Light high-contrast Bodoni, classic fashion-house didone"
+    },
+    {
+      "family": "Nyght Serif",
+      "reason": "Sharp spurred high-contrast serif with refined italic"
+    },
+    {
+      "family": "Cormorant Garamond",
+      "reason": "Thin delicate garalde with graceful lowercase"
+    },
+    {
+      "family": "Sprat Extended",
+      "reason": "Very wide thin didone, a luxurious perfume-label stance"
+    },
+    {
+      "family": "Libre Bodoni",
+      "reason": "Crisp didone, high contrast, elegant mixed case"
+    },
+    {
+      "family": "Isenheim",
+      "reason": "Light calligraphic old-style with ligatures, classical grace"
+    },
+    {
+      "family": "Playfair Display SC",
+      "reason": "Light high-contrast didone, large x-height, refined"
+    },
+    {
+      "family": "Aujournuit Densed",
+      "reason": "Narrow thin high-contrast serif, tall and elegant"
+    },
+    {
+      "family": "Italiana",
+      "reason": "Thin high-contrast, airy and fashion-like"
+    },
+    {
+      "family": "Zodiak",
+      "reason": "Sophisticated editorial serif with subtle sharpness"
+    },
+    {
+      "family": "Suranna",
+      "reason": "Light high-contrast didone, delicate hairlines"
+    },
+    {
+      "family": "Bacasime Antique",
+      "reason": "Thin high-contrast transitional serif, vintage luxury"
+    },
+    {
+      "family": "Gilda Display",
+      "reason": "Light classical serif, quiet refined detail"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 578,
+    "output": 835
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

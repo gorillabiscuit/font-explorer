@@ -1,0 +1,89 @@
+{
+  "id": "q22",
+  "kind": "shape",
+  "query": "wide and extended, like a car badge",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 18110,
+  "results": [
+    {
+      "family": "Grotesk",
+      "reason": "Wide spacing and art-deco elegance; extended proportions read premium"
+    },
+    {
+      "family": "Mattone",
+      "reason": "Heavy bold sans, wide extended; punchy poster weight with badge solidity"
+    },
+    {
+      "family": "DINish Expanded",
+      "reason": "Geometric expansion with technical precision; classic industrial badge stance"
+    },
+    {
+      "family": "Lunchtype Expanded",
+      "reason": "Grotesque stretched wide; commanding presence with friendly character"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "Wide grotesque built for display; extended presence with quirky character"
+    },
+    {
+      "family": "Panamera",
+      "reason": "Wide grotesque; proportioned for horizontal emphasis and elegance"
+    },
+    {
+      "family": "Basalte",
+      "reason": "Bold chromatic revival; strong poster weight with badge-like authority"
+    },
+    {
+      "family": "DINish",
+      "reason": "Geometric sans with technical precision; extended stance and authority"
+    },
+    {
+      "family": "Outward",
+      "reason": "Ultra-condensed black stretched horizontally; blocky, badge-like solidity"
+    },
+    {
+      "family": "Railway Sans",
+      "reason": "Humanist sans with wide flow; vintage signage authority and presence"
+    },
+    {
+      "family": "Lment",
+      "reason": "Modular geometric unicase; futuristic proportions with extended reach"
+    },
+    {
+      "family": "Now Alt",
+      "reason": "Geometric grotesque with modern stretch; clean extended proportions"
+    },
+    {
+      "family": "Lineal",
+      "reason": "Modular clean geometric; futura-like grace with art-deco symmetry"
+    },
+    {
+      "family": "Spline Sans",
+      "reason": "Neo-grotesque with balanced width; contemporary badge-ready presence"
+    },
+    {
+      "family": "Mourier",
+      "reason": "Modular geometric abstraction; square form with 1970s badge presence"
+    },
+    {
+      "family": "Barlow",
+      "reason": "Grotesque with rounded variants; versatile width and modern badge appeal"
+    },
+    {
+      "family": "Righteous",
+      "reason": "Geometric sans, rugged and loud; extended confidence for automotive style"
+    }
+  ],
+  "dropped": [
+    "Rounded Sans",
+    "Hibur",
+    "Archive Black"
+  ],
+  "usage": {
+    "input": 10,
+    "cacheRead": 113388,
+    "cacheWrite": 1688,
+    "output": 1717
+  }
+}

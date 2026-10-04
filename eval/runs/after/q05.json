@@ -1,0 +1,101 @@
+{
+  "id": "q05",
+  "kind": "motion",
+  "query": "the title of an action-packed adventure game",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 9957,
+  "results": [
+    {
+      "family": "TGL 0-16",
+      "reason": "Slanted rounded letters with lively forward lean; mixed case works"
+    },
+    {
+      "family": "Kihim",
+      "reason": "Heavy slanted straight-edged display, loud forward-leaning energy"
+    },
+    {
+      "family": "Azabache",
+      "reason": "Slanted modular brush strokes with momentum, playful and active"
+    },
+    {
+      "family": "Faster One",
+      "reason": "Wide slanted racing letters with speed cuts"
+    },
+    {
+      "family": "Manosque",
+      "reason": "Heavy condensed flat-brush sign lettering, punchy and energetic"
+    },
+    {
+      "family": "Racing Sans One",
+      "reason": "Bold wide slanted sporty forms, clear motion"
+    },
+    {
+      "family": "Mattone",
+      "reason": "Bold wide extended stance reads as powerful, poster-ready"
+    },
+    {
+      "family": "Sharpie",
+      "reason": "Bold slanted marker strokes with momentum"
+    },
+    {
+      "family": "Kikuta",
+      "reason": "Heavy squared forms, loud and playful with game energy"
+    },
+    {
+      "family": "Fugaz One",
+      "reason": "Heavy slanted geometric letters, sporty and punchy"
+    },
+    {
+      "family": "Elvenes",
+      "reason": "Slanted straight-edged cuts feel fractured and fast"
+    },
+    {
+      "family": "Shrikhand",
+      "reason": "Heavy slanted curvy display, adventurous and bold"
+    },
+    {
+      "family": "DOF 3 Extended",
+      "reason": "Bold very wide squared letters, futuristic stretched horizontals"
+    },
+    {
+      "family": "Sonsie One",
+      "reason": "Very wide heavy slanted letters, strong forward stance"
+    },
+    {
+      "family": "Tanklager Original",
+      "reason": "Bold hand-painted signage grotesque, rugged and loud"
+    },
+    {
+      "family": "Ceviche One",
+      "reason": "Bold slanted brushy letters, lively and energetic"
+    },
+    {
+      "family": "Pushster",
+      "reason": "Heavy condensed slanted, comic-action feel"
+    },
+    {
+      "family": "Mogra",
+      "reason": "Heavy slanted brush strokes, high momentum"
+    },
+    {
+      "family": "Contrail One",
+      "reason": "Bold condensed jet-like lettering, active and sporty"
+    },
+    {
+      "family": "Nippo",
+      "reason": "Squared sporty jersey letterforms, athletic energy"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 641,
+    "output": 811
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

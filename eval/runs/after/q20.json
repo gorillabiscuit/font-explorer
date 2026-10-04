@@ -1,0 +1,97 @@
+{
+  "id": "q20",
+  "kind": "mood",
+  "query": "brutalist and raw, an underground techno club",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 15595,
+  "results": [
+    {
+      "family": "Résistance Générale",
+      "reason": "Bold straight-edged workshop grotesque, raw 80s stencil feel, has lowercase"
+    },
+    {
+      "family": "Kohinoor Zerone",
+      "reason": "Heavy straight-edged raw display, rugged and wacky edge"
+    },
+    {
+      "family": "Commune Nuit Debout",
+      "reason": "Heavy very condensed curveless sans, protest-poster force, lowercase works"
+    },
+    {
+      "family": "Styro",
+      "reason": "Heavy very condensed squared, loud blunt headline force"
+    },
+    {
+      "family": "Pescante",
+      "reason": "Bold squared curveless angular letters, vernacular signage rawness"
+    },
+    {
+      "family": "Jaro",
+      "reason": "Heavy squared straight-edged, rugged stiff with large x-height"
+    },
+    {
+      "family": "Outward",
+      "reason": "Ultra-condensed heavy blocky poster face, dense and aggressive"
+    },
+    {
+      "family": "Tektur",
+      "reason": "Squared straight-edged techno face, stiff and futuristic"
+    },
+    {
+      "family": "Gap Sans",
+      "reason": "Condensed straight-edged damaged grotesque, brutal and wonky"
+    },
+    {
+      "family": "Russo One",
+      "reason": "Heavy squared straight-edged sans, industrial and stiff"
+    },
+    {
+      "family": "Tanklager Original",
+      "reason": "Bold hand-painted DIN-like signage, rugged and loud"
+    },
+    {
+      "family": "Black Ops One",
+      "reason": "Heavy squared stencil, rugged military club-flyer attitude"
+    },
+    {
+      "family": "Ferrite Core DX Display",
+      "reason": "Heavy very wide squared 90s techno letterforms"
+    },
+    {
+      "family": "Kola",
+      "reason": "Techno stencil-like display, futuristic and hard-edged"
+    },
+    {
+      "family": "Galgo Condensed",
+      "reason": "Bold very condensed squared grotesque, large x-height, blunt"
+    },
+    {
+      "family": "Norwester",
+      "reason": "Heavy condensed squared straight-edged, loud and blunt"
+    },
+    {
+      "family": "Badeen Display",
+      "reason": "Heavy squared straight-edged, awkward loud brutal shapes"
+    },
+    {
+      "family": "Rubik Storm",
+      "reason": "Heavy straight-edged distressed techno, rugged and raw"
+    },
+    {
+      "family": "Protest Guerrilla",
+      "reason": "Heavy stencil, rugged protest-poster grit"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 575,
+    "output": 840
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

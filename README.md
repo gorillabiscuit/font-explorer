@@ -45,9 +45,10 @@ Open http://localhost:5173 in Chrome. "Load local fonts" only works in Chromium 
   change. Choose between them in the lightbox (click one under the stage, or press **A** to cycle) or
   in a Compare row's tuning; **S** then saves the recipe with them. Google cards only show the chip once
   that font's full file has been opened, because Google's web files leave the sets out.
-- Vibe search sends Claude the catalog (family, category, tags), the name as you have set it (case and
-  layout), the project's one-line brief, your candidates as taste, and recently culled fonts as
-  negatives. Follow-ups like "more like #3 but wider" use the card numbers. Searches run in the
+- Vibe search sends Claude the catalog (family, category, tags with their strength, measured shape,
+  whether it has an italic), the name as you have set it (case and layout), the project's one-line
+  brief, the Italic switch, your 12 newest candidates (only to break ties: the request comes first),
+  and recently culled fonts as negatives. Follow-ups like "more like #3 but wider" use the card numbers. Searches run in the
   background: keep triaging, and each one arrives as a chip with a dot. Several can run at once, and
   the ✕ on a running chip cancels it.
 - Compare shows each candidate large and at 16px, positive and inverted. Export gives JSON (with each
@@ -138,18 +139,37 @@ nothing can answer (run from a script), add `-- --yes`. Writing the flag without
 
 ## Notes
 
-- Model: `VIBE_MODEL` in `server/vibe.ts` (default `claude-haiku-4-5-20251001`), or set `VIBE_MODEL` in `.env`.
+- Model: `VIBE_MODEL` in `server/vibe.ts` (default `claude-sonnet-5-5` at low effort, falling back to
+  Haiku 4.5 when Sonnet is overloaded), or set `VIBE_MODEL`, `VIBE_EFFORT` and `VIBE_FALLBACK_MODEL` in
+  `.env`.
 - Each search is one `claude -p` run with no tools, in safe mode (no CLAUDE.md, hooks, plugins or MCP
-  servers), with extended thinking off (it made searches 5-7x slower), started from the temp folder,
-  with no Claude Code session saved. The prompt (catalog plus
+  servers), at low effort (Sonnet 5.5 cannot switch thinking off; on Haiku, thinking is off, because it
+  made searches 5-7x slower), started from the temp folder, with no Claude Code session saved. The prompt (catalog plus
   your installed-font list) is passed as a file in `$TMPDIR/font-explorer/`.
 - The run gets a clean environment: every `ANTHROPIC_*`/`CLAUDE*` variable is removed except
   `CLAUDE_CODE_OAUTH_TOKEN` and `CLAUDE_CONFIG_DIR`, so no API key in the environment can switch it to
   API billing. Claude Code can also hold an API key in its own config (an `apiKeyHelper`, or a Console
   login); if you never set one up, it uses your subscription.
 - The catalog is cached for 24h, on the server (`server/.cache/`) and in the browser. The ↻ button refetches.
-- Mood tags ("Futuristic", "Techno") come from Google's tag file in the google/fonts repository;
-  fonts.google.com/metadata/fonts has popularity but no tags.
+- Mood tags ("Futuristic 89", "Techno 100") come from Google's tag file in the google/fonts repository,
+  with their strength out of 100. Many variable families (Exo 2, Saira) are rated only per weight; those
+  ratings are averaged. A few families Fontsource still lists under a retired name borrow the new name's
+  tags (`RENAMED` in `server/catalog.ts`). fonts.google.com/metadata/fonts has popularity but no tags.
+- What vibe search sends Claude about each family, besides its tags (`server/traits.ts`):
+  - Shape, measured from the outlines of its regular style by `npm run shapes` into
+    `server/traits/shape.json`: weight, width, slant, how square or straight the letters are, stroke
+    contrast, x-height. Only what stands out against the whole catalog becomes a word ("condensed",
+    "slanted"). Rerun it after new fonts arrive; it only measures what is new (`--all` redoes everything).
+  - For the families nobody had tagged (the indie foundries, Fontshare, and Google-listed families
+    Google never rated), moods judged once by Claude Sonnet from a rendered specimen, by `npm run vision`
+    into `server/traits/vision.json`. Running it labels only families without a label yet, and each
+    sheet of six fonts is one `claude -p` call on your subscription.
+- Request words like "fast", "techy" or "elegant" get a line in the user prompt saying what they mean in
+  the catalog's own terms (`server/vibeWords.ts`): Google has no speed tag, and its Active means lively,
+  mostly scripts. The request outranks the shortlist, which only breaks ties.
+- The catalog is listed indie first, then Fontshare, then Google, each band in a fixed shuffled order:
+  sorted by popularity, the model favoured the first and last rows. It is fixed rather than new per
+  search so Claude Code's prompt cache keeps working.
 - Remote fonts load as FontFace objects under private names, so an installed copy of the same
   family never stands in for the web version.
 - A Google font with an alternate on is drawn from its complete file in Google's own repository:
@@ -158,7 +178,13 @@ nothing can answer (run from a script), add `-- --yes`. Writing the flag without
   Compare load it one font at a time, never the grid. `npm run check:alternates` tests the alternates
   finder against the cached font files offline.
 - `npm run check` tests the prompt builder and reply parser offline (run `npm run dev` once first
-  so the catalog cache exists).
+  so the catalog cache exists). `npm run check:shapes` tests the shape measurements on fonts whose
+  shape is known (Roboto upright, Kaushan Script slanted, Oswald condensed...).
+- `eval/` is a before-and-after test of vibe search: 25 fixed requests (`eval/requests.json`), each run
+  once through two versions of the code (`npx tsx eval/run.ts <label> [checkout]`, real searches on
+  your subscription), drawn as blind pictures (`eval/grids.ts`) and compared (`eval/score.ts`). The
+  runs from 2026-10-03 (Haiku with the old prompt against Sonnet with this one) are in `eval/runs/`,
+  and the blind verdicts in `eval/judgements.json`.
 - Italics come from the catalog: Google's metadata names each Google family's italic weights; the
   other sources list their italic files. A few Fontsource italics are not real italics (byte-for-byte
   uprights, or files browsers refuse) and are left out by hand in `server/catalog.ts`.

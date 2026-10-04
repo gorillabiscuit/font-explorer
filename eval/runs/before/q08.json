@@ -1,0 +1,97 @@
+{
+  "id": "q08",
+  "kind": "shape",
+  "query": "heavy, chunky and confident",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 9433,
+  "results": [
+    {
+      "family": "Outward",
+      "reason": "ultra-condensed black weight, dense letterforms project maximum confidence"
+    },
+    {
+      "family": "Mattone",
+      "reason": "heavy extended geometric sans, punchy and bold poster weight"
+    },
+    {
+      "family": "Basalte",
+      "reason": "bold condensed caps with chromatic strength, poster-weight confidence"
+    },
+    {
+      "family": "Sprat Extended",
+      "reason": "high-contrast didone, wide and dramatic with editorial boldness"
+    },
+    {
+      "family": "Bluu Next",
+      "reason": "bold high-contrast flared serif, sharp and weighty without excess width"
+    },
+    {
+      "family": "Grotesk",
+      "reason": "wide geometric sans with elegant spacing, confident without aggression"
+    },
+    {
+      "family": "Le Murmure",
+      "reason": "condensed high-contrast titling, tall and assertive with editorial punch"
+    },
+    {
+      "family": "Boeticher",
+      "reason": "western slab with tuscan flair, chunky and display-ready"
+    },
+    {
+      "family": "Lment",
+      "reason": "geometric modular caps, bold and architectural with strong presence"
+    },
+    {
+      "family": "Coconat",
+      "reason": "flared wedge-serif warm and bold, strong confident presence"
+    },
+    {
+      "family": "Lobular",
+      "reason": "heavy bubble letterforms with inktrap, bold and playfully confident"
+    },
+    {
+      "family": "Big Shoulders Display",
+      "reason": "calm geometric sans, tall and weighty with confident stance"
+    },
+    {
+      "family": "Solide Mirage Etroit",
+      "reason": "condensed didone with high contrast, elegant weight and precision"
+    },
+    {
+      "family": "Messapia",
+      "reason": "wide glyphic flared display, inscriptional weight and presence"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "wide bold grotesque, quirky confidence with strong letterform structure"
+    },
+    {
+      "family": "Anton",
+      "reason": "loud neo-grotesque, chunky and unapologetically bold"
+    },
+    {
+      "family": "Bebas Neue",
+      "reason": "neo-grotesque with industrial weight, confident and punchy"
+    },
+    {
+      "family": "Archivo Black",
+      "reason": "rugged grotesque, loud and weighty with strong presence"
+    },
+    {
+      "family": "Black Ops One",
+      "reason": "stiff loud geometric, bold and dramatically confident"
+    },
+    {
+      "family": "Alfa Slab One",
+      "reason": "fat face slab, loud and chunky geometric weight"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 678,
+    "output": 836
+  }
+}

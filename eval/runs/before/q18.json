@@ -1,0 +1,107 @@
+{
+  "id": "q18",
+  "kind": "mood",
+  "query": "70s retro, groovy and rounded",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 11057,
+  "results": [
+    {
+      "family": "Abordage",
+      "reason": "Rounded geometric sans with friendly, revival warmth perfect for 70s groovy feel"
+    },
+    {
+      "family": "Balsamiq Sans",
+      "reason": "Rounded sans with happy, vintage playful character for groovy wordmark"
+    },
+    {
+      "family": "Gulax",
+      "reason": "Monolinear geometric with quirky experimental edge, captures retro funk"
+    },
+    {
+      "family": "Fredoka",
+      "reason": "Geometric rounded sans, calm and contemporary retro warmth"
+    },
+    {
+      "family": "Kaeru Kaeru",
+      "reason": "Soft, blobby, organic rounded shapes evoke 70s playful warmth"
+    },
+    {
+      "family": "Josefin Sans",
+      "reason": "Geometric sans with vintage character and rounded letterforms"
+    },
+    {
+      "family": "Ribes",
+      "reason": "Geometric, quirky, playful, retro funky character with rounded forms"
+    },
+    {
+      "family": "Raleway",
+      "reason": "Geometric sans with elegant rounded proportions, retro-modern feel"
+    },
+    {
+      "family": "Halibut",
+      "reason": "Quirky warm wedge-serif with retro editorial charm, rounded character"
+    },
+    {
+      "family": "Comfortaa",
+      "reason": "Geometric rounded sans exuding friendly, playful 70s vibe"
+    },
+    {
+      "family": "Interlope",
+      "reason": "DIY calligraphic script with 1970s ornamental amateur charm"
+    },
+    {
+      "family": "Quicksand",
+      "reason": "Geometric rounded sans, rugged and retro with playful character"
+    },
+    {
+      "family": "Apfel Grotezk",
+      "reason": "Quirky geometric grotesk with indie contemporary retro friendliness"
+    },
+    {
+      "family": "Varela Round",
+      "reason": "Calm humanist rounded sans with sincere vintage warmth"
+    },
+    {
+      "family": "Baloo 2",
+      "reason": "Rounded sans with rugged retro character and groovy weight"
+    },
+    {
+      "family": "Bungee Shade",
+      "reason": "Geometric rounded display with stiff innovative retro punch"
+    },
+    {
+      "family": "Montserrat",
+      "reason": "Geometric sans with modern retro sensibility, strong and rounded"
+    },
+    {
+      "family": "Cabin",
+      "reason": "Humanist rounded sans with calm retro-friendly character"
+    },
+    {
+      "family": "Titillium Web",
+      "reason": "Geometric grotesque with calm retro sensibility and rounded forms"
+    },
+    {
+      "family": "Exo 2",
+      "reason": "Superellipse rounded sans with futuristic 70s retro edge"
+    },
+    {
+      "family": "Jura",
+      "reason": "Rounded superellipse sans with calm geometric retro appeal"
+    },
+    {
+      "family": "Play",
+      "reason": "Superellipse sans with futuristic 70s retro, stiff and rugged"
+    }
+  ],
+  "dropped": [
+    "Funktur"
+  ],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 682,
+    "output": 987
+  }
+}

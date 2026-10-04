@@ -8,3 +8,5 @@ server/.cache
 !server/data/
 # Projects hold client names and briefs (one file per project, written by the local server).
 server/projects/
+# The before-and-after picture page (eval/report.html) embeds every picture; rebuild it, do not commit it.
+eval/report.html

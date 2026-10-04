@@ -12,5 +12,5 @@
     "allowImportingTsExtensions": true,
     "types": ["node", "vite/client"]
   },
-  "include": ["src", "server", "vite.config.ts"]
+  "include": ["src", "server", "eval", "vite.config.ts"]
 }

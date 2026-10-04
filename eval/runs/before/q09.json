@@ -1,0 +1,91 @@
+{
+  "id": "q09",
+  "kind": "mood",
+  "query": "calm and quiet, for a meditation app",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 9425,
+  "results": [
+    {
+      "family": "Grotesk",
+      "reason": "Wide, spaced, elegant geometric sans—airy and composed"
+    },
+    {
+      "family": "Funnel Sans",
+      "reason": "Grotesque sans with measured warmth; minimal but humane"
+    },
+    {
+      "family": "Karrik",
+      "reason": "Naive, clumsy charm softens the bold letters; human-made warmth"
+    },
+    {
+      "family": "Raleway",
+      "reason": "Elegant geometric sans; understated and refined without fuss"
+    },
+    {
+      "family": "Latitude",
+      "reason": "Humanist serif, classic elegance; calm and grounded presence"
+    },
+    {
+      "family": "Lato",
+      "reason": "Humanist sans, warm and competent; trusted calm presence"
+    },
+    {
+      "family": "Paysage",
+      "reason": "Humanist sans, calm and readable; swinging g adds organic ease"
+    },
+    {
+      "family": "Avara",
+      "reason": "Curveless angular serif; stark but meditative clarity"
+    },
+    {
+      "family": "Apfel Grotezk",
+      "reason": "Quirky geometric, contemporary friendly vibe; softly distinctive"
+    },
+    {
+      "family": "Quattrocento",
+      "reason": "Vintage garalde; understated humanist Venetian warmth"
+    },
+    {
+      "family": "Commissioner",
+      "reason": "Humanist sans, calm and competent; versatile quiet confidence"
+    },
+    {
+      "family": "Cabin",
+      "reason": "Humanist sans, warm and readable; gentle without decoration"
+    },
+    {
+      "family": "Spinnaker",
+      "reason": "Humanist sans, calm and sincere; open letterforms breathe"
+    },
+    {
+      "family": "Jost",
+      "reason": "Geometric sans with rounded warmth; contemporary and balanced"
+    },
+    {
+      "family": "Andika",
+      "reason": "Humanist sans, calm and sincere; friendly clarity for wellness"
+    },
+    {
+      "family": "Caladea",
+      "reason": "Modern serif, competent and vintage; grounded and steady"
+    },
+    {
+      "family": "Roboto",
+      "reason": "Neo-Grotesque, calm and competent; neutral backbone (skip if too familiar)"
+    },
+    {
+      "family": "Newsreader",
+      "reason": "Transitional serif, confident but unrushed; meditative rhythm"
+    }
+  ],
+  "dropped": [
+    "Recursion Sans Linear"
+  ],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 680,
+    "output": 872
+  }
+}

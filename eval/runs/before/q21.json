@@ -1,0 +1,97 @@
+{
+  "id": "q21",
+  "kind": "shape",
+  "query": "very condensed and tall",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 10480,
+  "results": [
+    {
+      "family": "Commune Nuit Debout",
+      "reason": "Ultra-condensed, tall, curveless geometry creates imposing vertical emphasis"
+    },
+    {
+      "family": "Fredericka the Great",
+      "reason": "Didone serif distressed, elegant tall letterforms with vintage gravitas"
+    },
+    {
+      "family": "Le Murmure",
+      "reason": "Condensed titling sans, high-contrast letterforms stack dramatically tall"
+    },
+    {
+      "family": "Cinzel",
+      "reason": "Inscriptional tall serif, classic high-contrast vertical structure"
+    },
+    {
+      "family": "Outward",
+      "reason": "Ultra-condensed black weight, dense tall geometry, poster-bold impact"
+    },
+    {
+      "family": "Playfair Display SC",
+      "reason": "Didone high-contrast, elegant tall letterforms, editorial presence"
+    },
+    {
+      "family": "Basalte",
+      "reason": "Condensed caps-biased, bold poster weight, strong vertical compression"
+    },
+    {
+      "family": "Rubik One",
+      "reason": "Rounded geometric sans, compact tall proportions, strong wordmark presence"
+    },
+    {
+      "family": "Format 1452",
+      "reason": "Industrial condensed grotesque, modular tall proportions, technical edge"
+    },
+    {
+      "family": "Archivo Black",
+      "reason": "Heavy grotesque sans, tall condensed stance, loud black weight"
+    },
+    {
+      "family": "Lment",
+      "reason": "Geometric condensed unicase, modular tall structure, futuristic verticality"
+    },
+    {
+      "family": "League Gothic",
+      "reason": "Condensed grotesque, tall dramatic proportions, vintage strength"
+    },
+    {
+      "family": "Solide Mirage Etroit",
+      "reason": "Didone ultra-condensed, high-contrast tall letterforms, experimental fashion"
+    },
+    {
+      "family": "Bebas Neue",
+      "reason": "Condensed geometric sans, tall elegant proportions, modern poster weight"
+    },
+    {
+      "family": "Trickster",
+      "reason": "Condensed blackletter, sharp tall verticals, merovingian drama"
+    },
+    {
+      "family": "Alte DIN 1451",
+      "reason": "Geometric technical sans, condensed tall geometry, engineering precision"
+    },
+    {
+      "family": "Pathway Gothic One",
+      "reason": "Grotesque ultra-condensed, tall stencil-style presence, retro impact"
+    },
+    {
+      "family": "Righteous",
+      "reason": "Geometric display sans, condensed tall uppercase attitude, bold poster character"
+    },
+    {
+      "family": "Passion One",
+      "reason": "Humanist bold sans, tall condensed proportions, woodtype strength"
+    },
+    {
+      "family": "DINish Condensed",
+      "reason": "Geometric technical sans, condensed tall proportions, functional clarity"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 677,
+    "output": 905
+  }
+}

@@ -1,0 +1,8607 @@
+{
+ "version": 1,
+ "model": "claude-sonnet-5-5",
+ "fonts": {
+  "3270": {
+   "moods": {
+    "Futuristic": 60,
+    "Stiff": 60,
+    "Competent": 50
+   },
+   "themes": {
+    "Techno": 50
+   },
+   "look": [
+    "monospaced",
+    "thin",
+    "typewriter-like",
+    "wide spacing"
+   ],
+   "note": "Light monospaced face with squared forms, like a computer terminal.",
+   "sheet": "sheet-018",
+   "at": "2026-10-03T14:01:33.694Z"
+  },
+  "0xA000": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 65,
+    "Playful": 50,
+    "Artistic": 45
+   },
+   "themes": {},
+   "look": [
+    "geometric",
+    "monoline",
+    "rounded terminals",
+    "quirky"
+   ],
+   "note": "Monoline geometric letters with rounded ends and quirky k, w, and f.",
+   "sheet": "sheet-037",
+   "at": "2026-10-03T14:03:09.352Z"
+  },
+  "0xA000 Boxes": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 60,
+    "Awkward": 40
+   },
+   "themes": {
+    "Pixel": 80,
+    "Techno": 60
+   },
+   "look": [
+    "dotted",
+    "pixel grid",
+    "monospaced",
+    "light"
+   ],
+   "note": "Letters built from tiny scattered dots on a grid, faint and mechanical.",
+   "sheet": "sheet-072",
+   "at": "2026-10-03T14:06:26.193Z"
+  },
+  "0xA000 Dots": {
+   "moods": {
+    "Futuristic": 60,
+    "Awkward": 50,
+    "Playful": 45
+   },
+   "themes": {
+    "Pixel": 60,
+    "Techno": 55
+   },
+   "look": [
+    "dotted",
+    "dot matrix",
+    "bitmap",
+    "blocky"
+   ],
+   "note": "Letters built from round black dots, like a dot-matrix display.",
+   "sheet": "sheet-041",
+   "at": "2026-10-03T14:03:28.416Z"
+  },
+  "0xA000 Mono": {
+   "moods": {
+    "Futuristic": 65,
+    "Innovative": 55,
+    "Awkward": 45
+   },
+   "themes": {
+    "Techno": 60
+   },
+   "look": [
+    "monospaced",
+    "thin",
+    "geometric",
+    "wide spacing"
+   ],
+   "note": "Thin monospaced techno face with simplified, angular-rounded letterforms.",
+   "sheet": "sheet-057",
+   "at": "2026-10-03T14:04:57.088Z"
+  },
+  "0xA000 Monochrome": {
+   "moods": {
+    "Loud": 70,
+    "Futuristic": 60,
+    "Awkward": 50,
+    "Rugged": 45
+   },
+   "themes": {
+    "Pixel": 60,
+    "Techno": 55,
+    "Distressed": 45
+   },
+   "look": [
+    "blocky",
+    "heavy",
+    "hatched texture",
+    "squared"
+   ],
+   "note": "Heavy blocky pixel-like letters with diagonal hatching inside the strokes.",
+   "sheet": "sheet-003",
+   "at": "2026-10-03T13:59:57.061Z"
+  },
+  "0xA000 Pixelated": {
+   "moods": {
+    "Futuristic": 65,
+    "Loud": 65,
+    "Awkward": 60,
+    "Playful": 50
+   },
+   "themes": {
+    "Pixel": 85,
+    "Techno": 50
+   },
+   "look": [
+    "blocky",
+    "pixelated",
+    "heavy",
+    "square"
+   ],
+   "note": "Heavy blocky pixel letters built from squares, with cryptic simplified forms.",
+   "sheet": "sheet-015",
+   "at": "2026-10-03T14:01:18.425Z"
+  },
+  "0xA000 Squareish": {
+   "moods": {
+    "Futuristic": 75,
+    "Innovative": 65,
+    "Playful": 45
+   },
+   "themes": {
+    "Techno": 65
+   },
+   "look": [
+    "monoline",
+    "squarish",
+    "open terminals",
+    "geometric"
+   ],
+   "note": "Monoline squared letters with open gaps, sci-fi feel.",
+   "sheet": "sheet-058",
+   "at": "2026-10-03T14:05:04.713Z"
+  },
+  "42dot Sans": {
+   "moods": {
+    "Business": 80,
+    "Competent": 75,
+    "Calm": 60,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "neutral",
+    "grotesque",
+    "medium weight"
+   ],
+   "note": "Clean neutral grotesque sans with even strokes and tidy spacing.",
+   "sheet": "sheet-070",
+   "at": "2026-10-03T14:06:10.027Z"
+  },
+  "A MONO": {
+   "moods": {
+    "Innovative": 70,
+    "Business": 55,
+    "Competent": 55,
+    "Stiff": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "sans serif",
+    "wide spacing",
+    "monoline"
+   ],
+   "note": "Monospaced sans with even strokes and open, typewriter-like spacing.",
+   "sheet": "sheet-034",
+   "at": "2026-10-03T14:02:59.595Z"
+  },
+  "ADAXI": {
+   "moods": {
+    "Futuristic": 60,
+    "Innovative": 50,
+    "Stiff": 45
+   },
+   "themes": {
+    "Pixel": 85
+   },
+   "look": [
+    "pixelated",
+    "bold",
+    "wide",
+    "stepped edges"
+   ],
+   "note": "Bold wide pixel-style sans with stair-stepped curves.",
+   "sheet": "sheet-036",
+   "at": "2026-10-03T14:03:09.872Z"
+  },
+  "APL333": {
+   "moods": {
+    "Playful": 65,
+    "Happy": 50,
+    "Cute": 45,
+    "Active": 45
+   },
+   "themes": {},
+   "look": [
+    "bold",
+    "rounded",
+    "monoline",
+    "handmade feel"
+   ],
+   "note": "Bold rounded monoline sans with casual, slightly irregular handmade shapes.",
+   "sheet": "sheet-012",
+   "at": "2026-10-03T14:01:02.480Z"
+  },
+  "APL386": {
+   "moods": {
+    "Competent": 60,
+    "Calm": 50,
+    "Sincere": 45
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "monoline",
+    "light",
+    "open spacing"
+   ],
+   "note": "Light monoline monospace sans with generous letterspacing.",
+   "sheet": "sheet-025",
+   "at": "2026-10-03T14:02:11.447Z"
+  },
+  "AUTHENTIC Sans": {
+   "moods": {
+    "Business": 75,
+    "Competent": 70,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "neo-grotesque",
+    "clean",
+    "uniform stroke",
+    "sans serif"
+   ],
+   "note": "Neutral grotesque sans with even strokes and tidy spacing.",
+   "sheet": "sheet-040",
+   "at": "2026-10-03T14:03:29.788Z"
+  },
+  "AUTHENTIC Sans Condensed": {
+   "moods": {
+    "Business": 80,
+    "Competent": 75,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "grotesque sans",
+    "tight spacing",
+    "monoline"
+   ],
+   "note": "Tight, narrow neo-grotesque sans with even strokes and plain terminals.",
+   "sheet": "sheet-053",
+   "at": "2026-10-03T14:04:39.052Z"
+  },
+  "Aboensis": {
+   "moods": {
+    "Artistic": 85,
+    "Vintage": 80,
+    "Awkward": 50,
+    "Fancy": 40
+   },
+   "themes": {
+    "Blackletter": 80,
+    "Medieval": 75,
+    "Brush": 40
+   },
+   "look": [
+    "calligraphic",
+    "gothic cursive",
+    "irregular",
+    "hand-written"
+   ],
+   "note": "Rough medieval handwritten gothic script with irregular, quill-drawn strokes.",
+   "sheet": "sheet-021",
+   "at": "2026-10-03T14:01:51.255Z"
+  },
+  "Abordage": {
+   "moods": {
+    "Happy": 65,
+    "Playful": 65,
+    "Cute": 50,
+    "Sincere": 40
+   },
+   "themes": {},
+   "look": [
+    "rounded",
+    "geometric",
+    "bold sans",
+    "friendly"
+   ],
+   "note": "Bold rounded geometric sans with friendly soft terminals.",
+   "sheet": "sheet-044",
+   "at": "2026-10-03T14:03:52.730Z"
+  },
+  "Absans": {
+   "moods": {
+    "Calm": 65,
+    "Sincere": 60,
+    "Sophisticated": 50
+   },
+   "themes": {},
+   "look": [
+    "light sans",
+    "grotesque",
+    "tight spacing"
+   ],
+   "note": "Light, slightly quirky grotesque sans with tight spacing.",
+   "sheet": "sheet-074",
+   "at": "2026-10-03T14:06:34.626Z"
+  },
+  "Adwaita Mono": {
+   "moods": {
+    "Competent": 65,
+    "Business": 60,
+    "Calm": 50,
+    "Innovative": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "clean",
+    "geometric",
+    "medium weight"
+   ],
+   "note": "Clean monospaced sans with round forms and uniform strokes.",
+   "sheet": "sheet-038",
+   "at": "2026-10-03T14:03:19.536Z"
+  },
+  "Adwaita Sans": {
+   "moods": {
+    "Business": 75,
+    "Competent": 70,
+    "Calm": 55,
+    "Sincere": 40
+   },
+   "themes": {},
+   "look": [
+    "neo-grotesque",
+    "sans serif",
+    "clean",
+    "medium weight"
+   ],
+   "note": "Clean neo-grotesque sans with even strokes and tight, neutral spacing.",
+   "sheet": "sheet-032",
+   "at": "2026-10-03T14:02:49.461Z"
+  },
+  "Aileron": {
+   "moods": {
+    "Business": 70,
+    "Competent": 65,
+    "Calm": 60,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "neutral",
+    "geometric",
+    "regular weight"
+   ],
+   "note": "Clean neutral grotesque sans with open forms and even spacing.",
+   "sheet": "sheet-017",
+   "at": "2026-10-03T14:01:28.167Z"
+  },
+  "Aktura": {
+   "moods": {
+    "Fancy": 70,
+    "Vintage": 65,
+    "Artistic": 60,
+    "Loud": 50
+   },
+   "themes": {
+    "Blackletter": 95,
+    "Medieval": 60
+   },
+   "look": [
+    "blackletter",
+    "heavy",
+    "high contrast",
+    "ornate caps"
+   ],
+   "note": "Heavy blackletter with ornate capitals and thin hairline flourishes.",
+   "sheet": "sheet-047",
+   "at": "2026-10-03T14:04:11.069Z"
+  },
+  "Alpino": {
+   "moods": {
+    "Calm": 60,
+    "Sincere": 60,
+    "Happy": 45
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "light",
+    "friendly",
+    "old-style numerals"
+   ],
+   "note": "Light geometric humanist sans with friendly round forms.",
+   "sheet": "sheet-066",
+   "at": "2026-10-03T14:05:49.455Z"
+  },
+  "Alte DIN 1451": {
+   "moods": {
+    "Business": 75,
+    "Competent": 75,
+    "Sincere": 50,
+    "Active": 45
+   },
+   "themes": {},
+   "look": [
+    "bold",
+    "condensed",
+    "sans serif",
+    "geometric"
+   ],
+   "note": "Bold, slightly condensed sans with sturdy, even strokes.",
+   "sheet": "sheet-051",
+   "at": "2026-10-03T14:04:29.884Z"
+  },
+  "Alte DIN 1451 Geprägt": {
+   "moods": {
+    "Business": 80,
+    "Competent": 75,
+    "Active": 50
+   },
+   "themes": {},
+   "look": [
+    "bold",
+    "grotesque sans",
+    "tight spacing",
+    "slightly condensed"
+   ],
+   "note": "Bold, compact grotesque sans with sturdy uniform strokes.",
+   "sheet": "sheet-028",
+   "at": "2026-10-03T14:02:32.334Z"
+  },
+  "Amakan Stripes": {
+   "moods": {
+    "Futuristic": 70,
+    "Artistic": 60,
+    "Loud": 50,
+    "Awkward": 50
+   },
+   "themes": {
+    "Pixel": 60,
+    "Techno": 60
+   },
+   "look": [
+    "dense",
+    "pixelated",
+    "vertical line texture",
+    "illegible"
+   ],
+   "note": "Dense blocky glyphs built from vertical dashes, nearly unreadable.",
+   "sheet": "sheet-065",
+   "at": "2026-10-03T14:05:38.780Z"
+  },
+  "Amakan Strips": {
+   "moods": {
+    "Loud": 70,
+    "Futuristic": 60,
+    "Artistic": 50
+   },
+   "themes": {
+    "Pixel": 60,
+    "Techno": 50,
+    "Distressed": 45
+   },
+   "look": [
+    "striped scanlines",
+    "wide",
+    "heavy",
+    "ornamental"
+   ],
+   "note": "Very wide heavy letters filled with horizontal scanlines and cross ornaments.",
+   "sheet": "sheet-024",
+   "at": "2026-10-03T14:02:04.654Z"
+  },
+  "Ampoule Neon": {
+   "moods": {
+    "Futuristic": 65,
+    "Artistic": 55,
+    "Playful": 45
+   },
+   "themes": {
+    "Pixel": 70,
+    "Distressed": 45
+   },
+   "look": [
+    "dotted",
+    "halftone texture",
+    "small",
+    "busy"
+   ],
+   "note": "Letters built from tiny dots and dashes, creating a speckled texture.",
+   "sheet": "sheet-003",
+   "at": "2026-10-03T13:59:57.061Z"
+  },
+  "Ampoule Neon Tube": {
+   "moods": {
+    "Futuristic": 70,
+    "Artistic": 60,
+    "Awkward": 50,
+    "Playful": 45
+   },
+   "themes": {
+    "Pixel": 70,
+    "Techno": 60
+   },
+   "look": [
+    "dotted",
+    "pill shapes",
+    "matrix texture",
+    "hard to read"
+   ],
+   "note": "Letters built from dots and small outlined pills, busy matrix texture.",
+   "sheet": "sheet-040",
+   "at": "2026-10-03T14:03:29.788Z"
+  },
+  "Ampoule Rats": {
+   "moods": {
+    "Futuristic": 65,
+    "Innovative": 55,
+    "Artistic": 50
+   },
+   "themes": {
+    "Pixel": 70,
+    "Techno": 60
+   },
+   "look": [
+    "dotted",
+    "dot matrix",
+    "pixelated",
+    "hard to read"
+   ],
+   "note": "Letters built from small round dots, like a dot-matrix display.",
+   "sheet": "sheet-050",
+   "at": "2026-10-03T14:04:26.987Z"
+  },
+  "Ampoule Rats Tube": {
+   "moods": {
+    "Artistic": 65,
+    "Futuristic": 55,
+    "Awkward": 50,
+    "Playful": 45
+   },
+   "themes": {
+    "Techno": 55,
+    "Pixel": 50,
+    "Wacky": 40
+   },
+   "look": [
+    "dotted",
+    "ornamental",
+    "outline",
+    "busy texture"
+   ],
+   "note": "Letters built from dots and small outlined loops, dense and hard to read.",
+   "sheet": "sheet-060",
+   "at": "2026-10-03T14:05:14.852Z"
+  },
+  "Amulya": {
+   "moods": {
+    "Calm": 70,
+    "Sincere": 65,
+    "Business": 60,
+    "Competent": 55
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "light weight",
+    "open",
+    "clean"
+   ],
+   "note": "Light humanist sans with open shapes and gentle stroke modulation.",
+   "sheet": "sheet-054",
+   "at": "2026-10-03T14:04:46.228Z"
+  },
+  "Ancial": {
+   "moods": {
+    "Artistic": 80,
+    "Playful": 60,
+    "Vintage": 50,
+    "Awkward": 45
+   },
+   "themes": {
+    "Medieval": 50
+   },
+   "look": [
+    "calligraphic",
+    "quirky",
+    "hand-drawn",
+    "uneven"
+   ],
+   "note": "Quirky pen-drawn calligraphic letters with ligature-like joins and irregular rhythm.",
+   "sheet": "sheet-052",
+   "at": "2026-10-03T14:04:37.507Z"
+  },
+  "Anka/Coder": {
+   "moods": {
+    "Competent": 70,
+    "Business": 60,
+    "Innovative": 50,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "slashed zero",
+    "monoline",
+    "sans serif"
+   ],
+   "note": "Clean monospaced sans with slashed zero and open, even strokes.",
+   "sheet": "sheet-010",
+   "at": "2026-10-03T14:00:52.614Z"
+  },
+  "Anka/Coder Condensed": {
+   "moods": {
+    "Competent": 65,
+    "Business": 55,
+    "Innovative": 50,
+    "Stiff": 45
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospaced",
+    "slashed zero",
+    "sans serif",
+    "rounded corners"
+   ],
+   "note": "Monospaced sans with slashed zero, coding feel, slightly rounded.",
+   "sheet": "sheet-065",
+   "at": "2026-10-03T14:05:38.780Z"
+  },
+  "Anka/Coder Narrow": {
+   "moods": {
+    "Competent": 60,
+    "Calm": 50,
+    "Innovative": 45,
+    "Business": 45
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospaced",
+    "narrow",
+    "sans serif",
+    "slashed zero"
+   ],
+   "note": "Narrow monospaced sans with slashed zero, light and technical.",
+   "sheet": "sheet-009",
+   "at": "2026-10-03T14:00:45.465Z"
+  },
+  "Anthony": {
+   "moods": {
+    "Futuristic": 65,
+    "Artistic": 60,
+    "Awkward": 60,
+    "Innovative": 55
+   },
+   "themes": {
+    "Techno": 65
+   },
+   "look": [
+    "thin",
+    "angular",
+    "quirky",
+    "monoline"
+   ],
+   "note": "Thin angular strokes with odd diagonal cuts and irregular glyph shapes.",
+   "sheet": "sheet-073",
+   "at": "2026-10-03T14:06:34.621Z"
+  },
+  "Apfel Grotezk": {
+   "moods": {
+    "Business": 70,
+    "Competent": 65,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "clean",
+    "medium weight"
+   ],
+   "note": "Clean neo-grotesque sans with open shapes and even stroke.",
+   "sheet": "sheet-066",
+   "at": "2026-10-03T14:05:49.455Z"
+  },
+  "Apfel Grotezk Brukt": {
+   "moods": {
+    "Futuristic": 55,
+    "Artistic": 50,
+    "Awkward": 45
+   },
+   "themes": {
+    "Distressed": 50,
+    "Techno": 40
+   },
+   "look": [
+    "dotted outline",
+    "speckled",
+    "inline",
+    "bold"
+   ],
+   "note": "Bold rounded sans filled with dotted texture and outline fragments.",
+   "sheet": "sheet-058",
+   "at": "2026-10-03T14:05:04.713Z"
+  },
+  "Aquis": {
+   "moods": {
+    "Vintage": 65,
+    "Loud": 50,
+    "Rugged": 50,
+    "Active": 40
+   },
+   "themes": {
+    "Woodtype": 50
+   },
+   "look": [
+    "condensed",
+    "bold",
+    "quirky",
+    "tall"
+   ],
+   "note": "Tall condensed bold face with quirky flared strokes and curled terminals.",
+   "sheet": "sheet-019",
+   "at": "2026-10-03T14:01:45.491Z"
+  },
+  "Argentum Sans": {
+   "moods": {
+    "Business": 60,
+    "Competent": 60,
+    "Happy": 40,
+    "Innovative": 40
+   },
+   "themes": {},
+   "look": [
+    "geometric",
+    "sans serif",
+    "wide",
+    "semi-bold",
+    "round"
+   ],
+   "note": "Wide geometric sans with circular bowls and a medium-bold weight.",
+   "sheet": "sheet-042",
+   "at": "2026-10-03T14:03:37.823Z"
+  },
+  "Ark-es Dense": {
+   "moods": {
+    "Futuristic": 70,
+    "Playful": 55,
+    "Innovative": 55,
+    "Awkward": 45
+   },
+   "themes": {
+    "Pixel": 60,
+    "Techno": 60
+   },
+   "look": [
+    "dotted",
+    "wide",
+    "all caps",
+    "beaded"
+   ],
+   "note": "Wide caps built from round dots, like beads or a dot matrix.",
+   "sheet": "sheet-023",
+   "at": "2026-10-03T14:02:02.016Z"
+  },
+  "Ark-es Solid": {
+   "moods": {
+    "Futuristic": 65,
+    "Loud": 60,
+    "Playful": 50,
+    "Innovative": 45
+   },
+   "themes": {
+    "Pixel": 85,
+    "Techno": 50
+   },
+   "look": [
+    "pixelated",
+    "wide",
+    "bold",
+    "blocky"
+   ],
+   "note": "Wide bold pixel-grid letters in all-caps style, chunky and blocky.",
+   "sheet": "sheet-025",
+   "at": "2026-10-03T14:02:11.447Z"
+  },
+  "Array": {
+   "moods": {
+    "Futuristic": 55,
+    "Loud": 55,
+    "Playful": 50
+   },
+   "themes": {
+    "Pixel": 85
+   },
+   "look": [
+    "dotted",
+    "bold",
+    "pixel grid",
+    "tight"
+   ],
+   "note": "Bold sans built from tiny dots, like an LED matrix.",
+   "sheet": "sheet-026",
+   "at": "2026-10-03T14:02:19.667Z"
+  },
+  "Asap Sharp": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "neutral sans",
+    "regular weight",
+    "monoline"
+   ],
+   "note": "Neutral regular-weight sans, legible and straightforward.",
+   "sheet": "sheet-027",
+   "at": "2026-10-03T14:02:19.814Z"
+  },
+  "Asul": {
+   "moods": {
+    "Sincere": 70,
+    "Calm": 60,
+    "Business": 55,
+    "Competent": 55
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "slight contrast",
+    "compact",
+    "open"
+   ],
+   "note": "Humanist sans with subtle stroke modulation and calligraphic feel.",
+   "sheet": "sheet-047",
+   "at": "2026-10-03T14:04:11.069Z"
+  },
+  "Aujournuit": {
+   "moods": {
+    "Sophisticated": 85,
+    "Fancy": 60,
+    "Calm": 55
+   },
+   "themes": {},
+   "look": [
+    "light serif",
+    "high contrast",
+    "elegant",
+    "narrow"
+   ],
+   "note": "Light, high-contrast serif with delicate hairlines and refined proportions.",
+   "sheet": "sheet-028",
+   "at": "2026-10-03T14:02:32.334Z"
+  },
+  "Aujournuit Airy": {
+   "moods": {
+    "Sophisticated": 80,
+    "Fancy": 60,
+    "Artistic": 50,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "light serif",
+    "high contrast",
+    "wide",
+    "sharp serifs"
+   ],
+   "note": "Light, elegant wide serif with sharp wedge serifs and fine hairlines.",
+   "sheet": "sheet-008",
+   "at": "2026-10-03T14:00:36.667Z"
+  },
+  "Aujournuit Condensed": {
+   "moods": {
+    "Sophisticated": 65,
+    "Fancy": 60,
+    "Artistic": 50,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "serif",
+    "high contrast",
+    "narrow"
+   ],
+   "note": "Very condensed, narrow serif with high contrast and elegant quirky details.",
+   "sheet": "sheet-065",
+   "at": "2026-10-03T14:05:38.780Z"
+  },
+  "Aujournuit Densed": {
+   "moods": {
+    "Sophisticated": 80,
+    "Fancy": 60,
+    "Artistic": 55,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "serif",
+    "high contrast",
+    "narrow",
+    "elegant"
+   ],
+   "note": "Condensed high-contrast serif with sharp, elegant, narrow letterforms.",
+   "sheet": "sheet-006",
+   "at": "2026-10-03T14:00:34.983Z"
+  },
+  "Aujournuit Wide": {
+   "moods": {
+    "Sophisticated": 75,
+    "Fancy": 70,
+    "Artistic": 60,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "extra wide",
+    "light serif",
+    "high contrast",
+    "extended"
+   ],
+   "note": "Very wide, light display serif with delicate hairline serifs and elegant proportions.",
+   "sheet": "sheet-008",
+   "at": "2026-10-03T14:00:36.667Z"
+  },
+  "Author": {
+   "moods": {
+    "Business": 65,
+    "Competent": 65,
+    "Calm": 60,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "light",
+    "monoline",
+    "friendly"
+   ],
+   "note": "Light humanist sans with open, even strokes and modest width.",
+   "sheet": "sheet-056",
+   "at": "2026-10-03T14:04:55.131Z"
+  },
+  "Autopia": {
+   "moods": {
+    "Sophisticated": 70,
+    "Calm": 55,
+    "Sincere": 55,
+    "Artistic": 40
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "moderate contrast",
+    "bracketed serifs",
+    "text face"
+   ],
+   "note": "Elegant book serif with calligraphic flavor and sharp wedge serifs.",
+   "sheet": "sheet-042",
+   "at": "2026-10-03T14:03:37.823Z"
+  },
+  "Avara": {
+   "moods": {
+    "Sophisticated": 65,
+    "Vintage": 50,
+    "Sincere": 50,
+    "Fancy": 40
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "bold",
+    "high contrast",
+    "calligraphic touches"
+   ],
+   "note": "Bold old-style serif with sharp wedge serifs and calligraphic flavour.",
+   "sheet": "sheet-063",
+   "at": "2026-10-03T14:05:28.693Z"
+  },
+  "Averia Gruesa Libre": {
+   "moods": {
+    "Playful": 70,
+    "Happy": 55,
+    "Cute": 45,
+    "Childlike": 40
+   },
+   "themes": {},
+   "look": [
+    "bold",
+    "slanted feel",
+    "irregular",
+    "rounded"
+   ],
+   "note": "Heavy casual sans with wobbly, hand-drawn irregular strokes.",
+   "sheet": "sheet-041",
+   "at": "2026-10-03T14:03:28.416Z"
+  },
+  "Azabache": {
+   "moods": {
+    "Playful": 80,
+    "Active": 65,
+    "Artistic": 55,
+    "Happy": 50
+   },
+   "themes": {
+    "Brush": 70
+   },
+   "look": [
+    "brush script",
+    "slanted",
+    "bold",
+    "rough edges"
+   ],
+   "note": "Bold slanted handwritten brush letters with rough, bumpy edges.",
+   "sheet": "sheet-050",
+   "at": "2026-10-03T14:04:26.987Z"
+  },
+  "BackOut": {
+   "moods": {
+    "Artistic": 65,
+    "Awkward": 50,
+    "Vintage": 45
+   },
+   "themes": {
+    "Art Deco": 40
+   },
+   "look": [
+    "condensed",
+    "quirky",
+    "flared",
+    "uneven"
+   ],
+   "note": "Narrow quirky sans with odd letter shapes and flared, hand-cut feel.",
+   "sheet": "sheet-035",
+   "at": "2026-10-03T14:02:59.904Z"
+  },
+  "Bagnard": {
+   "moods": {
+    "Sophisticated": 65,
+    "Sincere": 55,
+    "Vintage": 50,
+    "Fancy": 40
+   },
+   "themes": {},
+   "look": [
+    "bold serif",
+    "high contrast",
+    "bracketed serifs",
+    "old-style"
+   ],
+   "note": "Bold transitional serif with sharp serifs and sturdy contrast.",
+   "sheet": "sheet-016",
+   "at": "2026-10-03T14:01:23.322Z"
+  },
+  "Bagnard Sans": {
+   "moods": {
+    "Sincere": 70,
+    "Business": 60,
+    "Competent": 60,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "bold",
+    "slight contrast",
+    "flared strokes"
+   ],
+   "note": "Bold humanist sans with subtle stroke modulation and open, friendly shapes.",
+   "sheet": "sheet-067",
+   "at": "2026-10-03T14:05:48.258Z"
+  },
+  "Banquise": {
+   "moods": {
+    "Futuristic": 55,
+    "Awkward": 55,
+    "Playful": 50,
+    "Loud": 50
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixelated",
+    "bitmap",
+    "blocky",
+    "bold"
+   ],
+   "note": "Chunky bitmap pixel letters with stair-stepped edges.",
+   "sheet": "sheet-055",
+   "at": "2026-10-03T14:04:48.301Z"
+  },
+  "Basalte": {
+   "moods": {
+    "Loud": 70,
+    "Active": 65,
+    "Competent": 55,
+    "Business": 45
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "heavy",
+    "sans serif",
+    "all caps",
+    "squarish curves"
+   ],
+   "note": "Heavy condensed sans with squared curves, tight and punchy.",
+   "sheet": "sheet-069",
+   "at": "2026-10-03T14:05:59.751Z"
+  },
+  "Basteleur": {
+   "moods": {
+    "Artistic": 65,
+    "Playful": 60,
+    "Fancy": 50,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "quirky serif",
+    "calligraphic",
+    "uncial a",
+    "flared"
+   ],
+   "note": "Serif with calligraphic flair and a quirky round single-story a.",
+   "sheet": "sheet-029",
+   "at": "2026-10-03T14:02:30.306Z"
+  },
+  "Bespoke Sans": {
+   "moods": {
+    "Calm": 65,
+    "Sincere": 65,
+    "Competent": 55,
+    "Happy": 40
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "open",
+    "slight contrast",
+    "friendly"
+   ],
+   "note": "Humanist sans with open forms and slight stroke modulation.",
+   "sheet": "sheet-040",
+   "at": "2026-10-03T14:03:29.788Z"
+  },
+  "Bespoke Serif": {
+   "moods": {
+    "Sincere": 65,
+    "Sophisticated": 55,
+    "Calm": 55,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "bookish",
+    "moderate contrast",
+    "sturdy"
+   ],
+   "note": "Sturdy text serif with moderate contrast and warm bracketed serifs.",
+   "sheet": "sheet-056",
+   "at": "2026-10-03T14:04:55.131Z"
+  },
+  "Bespoke Slab": {
+   "moods": {
+    "Sincere": 65,
+    "Competent": 60,
+    "Calm": 50,
+    "Business": 45
+   },
+   "themes": {},
+   "look": [
+    "slab-like serif",
+    "sturdy",
+    "moderate contrast",
+    "bold-ish"
+   ],
+   "note": "Sturdy text serif with soft slab-like serifs and old-style numerals.",
+   "sheet": "sheet-072",
+   "at": "2026-10-03T14:06:26.193Z"
+  },
+  "Bespoke Stencil": {
+   "moods": {
+    "Sincere": 65,
+    "Calm": 55,
+    "Artistic": 50,
+    "Competent": 45
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "light",
+    "slight stroke breaks",
+    "calligraphic touch"
+   ],
+   "note": "Light humanist sans with small gaps in strokes and gentle flair.",
+   "sheet": "sheet-077",
+   "at": "2026-10-03T14:06:57.409Z"
+  },
+  "Bevellier": {
+   "moods": {
+    "Active": 65,
+    "Competent": 60,
+    "Business": 50
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "bold",
+    "tight spacing",
+    "sans serif"
+   ],
+   "note": "Condensed semi-bold sans with tight spacing and slightly quirky curves.",
+   "sheet": "sheet-014",
+   "at": "2026-10-03T14:01:14.016Z"
+  },
+  "Blackout Midnight": {
+   "moods": {
+    "Loud": 90,
+    "Rugged": 60,
+    "Active": 50
+   },
+   "themes": {
+    "Woodtype": 40
+   },
+   "look": [
+    "all caps",
+    "heavy",
+    "condensed",
+    "tight spacing"
+   ],
+   "note": "Very heavy all-caps display face with tiny counters and tight fit.",
+   "sheet": "sheet-035",
+   "at": "2026-10-03T14:02:59.904Z"
+  },
+  "Blackout Sunrise": {
+   "moods": {
+    "Playful": 55,
+    "Artistic": 50,
+    "Loud": 45
+   },
+   "themes": {
+    "Inline": 75
+   },
+   "look": [
+    "outline",
+    "all caps",
+    "condensed",
+    "inline"
+   ],
+   "note": "Outlined all-caps display face with hairline contours, lowercase set as capitals.",
+   "sheet": "sheet-027",
+   "at": "2026-10-03T14:02:19.814Z"
+  },
+  "Blackout Two AM": {
+   "moods": {
+    "Loud": 90,
+    "Active": 60,
+    "Innovative": 45
+   },
+   "themes": {},
+   "look": [
+    "reversed white on black",
+    "bold",
+    "all caps",
+    "condensed"
+   ],
+   "note": "Bold caps knocked out of black bars, tight and punchy.",
+   "sheet": "sheet-024",
+   "at": "2026-10-03T14:02:04.654Z"
+  },
+  "Bluu Next": {
+   "moods": {
+    "Sincere": 55,
+    "Competent": 55,
+    "Sophisticated": 50,
+    "Business": 40
+   },
+   "themes": {},
+   "look": [
+    "bold serif",
+    "soft serifs",
+    "moderate contrast",
+    "sturdy"
+   ],
+   "note": "Bold sturdy serif with soft bracketed serifs and warm feel.",
+   "sheet": "sheet-046",
+   "at": "2026-10-03T14:04:01.970Z"
+  },
+  "Bluu Next Titling": {
+   "moods": {
+    "Sophisticated": 70,
+    "Competent": 60,
+    "Sincere": 50,
+    "Fancy": 40
+   },
+   "themes": {},
+   "look": [
+    "bold serif",
+    "high contrast",
+    "bracketed serifs",
+    "old-style"
+   ],
+   "note": "Bold transitional serif with sharp bracketed serifs and strong contrast.",
+   "sheet": "sheet-044",
+   "at": "2026-10-03T14:03:52.730Z"
+  },
+  "Boeticher": {
+   "moods": {
+    "Rugged": 70,
+    "Vintage": 65,
+    "Loud": 50,
+    "Playful": 40
+   },
+   "themes": {
+    "Woodtype": 70
+   },
+   "look": [
+    "all caps",
+    "slab serifs",
+    "western",
+    "condensed"
+   ],
+   "note": "Condensed western-style slab capitals with spurred serifs and wood-type feel.",
+   "sheet": "sheet-052",
+   "at": "2026-10-03T14:04:37.507Z"
+  },
+  "Bonny": {
+   "moods": {
+    "Artistic": 70,
+    "Fancy": 55,
+    "Sophisticated": 50,
+    "Playful": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "light",
+    "calligraphic",
+    "quirky letterforms"
+   ],
+   "note": "Light narrow semi-serif with quirky, handwritten-feeling shapes like w and u.",
+   "sheet": "sheet-042",
+   "at": "2026-10-03T14:03:37.823Z"
+  },
+  "Borges": {
+   "moods": {
+    "Artistic": 70,
+    "Futuristic": 60,
+    "Awkward": 55,
+    "Innovative": 50
+   },
+   "themes": {
+    "Techno": 70,
+    "Inline": 50
+   },
+   "look": [
+    "maze-like",
+    "geometric blocks",
+    "wide",
+    "illegible",
+    "linear"
+   ],
+   "note": "Labyrinth of right-angled line segments, wide and barely readable as letters.",
+   "sheet": "sheet-064",
+   "at": "2026-10-03T14:05:37.727Z"
+  },
+  "Boris": {
+   "moods": {
+    "Playful": 80,
+    "Childlike": 60,
+    "Cute": 55,
+    "Happy": 50,
+    "Awkward": 40
+   },
+   "themes": {},
+   "look": [
+    "handwritten",
+    "monoline",
+    "rounded",
+    "quirky"
+   ],
+   "note": "Bold marker-like handwriting with quirky, uneven letter shapes.",
+   "sheet": "sheet-047",
+   "at": "2026-10-03T14:04:11.069Z"
+  },
+  "Boska": {
+   "moods": {
+    "Sophisticated": 80,
+    "Fancy": 60,
+    "Calm": 50,
+    "Artistic": 40
+   },
+   "themes": {},
+   "look": [
+    "light",
+    "high contrast",
+    "condensed",
+    "elegant serif"
+   ],
+   "note": "Thin, elegant high-contrast serif with narrow proportions.",
+   "sheet": "sheet-055",
+   "at": "2026-10-03T14:04:48.301Z"
+  },
+  "Boxing": {
+   "moods": {
+    "Loud": 80,
+    "Rugged": 50,
+    "Vintage": 50,
+    "Active": 40
+   },
+   "themes": {
+    "Woodtype": 50
+   },
+   "look": [
+    "ultra bold",
+    "wide",
+    "slab serifs",
+    "heavy"
+   ],
+   "note": "Very heavy wide slab serif with chunky bracketed serifs and tight spacing.",
+   "sheet": "sheet-018",
+   "at": "2026-10-03T14:01:33.694Z"
+  },
+  "Brassia": {
+   "moods": {
+    "Playful": 75,
+    "Loud": 70,
+    "Artistic": 60,
+    "Excited": 50
+   },
+   "themes": {
+    "Wacky": 65
+   },
+   "look": [
+    "heavy",
+    "quirky",
+    "brushy",
+    "caps only"
+   ],
+   "note": "Heavy quirky all-caps with odd curved shapes and exotic flavor.",
+   "sheet": "sheet-013",
+   "at": "2026-10-03T14:01:03.700Z"
+  },
+  "Breite Grotesk": {
+   "moods": {
+    "Business": 70,
+    "Competent": 65,
+    "Sincere": 60
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "tight spacing",
+    "medium weight"
+   ],
+   "note": "Tight, clean geometric sans with medium weight and open forms.",
+   "sheet": "sheet-026",
+   "at": "2026-10-03T14:02:19.667Z"
+  },
+  "Breite Grotesk Condensed": {
+   "moods": {
+    "Competent": 65,
+    "Business": 65,
+    "Active": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "sans serif",
+    "narrow",
+    "tight spacing"
+   ],
+   "note": "Narrow condensed sans with tight spacing and straight vertical stems.",
+   "sheet": "sheet-070",
+   "at": "2026-10-03T14:06:10.027Z"
+  },
+  "Briem Hand": {
+   "moods": {
+    "Playful": 70,
+    "Artistic": 65,
+    "Happy": 50,
+    "Cute": 40
+   },
+   "themes": {},
+   "look": [
+    "calligraphic",
+    "italic",
+    "brushy",
+    "informal script"
+   ],
+   "note": "Slanted calligraphic italic with flowing, pen-written strokes.",
+   "sheet": "sheet-074",
+   "at": "2026-10-03T14:06:34.626Z"
+  },
+  "Britney": {
+   "moods": {
+    "Fancy": 85,
+    "Sophisticated": 85,
+    "Artistic": 65,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "italic",
+    "high contrast",
+    "condensed",
+    "didone-like",
+    "calligraphic"
+   ],
+   "note": "Elegant condensed italic with sharp high contrast and flowing, tight spacing.",
+   "sheet": "sheet-049",
+   "at": "2026-10-03T14:04:19.797Z"
+  },
+  "C reduci": {
+   "moods": {
+    "Futuristic": 60,
+    "Awkward": 60,
+    "Artistic": 55,
+    "Innovative": 45
+   },
+   "themes": {
+    "Techno": 55
+   },
+   "look": [
+    "angular",
+    "monoline",
+    "alien script",
+    "geometric"
+   ],
+   "note": "Thin angular monoline glyphs resembling an invented script, geometric strokes.",
+   "sheet": "sheet-065",
+   "at": "2026-10-03T14:05:38.780Z"
+  },
+  "CMRDD": {
+   "moods": {
+    "Futuristic": 55,
+    "Innovative": 55,
+    "Calm": 50,
+    "Business": 40
+   },
+   "themes": {},
+   "look": [
+    "wide",
+    "geometric",
+    "sans serif",
+    "monoline"
+   ],
+   "note": "Wide geometric sans with open spacing and uniform strokes.",
+   "sheet": "sheet-030",
+   "at": "2026-10-03T14:02:39.261Z"
+  },
+  "Caacupe One": {
+   "moods": {
+    "Loud": 70,
+    "Active": 60,
+    "Playful": 50,
+    "Rugged": 45
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "bold",
+    "quirky",
+    "uneven"
+   ],
+   "note": "Heavy condensed sans with quirky irregular shapes and tight spacing.",
+   "sheet": "sheet-036",
+   "at": "2026-10-03T14:03:09.872Z"
+  },
+  "Cabinet Grotesk": {
+   "moods": {
+    "Calm": 70,
+    "Business": 65,
+    "Sincere": 60,
+    "Competent": 60
+   },
+   "themes": {},
+   "look": [
+    "light weight",
+    "geometric sans",
+    "clean",
+    "monoline"
+   ],
+   "note": "Clean light grotesque sans with open, even, simple forms.",
+   "sheet": "sheet-033",
+   "at": "2026-10-03T14:02:51.005Z"
+  },
+  "Canarina": {
+   "moods": {
+    "Playful": 75,
+    "Happy": 55,
+    "Active": 50,
+    "Cute": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "brush-like",
+    "informal",
+    "slanted strokes"
+   ],
+   "note": "Condensed casual sans with brushy, hand-drawn rhythm and uneven strokes.",
+   "sheet": "sheet-068",
+   "at": "2026-10-03T14:06:13.656Z"
+  },
+  "Canola Compressed": {
+   "moods": {
+    "Sincere": 55,
+    "Vintage": 50,
+    "Artistic": 45,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "serif",
+    "calligraphic",
+    "sloped serifs"
+   ],
+   "note": "Condensed serif with slightly irregular, calligraphic strokes and flared serifs.",
+   "sheet": "sheet-076",
+   "at": "2026-10-03T14:06:44.147Z"
+  },
+  "Canola Condensed": {
+   "moods": {
+    "Sincere": 65,
+    "Competent": 60,
+    "Calm": 50,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "slab serifs",
+    "slightly condensed",
+    "sturdy",
+    "moderate contrast"
+   ],
+   "note": "Sturdy slab serif with bracketed serifs and slightly narrow, readable proportions.",
+   "sheet": "sheet-069",
+   "at": "2026-10-03T14:05:59.751Z"
+  },
+  "Cantique": {
+   "moods": {
+    "Artistic": 85,
+    "Fancy": 75,
+    "Awkward": 55,
+    "Vintage": 50
+   },
+   "themes": {
+    "Art Nouveau": 70
+   },
+   "look": [
+    "calligraphic",
+    "thin",
+    "swashy capitals",
+    "quirky",
+    "high contrast"
+   ],
+   "note": "Thin eccentric serif with long swash caps and odd ligature-like forms.",
+   "sheet": "sheet-056",
+   "at": "2026-10-03T14:04:55.131Z"
+  },
+  "Centaury": {
+   "moods": {
+    "Fancy": 80,
+    "Artistic": 70,
+    "Vintage": 65,
+    "Loud": 50
+   },
+   "themes": {
+    "Art Nouveau": 55
+   },
+   "look": [
+    "heavy",
+    "high contrast",
+    "decorative serif",
+    "quirky details"
+   ],
+   "note": "Bold high-contrast display serif with swashy quirks and a looped ornament on t.",
+   "sheet": "sheet-068",
+   "at": "2026-10-03T14:06:13.656Z"
+  },
+  "ChicagoFLF": {
+   "moods": {
+    "Futuristic": 65,
+    "Active": 55,
+    "Innovative": 50,
+    "Loud": 45
+   },
+   "themes": {
+    "Techno": 55
+   },
+   "look": [
+    "squared",
+    "bold",
+    "geometric",
+    "sans serif"
+   ],
+   "note": "Bold squarish sans with cut corners and a techy feel.",
+   "sheet": "sheet-024",
+   "at": "2026-10-03T14:02:04.654Z"
+  },
+  "Chillax": {
+   "moods": {
+    "Happy": 60,
+    "Calm": 55,
+    "Cute": 50,
+    "Playful": 45
+   },
+   "themes": {},
+   "look": [
+    "rounded",
+    "geometric",
+    "light",
+    "monoline",
+    "wide"
+   ],
+   "note": "Light geometric rounded sans with single-storey a and wide letters.",
+   "sheet": "sheet-001",
+   "at": "2026-10-03T13:57:03.143Z"
+  },
+  "Chubbo": {
+   "moods": {
+    "Sincere": 65,
+    "Playful": 50,
+    "Calm": 50,
+    "Artistic": 40
+   },
+   "themes": {},
+   "look": [
+    "slab serifs",
+    "soft",
+    "quirky",
+    "moderate contrast"
+   ],
+   "note": "Soft slab serif with quirky curved details and sturdy, friendly shapes.",
+   "sheet": "sheet-029",
+   "at": "2026-10-03T14:02:30.306Z"
+  },
+  "Chunk Five": {
+   "moods": {
+    "Loud": 70,
+    "Rugged": 55,
+    "Vintage": 55,
+    "Playful": 45
+   },
+   "themes": {
+    "Woodtype": 40
+   },
+   "look": [
+    "slab serifs",
+    "heavy",
+    "bold",
+    "tight spacing"
+   ],
+   "note": "Very heavy slab serif with bracketed slabs and sturdy, compact forms.",
+   "sheet": "sheet-017",
+   "at": "2026-10-03T14:01:28.167Z"
+  },
+  "Clash Display": {
+   "moods": {
+    "Innovative": 65,
+    "Sophisticated": 60,
+    "Calm": 50,
+    "Futuristic": 40
+   },
+   "themes": {},
+   "look": [
+    "wide",
+    "geometric sans",
+    "light weight",
+    "monoline"
+   ],
+   "note": "Wide geometric sans with round bowls and light, even strokes.",
+   "sheet": "sheet-054",
+   "at": "2026-10-03T14:04:46.228Z"
+  },
+  "Clash Grotesk": {
+   "moods": {
+    "Business": 70,
+    "Sincere": 55,
+    "Competent": 55,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "light weight",
+    "clean",
+    "monoline"
+   ],
+   "note": "Clean light geometric sans with round bowls and even strokes.",
+   "sheet": "sheet-073",
+   "at": "2026-10-03T14:06:34.621Z"
+  },
+  "Clear Sans": {
+   "moods": {
+    "Business": 80,
+    "Competent": 75,
+    "Calm": 55
+   },
+   "themes": {},
+   "look": [
+    "clean sans",
+    "monoline",
+    "neutral"
+   ],
+   "note": "Neutral humanist sans with open forms and even stroke.",
+   "sheet": "sheet-074",
+   "at": "2026-10-03T14:06:34.626Z"
+  },
+  "Coaster Sans": {
+   "moods": {
+    "Loud": 95,
+    "Playful": 70,
+    "Active": 50,
+    "Awkward": 45
+   },
+   "themes": {},
+   "look": [
+    "ultra bold",
+    "heavy",
+    "tight spacing",
+    "rounded corners",
+    "tiny counters"
+   ],
+   "note": "Extremely heavy black letters with tiny counters and quirky shapes.",
+   "sheet": "sheet-077",
+   "at": "2026-10-03T14:06:57.409Z"
+  },
+  "Coconat": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Sincere": 60,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "humanist",
+    "medium weight",
+    "clean"
+   ],
+   "note": "Clean humanist sans with gentle contrast and open, even shapes.",
+   "sheet": "sheet-037",
+   "at": "2026-10-03T14:03:09.352Z"
+  },
+  "Coda Caption": {
+   "moods": {
+    "Loud": 85,
+    "Rugged": 60,
+    "Active": 50,
+    "Business": 40
+   },
+   "themes": {},
+   "look": [
+    "heavy",
+    "condensed-ish",
+    "grotesque",
+    "tight squared curves"
+   ],
+   "note": "Ultra-bold squarish sans with tight counters and blocky, compact letterforms.",
+   "sheet": "sheet-064",
+   "at": "2026-10-03T14:05:37.727Z"
+  },
+  "Comic Mono": {
+   "moods": {
+    "Playful": 65,
+    "Awkward": 50,
+    "Active": 45,
+    "Childlike": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "handwritten",
+    "bold",
+    "rounded"
+   ],
+   "note": "Bold monospaced marker-like letters with uneven hand-drawn feel.",
+   "sheet": "sheet-048",
+   "at": "2026-10-03T14:04:12.914Z"
+  },
+  "Comico": {
+   "moods": {
+    "Playful": 80,
+    "Childlike": 65,
+    "Loud": 55,
+    "Awkward": 45
+   },
+   "themes": {
+    "Brush": 40
+   },
+   "look": [
+    "hand-drawn",
+    "bold",
+    "uneven",
+    "marker-like"
+   ],
+   "note": "Bold hand-drawn marker capitals with wobbly, irregular strokes.",
+   "sheet": "sheet-005",
+   "at": "2026-10-03T14:00:17.165Z"
+  },
+  "Commit Mono": {
+   "moods": {
+    "Business": 60,
+    "Competent": 60,
+    "Calm": 45
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "light weight",
+    "humanist",
+    "clean"
+   ],
+   "note": "Light monospaced sans with open, even letterforms.",
+   "sheet": "sheet-061",
+   "at": "2026-10-03T14:05:19.391Z"
+  },
+  "Commune Nuit Debout": {
+   "moods": {
+    "Rugged": 60,
+    "Loud": 50,
+    "Stiff": 45
+   },
+   "themes": {
+    "Woodtype": 45
+   },
+   "look": [
+    "extra condensed",
+    "tall",
+    "bold",
+    "tight spacing"
+   ],
+   "note": "Extremely condensed tall sans with narrow letters and tight spacing.",
+   "sheet": "sheet-035",
+   "at": "2026-10-03T14:02:59.904Z"
+  },
+  "Commune Nuit Debout Pochoir": {
+   "moods": {
+    "Loud": 70,
+    "Rugged": 60,
+    "Active": 50
+   },
+   "themes": {
+    "Woodtype": 50,
+    "Stencil": 40
+   },
+   "look": [
+    "ultra condensed",
+    "bold",
+    "tall",
+    "quirky cuts"
+   ],
+   "note": "Ultra-condensed heavy display face with notched, split details.",
+   "sheet": "sheet-042",
+   "at": "2026-10-03T14:03:37.823Z"
+  },
+  "Compagnon": {
+   "moods": {
+    "Vintage": 70,
+    "Sincere": 50,
+    "Artistic": 45
+   },
+   "themes": {},
+   "look": [
+    "typewriter",
+    "monospaced",
+    "slab serifs",
+    "light"
+   ],
+   "note": "Monospaced typewriter face with slab serifs and slightly quirky letter shapes.",
+   "sheet": "sheet-014",
+   "at": "2026-10-03T14:01:14.016Z"
+  },
+  "Compagnon Medium": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 65,
+    "Active": 45
+   },
+   "themes": {
+    "Techno": 60
+   },
+   "look": [
+    "monospaced",
+    "wide",
+    "bold",
+    "squarish curves"
+   ],
+   "note": "Bold wide monospace with squared rounded forms and a technical feel.",
+   "sheet": "sheet-071",
+   "at": "2026-10-03T14:06:19.434Z"
+  },
+  "Compagnon Script": {
+   "moods": {
+    "Artistic": 70,
+    "Playful": 55,
+    "Active": 45
+   },
+   "themes": {
+    "Brush": 40
+   },
+   "look": [
+    "script",
+    "slanted",
+    "monoline",
+    "handwritten"
+   ],
+   "note": "Slanted monoline handwritten script with looped, connected strokes.",
+   "sheet": "sheet-022",
+   "at": "2026-10-03T14:01:54.659Z"
+  },
+  "Cooper Hewitt": {
+   "moods": {
+    "Business": 65,
+    "Calm": 60,
+    "Sophisticated": 50
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "light",
+    "grotesque",
+    "narrow spacing"
+   ],
+   "note": "Light, slightly condensed grotesque sans with tight spacing.",
+   "sheet": "sheet-001",
+   "at": "2026-10-03T13:57:03.143Z"
+  },
+  "Cotham Sans": {
+   "moods": {
+    "Sincere": 65,
+    "Business": 60,
+    "Calm": 55,
+    "Competent": 55
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "humanist touches",
+    "low contrast",
+    "clean"
+   ],
+   "note": "Friendly neutral sans with slightly flared strokes and round forms.",
+   "sheet": "sheet-010",
+   "at": "2026-10-03T14:00:52.614Z"
+  },
+  "Courrrier": {
+   "moods": {
+    "Artistic": 80,
+    "Awkward": 60,
+    "Futuristic": 50,
+    "Playful": 45
+   },
+   "themes": {
+    "Art Deco": 50,
+    "Inline": 45
+   },
+   "look": [
+    "thin monoline",
+    "quirky",
+    "geometric",
+    "split strokes"
+   ],
+   "note": "Thin quirky monoline letters with odd breaks and stylized geometric shapes.",
+   "sheet": "sheet-023",
+   "at": "2026-10-03T14:02:02.016Z"
+  },
+  "DINish": {
+   "moods": {
+    "Business": 65,
+    "Competent": 65,
+    "Active": 45,
+    "Sincere": 45
+   },
+   "themes": {},
+   "look": [
+    "grotesque sans",
+    "slightly condensed",
+    "monoline",
+    "squarish curves"
+   ],
+   "note": "Neutral slightly condensed sans with squarish curves and DIN-like feel.",
+   "sheet": "sheet-056",
+   "at": "2026-10-03T14:04:55.131Z"
+  },
+  "DINish Condensed": {
+   "moods": {
+    "Competent": 70,
+    "Business": 65,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "sans serif",
+    "monoline",
+    "tall"
+   ],
+   "note": "Condensed grotesque sans with even strokes and tight spacing.",
+   "sheet": "sheet-016",
+   "at": "2026-10-03T14:01:23.322Z"
+  },
+  "DINish Expanded": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 50,
+    "Innovative": 40
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "monoline",
+    "clean",
+    "slightly wide"
+   ],
+   "note": "Clean geometric sans with open shapes and even stroke.",
+   "sheet": "sheet-056",
+   "at": "2026-10-03T14:04:55.131Z"
+  },
+  "DOF 1": {
+   "moods": {
+    "Artistic": 60,
+    "Playful": 50,
+    "Sophisticated": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "quirky",
+    "light"
+   ],
+   "note": "Narrow, quirky sans with irregular, handwritten-feeling letter shapes.",
+   "sheet": "sheet-041",
+   "at": "2026-10-03T14:03:28.416Z"
+  },
+  "DOF 1 Extended": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 60,
+    "Calm": 40
+   },
+   "themes": {
+    "Techno": 50
+   },
+   "look": [
+    "wide",
+    "monoline",
+    "thin",
+    "geometric"
+   ],
+   "note": "Wide, thin monoline geometric letters with squarish round forms and open spacing.",
+   "sheet": "sheet-070",
+   "at": "2026-10-03T14:06:10.027Z"
+  },
+  "DOF 2": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "monoline",
+    "narrow",
+    "geometric",
+    "sans serif"
+   ],
+   "note": "Narrow monoline sans with squarish rounded curves and a technical feel.",
+   "sheet": "sheet-018",
+   "at": "2026-10-03T14:01:33.694Z"
+  },
+  "DOF 2 Extended": {
+   "moods": {
+    "Futuristic": 75,
+    "Innovative": 65,
+    "Calm": 45
+   },
+   "themes": {
+    "Techno": 55
+   },
+   "look": [
+    "wide",
+    "monoline",
+    "rounded corners",
+    "geometric"
+   ],
+   "note": "Wide monoline geometric sans with squarish rounded forms.",
+   "sheet": "sheet-005",
+   "at": "2026-10-03T14:00:17.165Z"
+  },
+  "DOF 3": {
+   "moods": {
+    "Loud": 80,
+    "Futuristic": 60,
+    "Active": 50
+   },
+   "themes": {
+    "Techno": 50
+   },
+   "look": [
+    "heavy",
+    "wide",
+    "squarish",
+    "geometric"
+   ],
+   "note": "Heavy wide squarish sans with rounded-rectangle bowls and tech feel.",
+   "sheet": "sheet-055",
+   "at": "2026-10-03T14:04:48.301Z"
+  },
+  "DOF 3 Extended": {
+   "moods": {
+    "Futuristic": 85,
+    "Loud": 60,
+    "Innovative": 55
+   },
+   "themes": {
+    "Techno": 65
+   },
+   "look": [
+    "extended",
+    "wide",
+    "bold",
+    "squarish"
+   ],
+   "note": "Very wide, bold, squarish techno sans with flat terminals.",
+   "sheet": "sheet-068",
+   "at": "2026-10-03T14:06:13.656Z"
+  },
+  "DOF Afield": {
+   "moods": {
+    "Futuristic": 75,
+    "Innovative": 65,
+    "Sophisticated": 45
+   },
+   "themes": {
+    "Techno": 60
+   },
+   "look": [
+    "wide",
+    "monoline",
+    "thin",
+    "squarish curves"
+   ],
+   "note": "Wide thin techno sans with squared rounds and quirky f, r, t.",
+   "sheet": "sheet-058",
+   "at": "2026-10-03T14:05:04.713Z"
+  },
+  "DSEG14 Classic": {
+   "moods": {
+    "Futuristic": 90,
+    "Innovative": 60,
+    "Awkward": 45
+   },
+   "themes": {
+    "Techno": 95
+   },
+   "look": [
+    "seven-segment",
+    "digital display",
+    "wide",
+    "monoline"
+   ],
+   "note": "LCD seven-segment style letters, wide, built from straight segments.",
+   "sheet": "sheet-063",
+   "at": "2026-10-03T14:05:28.693Z"
+  },
+  "DSEG14 Classic Mini": {
+   "moods": {
+    "Futuristic": 85,
+    "Innovative": 55,
+    "Awkward": 45
+   },
+   "themes": {
+    "Techno": 85,
+    "Pixel": 40
+   },
+   "look": [
+    "seven-segment",
+    "lcd display",
+    "wide",
+    "monoline",
+    "segmented"
+   ],
+   "note": "Wide digital-display letters built from segmented thin strokes, like an LCD.",
+   "sheet": "sheet-014",
+   "at": "2026-10-03T14:01:14.016Z"
+  },
+  "DSEG14 Modern": {
+   "moods": {
+    "Futuristic": 90,
+    "Innovative": 60,
+    "Awkward": 40
+   },
+   "themes": {
+    "Techno": 90
+   },
+   "look": [
+    "digital display",
+    "angular cuts",
+    "wide",
+    "monoline"
+   ],
+   "note": "Wide LCD-style letters with chamfered corners and segmented strokes.",
+   "sheet": "sheet-022",
+   "at": "2026-10-03T14:01:54.659Z"
+  },
+  "DSEG14 Modern Mini": {
+   "moods": {
+    "Futuristic": 75,
+    "Stiff": 55,
+    "Innovative": 50,
+    "Awkward": 40
+   },
+   "themes": {
+    "Techno": 85,
+    "Pixel": 45
+   },
+   "look": [
+    "digital display",
+    "segmented",
+    "angular",
+    "wide"
+   ],
+   "note": "Seven-segment LCD style letters made of angular cut strokes, wide.",
+   "sheet": "sheet-037",
+   "at": "2026-10-03T14:03:09.352Z"
+  },
+  "DSEG7 Classic": {
+   "moods": {
+    "Futuristic": 90,
+    "Innovative": 60,
+    "Awkward": 50,
+    "Stiff": 45
+   },
+   "themes": {
+    "Techno": 90,
+    "Pixel": 40
+   },
+   "look": [
+    "seven-segment",
+    "digital display",
+    "monoline",
+    "monospaced"
+   ],
+   "note": "Seven-segment LCD style letters built from straight bars, with missing glyph gaps.",
+   "sheet": "sheet-032",
+   "at": "2026-10-03T14:02:49.461Z"
+  },
+  "DSEG7 Classic Mini": {
+   "moods": {
+    "Futuristic": 85,
+    "Innovative": 55,
+    "Stiff": 50
+   },
+   "themes": {
+    "Techno": 90
+   },
+   "look": [
+    "seven-segment",
+    "digital display",
+    "monoline",
+    "wide"
+   ],
+   "note": "Seven-segment LCD display letters built from straight bars.",
+   "sheet": "sheet-007",
+   "at": "2026-10-03T14:00:26.522Z"
+  },
+  "DSEG7 Modern": {
+   "moods": {
+    "Futuristic": 90,
+    "Innovative": 60,
+    "Awkward": 45
+   },
+   "themes": {
+    "Techno": 90
+   },
+   "look": [
+    "seven-segment",
+    "digital display",
+    "monoline",
+    "angular"
+   ],
+   "note": "LCD seven-segment style letters built from straight bars with gaps.",
+   "sheet": "sheet-013",
+   "at": "2026-10-03T14:01:03.700Z"
+  },
+  "DSEG7 Modern Mini": {
+   "moods": {
+    "Futuristic": 90,
+    "Innovative": 60,
+    "Awkward": 50
+   },
+   "themes": {
+    "Techno": 90
+   },
+   "look": [
+    "seven-segment",
+    "digital display",
+    "monoline",
+    "angular"
+   ],
+   "note": "Seven-segment LCD style letters built from straight segments, with gaps.",
+   "sheet": "sheet-053",
+   "at": "2026-10-03T14:04:39.052Z"
+  },
+  "Dauphine": {
+   "moods": {
+    "Playful": 60,
+    "Sincere": 50,
+    "Cute": 40
+   },
+   "themes": {},
+   "look": [
+    "narrow",
+    "monoline",
+    "handwritten feel",
+    "quirky g"
+   ],
+   "note": "Narrow monoline sans with casual, quirky handmade details.",
+   "sheet": "sheet-057",
+   "at": "2026-10-03T14:04:57.088Z"
+  },
+  "David Libre": {
+   "moods": {
+    "Sincere": 70,
+    "Calm": 60,
+    "Competent": 50,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "old-style serif",
+    "humanist",
+    "bookish",
+    "moderate contrast"
+   ],
+   "note": "Warm old-style text serif with calligraphic feel and compact proportions.",
+   "sheet": "sheet-008",
+   "at": "2026-10-03T14:00:36.667Z"
+  },
+  "DejaVu Math": {
+   "moods": {
+    "Sincere": 65,
+    "Competent": 60,
+    "Business": 50,
+    "Calm": 45
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "slab-ish bracketed serifs",
+    "moderate contrast",
+    "wide"
+   ],
+   "note": "Conventional wide serif text face with bracketed serifs and moderate contrast.",
+   "sheet": "sheet-022",
+   "at": "2026-10-03T14:01:54.659Z"
+  },
+  "DejaVu Mono": {
+   "moods": {
+    "Competent": 75,
+    "Business": 65,
+    "Sincere": 55,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "sans serif",
+    "humanist",
+    "even stroke"
+   ],
+   "note": "Clean monospaced sans with open forms and uniform stroke.",
+   "sheet": "sheet-069",
+   "at": "2026-10-03T14:05:59.751Z"
+  },
+  "DejaVu Sans": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "neutral",
+    "open",
+    "medium weight"
+   ],
+   "note": "Clean neutral grotesque sans with open forms and even stroke.",
+   "sheet": "sheet-007",
+   "at": "2026-10-03T14:00:26.522Z"
+  },
+  "DejaVu Sans Condensed": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 55
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "light",
+    "clean",
+    "open"
+   ],
+   "note": "Clean light humanist sans with open apertures and even strokes.",
+   "sheet": "sheet-027",
+   "at": "2026-10-03T14:02:19.814Z"
+  },
+  "DejaVu Sans Mono": {
+   "moods": {
+    "Business": 65,
+    "Competent": 65,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "regular weight",
+    "open forms",
+    "code-like"
+   ],
+   "note": "Clean monospaced sans with open shapes, like a programmer's font.",
+   "sheet": "sheet-060",
+   "at": "2026-10-03T14:05:14.852Z"
+  },
+  "DejaVu Serif": {
+   "moods": {
+    "Sincere": 65,
+    "Competent": 65,
+    "Business": 60,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "slab-like serifs",
+    "sturdy",
+    "moderate contrast"
+   ],
+   "note": "Sturdy text serif with bracketed serifs and wide, readable forms.",
+   "sheet": "sheet-076",
+   "at": "2026-10-03T14:06:44.147Z"
+  },
+  "DejaVu Serif Condensed": {
+   "moods": {
+    "Sincere": 60,
+    "Competent": 60,
+    "Business": 55,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "slab-like bracketed serifs",
+    "moderate contrast",
+    "readable"
+   ],
+   "note": "Sturdy text serif with moderate contrast and sharp bracketed serifs.",
+   "sheet": "sheet-038",
+   "at": "2026-10-03T14:03:19.536Z"
+  },
+  "DiamondGrotesk": {
+   "moods": {
+    "Business": 70,
+    "Sophisticated": 55,
+    "Innovative": 55,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "grotesque sans",
+    "quirky details",
+    "light",
+    "monoline"
+   ],
+   "note": "Clean light grotesque with quirky details like the dotted i and open zero.",
+   "sheet": "sheet-003",
+   "at": "2026-10-03T13:59:57.061Z"
+  },
+  "Director": {
+   "moods": {
+    "Vintage": 65,
+    "Stiff": 60,
+    "Awkward": 45
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "typewriter",
+    "slab serifs",
+    "wide spacing"
+   ],
+   "note": "Typewriter-style monospaced serif with wide, even letter spacing.",
+   "sheet": "sheet-028",
+   "at": "2026-10-03T14:02:32.334Z"
+  },
+  "Ductus": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 65,
+    "Playful": 50,
+    "Awkward": 40
+   },
+   "themes": {
+    "Techno": 55
+   },
+   "look": [
+    "monoline",
+    "thin",
+    "quirky",
+    "wide"
+   ],
+   "note": "Thin monoline letters with quirky stencil-like breaks and odd w and m.",
+   "sheet": "sheet-051",
+   "at": "2026-10-03T14:04:29.884Z"
+  },
+  "Ductus Calligraphic": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 55,
+    "Calm": 50,
+    "Artistic": 40
+   },
+   "themes": {
+    "Techno": 55
+   },
+   "look": [
+    "monoline",
+    "thin",
+    "wide",
+    "geometric",
+    "single-stroke"
+   ],
+   "note": "Thin monoline wide letters, geometric and slightly quirky, with open spacing.",
+   "sheet": "sheet-052",
+   "at": "2026-10-03T14:04:37.507Z"
+  },
+  "Ductus Geometric": {
+   "moods": {
+    "Futuristic": 60,
+    "Innovative": 55,
+    "Playful": 45,
+    "Artistic": 40
+   },
+   "themes": {
+    "Stencil": 50,
+    "Techno": 45
+   },
+   "look": [
+    "monoline",
+    "wide",
+    "stencil gaps",
+    "rounded corners"
+   ],
+   "note": "Wide thin monoline sans with small breaks and quirky stencil-like cuts.",
+   "sheet": "sheet-012",
+   "at": "2026-10-03T14:01:02.480Z"
+  },
+  "Ductus Mono": {
+   "moods": {
+    "Innovative": 60,
+    "Playful": 55,
+    "Awkward": 55,
+    "Futuristic": 40
+   },
+   "themes": {
+    "Techno": 50
+   },
+   "look": [
+    "thin",
+    "monoline",
+    "monospaced",
+    "quirky letterforms",
+    "wide spacing"
+   ],
+   "note": "Thin monoline mono with quirky single-storey a, e and odd i.",
+   "sheet": "sheet-063",
+   "at": "2026-10-03T14:05:28.693Z"
+  },
+  "Ductus Mono Calligraphic": {
+   "moods": {
+    "Artistic": 65,
+    "Awkward": 55,
+    "Innovative": 50,
+    "Playful": 45
+   },
+   "themes": {
+    "Stencil": 45
+   },
+   "look": [
+    "thin",
+    "monoline",
+    "wide",
+    "quirky glyphs"
+   ],
+   "note": "Thin monoline wide letters with odd quirky a, w, i and broken strokes.",
+   "sheet": "sheet-015",
+   "at": "2026-10-03T14:01:18.425Z"
+  },
+  "Ductus Mono Geometric": {
+   "moods": {
+    "Playful": 65,
+    "Awkward": 60,
+    "Artistic": 55,
+    "Futuristic": 45
+   },
+   "themes": {
+    "Techno": 50
+   },
+   "look": [
+    "monospace",
+    "monoline",
+    "quirky",
+    "thin",
+    "unusual glyphs"
+   ],
+   "note": "Thin monoline monospace with quirky, mismatched letter shapes.",
+   "sheet": "sheet-076",
+   "at": "2026-10-03T14:06:44.147Z"
+  },
+  "EB Garamond SC": {
+   "moods": {
+    "Sophisticated": 80,
+    "Calm": 60,
+    "Vintage": 55,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "old-style",
+    "small caps",
+    "calligraphic"
+   ],
+   "note": "Elegant old-style serif with small-cap lowercase and oldstyle figures.",
+   "sheet": "sheet-050",
+   "at": "2026-10-03T14:04:26.987Z"
+  },
+  "Elvenes": {
+   "moods": {
+    "Artistic": 70,
+    "Playful": 55,
+    "Awkward": 50,
+    "Rugged": 45
+   },
+   "themes": {
+    "Wacky": 50
+   },
+   "look": [
+    "slanted",
+    "condensed",
+    "angular cuts",
+    "irregular"
+   ],
+   "note": "Slanted condensed face with chiseled angular cuts and quirky irregular shapes.",
+   "sheet": "sheet-010",
+   "at": "2026-10-03T14:00:52.614Z"
+  },
+  "Equateur": {
+   "moods": {
+    "Sophisticated": 75,
+    "Vintage": 60,
+    "Sincere": 55,
+    "Fancy": 45
+   },
+   "themes": {},
+   "look": [
+    "old-style serif",
+    "bold",
+    "high contrast",
+    "bracketed serifs"
+   ],
+   "note": "Bold old-style serif with calligraphic bracketed serifs and tight spacing.",
+   "sheet": "sheet-039",
+   "at": "2026-10-03T14:03:19.916Z"
+  },
+  "Erode": {
+   "moods": {
+    "Sincere": 65,
+    "Competent": 60,
+    "Calm": 55,
+    "Sophisticated": 40
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "bracketed serifs",
+    "moderate contrast",
+    "text face"
+   ],
+   "note": "Sturdy readable text serif with moderate contrast and bracketed serifs.",
+   "sheet": "sheet-007",
+   "at": "2026-10-03T14:00:26.522Z"
+  },
+  "Excon": {
+   "moods": {
+    "Calm": 60,
+    "Business": 55,
+    "Sincere": 55,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "geometric",
+    "clean",
+    "humanist",
+    "medium weight"
+   ],
+   "note": "Clean geometric-humanist sans with open, even letterforms.",
+   "sheet": "sheet-057",
+   "at": "2026-10-03T14:04:57.088Z"
+  },
+  "Expose": {
+   "moods": {
+    "Business": 65,
+    "Competent": 65,
+    "Active": 50,
+    "Sincere": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "sans serif",
+    "medium weight",
+    "tight spacing"
+   ],
+   "note": "Narrow humanist sans, medium weight, compact and tightly spaced.",
+   "sheet": "sheet-017",
+   "at": "2026-10-03T14:01:28.167Z"
+  },
+  "FT88": {
+   "moods": {
+    "Futuristic": 65,
+    "Innovative": 55,
+    "Stiff": 50,
+    "Awkward": 40
+   },
+   "themes": {
+    "Pixel": 95,
+    "Techno": 50
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "monospaced",
+    "wide spacing"
+   ],
+   "note": "Wide-spaced bitmap pixel letters built from square dots.",
+   "sheet": "sheet-038",
+   "at": "2026-10-03T14:03:19.536Z"
+  },
+  "FT88 Expanded": {
+   "moods": {
+    "Futuristic": 85,
+    "Innovative": 60,
+    "Stiff": 45
+   },
+   "themes": {
+    "Pixel": 90,
+    "Techno": 70
+   },
+   "look": [
+    "pixel",
+    "wide",
+    "thin lines",
+    "monoline",
+    "widely spaced"
+   ],
+   "note": "Wide, thin pixel-grid letters with loose spacing and blocky steps.",
+   "sheet": "sheet-068",
+   "at": "2026-10-03T14:06:13.656Z"
+  },
+  "FT88 Gothique": {
+   "moods": {
+    "Rugged": 70,
+    "Vintage": 55,
+    "Artistic": 50
+   },
+   "themes": {
+    "Pixel": 90,
+    "Blackletter": 90
+   },
+   "look": [
+    "pixelated",
+    "blackletter",
+    "bold",
+    "chunky"
+   ],
+   "note": "Bitmap blackletter with heavy blocky strokes and stepped edges.",
+   "sheet": "sheet-036",
+   "at": "2026-10-03T14:03:09.872Z"
+  },
+  "FT88 School": {
+   "moods": {
+    "Artistic": 55,
+    "Playful": 50,
+    "Futuristic": 40,
+    "Vintage": 40
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "script",
+    "blackletter-like caps"
+   ],
+   "note": "Pixelated bitmap script with blocky stair-stepped strokes and ornate caps.",
+   "sheet": "sheet-047",
+   "at": "2026-10-03T14:04:11.069Z"
+  },
+  "FT88 Serif": {
+   "moods": {
+    "Playful": 60,
+    "Vintage": 50,
+    "Futuristic": 50
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "slab serifs",
+    "bold"
+   ],
+   "note": "Chunky pixel-grid letters with slab-like serifs, retro computer look.",
+   "sheet": "sheet-004",
+   "at": "2026-10-03T14:00:06.186Z"
+  },
+  "Fantasque Sans": {
+   "moods": {
+    "Competent": 65,
+    "Business": 55,
+    "Innovative": 50,
+    "Stiff": 40
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospaced",
+    "sans serif",
+    "slightly rounded",
+    "compact"
+   ],
+   "note": "Compact monospaced sans with open shapes and typewriter-like rhythm.",
+   "sheet": "sheet-050",
+   "at": "2026-10-03T14:04:26.987Z"
+  },
+  "Façade": {
+   "moods": {
+    "Futuristic": 70,
+    "Awkward": 55,
+    "Innovative": 50
+   },
+   "themes": {
+    "Techno": 70,
+    "Pixel": 40
+   },
+   "look": [
+    "condensed",
+    "monoline",
+    "angular",
+    "square construction"
+   ],
+   "note": "Thin condensed monoline letters built from right angles, quirky and blocky.",
+   "sheet": "sheet-066",
+   "at": "2026-10-03T14:05:49.455Z"
+  },
+  "Feroniapi": {
+   "moods": {
+    "Fancy": 70,
+    "Artistic": 65,
+    "Playful": 55,
+    "Vintage": 50
+   },
+   "themes": {
+    "Art Nouveau": 40
+   },
+   "look": [
+    "slanted",
+    "script-like",
+    "swash capitals",
+    "monoline"
+   ],
+   "note": "Slanted monoline script with swirly capitals and looped details.",
+   "sheet": "sheet-051",
+   "at": "2026-10-03T14:04:29.884Z"
+  },
+  "Ferrite Core DX": {
+   "moods": {
+    "Futuristic": 90,
+    "Innovative": 65,
+    "Awkward": 40
+   },
+   "themes": {
+    "Techno": 85
+   },
+   "look": [
+    "extended",
+    "monoline",
+    "geometric",
+    "thin"
+   ],
+   "note": "Extra-wide monoline squared letters, geometric and sci-fi.",
+   "sheet": "sheet-024",
+   "at": "2026-10-03T14:02:04.654Z"
+  },
+  "Ferrite Core DX Display": {
+   "moods": {
+    "Futuristic": 90,
+    "Loud": 70,
+    "Innovative": 60
+   },
+   "themes": {
+    "Techno": 80
+   },
+   "look": [
+    "extra wide",
+    "blocky",
+    "heavy",
+    "squared"
+   ],
+   "note": "Very wide, heavy, squared techno letters with flat horizontal bars.",
+   "sheet": "sheet-003",
+   "at": "2026-10-03T13:59:57.061Z"
+  },
+  "Fibel Nord": {
+   "moods": {
+    "Playful": 65,
+    "Artistic": 55,
+    "Cute": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "handwritten feel",
+    "quirky",
+    "monoline"
+   ],
+   "note": "Narrow, quirky monoline sans with irregular, hand-drawn rhythm.",
+   "sheet": "sheet-001",
+   "at": "2026-10-03T13:57:03.143Z"
+  },
+  "Fibel Süd": {
+   "moods": {
+    "Playful": 55,
+    "Happy": 50,
+    "Competent": 45,
+    "Active": 40
+   },
+   "themes": {},
+   "look": [
+    "monoline",
+    "handwritten feel",
+    "rounded corners",
+    "condensed caps"
+   ],
+   "note": "Casual monoline sans with friendly handmade feel, narrow capitals.",
+   "sheet": "sheet-043",
+   "at": "2026-10-03T14:03:46.638Z"
+  },
+  "FifteenTwenty": {
+   "moods": {
+    "Futuristic": 65,
+    "Calm": 50,
+    "Innovative": 50,
+    "Stiff": 45
+   },
+   "themes": {
+    "Techno": 60
+   },
+   "look": [
+    "monoline",
+    "thin",
+    "wide spacing",
+    "geometric",
+    "monospaced"
+   ],
+   "note": "Thin monoline technical lettering, angular and widely spaced like plotter text.",
+   "sheet": "sheet-043",
+   "at": "2026-10-03T14:03:46.638Z"
+  },
+  "Finlandica": {
+   "moods": {
+    "Competent": 60,
+    "Business": 55,
+    "Active": 45
+   },
+   "themes": {},
+   "look": [
+    "slightly condensed",
+    "humanist sans",
+    "monoline"
+   ],
+   "note": "Slightly narrow humanist sans with sturdy, even strokes.",
+   "sheet": "sheet-031",
+   "at": "2026-10-03T14:02:41.565Z"
+  },
+  "FiraGO": {
+   "moods": {
+    "Competent": 65,
+    "Business": 60,
+    "Sincere": 55
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "medium weight",
+    "slightly condensed"
+   ],
+   "note": "Sturdy humanist sans, slightly condensed, medium weight, very readable.",
+   "sheet": "sheet-063",
+   "at": "2026-10-03T14:05:28.693Z"
+  },
+  "Fivo Sans Modern": {
+   "moods": {
+    "Calm": 65,
+    "Business": 65,
+    "Competent": 55,
+    "Innovative": 50
+   },
+   "themes": {},
+   "look": [
+    "light sans",
+    "wide",
+    "geometric",
+    "monoline"
+   ],
+   "note": "Light, slightly wide geometric sans with open letters and even stroke.",
+   "sheet": "sheet-049",
+   "at": "2026-10-03T14:04:19.797Z"
+  },
+  "Flor de Ruina": {
+   "moods": {
+    "Vintage": 75,
+    "Rugged": 50,
+    "Artistic": 45
+   },
+   "themes": {
+    "Distressed": 45
+   },
+   "look": [
+    "slab serifs",
+    "dotted texture",
+    "condensed",
+    "typewriter-like"
+   ],
+   "note": "Slab serif with halftone dotted texture, tight and slightly condensed.",
+   "sheet": "sheet-005",
+   "at": "2026-10-03T14:00:17.165Z"
+  },
+  "Fontlab Font": {
+   "moods": {
+    "Stiff": 60,
+    "Futuristic": 50,
+    "Competent": 50
+   },
+   "themes": {
+    "Pixel": 70
+   },
+   "look": [
+    "pixelated",
+    "monospaced",
+    "bitmap",
+    "blocky"
+   ],
+   "note": "Bitmap-style monospaced letters built from square pixels.",
+   "sheet": "sheet-018",
+   "at": "2026-10-03T14:01:33.694Z"
+  },
+  "Format 1452": {
+   "moods": {
+    "Futuristic": 65,
+    "Innovative": 65,
+    "Artistic": 55,
+    "Playful": 45
+   },
+   "themes": {
+    "Techno": 45
+   },
+   "look": [
+    "geometric",
+    "quirky",
+    "monoline",
+    "slashed zero"
+   ],
+   "note": "Geometric monoline sans with odd quirky glyphs like a flipped s.",
+   "sheet": "sheet-036",
+   "at": "2026-10-03T14:03:09.872Z"
+  },
+  "Frames Part One": {
+   "moods": {
+    "Futuristic": 55,
+    "Innovative": 55,
+    "Artistic": 50,
+    "Awkward": 40
+   },
+   "themes": {
+    "Techno": 45
+   },
+   "look": [
+    "monospaced",
+    "thin",
+    "monoline",
+    "quirky glyphs"
+   ],
+   "note": "Thin monospaced face with quirky alternate letterforms like single-story a and e.",
+   "sheet": "sheet-030",
+   "at": "2026-10-03T14:02:39.261Z"
+  },
+  "Fungal": {
+   "moods": {
+    "Awkward": 60,
+    "Artistic": 50,
+    "Playful": 50
+   },
+   "themes": {
+    "Distressed": 70,
+    "Wacky": 50
+   },
+   "look": [
+    "sans serif",
+    "dotted overlay",
+    "splatter",
+    "geometric"
+   ],
+   "note": "Clean sans overlaid with scattered dotted branching lines, noisy texture.",
+   "sheet": "sheet-019",
+   "at": "2026-10-03T14:01:45.491Z"
+  },
+  "Fusion Kai G": {
+   "moods": {
+    "Calm": 55,
+    "Sincere": 50,
+    "Artistic": 45,
+    "Playful": 40
+   },
+   "themes": {},
+   "look": [
+    "handwritten",
+    "thin",
+    "monoline",
+    "casual"
+   ],
+   "note": "Thin monoline handwriting-style sans with slightly irregular shapes.",
+   "sheet": "sheet-061",
+   "at": "2026-10-03T14:05:19.391Z"
+  },
+  "Fusion Kai J": {
+   "moods": {
+    "Playful": 70,
+    "Artistic": 60,
+    "Cute": 50,
+    "Happy": 40
+   },
+   "themes": {},
+   "look": [
+    "handwritten",
+    "thin monoline",
+    "quirky",
+    "upright"
+   ],
+   "note": "Thin monoline handwriting-style letters with quirky irregular shapes.",
+   "sheet": "sheet-048",
+   "at": "2026-10-03T14:04:12.914Z"
+  },
+  "Fusion Kai T": {
+   "moods": {
+    "Happy": 60,
+    "Playful": 60,
+    "Cute": 45,
+    "Sincere": 45
+   },
+   "themes": {},
+   "look": [
+    "monoline",
+    "rounded",
+    "handwritten feel",
+    "single-story a"
+   ],
+   "note": "Friendly monoline sans with slightly handwritten, rounded forms.",
+   "sheet": "sheet-030",
+   "at": "2026-10-03T14:02:39.261Z"
+  },
+  "Fusion Pixel 10px Monospaced JP": {
+   "moods": {
+    "Playful": 55,
+    "Futuristic": 50,
+    "Awkward": 40
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "narrow",
+    "monospaced"
+   ],
+   "note": "Narrow bitmap pixel face with slab-like feet and blocky letters.",
+   "sheet": "sheet-071",
+   "at": "2026-10-03T14:06:19.434Z"
+  },
+  "Fusion Pixel 10px Monospaced KR": {
+   "moods": {
+    "Futuristic": 55,
+    "Innovative": 50,
+    "Playful": 45
+   },
+   "themes": {
+    "Pixel": 95,
+    "Techno": 50
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "blocky",
+    "monospaced"
+   ],
+   "note": "Chunky bitmap pixel letters on a grid, monospaced and blocky.",
+   "sheet": "sheet-033",
+   "at": "2026-10-03T14:02:51.005Z"
+  },
+  "Fusion Pixel 10px Monospaced SC": {
+   "moods": {
+    "Futuristic": 65,
+    "Loud": 50,
+    "Innovative": 50,
+    "Awkward": 45
+   },
+   "themes": {
+    "Pixel": 90,
+    "Techno": 50
+   },
+   "look": [
+    "pixel",
+    "bold",
+    "blocky",
+    "condensed"
+   ],
+   "note": "Bold bitmap-style pixel letters with square steps and heavy strokes.",
+   "sheet": "sheet-073",
+   "at": "2026-10-03T14:06:34.621Z"
+  },
+  "Fusion Pixel 10px Monospaced TC": {
+   "moods": {
+    "Futuristic": 60,
+    "Playful": 50,
+    "Awkward": 50
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "blocky",
+    "monoline"
+   ],
+   "note": "Chunky bitmap pixel letters with stepped edges.",
+   "sheet": "sheet-022",
+   "at": "2026-10-03T14:01:54.659Z"
+  },
+  "Fusion Pixel 10px Proportional JP": {
+   "moods": {
+    "Futuristic": 55,
+    "Innovative": 50,
+    "Stiff": 50,
+    "Competent": 40
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "blocky",
+    "monoline"
+   ],
+   "note": "Chunky bitmap pixel letters built on a square grid.",
+   "sheet": "sheet-052",
+   "at": "2026-10-03T14:04:37.507Z"
+  },
+  "Fusion Pixel 10px Proportional KR": {
+   "moods": {
+    "Futuristic": 60,
+    "Innovative": 50,
+    "Loud": 45
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "bold",
+    "blocky"
+   ],
+   "note": "Heavier bitmap pixel letters, blocky and wide spaced.",
+   "sheet": "sheet-046",
+   "at": "2026-10-03T14:04:01.970Z"
+  },
+  "Fusion Pixel 10px Proportional SC": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 60,
+    "Stiff": 50,
+    "Playful": 40
+   },
+   "themes": {
+    "Pixel": 95,
+    "Techno": 50
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "blocky",
+    "monospaced"
+   ],
+   "note": "Chunky bitmap pixel letters on a monospaced grid.",
+   "sheet": "sheet-056",
+   "at": "2026-10-03T14:04:55.131Z"
+  },
+  "Fusion Pixel 10px Proportional TC": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 60,
+    "Playful": 40
+   },
+   "themes": {
+    "Pixel": 100
+   },
+   "look": [
+    "pixel",
+    "monospaced",
+    "blocky",
+    "bitmap"
+   ],
+   "note": "Monospaced bitmap letters built from square pixels.",
+   "sheet": "sheet-044",
+   "at": "2026-10-03T14:03:52.730Z"
+  },
+  "Fusion Pixel 12px Monospaced JP": {
+   "moods": {
+    "Futuristic": 75,
+    "Innovative": 60,
+    "Playful": 40
+   },
+   "themes": {
+    "Pixel": 95,
+    "Techno": 55
+   },
+   "look": [
+    "pixel",
+    "monospaced",
+    "bitmap",
+    "blocky"
+   ],
+   "note": "Monospaced pixel-grid bitmap letters with stepped edges.",
+   "sheet": "sheet-021",
+   "at": "2026-10-03T14:01:51.255Z"
+  },
+  "Fusion Pixel 12px Monospaced KR": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 60,
+    "Stiff": 50,
+    "Competent": 40
+   },
+   "themes": {
+    "Pixel": 80,
+    "Techno": 60
+   },
+   "look": [
+    "pixelated",
+    "monospaced",
+    "bitmap",
+    "condensed"
+   ],
+   "note": "Monospaced bitmap-style letters built from square pixel steps.",
+   "sheet": "sheet-002",
+   "at": "2026-10-03T14:00:03.222Z"
+  },
+  "Fusion Pixel 12px Monospaced SC": {
+   "moods": {
+    "Futuristic": 65,
+    "Innovative": 60,
+    "Competent": 50
+   },
+   "themes": {
+    "Pixel": 75,
+    "Techno": 50
+   },
+   "look": [
+    "pixel",
+    "monospaced",
+    "bitmap",
+    "monoline"
+   ],
+   "note": "Pixel-style monospaced face with stepped edges and a bitmap look.",
+   "sheet": "sheet-064",
+   "at": "2026-10-03T14:05:37.727Z"
+  },
+  "Fusion Pixel 12px Monospaced TC": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 60,
+    "Active": 40
+   },
+   "themes": {
+    "Pixel": 95,
+    "Techno": 50
+   },
+   "look": [
+    "pixel",
+    "monospaced",
+    "bitmap",
+    "blocky"
+   ],
+   "note": "Monospaced bitmap pixel letters with stepped edges, like a retro screen.",
+   "sheet": "sheet-008",
+   "at": "2026-10-03T14:00:36.667Z"
+  },
+  "Fusion Pixel 12px Proportional JP": {
+   "moods": {
+    "Futuristic": 60,
+    "Innovative": 50,
+    "Stiff": 40
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "monoline",
+    "light"
+   ],
+   "note": "Thin bitmap-style pixel letters with stepped edges.",
+   "sheet": "sheet-046",
+   "at": "2026-10-03T14:04:01.970Z"
+  },
+  "Fusion Pixel 12px Proportional KR": {
+   "moods": {
+    "Futuristic": 65,
+    "Innovative": 55,
+    "Awkward": 45,
+    "Stiff": 45
+   },
+   "themes": {
+    "Pixel": 95,
+    "Techno": 50
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "monospaced feel",
+    "blocky"
+   ],
+   "note": "Thin bitmap pixel letters with stepped edges and wide word spacing.",
+   "sheet": "sheet-039",
+   "at": "2026-10-03T14:03:19.916Z"
+  },
+  "Fusion Pixel 12px Proportional SC": {
+   "moods": {
+    "Futuristic": 60,
+    "Innovative": 50,
+    "Awkward": 40
+   },
+   "themes": {
+    "Pixel": 95,
+    "Techno": 50
+   },
+   "look": [
+    "pixelated",
+    "bitmap",
+    "blocky",
+    "condensed"
+   ],
+   "note": "Bitmap pixel letters with stair-stepped edges.",
+   "sheet": "sheet-074",
+   "at": "2026-10-03T14:06:34.626Z"
+  },
+  "Fusion Pixel 12px Proportional TC": {
+   "moods": {
+    "Futuristic": 60,
+    "Innovative": 50,
+    "Playful": 45,
+    "Awkward": 40
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "monoline",
+    "blocky"
+   ],
+   "note": "Bitmap pixel font with stair-stepped, narrow monoline letters.",
+   "sheet": "sheet-053",
+   "at": "2026-10-03T14:04:39.052Z"
+  },
+  "Fusion Pixel 8px Monospaced JP": {
+   "moods": {
+    "Futuristic": 60,
+    "Awkward": 55,
+    "Innovative": 50,
+    "Stiff": 50
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "blocky",
+    "bold"
+   ],
+   "note": "Blocky bitmap pixel letters built from square dots.",
+   "sheet": "sheet-023",
+   "at": "2026-10-03T14:02:02.016Z"
+  },
+  "Fusion Pixel 8px Monospaced KR": {
+   "moods": {
+    "Futuristic": 55,
+    "Playful": 50,
+    "Awkward": 50
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "blocky",
+    "bold"
+   ],
+   "note": "Chunky bitmap pixel letters with blocky stair-stepped edges.",
+   "sheet": "sheet-013",
+   "at": "2026-10-03T14:01:03.700Z"
+  },
+  "Fusion Pixel 8px Monospaced SC": {
+   "moods": {
+    "Playful": 60,
+    "Futuristic": 50,
+    "Awkward": 50,
+    "Active": 40
+   },
+   "themes": {
+    "Pixel": 100
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "blocky",
+    "bold"
+   ],
+   "note": "Chunky bitmap pixel letters with square stepped edges.",
+   "sheet": "sheet-007",
+   "at": "2026-10-03T14:00:26.522Z"
+  },
+  "Fusion Pixel 8px Monospaced TC": {
+   "moods": {
+    "Loud": 60,
+    "Active": 50,
+    "Futuristic": 50,
+    "Playful": 45
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "heavy",
+    "blocky"
+   ],
+   "note": "Heavy blocky bitmap letters built from chunky square pixels.",
+   "sheet": "sheet-067",
+   "at": "2026-10-03T14:05:48.258Z"
+  },
+  "Fusion Pixel 8px Proportional JP": {
+   "moods": {
+    "Futuristic": 60,
+    "Loud": 50,
+    "Playful": 45
+   },
+   "themes": {
+    "Pixel": 100
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "bold",
+    "blocky"
+   ],
+   "note": "Chunky bitmap letters built from square pixels, heavy and blocky.",
+   "sheet": "sheet-005",
+   "at": "2026-10-03T14:00:17.165Z"
+  },
+  "Fusion Pixel 8px Proportional KR": {
+   "moods": {
+    "Playful": 60,
+    "Futuristic": 50,
+    "Loud": 45
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "bold",
+    "monospaced"
+   ],
+   "note": "Chunky bold bitmap pixel letters on a coarse grid.",
+   "sheet": "sheet-071",
+   "at": "2026-10-03T14:06:19.434Z"
+  },
+  "Fusion Pixel 8px Proportional SC": {
+   "moods": {
+    "Futuristic": 60,
+    "Playful": 55,
+    "Innovative": 50,
+    "Awkward": 40
+   },
+   "themes": {
+    "Pixel": 100
+   },
+   "look": [
+    "pixel",
+    "blocky",
+    "bitmap",
+    "monospaced"
+   ],
+   "note": "Chunky bitmap pixel letters with blocky stair-stepped edges.",
+   "sheet": "sheet-034",
+   "at": "2026-10-03T14:02:59.595Z"
+  },
+  "Fusion Pixel 8px Proportional TC": {
+   "moods": {
+    "Loud": 60,
+    "Playful": 55,
+    "Futuristic": 45,
+    "Awkward": 45
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "bold",
+    "blocky"
+   ],
+   "note": "Heavy blocky bitmap letters built from square pixels.",
+   "sheet": "sheet-014",
+   "at": "2026-10-03T14:01:14.016Z"
+  },
+  "Galgo Condensed": {
+   "moods": {
+    "Loud": 60,
+    "Active": 55,
+    "Rugged": 45,
+    "Business": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "tall",
+    "tight spacing",
+    "sans serif"
+   ],
+   "note": "Very tall, narrow condensed sans with tight spacing.",
+   "sheet": "sheet-040",
+   "at": "2026-10-03T14:03:29.788Z"
+  },
+  "Gambarino": {
+   "moods": {
+    "Sophisticated": 80,
+    "Competent": 55,
+    "Business": 50,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "high contrast",
+    "condensed",
+    "tight spacing"
+   ],
+   "note": "Elegant condensed high-contrast serif with sharp bracketed serifs.",
+   "sheet": "sheet-046",
+   "at": "2026-10-03T14:04:01.970Z"
+  },
+  "Gambetta": {
+   "moods": {
+    "Sincere": 75,
+    "Calm": 70,
+    "Sophisticated": 60,
+    "Competent": 60
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "book text",
+    "moderate contrast",
+    "light"
+   ],
+   "note": "Elegant light text serif with moderate contrast and calm proportions.",
+   "sheet": "sheet-023",
+   "at": "2026-10-03T14:02:02.016Z"
+  },
+  "Gap Sans": {
+   "moods": {
+    "Business": 65,
+    "Competent": 60,
+    "Stiff": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "tight spacing",
+    "grotesque",
+    "neutral"
+   ],
+   "note": "Condensed neutral grotesque with very tight letterspacing.",
+   "sheet": "sheet-061",
+   "at": "2026-10-03T14:05:19.391Z"
+  },
+  "Garamon(d/t)": {
+   "moods": {
+    "Playful": 70,
+    "Artistic": 65,
+    "Vintage": 50,
+    "Awkward": 45
+   },
+   "themes": {
+    "Wacky": 40
+   },
+   "look": [
+    "quirky serif",
+    "uneven baseline",
+    "hand-drawn",
+    "light weight"
+   ],
+   "note": "Wobbly hand-drawn light serif with irregular quirky letter shapes.",
+   "sheet": "sheet-067",
+   "at": "2026-10-03T14:05:48.258Z"
+  },
+  "Garcia": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "geometric",
+    "monoline",
+    "clean"
+   ],
+   "note": "Clean geometric sans with even strokes and open, round letterforms.",
+   "sheet": "sheet-020",
+   "at": "2026-10-03T14:01:41.885Z"
+  },
+  "Geist Sans": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 50,
+    "Sincere": 40
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "clean",
+    "medium weight"
+   ],
+   "note": "Clean neo-grotesque sans with open round forms and even stroke.",
+   "sheet": "sheet-065",
+   "at": "2026-10-03T14:05:38.780Z"
+  },
+  "General Sans": {
+   "moods": {
+    "Business": 80,
+    "Competent": 70,
+    "Calm": 65,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "light weight",
+    "geometric sans",
+    "clean",
+    "open"
+   ],
+   "note": "Light, clean geometric sans with even strokes and round bowls.",
+   "sheet": "sheet-003",
+   "at": "2026-10-03T13:59:57.061Z"
+  },
+  "Genjyuu Gothic": {
+   "moods": {
+    "Calm": 65,
+    "Sincere": 65,
+    "Competent": 60,
+    "Business": 50
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "light",
+    "open",
+    "narrowish"
+   ],
+   "note": "Light humanist sans with open apertures and gentle proportions.",
+   "sheet": "sheet-039",
+   "at": "2026-10-03T14:03:19.916Z"
+  },
+  "Geomini": {
+   "moods": {
+    "Calm": 60,
+    "Sophisticated": 55,
+    "Innovative": 50,
+    "Business": 45
+   },
+   "themes": {},
+   "look": [
+    "geometric",
+    "light weight",
+    "wide",
+    "rounded curves"
+   ],
+   "note": "Light, wide geometric sans with round bowls and a single-storey g.",
+   "sheet": "sheet-060",
+   "at": "2026-10-03T14:05:14.852Z"
+  },
+  "Gidolinya": {
+   "moods": {
+    "Calm": 60,
+    "Innovative": 45,
+    "Sincere": 45
+   },
+   "themes": {},
+   "look": [
+    "light",
+    "rounded",
+    "geometric",
+    "quirky w"
+   ],
+   "note": "Light, rounded sans with distinctive looped w and open forms.",
+   "sheet": "sheet-041",
+   "at": "2026-10-03T14:03:28.416Z"
+  },
+  "Glacier": {
+   "moods": {
+    "Artistic": 80,
+    "Playful": 60,
+    "Awkward": 50,
+    "Fancy": 40
+   },
+   "themes": {},
+   "look": [
+    "handwritten",
+    "slanted",
+    "quirky",
+    "thin stroke"
+   ],
+   "note": "Quirky slanted handwritten letters with thin pen strokes and uneven shapes.",
+   "sheet": "sheet-070",
+   "at": "2026-10-03T14:06:10.027Z"
+  },
+  "Gotu": {
+   "moods": {
+    "Calm": 70,
+    "Sincere": 60,
+    "Sophisticated": 50
+   },
+   "themes": {},
+   "look": [
+    "light weight",
+    "humanist",
+    "open",
+    "low contrast"
+   ],
+   "note": "Light humanist sans with open, gentle proportions and single-storey g.",
+   "sheet": "sheet-059",
+   "at": "2026-10-03T14:05:08.030Z"
+  },
+  "Grammatika": {
+   "moods": {
+    "Business": 80,
+    "Competent": 75,
+    "Calm": 55,
+    "Sincere": 45
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "neutral",
+    "grotesque",
+    "medium weight"
+   ],
+   "note": "Clean neutral grotesque sans with even strokes and open shapes.",
+   "sheet": "sheet-006",
+   "at": "2026-10-03T14:00:34.983Z"
+  },
+  "Grotesk": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 60,
+    "Awkward": 45,
+    "Playful": 40
+   },
+   "themes": {
+    "Techno": 65
+   },
+   "look": [
+    "squarish",
+    "monospaced",
+    "quirky",
+    "semi-bold"
+   ],
+   "note": "Squared-off techno sans with quirky open-bowl a, e, s and blocky terminals.",
+   "sheet": "sheet-060",
+   "at": "2026-10-03T14:05:14.852Z"
+  },
+  "Gulax": {
+   "moods": {
+    "Playful": 75,
+    "Futuristic": 55,
+    "Innovative": 55,
+    "Loud": 45
+   },
+   "themes": {
+    "Techno": 55
+   },
+   "look": [
+    "rounded corners",
+    "geometric",
+    "quirky",
+    "bold",
+    "squarish"
+   ],
+   "note": "Bold squarish geometric letters with rounded corners and quirky, odd shapes.",
+   "sheet": "sheet-039",
+   "at": "2026-10-03T14:03:19.916Z"
+  },
+  "HK Grotesk": {
+   "moods": {
+    "Business": 80,
+    "Competent": 75,
+    "Calm": 60,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "monoline",
+    "clean",
+    "medium weight"
+   ],
+   "note": "Clean geometric sans with even strokes and open round forms.",
+   "sheet": "sheet-058",
+   "at": "2026-10-03T14:05:04.713Z"
+  },
+  "Hack": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Sincere": 50,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "sans serif",
+    "humanist",
+    "even stroke"
+   ],
+   "note": "Clean monospaced sans with open forms and uniform medium stroke.",
+   "sheet": "sheet-045",
+   "at": "2026-10-03T14:04:03.469Z"
+  },
+  "Half": {
+   "moods": {
+    "Futuristic": 75,
+    "Innovative": 60,
+    "Awkward": 50,
+    "Artistic": 40
+   },
+   "themes": {
+    "Techno": 75,
+    "Pixel": 40
+   },
+   "look": [
+    "thin monoline",
+    "angular",
+    "squared",
+    "wide spacing"
+   ],
+   "note": "Thin squared strokes with right angles, techy and quirky.",
+   "sheet": "sheet-073",
+   "at": "2026-10-03T14:06:34.621Z"
+  },
+  "Halibut": {
+   "moods": {
+    "Sophisticated": 65,
+    "Sincere": 55,
+    "Vintage": 45
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "moderate contrast",
+    "bookish"
+   ],
+   "note": "Sturdy text serif with bracketed serifs and slightly quirky, calligraphic shapes.",
+   "sheet": "sheet-020",
+   "at": "2026-10-03T14:01:41.885Z"
+  },
+  "Halibut Condensed": {
+   "moods": {
+    "Sophisticated": 65,
+    "Sincere": 60,
+    "Calm": 50,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "bookish",
+    "calligraphic",
+    "compact"
+   ],
+   "note": "Compact old-style serif with calligraphic strokes and moderate contrast.",
+   "sheet": "sheet-030",
+   "at": "2026-10-03T14:02:39.261Z"
+  },
+  "Halibut Expanded": {
+   "moods": {
+    "Fancy": 65,
+    "Sophisticated": 55,
+    "Artistic": 55,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "wide",
+    "slab-like serifs",
+    "high contrast",
+    "extended"
+   ],
+   "note": "Wide extended serif with sharp contrast and flaring, elegant stroke endings.",
+   "sheet": "sheet-067",
+   "at": "2026-10-03T14:05:48.258Z"
+  },
+  "Hangul": {
+   "moods": {
+    "Artistic": 80,
+    "Futuristic": 60,
+    "Awkward": 55,
+    "Playful": 45
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "quirky",
+    "monoline",
+    "lowercase only",
+    "geometric",
+    "small x-height"
+   ],
+   "note": "Odd geometric monoline lowercase with strange disjointed shapes and detached parts.",
+   "sheet": "sheet-069",
+   "at": "2026-10-03T14:05:59.751Z"
+  },
+  "Hanken": {
+   "moods": {
+    "Happy": 60,
+    "Sincere": 55,
+    "Cute": 45,
+    "Playful": 45
+   },
+   "themes": {},
+   "look": [
+    "geometric",
+    "rounded",
+    "monoline",
+    "sans serif",
+    "single-storey a"
+   ],
+   "note": "Friendly geometric monoline sans with round bowls and single-storey a.",
+   "sheet": "sheet-050",
+   "at": "2026-10-03T14:04:26.987Z"
+  },
+  "Happy Times at the IKOB": {
+   "moods": {
+    "Sophisticated": 65,
+    "Sincere": 60,
+    "Competent": 60,
+    "Vintage": 45
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "bracketed serifs",
+    "high contrast",
+    "traditional"
+   ],
+   "note": "Classic Times-like text serif with bracketed serifs and moderate contrast.",
+   "sheet": "sheet-071",
+   "at": "2026-10-03T14:06:19.434Z"
+  },
+  "Hauora Sans": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 50,
+    "Sincere": 40
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "tight spacing",
+    "clean",
+    "light weight"
+   ],
+   "note": "Clean, neutral grotesque sans with tight spacing and open round forms.",
+   "sheet": "sheet-072",
+   "at": "2026-10-03T14:06:26.193Z"
+  },
+  "Herbiflora": {
+   "moods": {
+    "Sophisticated": 70,
+    "Fancy": 55,
+    "Vintage": 50,
+    "Sincere": 45
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "tight spacing",
+    "high contrast",
+    "old-style"
+   ],
+   "note": "Tightly spaced transitional serif with sharp contrast and old-style numerals.",
+   "sheet": "sheet-032",
+   "at": "2026-10-03T14:02:49.461Z"
+  },
+  "Hibana": {
+   "moods": {
+    "Innovative": 60,
+    "Sincere": 55,
+    "Calm": 50,
+    "Happy": 45
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "rounded",
+    "wide",
+    "friendly"
+   ],
+   "note": "Wide geometric sans with round bowls and single-story-like friendly shapes.",
+   "sheet": "sheet-027",
+   "at": "2026-10-03T14:02:19.814Z"
+  },
+  "Hibur Mono": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "clean",
+    "humanist",
+    "open"
+   ],
+   "note": "Clean monospaced sans with even stroke and wide spacing.",
+   "sheet": "sheet-026",
+   "at": "2026-10-03T14:02:19.667Z"
+  },
+  "Hoover": {
+   "moods": {
+    "Rugged": 55,
+    "Sincere": 50,
+    "Competent": 50,
+    "Vintage": 40
+   },
+   "themes": {
+    "Woodtype": 40
+   },
+   "look": [
+    "condensed",
+    "slab serifs",
+    "sturdy",
+    "rough edges"
+   ],
+   "note": "Sturdy condensed slab with small serifs and slightly quirky, chunky shapes.",
+   "sheet": "sheet-012",
+   "at": "2026-10-03T14:01:02.480Z"
+  },
+  "Indira K": {
+   "moods": {
+    "Sophisticated": 70,
+    "Sincere": 60,
+    "Calm": 50,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "old-style serif",
+    "bold",
+    "bracketed serifs",
+    "moderate contrast"
+   ],
+   "note": "Classic old-style serif, sturdy weight, humanist proportions and sharp serifs.",
+   "sheet": "sheet-019",
+   "at": "2026-10-03T14:01:45.491Z"
+  },
+  "Interlope": {
+   "moods": {
+    "Fancy": 85,
+    "Sophisticated": 60,
+    "Artistic": 60,
+    "Vintage": 60
+   },
+   "themes": {
+    "Brush": 40
+   },
+   "look": [
+    "formal script",
+    "slanted",
+    "flourished",
+    "connected",
+    "calligraphic"
+   ],
+   "note": "Formal connected copperplate script with looping swashes and ornate capitals.",
+   "sheet": "sheet-029",
+   "at": "2026-10-03T14:02:30.306Z"
+  },
+  "Interval": {
+   "moods": {
+    "Competent": 65,
+    "Business": 55,
+    "Calm": 50,
+    "Innovative": 40
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospace",
+    "sans serif",
+    "light",
+    "typewriter-like"
+   ],
+   "note": "Light monospaced sans with code-like, evenly spaced letters.",
+   "sheet": "sheet-011",
+   "at": "2026-10-03T14:00:54.070Z"
+  },
+  "Iosevka": {
+   "moods": {
+    "Competent": 65,
+    "Innovative": 50,
+    "Business": 45
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "condensed",
+    "rounded corners",
+    "medium weight"
+   ],
+   "note": "Narrow monospaced sans with softened corners and a technical feel.",
+   "sheet": "sheet-004",
+   "at": "2026-10-03T14:00:06.186Z"
+  },
+  "Iosevka Aile": {
+   "moods": {
+    "Innovative": 60,
+    "Competent": 55,
+    "Business": 45,
+    "Futuristic": 40
+   },
+   "themes": {
+    "Techno": 45
+   },
+   "look": [
+    "monospaced",
+    "sans serif",
+    "slashed zero",
+    "rounded corners"
+   ],
+   "note": "Monospaced sans with squarish curves and a slashed zero, code-like.",
+   "sheet": "sheet-072",
+   "at": "2026-10-03T14:06:26.193Z"
+  },
+  "Iosevka Curly": {
+   "moods": {
+    "Competent": 65,
+    "Innovative": 55,
+    "Business": 50
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospaced",
+    "condensed",
+    "monoline"
+   ],
+   "note": "Narrow monospaced sans with a technical, code-like look.",
+   "sheet": "sheet-031",
+   "at": "2026-10-03T14:02:41.565Z"
+  },
+  "Iosevka Curly Slab": {
+   "moods": {
+    "Business": 60,
+    "Competent": 60,
+    "Stiff": 45
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "slab serifs",
+    "condensed",
+    "typewriter-like"
+   ],
+   "note": "Narrow monospaced face with slab serifs and a technical feel.",
+   "sheet": "sheet-016",
+   "at": "2026-10-03T14:01:23.322Z"
+  },
+  "Iosevka Etoile": {
+   "moods": {
+    "Competent": 60,
+    "Innovative": 55,
+    "Stiff": 45,
+    "Business": 40
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospaced",
+    "slab serifs",
+    "sturdy",
+    "typewriter-like"
+   ],
+   "note": "Monospaced slab-influenced face with sturdy strokes and mechanical feel.",
+   "sheet": "sheet-044",
+   "at": "2026-10-03T14:03:52.730Z"
+  },
+  "Isenheim": {
+   "moods": {
+    "Sophisticated": 75,
+    "Calm": 60,
+    "Fancy": 50,
+    "Artistic": 45
+   },
+   "themes": {},
+   "look": [
+    "light serif",
+    "calligraphic",
+    "old-style",
+    "elegant"
+   ],
+   "note": "Light, elegant old-style serif with calligraphic flavor and sharp serifs.",
+   "sheet": "sheet-034",
+   "at": "2026-10-03T14:02:59.595Z"
+  },
+  "Isobare": {
+   "moods": {
+    "Playful": 65,
+    "Rugged": 60,
+    "Awkward": 55,
+    "Artistic": 50
+   },
+   "themes": {
+    "Wacky": 70,
+    "Distressed": 55,
+    "Blobby": 50
+   },
+   "look": [
+    "wobbly",
+    "blobby edges",
+    "bold",
+    "irregular"
+   ],
+   "note": "Bold wobbly letters with melted, lumpy outlines and uneven baseline.",
+   "sheet": "sheet-015",
+   "at": "2026-10-03T14:01:18.425Z"
+  },
+  "JRUG PUNK": {
+   "moods": {
+    "Childlike": 90,
+    "Awkward": 80,
+    "Playful": 65,
+    "Cute": 45
+   },
+   "themes": {},
+   "look": [
+    "handwritten",
+    "wobbly",
+    "uneven",
+    "monoline"
+   ],
+   "note": "Wobbly childlike handwriting with uneven sizes and shaky marker-like strokes.",
+   "sheet": "sheet-033",
+   "at": "2026-10-03T14:02:51.005Z"
+  },
+  "Junction": {
+   "moods": {
+    "Calm": 60,
+    "Sincere": 60,
+    "Competent": 55
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "light",
+    "open",
+    "friendly"
+   ],
+   "note": "Clean humanist sans with open curves and moderate stroke.",
+   "sheet": "sheet-063",
+   "at": "2026-10-03T14:05:28.693Z"
+  },
+  "Junicode": {
+   "moods": {
+    "Sophisticated": 80,
+    "Sincere": 70,
+    "Calm": 60,
+    "Vintage": 45
+   },
+   "themes": {},
+   "look": [
+    "old-style serif",
+    "bookish",
+    "moderate contrast",
+    "bracketed serifs"
+   ],
+   "note": "Classic old-style serif with elegant bracketed serifs and calm book-text texture.",
+   "sheet": "sheet-052",
+   "at": "2026-10-03T14:04:37.507Z"
+  },
+  "Junicode Condensed": {
+   "moods": {
+    "Sophisticated": 75,
+    "Sincere": 60,
+    "Vintage": 50,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "old-style serif",
+    "condensed",
+    "bookish",
+    "calligraphic"
+   ],
+   "note": "Narrow classic old-style serif with elegant bookish proportions.",
+   "sheet": "sheet-010",
+   "at": "2026-10-03T14:00:52.614Z"
+  },
+  "Junicode Expanded": {
+   "moods": {
+    "Sophisticated": 80,
+    "Calm": 65,
+    "Sincere": 55,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "old-style",
+    "light",
+    "bookish"
+   ],
+   "note": "Light old-style serif with calligraphic, delicate strokes and moderate contrast.",
+   "sheet": "sheet-075",
+   "at": "2026-10-03T14:06:49.014Z"
+  },
+  "Junicode Semi Condensed": {
+   "moods": {
+    "Sophisticated": 70,
+    "Sincere": 60,
+    "Vintage": 60,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "old-style serif",
+    "tight spacing",
+    "bookish",
+    "bold-ish"
+   ],
+   "note": "Garalde-style bookish serif, sturdy, tightly spaced with calligraphic details.",
+   "sheet": "sheet-008",
+   "at": "2026-10-03T14:00:36.667Z"
+  },
+  "Junicode Semi Expanded": {
+   "moods": {
+    "Sophisticated": 70,
+    "Vintage": 60,
+    "Sincere": 55
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "old-style",
+    "sturdy",
+    "calligraphic"
+   ],
+   "note": "Warm old-style serif, slightly heavier, with calligraphic details.",
+   "sheet": "sheet-062",
+   "at": "2026-10-03T14:05:25.668Z"
+  },
+  "K2D": {
+   "moods": {
+    "Business": 65,
+    "Competent": 65,
+    "Innovative": 50
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "medium weight",
+    "clean",
+    "geometric"
+   ],
+   "note": "Clean modern sans with slightly squarish round shapes and open spacing.",
+   "sheet": "sheet-062",
+   "at": "2026-10-03T14:05:25.668Z"
+  },
+  "Kaeru Kaeru": {
+   "moods": {
+    "Playful": 75,
+    "Awkward": 60,
+    "Loud": 55,
+    "Rugged": 45
+   },
+   "themes": {
+    "Wacky": 70,
+    "Blobby": 55
+   },
+   "look": [
+    "blobby",
+    "lumpy",
+    "bold",
+    "irregular",
+    "quirky"
+   ],
+   "note": "Lumpy, wobbly heavy letters with blobs and ragged irregular shapes.",
+   "sheet": "sheet-043",
+   "at": "2026-10-03T14:03:46.638Z"
+  },
+  "Karmilla": {
+   "moods": {
+    "Calm": 70,
+    "Business": 65,
+    "Competent": 60,
+    "Sincere": 55
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "monoline",
+    "open",
+    "neutral"
+   ],
+   "note": "Clean humanist sans with open shapes and even stroke.",
+   "sheet": "sheet-011",
+   "at": "2026-10-03T14:00:54.070Z"
+  },
+  "Karrik": {
+   "moods": {
+    "Business": 75,
+    "Competent": 75,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "bold",
+    "neo-grotesque sans",
+    "wide",
+    "even stroke"
+   ],
+   "note": "Bold neo-grotesque sans, wide and solid with clean terminals.",
+   "sheet": "sheet-028",
+   "at": "2026-10-03T14:02:32.334Z"
+  },
+  "Kihim": {
+   "moods": {
+    "Loud": 95,
+    "Active": 70,
+    "Artistic": 60,
+    "Excited": 50
+   },
+   "themes": {
+    "Shaded": 50
+   },
+   "look": [
+    "heavy",
+    "slanted",
+    "condensed",
+    "striped cuts"
+   ],
+   "note": "Ultra-heavy slanted letters sliced by diagonal white cuts, hard to read.",
+   "sheet": "sheet-030",
+   "at": "2026-10-03T14:02:39.261Z"
+  },
+  "Kikuta": {
+   "moods": {
+    "Loud": 80,
+    "Playful": 70,
+    "Futuristic": 55,
+    "Awkward": 50
+   },
+   "themes": {
+    "Techno": 50
+   },
+   "look": [
+    "heavy",
+    "squarish rounded",
+    "blocky",
+    "quirky"
+   ],
+   "note": "Ultra-bold squarish letters with rounded corners and quirky, chunky shapes.",
+   "sheet": "sheet-017",
+   "at": "2026-10-03T14:01:28.167Z"
+  },
+  "Kobata": {
+   "moods": {
+    "Futuristic": 60,
+    "Playful": 60,
+    "Innovative": 50,
+    "Awkward": 40
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "blocky",
+    "bitmap",
+    "condensed"
+   ],
+   "note": "Chunky bitmap pixel letters with a round dot for the o.",
+   "sheet": "sheet-045",
+   "at": "2026-10-03T14:04:03.469Z"
+  },
+  "Kohinoor Zerone": {
+   "moods": {
+    "Loud": 85,
+    "Rugged": 70,
+    "Artistic": 60,
+    "Awkward": 50
+   },
+   "themes": {
+    "Wacky": 70,
+    "Distressed": 45
+   },
+   "look": [
+    "jagged",
+    "spiky",
+    "heavy",
+    "chopped shapes"
+   ],
+   "note": "Heavy black letters sliced into jagged spikes with irregular shards.",
+   "sheet": "sheet-033",
+   "at": "2026-10-03T14:02:51.005Z"
+  },
+  "Kola": {
+   "moods": {
+    "Futuristic": 75,
+    "Innovative": 65,
+    "Loud": 50
+   },
+   "themes": {
+    "Techno": 75,
+    "Stencil": 60
+   },
+   "look": [
+    "stencil",
+    "bold",
+    "geometric",
+    "gapped strokes"
+   ],
+   "note": "Bold techno stencil sans with cut gaps and squarish rounded forms.",
+   "sheet": "sheet-020",
+   "at": "2026-10-03T14:01:41.885Z"
+  },
+  "LXGW WenKai": {
+   "moods": {
+    "Calm": 65,
+    "Sincere": 60,
+    "Playful": 50,
+    "Artistic": 45
+   },
+   "themes": {},
+   "look": [
+    "light",
+    "handwritten feel",
+    "monoline",
+    "quirky sans"
+   ],
+   "note": "Light, slightly irregular monoline sans with a hand-drawn quirk.",
+   "sheet": "sheet-006",
+   "at": "2026-10-03T14:00:34.983Z"
+  },
+  "Lab Mono": {
+   "moods": {
+    "Competent": 70,
+    "Business": 60,
+    "Calm": 50,
+    "Innovative": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "sans serif",
+    "rounded corners",
+    "even stroke"
+   ],
+   "note": "Monospaced sans with sturdy even strokes and slightly softened corners.",
+   "sheet": "sheet-032",
+   "at": "2026-10-03T14:02:49.461Z"
+  },
+  "Latitude": {
+   "moods": {
+    "Sophisticated": 70,
+    "Calm": 60,
+    "Sincere": 60,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "old-style serif",
+    "bracketed serifs",
+    "moderate contrast",
+    "bookish"
+   ],
+   "note": "Classic old-style text serif with bracketed serifs and gentle contrast.",
+   "sheet": "sheet-009",
+   "at": "2026-10-03T14:00:45.465Z"
+  },
+  "Le Murmure": {
+   "moods": {
+    "Loud": 70,
+    "Artistic": 60,
+    "Active": 50,
+    "Awkward": 40
+   },
+   "themes": {},
+   "look": [
+    "ultra condensed",
+    "tall",
+    "quirky",
+    "tight spacing"
+   ],
+   "note": "Very narrow tall letters with quirky irregular shapes and tight spacing.",
+   "sheet": "sheet-044",
+   "at": "2026-10-03T14:03:52.730Z"
+  },
+  "League Mono": {
+   "moods": {
+    "Competent": 70,
+    "Business": 60,
+    "Innovative": 50
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "sans serif",
+    "code style",
+    "medium weight"
+   ],
+   "note": "Monospaced sans with slab-like i and r, clean and technical.",
+   "sheet": "sheet-001",
+   "at": "2026-10-03T13:57:03.143Z"
+  },
+  "Letters": {
+   "moods": {
+    "Rugged": 85,
+    "Loud": 60,
+    "Awkward": 50
+   },
+   "themes": {
+    "Distressed": 90,
+    "Wacky": 50
+   },
+   "look": [
+    "wide",
+    "distressed",
+    "outline",
+    "scratchy texture"
+   ],
+   "note": "Wide blocky capitals filled with scratchy, rough outlined texture.",
+   "sheet": "sheet-075",
+   "at": "2026-10-03T14:06:49.014Z"
+  },
+  "Lextrall": {
+   "moods": {
+    "Happy": 60,
+    "Calm": 50,
+    "Sincere": 50,
+    "Cute": 40
+   },
+   "themes": {},
+   "look": [
+    "geometric",
+    "rounded",
+    "monoline",
+    "wide"
+   ],
+   "note": "Geometric rounded sans, medium weight, open and friendly.",
+   "sheet": "sheet-061",
+   "at": "2026-10-03T14:05:19.391Z"
+  },
+  "Liberation Mono": {
+   "moods": {
+    "Business": 60,
+    "Competent": 60,
+    "Calm": 45
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "typewriter-like",
+    "light",
+    "rounded corners"
+   ],
+   "note": "Light monospace with simple sans forms and even typewriter spacing.",
+   "sheet": "sheet-063",
+   "at": "2026-10-03T14:05:28.693Z"
+  },
+  "Liberation Sans": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Stiff": 50,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "neo-grotesque",
+    "neutral",
+    "wide word spaces",
+    "regular weight"
+   ],
+   "note": "Plain Helvetica-like grotesque sans with even strokes and wide word spaces.",
+   "sheet": "sheet-072",
+   "at": "2026-10-03T14:06:26.193Z"
+  },
+  "Liberation Sans Narrow": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Sincere": 50,
+    "Stiff": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "neo-grotesque",
+    "tight spacing",
+    "regular weight"
+   ],
+   "note": "Plain condensed grotesque sans with tight spacing and neutral shapes.",
+   "sheet": "sheet-012",
+   "at": "2026-10-03T14:01:02.480Z"
+  },
+  "Liberation Serif": {
+   "moods": {
+    "Business": 70,
+    "Competent": 65,
+    "Sincere": 60,
+    "Stiff": 45
+   },
+   "themes": {},
+   "look": [
+    "times-like serif",
+    "bracketed serifs",
+    "high contrast",
+    "wide word spacing"
+   ],
+   "note": "Classic transitional text serif with crisp bracketed serifs.",
+   "sheet": "sheet-029",
+   "at": "2026-10-03T14:02:30.306Z"
+  },
+  "Libre Caslon Condensed": {
+   "moods": {
+    "Business": 70,
+    "Sophisticated": 65,
+    "Competent": 65,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "serif",
+    "high contrast",
+    "tight spacing"
+   ],
+   "note": "Condensed transitional serif with sharp contrast and tight, tidy spacing.",
+   "sheet": "sheet-043",
+   "at": "2026-10-03T14:03:46.638Z"
+  },
+  "Lil Grotesk": {
+   "moods": {
+    "Calm": 70,
+    "Sophisticated": 55,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "geometric",
+    "light",
+    "sans serif",
+    "round bowls"
+   ],
+   "note": "Light geometric sans with round bowls and tight spacing.",
+   "sheet": "sheet-011",
+   "at": "2026-10-03T14:00:54.070Z"
+  },
+  "Lineal": {
+   "moods": {
+    "Playful": 60,
+    "Artistic": 55,
+    "Happy": 40
+   },
+   "themes": {},
+   "look": [
+    "geometric",
+    "quirky",
+    "single-story a",
+    "small caps-like capitals"
+   ],
+   "note": "Geometric sans with quirky shapes, round bowls and narrow capitals.",
+   "sheet": "sheet-022",
+   "at": "2026-10-03T14:01:54.659Z"
+  },
+  "Linux Biolinum": {
+   "moods": {
+    "Sophisticated": 65,
+    "Calm": 60,
+    "Sincere": 55
+   },
+   "themes": {},
+   "look": [
+    "humanist serif",
+    "light contrast",
+    "bookish"
+   ],
+   "note": "Light humanist serif with modest contrast and flared strokes.",
+   "sheet": "sheet-066",
+   "at": "2026-10-03T14:05:49.455Z"
+  },
+  "Linux Libertine": {
+   "moods": {
+    "Sincere": 75,
+    "Calm": 65,
+    "Sophisticated": 55,
+    "Competent": 55
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "book text",
+    "moderate contrast",
+    "old-style"
+   ],
+   "note": "Classic readable old-style serif with soft bracketed serifs.",
+   "sheet": "sheet-013",
+   "at": "2026-10-03T14:01:03.700Z"
+  },
+  "Linux Libertine Display": {
+   "moods": {
+    "Sophisticated": 65,
+    "Sincere": 60,
+    "Calm": 55
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "oldstyle",
+    "bookish",
+    "light contrast"
+   ],
+   "note": "Classic oldstyle text serif with graceful proportions and moderate contrast.",
+   "sheet": "sheet-020",
+   "at": "2026-10-03T14:01:41.885Z"
+  },
+  "Lment": {
+   "moods": {
+    "Futuristic": 80,
+    "Innovative": 65,
+    "Artistic": 55,
+    "Loud": 40
+   },
+   "themes": {
+    "Techno": 65,
+    "Inline": 65,
+    "Art Deco": 50
+   },
+   "look": [
+    "wide",
+    "inline",
+    "geometric",
+    "monoline"
+   ],
+   "note": "Wide geometric capitals with double-line strokes and quirky shapes.",
+   "sheet": "sheet-045",
+   "at": "2026-10-03T14:04:03.469Z"
+  },
+  "Lobular": {
+   "moods": {
+    "Playful": 90,
+    "Loud": 80,
+    "Cute": 60,
+    "Childlike": 55,
+    "Excited": 55
+   },
+   "themes": {
+    "Blobby": 95,
+    "Wacky": 60
+   },
+   "look": [
+    "ultra bold",
+    "blobby",
+    "all caps",
+    "star counters"
+   ],
+   "note": "Puffy black blob capitals with star-shaped counters.",
+   "sheet": "sheet-011",
+   "at": "2026-10-03T14:00:54.070Z"
+  },
+  "Louise": {
+   "moods": {
+    "Fancy": 80,
+    "Sophisticated": 60,
+    "Vintage": 60,
+    "Artistic": 50
+   },
+   "themes": {},
+   "look": [
+    "script",
+    "monoline",
+    "slanted",
+    "flourished caps"
+   ],
+   "note": "Thin connected formal script with looping flourished capitals.",
+   "sheet": "sheet-018",
+   "at": "2026-10-03T14:01:33.694Z"
+  },
+  "Lucette": {
+   "moods": {
+    "Sophisticated": 65,
+    "Sincere": 55,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "moderate contrast",
+    "bookish",
+    "bracketed serifs"
+   ],
+   "note": "Classic book serif with moderate contrast and warm, readable forms.",
+   "sheet": "sheet-057",
+   "at": "2026-10-03T14:04:57.088Z"
+  },
+  "Luculent": {
+   "moods": {
+    "Futuristic": 55,
+    "Awkward": 50,
+    "Innovative": 50,
+    "Stiff": 40
+   },
+   "themes": {
+    "Techno": 50
+   },
+   "look": [
+    "monospaced",
+    "condensed",
+    "angular",
+    "thin"
+   ],
+   "note": "Narrow monospaced sans with squared, angular, typewriter-like letters.",
+   "sheet": "sheet-048",
+   "at": "2026-10-03T14:04:12.914Z"
+  },
+  "Lunchtype": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "neo-grotesque",
+    "medium weight",
+    "monoline",
+    "neutral"
+   ],
+   "note": "Neutral grotesque sans, medium weight, even and tidy.",
+   "sheet": "sheet-059",
+   "at": "2026-10-03T14:05:08.030Z"
+  },
+  "Lunchtype Condensed": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Sincere": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "grotesque sans",
+    "tight spacing",
+    "neutral"
+   ],
+   "note": "Condensed neutral grotesque sans with tight spacing and moderate weight.",
+   "sheet": "sheet-004",
+   "at": "2026-10-03T14:00:06.186Z"
+  },
+  "Lunchtype Expanded": {
+   "moods": {
+    "Innovative": 70,
+    "Business": 60,
+    "Competent": 60,
+    "Futuristic": 40
+   },
+   "themes": {},
+   "look": [
+    "wide",
+    "geometric sans",
+    "monoline",
+    "clean"
+   ],
+   "note": "Clean wide geometric sans with even strokes and open shapes.",
+   "sheet": "sheet-021",
+   "at": "2026-10-03T14:01:51.255Z"
+  },
+  "Luperca": {
+   "moods": {
+    "Sophisticated": 85,
+    "Fancy": 70,
+    "Artistic": 60,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "small caps style",
+    "light",
+    "high contrast",
+    "flared"
+   ],
+   "note": "Elegant light all-caps display serif with quirky swashy R, G and flared strokes.",
+   "sheet": "sheet-015",
+   "at": "2026-10-03T14:01:18.425Z"
+  },
+  "Malebolge": {
+   "moods": {
+    "Rugged": 70,
+    "Artistic": 60,
+    "Loud": 55,
+    "Awkward": 45
+   },
+   "themes": {
+    "Distressed": 55,
+    "Wacky": 50
+   },
+   "look": [
+    "spiky",
+    "all caps",
+    "bold",
+    "ornamental",
+    "blobby edges"
+   ],
+   "note": "Heavy all-caps letters covered in spiky knobs, like gears or thorns.",
+   "sheet": "sheet-069",
+   "at": "2026-10-03T14:05:59.751Z"
+  },
+  "Manosque": {
+   "moods": {
+    "Loud": 85,
+    "Playful": 65,
+    "Active": 55,
+    "Rugged": 40
+   },
+   "themes": {},
+   "look": [
+    "heavy",
+    "condensed",
+    "rounded corners",
+    "chunky"
+   ],
+   "note": "Very bold condensed sans with soft blunt corners and tight spacing.",
+   "sheet": "sheet-038",
+   "at": "2026-10-03T14:03:19.536Z"
+  },
+  "Manusquared": {
+   "moods": {
+    "Awkward": 65,
+    "Futuristic": 55,
+    "Playful": 50,
+    "Artistic": 45
+   },
+   "themes": {
+    "Pixel": 85,
+    "Techno": 40
+   },
+   "look": [
+    "pixelated",
+    "thin outline strokes",
+    "jagged",
+    "irregular"
+   ],
+   "note": "Thin jagged pixel-style letters with uneven, glitchy irregular construction.",
+   "sheet": "sheet-067",
+   "at": "2026-10-03T14:05:48.258Z"
+  },
+  "Maple Mono": {
+   "moods": {
+    "Innovative": 55,
+    "Competent": 55,
+    "Calm": 45
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospaced",
+    "rounded corners",
+    "geometric",
+    "open spacing"
+   ],
+   "note": "Clean monospaced sans with softly squared curves and wide spacing.",
+   "sheet": "sheet-016",
+   "at": "2026-10-03T14:01:23.322Z"
+  },
+  "Mattone": {
+   "moods": {
+    "Loud": 70,
+    "Active": 60,
+    "Innovative": 60,
+    "Futuristic": 45
+   },
+   "themes": {},
+   "look": [
+    "bold",
+    "wide",
+    "geometric sans",
+    "heavy"
+   ],
+   "note": "Heavy wide geometric sans with round bowls and strong presence.",
+   "sheet": "sheet-034",
+   "at": "2026-10-03T14:02:59.595Z"
+  },
+  "Mazius Display": {
+   "moods": {
+    "Sophisticated": 85,
+    "Fancy": 65,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "high contrast",
+    "elegant",
+    "old-style figures"
+   ],
+   "note": "Elegant high-contrast serif with graceful bracketed serifs and oldstyle numerals.",
+   "sheet": "sheet-036",
+   "at": "2026-10-03T14:03:09.872Z"
+  },
+  "Melodrama": {
+   "moods": {
+    "Sophisticated": 80,
+    "Fancy": 65,
+    "Artistic": 55,
+    "Calm": 45
+   },
+   "themes": {
+    "Art Deco": 45
+   },
+   "look": [
+    "light",
+    "high contrast",
+    "narrow",
+    "elegant",
+    "slashed zero"
+   ],
+   "note": "Thin elegant high-contrast letters, narrow with deco flavor and slashed zero.",
+   "sheet": "sheet-037",
+   "at": "2026-10-03T14:03:09.352Z"
+  },
+  "Messapia": {
+   "moods": {
+    "Sophisticated": 75,
+    "Artistic": 55,
+    "Calm": 50,
+    "Fancy": 45
+   },
+   "themes": {},
+   "look": [
+    "wide",
+    "serif",
+    "light weight",
+    "slashed zero"
+   ],
+   "note": "Wide light serif with bracketed serifs and generous spacing.",
+   "sheet": "sheet-021",
+   "at": "2026-10-03T14:01:51.255Z"
+  },
+  "MetaAccanthis": {
+   "moods": {
+    "Playful": 65,
+    "Artistic": 55,
+    "Sincere": 50,
+    "Cute": 40
+   },
+   "themes": {},
+   "look": [
+    "quirky",
+    "slab-like serifs",
+    "monoline",
+    "rounded ends"
+   ],
+   "note": "Quirky monoline serif with rounded terminals and hand-drawn irregularity.",
+   "sheet": "sheet-055",
+   "at": "2026-10-03T14:04:48.301Z"
+  },
+  "MetaAccanthis Alternate": {
+   "moods": {
+    "Playful": 75,
+    "Artistic": 65,
+    "Vintage": 55,
+    "Awkward": 50
+   },
+   "themes": {
+    "Wacky": 50
+   },
+   "look": [
+    "quirky",
+    "flared serifs",
+    "irregular",
+    "calligraphic"
+   ],
+   "note": "Quirky serif with irregular baselines, curly terminals and odd g and y.",
+   "sheet": "sheet-051",
+   "at": "2026-10-03T14:04:29.884Z"
+  },
+  "Metropolis": {
+   "moods": {
+    "Business": 70,
+    "Competent": 65,
+    "Calm": 55,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "monoline",
+    "wide",
+    "clean"
+   ],
+   "note": "Clean geometric monoline sans with round bowls and wide proportions.",
+   "sheet": "sheet-037",
+   "at": "2026-10-03T14:03:09.352Z"
+  },
+  "Meyrin": {
+   "moods": {
+    "Futuristic": 80,
+    "Innovative": 60,
+    "Stiff": 45
+   },
+   "themes": {
+    "Techno": 75,
+    "Pixel": 55
+   },
+   "look": [
+    "dotted",
+    "monoline",
+    "thin",
+    "monospaced feel",
+    "matrix"
+   ],
+   "note": "Thin letters built from tiny dots, like a dot-matrix display.",
+   "sheet": "sheet-077",
+   "at": "2026-10-03T14:06:57.409Z"
+  },
+  "Moche": {
+   "moods": {
+    "Futuristic": 65,
+    "Innovative": 65,
+    "Calm": 45
+   },
+   "themes": {},
+   "look": [
+    "wide",
+    "geometric sans",
+    "light",
+    "monoline"
+   ],
+   "note": "Wide geometric sans with open rounded shapes and even strokes.",
+   "sheet": "sheet-062",
+   "at": "2026-10-03T14:05:25.668Z"
+  },
+  "Monaspace Argon": {
+   "moods": {
+    "Competent": 70,
+    "Business": 60,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "sans serif",
+    "humanist",
+    "sturdy"
+   ],
+   "note": "Monospaced humanist sans with sturdy strokes and open forms.",
+   "sheet": "sheet-030",
+   "at": "2026-10-03T14:02:39.261Z"
+  },
+  "Monaspace Krypton": {
+   "moods": {
+    "Innovative": 65,
+    "Competent": 60,
+    "Futuristic": 45
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospaced",
+    "slab-like",
+    "squarish",
+    "uniform stroke"
+   ],
+   "note": "Monospaced sans with squarish rounded forms and slab-like i and r.",
+   "sheet": "sheet-059",
+   "at": "2026-10-03T14:05:08.030Z"
+  },
+  "Monaspace Neon": {
+   "moods": {
+    "Competent": 60,
+    "Business": 50,
+    "Stiff": 45
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospaced",
+    "sans serif",
+    "code style"
+   ],
+   "note": "Monospaced sans with even stroke and typewriter-like fixed spacing.",
+   "sheet": "sheet-066",
+   "at": "2026-10-03T14:05:49.455Z"
+  },
+  "Monaspace Radon": {
+   "moods": {
+    "Playful": 60,
+    "Artistic": 55,
+    "Active": 50,
+    "Childlike": 40
+   },
+   "themes": {},
+   "look": [
+    "slanted",
+    "monospaced",
+    "handwritten",
+    "brush-like"
+   ],
+   "note": "Slanted monospaced script-like handwriting with casual pen strokes.",
+   "sheet": "sheet-061",
+   "at": "2026-10-03T14:05:19.391Z"
+  },
+  "Monaspace Xenon": {
+   "moods": {
+    "Vintage": 60,
+    "Sincere": 55,
+    "Competent": 50,
+    "Stiff": 40
+   },
+   "themes": {},
+   "look": [
+    "monospace",
+    "slab serifs",
+    "typewriter",
+    "moderate contrast"
+   ],
+   "note": "Monospaced slab serif with typewriter feel and sturdy serifs.",
+   "sheet": "sheet-011",
+   "at": "2026-10-03T14:00:54.070Z"
+  },
+  "MonoMusic": {
+   "moods": {
+    "Competent": 65,
+    "Business": 60,
+    "Calm": 50,
+    "Sincere": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "light",
+    "humanist",
+    "simple"
+   ],
+   "note": "Light monospaced sans with open, plain letterforms and even rhythm.",
+   "sheet": "sheet-038",
+   "at": "2026-10-03T14:03:19.536Z"
+  },
+  "Monoid": {
+   "moods": {
+    "Innovative": 55,
+    "Stiff": 55,
+    "Competent": 50,
+    "Futuristic": 40
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospace",
+    "monoline",
+    "light",
+    "technical"
+   ],
+   "note": "Light monospaced sans with typewriter-like even spacing and slashed zero.",
+   "sheet": "sheet-076",
+   "at": "2026-10-03T14:06:44.147Z"
+  },
+  "Mononoki": {
+   "moods": {
+    "Competent": 70,
+    "Business": 55,
+    "Calm": 45,
+    "Innovative": 45
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "sans serif",
+    "code style",
+    "open"
+   ],
+   "note": "Monospaced coding sans with simple strokes and humanist shapes.",
+   "sheet": "sheet-010",
+   "at": "2026-10-03T14:00:52.614Z"
+  },
+  "Mourier": {
+   "moods": {
+    "Artistic": 70,
+    "Futuristic": 60,
+    "Awkward": 55,
+    "Innovative": 55
+   },
+   "themes": {
+    "Techno": 65,
+    "Pixel": 50
+   },
+   "look": [
+    "maze-like",
+    "squared",
+    "striped",
+    "hard to read"
+   ],
+   "note": "Labyrinth-like square glyphs made of parallel lines; barely legible.",
+   "sheet": "sheet-003",
+   "at": "2026-10-03T13:59:57.061Z"
+  },
+  "Nanook": {
+   "moods": {
+    "Sincere": 60,
+    "Vintage": 55,
+    "Happy": 45,
+    "Playful": 40
+   },
+   "themes": {},
+   "look": [
+    "flared strokes",
+    "bold",
+    "humanist",
+    "old-style numerals"
+   ],
+   "note": "Sturdy flared-stroke serif with warm, slightly quirky shapes.",
+   "sheet": "sheet-024",
+   "at": "2026-10-03T14:02:04.654Z"
+  },
+  "National Park Outline": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 60,
+    "Playful": 55
+   },
+   "themes": {
+    "Inline": 60
+   },
+   "look": [
+    "outline",
+    "monoline",
+    "rounded",
+    "hollow strokes"
+   ],
+   "note": "Outlined rounded sans with hollow double-line strokes.",
+   "sheet": "sheet-026",
+   "at": "2026-10-03T14:02:19.667Z"
+  },
+  "Nebula Sans": {
+   "moods": {
+    "Calm": 70,
+    "Sincere": 65,
+    "Business": 60,
+    "Competent": 55
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "light weight",
+    "open",
+    "clean"
+   ],
+   "note": "Light humanist sans with open, friendly, even letterforms.",
+   "sheet": "sheet-076",
+   "at": "2026-10-03T14:06:44.147Z"
+  },
+  "Neco": {
+   "moods": {
+    "Sincere": 70,
+    "Calm": 60,
+    "Sophisticated": 50
+   },
+   "themes": {},
+   "look": [
+    "book serif",
+    "moderate contrast",
+    "readable",
+    "old-style"
+   ],
+   "note": "Readable text serif with moderate contrast and bracketed serifs.",
+   "sheet": "sheet-028",
+   "at": "2026-10-03T14:02:32.334Z"
+  },
+  "Necto Mono": {
+   "moods": {
+    "Innovative": 65,
+    "Competent": 55,
+    "Stiff": 50,
+    "Futuristic": 45
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospaced",
+    "sans serif",
+    "wide spacing",
+    "monoline"
+   ],
+   "note": "Monospaced sans with even strokes and typewriter-like, airy spacing.",
+   "sheet": "sheet-017",
+   "at": "2026-10-03T14:01:28.167Z"
+  },
+  "New Title": {
+   "moods": {
+    "Business": 60,
+    "Competent": 55,
+    "Active": 50,
+    "Stiff": 40
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "narrow",
+    "tight spacing",
+    "sans serif"
+   ],
+   "note": "Very condensed tight-set sans with tall narrow letters.",
+   "sheet": "sheet-034",
+   "at": "2026-10-03T14:02:59.595Z"
+  },
+  "Nighthawk": {
+   "moods": {
+    "Playful": 70,
+    "Artistic": 60,
+    "Cute": 50,
+    "Happy": 45
+   },
+   "themes": {},
+   "look": [
+    "quirky",
+    "geometric",
+    "rounded terminals",
+    "single-storey g"
+   ],
+   "note": "Quirky handmade-feeling sans with odd curved g, k and flared strokes.",
+   "sheet": "sheet-009",
+   "at": "2026-10-03T14:00:45.465Z"
+  },
+  "Nippo": {
+   "moods": {
+    "Innovative": 65,
+    "Futuristic": 60,
+    "Business": 50,
+    "Competent": 50
+   },
+   "themes": {
+    "Techno": 55
+   },
+   "look": [
+    "squarish",
+    "bold",
+    "geometric sans",
+    "cut corners"
+   ],
+   "note": "Bold squarish sans with clipped corners and a technical feel.",
+   "sheet": "sheet-067",
+   "at": "2026-10-03T14:05:48.258Z"
+  },
+  "Norwester": {
+   "moods": {
+    "Loud": 85,
+    "Active": 65,
+    "Rugged": 60,
+    "Competent": 40
+   },
+   "themes": {
+    "Woodtype": 45
+   },
+   "look": [
+    "condensed",
+    "heavy",
+    "small caps",
+    "bold"
+   ],
+   "note": "Heavy condensed sans with small-cap lowercase, poster-like and punchy.",
+   "sheet": "sheet-027",
+   "at": "2026-10-03T14:02:19.814Z"
+  },
+  "Now Alt": {
+   "moods": {
+    "Calm": 60,
+    "Sophisticated": 55,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "light weight",
+    "round bowls",
+    "wide"
+   ],
+   "note": "Light geometric sans with round bowls and open, airy spacing.",
+   "sheet": "sheet-031",
+   "at": "2026-10-03T14:02:41.565Z"
+  },
+  "Nyght Serif": {
+   "moods": {
+    "Sophisticated": 85,
+    "Fancy": 60,
+    "Business": 50,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "high contrast",
+    "serif",
+    "tight spacing",
+    "didone-like"
+   ],
+   "note": "Elegant high-contrast serif with tight spacing and sharp hairline serifs.",
+   "sheet": "sheet-021",
+   "at": "2026-10-03T14:01:51.255Z"
+  },
+  "Open Runde": {
+   "moods": {
+    "Business": 70,
+    "Competent": 65,
+    "Calm": 60,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "neutral",
+    "monoline",
+    "clean"
+   ],
+   "note": "Clean neutral grotesque sans with even strokes and open forms.",
+   "sheet": "sheet-036",
+   "at": "2026-10-03T14:03:09.872Z"
+  },
+  "Open Sauce One": {
+   "moods": {
+    "Business": 80,
+    "Competent": 70,
+    "Calm": 60,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "clean sans",
+    "neo-grotesque",
+    "regular weight",
+    "open"
+   ],
+   "note": "Neutral regular-weight grotesque sans with even strokes and open forms.",
+   "sheet": "sheet-049",
+   "at": "2026-10-03T14:04:19.797Z"
+  },
+  "Open Sauce Two": {
+   "moods": {
+    "Business": 75,
+    "Competent": 70,
+    "Calm": 55,
+    "Sincere": 45
+   },
+   "themes": {},
+   "look": [
+    "clean sans",
+    "neutral",
+    "monoline",
+    "grotesque"
+   ],
+   "note": "Neutral grotesque sans with even strokes and open, regular spacing.",
+   "sheet": "sheet-039",
+   "at": "2026-10-03T14:03:19.916Z"
+  },
+  "OpenDyslexic": {
+   "moods": {
+    "Futuristic": 70,
+    "Awkward": 50,
+    "Innovative": 50
+   },
+   "themes": {
+    "Techno": 50
+   },
+   "look": [
+    "monospaced",
+    "wide spacing",
+    "bold",
+    "quirky"
+   ],
+   "note": "Wide-spaced bold monospace with blocky, slightly irregular letters and wobbly rhythm.",
+   "sheet": "sheet-004",
+   "at": "2026-10-03T14:00:06.186Z"
+  },
+  "Orchard Linear": {
+   "moods": {
+    "Artistic": 80,
+    "Playful": 60,
+    "Awkward": 50,
+    "Fancy": 40
+   },
+   "themes": {},
+   "look": [
+    "script",
+    "thin monoline",
+    "looping",
+    "calligraphic",
+    "non-latin"
+   ],
+   "note": "Thin looping handwritten strokes, glyphs are unreadable as Latin letters.",
+   "sheet": "sheet-012",
+   "at": "2026-10-03T14:01:02.480Z"
+  },
+  "Ortica Angular": {
+   "moods": {
+    "Loud": 60,
+    "Vintage": 60,
+    "Fancy": 50,
+    "Sophisticated": 45
+   },
+   "themes": {},
+   "look": [
+    "bold serif",
+    "high contrast",
+    "wide",
+    "heavy"
+   ],
+   "note": "Heavy wide serif with sharp contrast and chunky wedge serifs.",
+   "sheet": "sheet-028",
+   "at": "2026-10-03T14:02:32.334Z"
+  },
+  "Ortica Linear": {
+   "moods": {
+    "Sincere": 70,
+    "Sophisticated": 65,
+    "Calm": 55,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "moderate contrast",
+    "bracketed serifs",
+    "book style"
+   ],
+   "note": "Warm transitional-style text serif with moderate contrast and soft bracketed serifs.",
+   "sheet": "sheet-002",
+   "at": "2026-10-03T14:00:03.222Z"
+  },
+  "Ostrich Sans": {
+   "moods": {
+    "Business": 55,
+    "Sophisticated": 50,
+    "Calm": 45
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "thin",
+    "monoline",
+    "tall"
+   ],
+   "note": "Very narrow, light, tall sans with tight spacing.",
+   "sheet": "sheet-005",
+   "at": "2026-10-03T14:00:17.165Z"
+  },
+  "Ouroboros": {
+   "moods": {
+    "Playful": 80,
+    "Loud": 75,
+    "Vintage": 70,
+    "Fancy": 50
+   },
+   "themes": {
+    "Art Nouveau": 55,
+    "Wacky": 45
+   },
+   "look": [
+    "heavy",
+    "display",
+    "swashy curls",
+    "high contrast"
+   ],
+   "note": "Heavy retro display face with curly swash details and quirky shapes.",
+   "sheet": "sheet-023",
+   "at": "2026-10-03T14:02:02.016Z"
+  },
+  "Outward": {
+   "moods": {
+    "Loud": 70,
+    "Rugged": 50,
+    "Awkward": 45
+   },
+   "themes": {
+    "Woodtype": 40
+   },
+   "look": [
+    "ultra condensed",
+    "heavy",
+    "tiny",
+    "tight spacing"
+   ],
+   "note": "Extremely condensed, heavy, cramped letters, nearly illegible at this size.",
+   "sheet": "sheet-021",
+   "at": "2026-10-03T14:01:51.255Z"
+  },
+  "Outward Borders": {
+   "moods": {
+    "Futuristic": 65,
+    "Innovative": 55,
+    "Artistic": 50
+   },
+   "themes": {
+    "Inline": 65,
+    "Techno": 50
+   },
+   "look": [
+    "outline",
+    "ultra condensed",
+    "tall",
+    "inline"
+   ],
+   "note": "Ultra-condensed tall outlined letters with hollow strokes, tightly spaced.",
+   "sheet": "sheet-033",
+   "at": "2026-10-03T14:02:51.005Z"
+  },
+  "Pally": {
+   "moods": {
+    "Calm": 65,
+    "Sincere": 55,
+    "Happy": 50,
+    "Competent": 45
+   },
+   "themes": {},
+   "look": [
+    "rounded",
+    "geometric sans",
+    "light",
+    "monoline"
+   ],
+   "note": "Light, friendly geometric sans with soft rounded terminals.",
+   "sheet": "sheet-075",
+   "at": "2026-10-03T14:06:49.014Z"
+  },
+  "Panamera": {
+   "moods": {
+    "Active": 60,
+    "Innovative": 55,
+    "Loud": 45,
+    "Business": 45
+   },
+   "themes": {},
+   "look": [
+    "bold",
+    "geometric",
+    "tight spacing",
+    "rounded"
+   ],
+   "note": "Bold geometric sans with tight spacing, round shapes and slightly squarish curves.",
+   "sheet": "sheet-060",
+   "at": "2026-10-03T14:05:14.852Z"
+  },
+  "Panchang": {
+   "moods": {
+    "Futuristic": 85,
+    "Innovative": 70,
+    "Sophisticated": 45
+   },
+   "themes": {
+    "Techno": 45
+   },
+   "look": [
+    "extra wide",
+    "monoline",
+    "geometric",
+    "light weight"
+   ],
+   "note": "Very wide extended geometric sans with thin even strokes.",
+   "sheet": "sheet-074",
+   "at": "2026-10-03T14:06:34.626Z"
+  },
+  "Panchi Mono": {
+   "moods": {
+    "Competent": 70,
+    "Business": 50,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "condensed",
+    "monoline",
+    "clean"
+   ],
+   "note": "Narrow monospaced sans with even strokes and a technical, code-like feel.",
+   "sheet": "sheet-004",
+   "at": "2026-10-03T14:00:06.186Z"
+  },
+  "Paquito": {
+   "moods": {
+    "Vintage": 75,
+    "Fancy": 55,
+    "Artistic": 55,
+    "Sophisticated": 40
+   },
+   "themes": {
+    "Art Nouveau": 40
+   },
+   "look": [
+    "condensed",
+    "high contrast",
+    "flared serifs",
+    "quirky"
+   ],
+   "note": "Condensed quirky serif with flared strokes and vintage flavour.",
+   "sheet": "sheet-048",
+   "at": "2026-10-03T14:04:12.914Z"
+  },
+  "Paysage": {
+   "moods": {
+    "Calm": 60,
+    "Business": 60,
+    "Sincere": 55,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "geometric",
+    "regular weight",
+    "open spacing"
+   ],
+   "note": "Clean humanist-geometric sans with open spacing and even stroke.",
+   "sheet": "sheet-042",
+   "at": "2026-10-03T14:03:37.823Z"
+  },
+  "Peace Sans": {
+   "moods": {
+    "Loud": 85,
+    "Playful": 55,
+    "Happy": 50
+   },
+   "themes": {},
+   "look": [
+    "extra bold",
+    "rounded corners",
+    "wide",
+    "geometric"
+   ],
+   "note": "Ultra-bold sans with soft corners and compact counters, friendly but heavy.",
+   "sheet": "sheet-035",
+   "at": "2026-10-03T14:02:59.904Z"
+  },
+  "Pecita": {
+   "moods": {
+    "Playful": 75,
+    "Artistic": 70,
+    "Childlike": 55,
+    "Cute": 45
+   },
+   "themes": {},
+   "look": [
+    "handwritten",
+    "script",
+    "monoline",
+    "casual",
+    "small caps"
+   ],
+   "note": "Loose handwritten pen script with quirky letters and small-cap capitals.",
+   "sheet": "sheet-006",
+   "at": "2026-10-03T14:00:34.983Z"
+  },
+  "Pescante": {
+   "moods": {
+    "Futuristic": 65,
+    "Loud": 60,
+    "Awkward": 50,
+    "Innovative": 50
+   },
+   "themes": {
+    "Techno": 60,
+    "Pixel": 40
+   },
+   "look": [
+    "blocky",
+    "bold",
+    "squared",
+    "quirky details"
+   ],
+   "note": "Bold squared blocky letters with notched cuts and odd descenders.",
+   "sheet": "sheet-038",
+   "at": "2026-10-03T14:03:19.536Z"
+  },
+  "Picaflor": {
+   "moods": {
+    "Sophisticated": 85,
+    "Fancy": 75,
+    "Business": 45
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "high contrast",
+    "didone",
+    "tight spacing"
+   ],
+   "note": "Very condensed high-contrast didone with hairline serifs, tightly spaced.",
+   "sheet": "sheet-013",
+   "at": "2026-10-03T14:01:03.700Z"
+  },
+  "Pilcrow Rounded": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "light",
+    "grotesque sans",
+    "monoline"
+   ],
+   "note": "Light condensed sans with clean, narrow, even strokes.",
+   "sheet": "sheet-071",
+   "at": "2026-10-03T14:06:19.434Z"
+  },
+  "Pilowlava": {
+   "moods": {
+    "Playful": 80,
+    "Loud": 65,
+    "Excited": 55,
+    "Artistic": 55
+   },
+   "themes": {
+    "Blobby": 65,
+    "Wacky": 55
+   },
+   "look": [
+    "wide",
+    "italic",
+    "bulbous",
+    "brush-like swells",
+    "all caps"
+   ],
+   "note": "Wide, slanted, bulbous letters with swelling strokes; lowercase drawn as capitals.",
+   "sheet": "sheet-064",
+   "at": "2026-10-03T14:05:37.727Z"
+  },
+  "Pilowlava Atome": {
+   "moods": {
+    "Loud": 90,
+    "Playful": 85,
+    "Excited": 65,
+    "Artistic": 60,
+    "Awkward": 45
+   },
+   "themes": {
+    "Blobby": 80,
+    "Wacky": 70
+   },
+   "look": [
+    "heavy",
+    "blobby",
+    "wide",
+    "white dots",
+    "all caps"
+   ],
+   "note": "Ultra-heavy blobby wide caps with white dot cutouts; funky and bold.",
+   "sheet": "sheet-006",
+   "at": "2026-10-03T14:00:34.983Z"
+  },
+  "Piscolabis": {
+   "moods": {
+    "Loud": 70,
+    "Active": 60,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "bold",
+    "tall",
+    "tight spacing"
+   ],
+   "note": "Heavy, tall condensed sans with tight spacing, poster-like.",
+   "sheet": "sheet-001",
+   "at": "2026-10-03T13:57:03.143Z"
+  },
+  "Pitagon Sans": {
+   "moods": {
+    "Calm": 65,
+    "Sincere": 55,
+    "Business": 55,
+    "Futuristic": 40
+   },
+   "themes": {},
+   "look": [
+    "geometric-ish sans",
+    "light",
+    "wide",
+    "rounded corners"
+   ],
+   "note": "Light, slightly wide sans with soft squarish curves.",
+   "sheet": "sheet-027",
+   "at": "2026-10-03T14:02:19.814Z"
+  },
+  "Pitagon Sans Mono": {
+   "moods": {
+    "Competent": 70,
+    "Business": 55,
+    "Calm": 50,
+    "Innovative": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "sans serif",
+    "clean",
+    "open"
+   ],
+   "note": "Clean monospaced sans with even spacing and slightly squarish curves.",
+   "sheet": "sheet-022",
+   "at": "2026-10-03T14:01:54.659Z"
+  },
+  "Pitagon Sans Text": {
+   "moods": {
+    "Business": 65,
+    "Competent": 65,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "geometric",
+    "tight spacing",
+    "clean",
+    "monoline"
+   ],
+   "note": "Clean geometric sans with tight spacing and round bowls.",
+   "sheet": "sheet-059",
+   "at": "2026-10-03T14:05:08.030Z"
+  },
+  "Pitagon Serif": {
+   "moods": {
+    "Sincere": 70,
+    "Calm": 60,
+    "Sophisticated": 55,
+    "Competent": 55
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "book text",
+    "moderate contrast",
+    "bracketed serifs"
+   ],
+   "note": "Readable text serif with moderate contrast and sturdy bracketed serifs.",
+   "sheet": "sheet-049",
+   "at": "2026-10-03T14:04:19.797Z"
+  },
+  "Plein": {
+   "moods": {
+    "Calm": 70,
+    "Sincere": 65,
+    "Business": 60,
+    "Competent": 60
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "light weight",
+    "monoline",
+    "open"
+   ],
+   "note": "Light humanist sans serif with open forms and even stroke.",
+   "sheet": "sheet-068",
+   "at": "2026-10-03T14:06:13.656Z"
+  },
+  "Pramukh Rounded": {
+   "moods": {
+    "Business": 65,
+    "Competent": 65,
+    "Loud": 50,
+    "Active": 45
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "tall",
+    "bold",
+    "sans serif"
+   ],
+   "note": "Tall tightly condensed grotesque sans with compact spacing.",
+   "sheet": "sheet-015",
+   "at": "2026-10-03T14:01:18.425Z"
+  },
+  "Pretendard": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 55
+   },
+   "themes": {},
+   "look": [
+    "neutral grotesque",
+    "regular weight",
+    "clean",
+    "monoline"
+   ],
+   "note": "Neutral grotesque sans, regular weight, even and highly legible.",
+   "sheet": "sheet-014",
+   "at": "2026-10-03T14:01:14.016Z"
+  },
+  "Profont": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 60,
+    "Awkward": 40
+   },
+   "themes": {
+    "Techno": 60
+   },
+   "look": [
+    "monospaced",
+    "rounded corners",
+    "squarish"
+   ],
+   "note": "Monospaced face with squarish rounded forms and a techy feel.",
+   "sheet": "sheet-062",
+   "at": "2026-10-03T14:05:25.668Z"
+  },
+  "PropCourier Sans": {
+   "moods": {
+    "Futuristic": 55,
+    "Innovative": 55,
+    "Calm": 50,
+    "Stiff": 40
+   },
+   "themes": {
+    "Techno": 45
+   },
+   "look": [
+    "monospaced",
+    "thin",
+    "monoline",
+    "wide spacing"
+   ],
+   "note": "Thin monospaced sans with squarish rounded forms and wide spacing.",
+   "sheet": "sheet-047",
+   "at": "2026-10-03T14:04:11.069Z"
+  },
+  "Ptah": {
+   "moods": {
+    "Playful": 55,
+    "Awkward": 50,
+    "Innovative": 45,
+    "Futuristic": 40
+   },
+   "themes": {
+    "Techno": 45
+   },
+   "look": [
+    "monoline",
+    "quirky",
+    "squarish curves",
+    "narrow"
+   ],
+   "note": "Monoline, squared-off quirky sans with odd curved tails and uneven letter shapes.",
+   "sheet": "sheet-008",
+   "at": "2026-10-03T14:00:36.667Z"
+  },
+  "Pushster": {
+   "moods": {
+    "Happy": 65,
+    "Active": 65,
+    "Playful": 60,
+    "Fancy": 55,
+    "Vintage": 50
+   },
+   "themes": {
+    "Brush": 45
+   },
+   "look": [
+    "script",
+    "bold",
+    "slanted",
+    "connected",
+    "retro"
+   ],
+   "note": "Bold retro brush script, slanted and flowing with tight spacing.",
+   "sheet": "sheet-023",
+   "at": "2026-10-03T14:02:02.016Z"
+  },
+  "Quilon": {
+   "moods": {
+    "Competent": 70,
+    "Business": 65,
+    "Sincere": 55,
+    "Active": 40
+   },
+   "themes": {},
+   "look": [
+    "bold",
+    "sans",
+    "slight contrast",
+    "sturdy"
+   ],
+   "note": "Bold sans with slight stroke modulation and sturdy, compact letterforms.",
+   "sheet": "sheet-039",
+   "at": "2026-10-03T14:03:19.916Z"
+  },
+  "Québec": {
+   "moods": {
+    "Sincere": 65,
+    "Calm": 60,
+    "Happy": 45,
+    "Business": 45
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "open apertures",
+    "monoline",
+    "friendly"
+   ],
+   "note": "Friendly humanist sans with open shapes and gentle stroke modulation.",
+   "sheet": "sheet-016",
+   "at": "2026-10-03T14:01:23.322Z"
+  },
+  "RX100": {
+   "moods": {
+    "Business": 65,
+    "Competent": 60,
+    "Stiff": 50
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "condensed",
+    "semi-bold",
+    "humanist"
+   ],
+   "note": "Condensed monospaced sans with sturdy strokes and a typewriter-like, technical feel.",
+   "sheet": "sheet-060",
+   "at": "2026-10-03T14:05:14.852Z"
+  },
+  "Railway Sans": {
+   "moods": {
+    "Sincere": 60,
+    "Happy": 50,
+    "Competent": 45
+   },
+   "themes": {},
+   "look": [
+    "humanist sans",
+    "bold",
+    "flared strokes"
+   ],
+   "note": "Bold humanist sans with slight stroke modulation and friendly open shapes.",
+   "sheet": "sheet-041",
+   "at": "2026-10-03T14:03:28.416Z"
+  },
+  "Ranade": {
+   "moods": {
+    "Business": 75,
+    "Competent": 70,
+    "Calm": 55,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "geometric",
+    "wide",
+    "monoline"
+   ],
+   "note": "Wide, clean sans with open round forms and even stroke.",
+   "sheet": "sheet-006",
+   "at": "2026-10-03T14:00:34.983Z"
+  },
+  "Recia": {
+   "moods": {
+    "Calm": 70,
+    "Sincere": 65,
+    "Competent": 60,
+    "Sophisticated": 45
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "light",
+    "moderate contrast",
+    "bookish"
+   ],
+   "note": "Light text serif with gentle contrast and sturdy bracketed serifs.",
+   "sheet": "sheet-055",
+   "at": "2026-10-03T14:04:48.301Z"
+  },
+  "Recursive Mono Casual": {
+   "moods": {
+    "Competent": 60,
+    "Business": 50,
+    "Innovative": 45
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "bold",
+    "rounded corners",
+    "typewriter-like"
+   ],
+   "note": "Bold monospace with softened corners and sturdy sans letterforms.",
+   "sheet": "sheet-025",
+   "at": "2026-10-03T14:02:11.447Z"
+  },
+  "Recursive Sans Casual": {
+   "moods": {
+    "Playful": 75,
+    "Cute": 55,
+    "Childlike": 50,
+    "Happy": 50
+   },
+   "themes": {},
+   "look": [
+    "handwritten",
+    "casual",
+    "monoline",
+    "rounded"
+   ],
+   "note": "Casual hand-drawn marker-style sans with irregular, friendly strokes.",
+   "sheet": "sheet-035",
+   "at": "2026-10-03T14:02:59.904Z"
+  },
+  "Recursive Sans Linear": {
+   "moods": {
+    "Calm": 70,
+    "Business": 55,
+    "Sophisticated": 50,
+    "Competent": 45
+   },
+   "themes": {},
+   "look": [
+    "light weight",
+    "sans serif",
+    "monoline",
+    "open"
+   ],
+   "note": "Light humanist sans with open forms and even strokes.",
+   "sheet": "sheet-044",
+   "at": "2026-10-03T14:03:52.730Z"
+  },
+  "Redaction": {
+   "moods": {
+    "Sophisticated": 70,
+    "Sincere": 60,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "old-style",
+    "moderate contrast"
+   ],
+   "note": "Classic bookish old-style serif with bracketed serifs and moderate contrast.",
+   "sheet": "sheet-062",
+   "at": "2026-10-03T14:05:25.668Z"
+  },
+  "Redaction 10": {
+   "moods": {
+    "Sophisticated": 70,
+    "Fancy": 55,
+    "Sincere": 50,
+    "Vintage": 45
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "high contrast",
+    "tight spacing",
+    "bold"
+   ],
+   "note": "Bold high-contrast serif with tight spacing and sharp wedge serifs.",
+   "sheet": "sheet-065",
+   "at": "2026-10-03T14:05:38.780Z"
+  },
+  "Redaction 100": {
+   "moods": {
+    "Futuristic": 60,
+    "Awkward": 55,
+    "Innovative": 50,
+    "Playful": 45
+   },
+   "themes": {
+    "Pixel": 95,
+    "Techno": 45
+   },
+   "look": [
+    "pixelated",
+    "blocky",
+    "bitmap",
+    "irregular"
+   ],
+   "note": "Chunky bitmap pixel letters with uneven, broken-up shapes.",
+   "sheet": "sheet-010",
+   "at": "2026-10-03T14:00:52.614Z"
+  },
+  "Redaction 20": {
+   "moods": {
+    "Sophisticated": 70,
+    "Vintage": 60,
+    "Sincere": 55,
+    "Fancy": 40
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "high contrast",
+    "old-style",
+    "bracketed serifs"
+   ],
+   "note": "Classic high-contrast old-style serif with sharp bracketed serifs.",
+   "sheet": "sheet-074",
+   "at": "2026-10-03T14:06:34.626Z"
+  },
+  "Redaction 35": {
+   "moods": {
+    "Sophisticated": 70,
+    "Sincere": 60,
+    "Calm": 50,
+    "Vintage": 45
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "high contrast",
+    "bitmap-ish edges",
+    "bookish"
+   ],
+   "note": "Transitional serif with sharp bracketed serifs and slightly pixelated edges.",
+   "sheet": "sheet-064",
+   "at": "2026-10-03T14:05:37.727Z"
+  },
+  "Redaction 50": {
+   "moods": {
+    "Vintage": 60,
+    "Rugged": 50,
+    "Awkward": 45,
+    "Innovative": 40
+   },
+   "themes": {
+    "Pixel": 75
+   },
+   "look": [
+    "pixelated",
+    "bitmap serif",
+    "jagged edges",
+    "condensed"
+   ],
+   "note": "Bitmap-style serif with jagged pixel edges and heavy blocky strokes.",
+   "sheet": "sheet-029",
+   "at": "2026-10-03T14:02:30.306Z"
+  },
+  "Redaction 70": {
+   "moods": {
+    "Innovative": 55,
+    "Awkward": 55,
+    "Futuristic": 45
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixelated",
+    "bitmap",
+    "slab serifs",
+    "chunky"
+   ],
+   "note": "Bitmap pixel serif with blocky stepped edges and uneven weights.",
+   "sheet": "sheet-020",
+   "at": "2026-10-03T14:01:41.885Z"
+  },
+  "Ribes": {
+   "moods": {
+    "Sophisticated": 60,
+    "Innovative": 55,
+    "Artistic": 50,
+    "Calm": 40
+   },
+   "themes": {},
+   "look": [
+    "light",
+    "thin monoline",
+    "geometric",
+    "quirky g"
+   ],
+   "note": "Thin geometric sans with open forms and a distinctive looped g and e.",
+   "sheet": "sheet-004",
+   "at": "2026-10-03T14:00:06.186Z"
+  },
+  "Ronzino": {
+   "moods": {
+    "Business": 80,
+    "Competent": 75,
+    "Calm": 55,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "neutral",
+    "tight spacing",
+    "medium weight"
+   ],
+   "note": "Neutral sans with slightly heavier strokes, tight spacing, and open apertures.",
+   "sheet": "sheet-070",
+   "at": "2026-10-03T14:06:10.027Z"
+  },
+  "Rosaline": {
+   "moods": {
+    "Fancy": 85,
+    "Artistic": 75,
+    "Sophisticated": 60,
+    "Vintage": 50
+   },
+   "themes": {
+    "Brush": 50
+   },
+   "look": [
+    "script",
+    "brush",
+    "slanted",
+    "connected",
+    "flourished"
+   ],
+   "note": "Flowing brush script with swashy capitals and contrasting strokes.",
+   "sheet": "sheet-054",
+   "at": "2026-10-03T14:04:46.228Z"
+  },
+  "Roubaix Industrielle": {
+   "moods": {
+    "Futuristic": 75,
+    "Innovative": 60,
+    "Loud": 50
+   },
+   "themes": {
+    "Techno": 80,
+    "Pixel": 60
+   },
+   "look": [
+    "wide",
+    "striped",
+    "bold",
+    "all caps",
+    "dotted scanlines"
+   ],
+   "note": "Wide bold caps built from horizontal dashed scanlines, digital display look.",
+   "sheet": "sheet-069",
+   "at": "2026-10-03T14:05:59.751Z"
+  },
+  "Roundo": {
+   "moods": {
+    "Calm": 65,
+    "Sophisticated": 55,
+    "Business": 50,
+    "Sincere": 40
+   },
+   "themes": {},
+   "look": [
+    "light",
+    "geometric sans",
+    "wide",
+    "round bowls"
+   ],
+   "note": "Light geometric sans with round bowls and generous width.",
+   "sheet": "sheet-007",
+   "at": "2026-10-03T14:00:26.522Z"
+  },
+  "Routed Gothic": {
+   "moods": {
+    "Playful": 60,
+    "Happy": 50,
+    "Childlike": 45
+   },
+   "themes": {},
+   "look": [
+    "rounded",
+    "bold",
+    "monoline",
+    "wide"
+   ],
+   "note": "Bold rounded monoline sans, friendly and slightly quirky.",
+   "sheet": "sheet-057",
+   "at": "2026-10-03T14:04:57.088Z"
+  },
+  "Routed Gothic Narrow": {
+   "moods": {
+    "Active": 60,
+    "Business": 50,
+    "Playful": 45
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "sans serif",
+    "rounded corners",
+    "bold"
+   ],
+   "note": "Condensed bold sans with softened corners and quirky, friendly shapes.",
+   "sheet": "sheet-075",
+   "at": "2026-10-03T14:06:49.014Z"
+  },
+  "Routed Gothic Wide": {
+   "moods": {
+    "Sincere": 60,
+    "Calm": 55,
+    "Happy": 45,
+    "Innovative": 45
+   },
+   "themes": {},
+   "look": [
+    "geometric",
+    "wide",
+    "rounded terminals",
+    "monoline"
+   ],
+   "note": "Wide geometric monoline sans with round shapes and open, even spacing.",
+   "sheet": "sheet-015",
+   "at": "2026-10-03T14:01:18.425Z"
+  },
+  "Rowan": {
+   "moods": {
+    "Sincere": 65,
+    "Sophisticated": 55,
+    "Calm": 55,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "bookish",
+    "moderate contrast",
+    "old-style figures"
+   ],
+   "note": "Readable text serif with soft wedge serifs and oldstyle numerals.",
+   "sheet": "sheet-017",
+   "at": "2026-10-03T14:01:28.167Z"
+  },
+  "Rubik One": {
+   "moods": {
+    "Loud": 90,
+    "Active": 60,
+    "Playful": 50,
+    "Excited": 45
+   },
+   "themes": {},
+   "look": [
+    "heavy",
+    "black weight",
+    "wide",
+    "tight spacing",
+    "sans"
+   ],
+   "note": "Ultra-heavy wide sans with tiny counters and punchy impact.",
+   "sheet": "sheet-049",
+   "at": "2026-10-03T14:04:19.797Z"
+  },
+  "Rumeur": {
+   "moods": {
+    "Playful": 65,
+    "Innovative": 55,
+    "Awkward": 50
+   },
+   "themes": {},
+   "look": [
+    "geometric",
+    "bold",
+    "quirky capitals",
+    "rounded"
+   ],
+   "note": "Bold geometric sans with odd, quirky M, W and U shapes.",
+   "sheet": "sheet-026",
+   "at": "2026-10-03T14:02:19.667Z"
+  },
+  "Runic Sans": {
+   "moods": {
+    "Loud": 70,
+    "Artistic": 60,
+    "Awkward": 55,
+    "Futuristic": 45
+   },
+   "themes": {
+    "Techno": 60,
+    "Wacky": 50
+   },
+   "look": [
+    "angular",
+    "pseudo-script",
+    "heavy strokes",
+    "quirky letterforms"
+   ],
+   "note": "Bold angular faux-oriental style caps with odd, sharp, mixed-case shapes.",
+   "sheet": "sheet-053",
+   "at": "2026-10-03T14:04:39.052Z"
+  },
+  "Runic Sans Inline": {
+   "moods": {
+    "Loud": 70,
+    "Rugged": 60,
+    "Artistic": 55,
+    "Awkward": 50
+   },
+   "themes": {
+    "Wacky": 55,
+    "Techno": 40
+   },
+   "look": [
+    "blocky",
+    "angular",
+    "caps only",
+    "heavy",
+    "quirky"
+   ],
+   "note": "Heavy angular caps-style glyphs with odd, runic-looking constructions.",
+   "sheet": "sheet-058",
+   "at": "2026-10-03T14:05:04.713Z"
+  },
+  "Résistance Générale": {
+   "moods": {
+    "Rugged": 70,
+    "Loud": 60,
+    "Awkward": 50,
+    "Futuristic": 40
+   },
+   "themes": {
+    "Stencil": 60,
+    "Techno": 40
+   },
+   "look": [
+    "stencil",
+    "bold",
+    "blocky",
+    "condensed"
+   ],
+   "note": "Heavy angular stencil-like letters with cut notches and a blob glitch.",
+   "sheet": "sheet-019",
+   "at": "2026-10-03T14:01:45.491Z"
+  },
+  "Sani Trixie Sans": {
+   "moods": {
+    "Business": 65,
+    "Competent": 65,
+    "Sincere": 60
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "regular weight",
+    "monoline",
+    "tight spacing"
+   ],
+   "note": "Clean neutral sans with round bowls and even strokes.",
+   "sheet": "sheet-071",
+   "at": "2026-10-03T14:06:19.434Z"
+  },
+  "Satoshi": {
+   "moods": {
+    "Calm": 70,
+    "Sophisticated": 60,
+    "Business": 50
+   },
+   "themes": {},
+   "look": [
+    "light weight",
+    "geometric sans",
+    "clean",
+    "monoline"
+   ],
+   "note": "Light geometric sans with round bowls and even, open spacing.",
+   "sheet": "sheet-014",
+   "at": "2026-10-03T14:01:14.016Z"
+  },
+  "Scoutie Sans": {
+   "moods": {
+    "Competent": 70,
+    "Business": 65,
+    "Calm": 50,
+    "Sincere": 50
+   },
+   "themes": {},
+   "look": [
+    "clean sans",
+    "medium weight",
+    "tight spacing",
+    "neutral"
+   ],
+   "note": "Neutral medium-weight sans serif with tight spacing and clean forms.",
+   "sheet": "sheet-048",
+   "at": "2026-10-03T14:04:12.914Z"
+  },
+  "Segment": {
+   "moods": {
+    "Futuristic": 65,
+    "Artistic": 50,
+    "Innovative": 45
+   },
+   "themes": {
+    "Techno": 65,
+    "Pixel": 50
+   },
+   "look": [
+    "dotted strokes",
+    "wide spacing",
+    "all caps",
+    "thin"
+   ],
+   "note": "Thin, widely spaced capitals drawn with dotted, perforated strokes.",
+   "sheet": "sheet-005",
+   "at": "2026-10-03T14:00:17.165Z"
+  },
+  "Selectric": {
+   "moods": {
+    "Sophisticated": 60,
+    "Sincere": 55,
+    "Calm": 55,
+    "Vintage": 45
+   },
+   "themes": {},
+   "look": [
+    "text serif",
+    "light",
+    "calligraphic touches",
+    "open spacing"
+   ],
+   "note": "Light book serif with slight angled stress, wide tracking and bracketed serifs.",
+   "sheet": "sheet-072",
+   "at": "2026-10-03T14:06:26.193Z"
+  },
+  "Selectric Mono": {
+   "moods": {
+    "Sincere": 60,
+    "Vintage": 50,
+    "Calm": 50,
+    "Business": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "serif",
+    "typewriter-like",
+    "low contrast"
+   ],
+   "note": "Monospaced serif with wide spacing and light bracketed serifs.",
+   "sheet": "sheet-032",
+   "at": "2026-10-03T14:02:49.461Z"
+  },
+  "Sentient": {
+   "moods": {
+    "Sincere": 65,
+    "Sophisticated": 55,
+    "Calm": 50,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "moderate contrast",
+    "bookish"
+   ],
+   "note": "Readable text serif with sturdy bracketed serifs and calm proportions.",
+   "sheet": "sheet-041",
+   "at": "2026-10-03T14:03:28.416Z"
+  },
+  "Server Mono": {
+   "moods": {
+    "Competent": 65,
+    "Business": 60,
+    "Innovative": 50,
+    "Stiff": 45
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "sans serif",
+    "sturdy",
+    "even stroke"
+   ],
+   "note": "Sturdy monospaced sans with open spacing and uniform strokes.",
+   "sheet": "sheet-002",
+   "at": "2026-10-03T14:00:03.222Z"
+  },
+  "Sharpie": {
+   "moods": {
+    "Active": 80,
+    "Playful": 65,
+    "Excited": 60,
+    "Artistic": 50
+   },
+   "themes": {
+    "Brush": 65
+   },
+   "look": [
+    "brush script",
+    "slanted",
+    "bold",
+    "condensed"
+   ],
+   "note": "Bold slanted brush-style letters with energetic, rough-edged strokes.",
+   "sheet": "sheet-033",
+   "at": "2026-10-03T14:02:51.005Z"
+  },
+  "Sinistre": {
+   "moods": {
+    "Fancy": 70,
+    "Sophisticated": 65,
+    "Artistic": 60,
+    "Vintage": 40
+   },
+   "themes": {
+    "Art Nouveau": 50
+   },
+   "look": [
+    "calligraphic",
+    "flared serifs",
+    "quirky letterforms",
+    "light"
+   ],
+   "note": "Elegant calligraphic serif with quirky a, w and f, flared strokes.",
+   "sheet": "sheet-043",
+   "at": "2026-10-03T14:03:46.638Z"
+  },
+  "Sinkin Sans": {
+   "moods": {
+    "Business": 65,
+    "Competent": 60,
+    "Active": 55,
+    "Happy": 40
+   },
+   "themes": {},
+   "look": [
+    "wide",
+    "geometric sans",
+    "semibold",
+    "round"
+   ],
+   "note": "Wide semibold geometric sans with round bowls and open forms.",
+   "sheet": "sheet-073",
+   "at": "2026-10-03T14:06:34.621Z"
+  },
+  "Sligoil": {
+   "moods": {
+    "Innovative": 65,
+    "Futuristic": 50,
+    "Competent": 50
+   },
+   "themes": {
+    "Techno": 45
+   },
+   "look": [
+    "monospaced",
+    "rounded corners",
+    "geometric",
+    "single-storey a"
+   ],
+   "note": "Monospaced sans with rounded-square shapes and a distinctive low-slung a.",
+   "sheet": "sheet-059",
+   "at": "2026-10-03T14:05:08.030Z"
+  },
+  "Snap-it mono": {
+   "moods": {
+    "Calm": 60,
+    "Futuristic": 50,
+    "Competent": 50,
+    "Sincere": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "thin",
+    "light",
+    "squarish"
+   ],
+   "note": "Light monospaced sans with squarish rounded forms and thin stroke.",
+   "sheet": "sheet-045",
+   "at": "2026-10-03T14:04:03.469Z"
+  },
+  "Sneaky Times": {
+   "moods": {
+    "Sophisticated": 75,
+    "Sincere": 60,
+    "Calm": 55,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "high contrast",
+    "bracketed serifs",
+    "book text"
+   ],
+   "note": "Classic transitional serif with moderate contrast and elegant bracketed serifs.",
+   "sheet": "sheet-053",
+   "at": "2026-10-03T14:04:39.052Z"
+  },
+  "Solide Mirage Etroit": {
+   "moods": {
+    "Artistic": 80,
+    "Fancy": 70,
+    "Playful": 50,
+    "Vintage": 45
+   },
+   "themes": {
+    "Art Nouveau": 50
+   },
+   "look": [
+    "quirky glyphs",
+    "high contrast",
+    "didone-like",
+    "decorative"
+   ],
+   "note": "High-contrast serif with odd, ornamental lowercase forms like f, g, k, w.",
+   "sheet": "sheet-024",
+   "at": "2026-10-03T14:02:04.654Z"
+  },
+  "Solide Mirage Mono": {
+   "moods": {
+    "Artistic": 80,
+    "Fancy": 65,
+    "Awkward": 55,
+    "Sophisticated": 45
+   },
+   "themes": {
+    "Art Deco": 40
+   },
+   "look": [
+    "wide",
+    "high contrast",
+    "quirky lowercase",
+    "slab serifs"
+   ],
+   "note": "Wide high-contrast serif with odd, swashy, unconventional lowercase forms.",
+   "sheet": "sheet-025",
+   "at": "2026-10-03T14:02:11.447Z"
+  },
+  "Sporting Grotesque": {
+   "moods": {
+    "Innovative": 70,
+    "Business": 60,
+    "Competent": 50,
+    "Futuristic": 45
+   },
+   "themes": {},
+   "look": [
+    "wide",
+    "bold",
+    "geometric",
+    "grotesque"
+   ],
+   "note": "Wide bold grotesque sans with round, open geometric forms.",
+   "sheet": "sheet-048",
+   "at": "2026-10-03T14:04:12.914Z"
+  },
+  "Sprat": {
+   "moods": {
+    "Sophisticated": 70,
+    "Fancy": 50,
+    "Artistic": 45
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "high contrast",
+    "wide",
+    "light weight"
+   ],
+   "note": "Wide, elegant high-contrast serif with sharp hairline serifs.",
+   "sheet": "sheet-020",
+   "at": "2026-10-03T14:01:41.885Z"
+  },
+  "Sprat Condensed": {
+   "moods": {
+    "Sophisticated": 70,
+    "Vintage": 65,
+    "Fancy": 55,
+    "Artistic": 45
+   },
+   "themes": {},
+   "look": [
+    "high contrast",
+    "condensed",
+    "serif",
+    "didone-like"
+   ],
+   "note": "Narrow high-contrast serif with sharp serifs and vintage editorial feel.",
+   "sheet": "sheet-002",
+   "at": "2026-10-03T14:00:03.222Z"
+  },
+  "Sprat Extended": {
+   "moods": {
+    "Fancy": 75,
+    "Artistic": 65,
+    "Sophisticated": 60,
+    "Vintage": 50
+   },
+   "themes": {},
+   "look": [
+    "extra wide",
+    "high contrast",
+    "serif",
+    "display"
+   ],
+   "note": "Very wide high-contrast serif with sharp bracketless serifs and quirky shapes.",
+   "sheet": "sheet-002",
+   "at": "2026-10-03T14:00:03.222Z"
+  },
+  "Stardom": {
+   "moods": {
+    "Sophisticated": 75,
+    "Fancy": 65,
+    "Loud": 50,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "high contrast",
+    "bold serif",
+    "didone-like",
+    "display"
+   ],
+   "note": "Bold high-contrast display serif with sharp hairlines and heavy stems.",
+   "sheet": "sheet-053",
+   "at": "2026-10-03T14:04:39.052Z"
+  },
+  "Steps Mono": {
+   "moods": {
+    "Rugged": 50,
+    "Stiff": 50,
+    "Business": 45,
+    "Vintage": 40
+   },
+   "themes": {
+    "Pixel": 50
+   },
+   "look": [
+    "condensed",
+    "bitmap-like",
+    "bold",
+    "tall"
+   ],
+   "note": "Condensed bold bitmap-style face with chunky stepped edges.",
+   "sheet": "sheet-073",
+   "at": "2026-10-03T14:06:34.621Z"
+  },
+  "Striper": {
+   "moods": {
+    "Playful": 70,
+    "Loud": 60,
+    "Artistic": 55,
+    "Fancy": 40
+   },
+   "themes": {
+    "Inline": 70,
+    "Wacky": 50
+   },
+   "look": [
+    "bold",
+    "decorative fill",
+    "striped",
+    "rounded"
+   ],
+   "note": "Heavy rounded sans filled with ladder-like stripe patterns and dots.",
+   "sheet": "sheet-066",
+   "at": "2026-10-03T14:05:49.455Z"
+  },
+  "Struggle": {
+   "moods": {
+    "Playful": 90,
+    "Loud": 80,
+    "Childlike": 55,
+    "Vintage": 50
+   },
+   "themes": {
+    "Blobby": 80,
+    "Wacky": 50
+   },
+   "look": [
+    "heavy",
+    "blobby",
+    "rounded",
+    "retro 70s"
+   ],
+   "note": "Ultra-heavy bubbly display face with blobby, quirky letterforms.",
+   "sheet": "sheet-075",
+   "at": "2026-10-03T14:06:49.014Z"
+  },
+  "Styro": {
+   "moods": {
+    "Loud": 90,
+    "Active": 60,
+    "Rugged": 45
+   },
+   "themes": {},
+   "look": [
+    "ultra condensed",
+    "heavy",
+    "tight spacing",
+    "tall"
+   ],
+   "note": "Extremely condensed, heavy sans with tiny counters and tight spacing.",
+   "sheet": "sheet-059",
+   "at": "2026-10-03T14:05:08.030Z"
+  },
+  "Supreme": {
+   "moods": {
+    "Calm": 60,
+    "Sincere": 55,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "monoline",
+    "open"
+   ],
+   "note": "Friendly rounded-geometric sans with even strokes and open shapes.",
+   "sheet": "sheet-031",
+   "at": "2026-10-03T14:02:41.565Z"
+  },
+  "Switzer": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "monoline",
+    "tight spacing"
+   ],
+   "note": "Clean neo-grotesque sans with even strokes and tight spacing.",
+   "sheet": "sheet-031",
+   "at": "2026-10-03T14:02:41.565Z"
+  },
+  "Synonym": {
+   "moods": {
+    "Calm": 70,
+    "Sincere": 60,
+    "Business": 55,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "geometric sans",
+    "light weight",
+    "monoline",
+    "wide"
+   ],
+   "note": "Light, clean, open sans with round bowls and even strokes.",
+   "sheet": "sheet-047",
+   "at": "2026-10-03T14:04:11.069Z"
+  },
+  "TGL 0-16": {
+   "moods": {
+    "Active": 70,
+    "Playful": 55,
+    "Innovative": 50,
+    "Excited": 40
+   },
+   "themes": {},
+   "look": [
+    "italic",
+    "slanted",
+    "bold",
+    "monoline",
+    "rounded"
+   ],
+   "note": "Bold slanted monoline sans with rounded forms and quirky, energetic shapes.",
+   "sheet": "sheet-032",
+   "at": "2026-10-03T14:02:49.461Z"
+  },
+  "TGL 0-17": {
+   "moods": {
+    "Happy": 65,
+    "Playful": 60,
+    "Active": 50,
+    "Cute": 45
+   },
+   "themes": {},
+   "look": [
+    "bold",
+    "rounded",
+    "monoline",
+    "quirky"
+   ],
+   "note": "Bold rounded-corner sans with quirky friendly shapes.",
+   "sheet": "sheet-011",
+   "at": "2026-10-03T14:00:54.070Z"
+  },
+  "TGL 0-17 Alt": {
+   "moods": {
+    "Active": 60,
+    "Competent": 55,
+    "Playful": 40
+   },
+   "themes": {},
+   "look": [
+    "bold",
+    "sans serif",
+    "slightly squared",
+    "tight spacing"
+   ],
+   "note": "Bold geometric-grotesque sans with squarish curves and compact spacing.",
+   "sheet": "sheet-042",
+   "at": "2026-10-03T14:03:37.823Z"
+  },
+  "TINY": {
+   "moods": {
+    "Playful": 75,
+    "Loud": 65,
+    "Awkward": 55,
+    "Rugged": 45
+   },
+   "themes": {
+    "Pixel": 60,
+    "Blobby": 50,
+    "Distressed": 45
+   },
+   "look": [
+    "heavy",
+    "bubbly pixelated edges",
+    "blobby",
+    "small x-height"
+   ],
+   "note": "Very heavy bitmap-like letters with bumpy, blobby edges.",
+   "sheet": "sheet-009",
+   "at": "2026-10-03T14:00:45.465Z"
+  },
+  "Tabular": {
+   "moods": {
+    "Competent": 70,
+    "Business": 60,
+    "Futuristic": 45,
+    "Calm": 40
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospaced",
+    "light",
+    "geometric",
+    "slashed zero"
+   ],
+   "note": "Light monospaced sans with even strokes and typewriter-like spacing.",
+   "sheet": "sheet-012",
+   "at": "2026-10-03T14:01:02.480Z"
+  },
+  "Tanker": {
+   "moods": {
+    "Loud": 80,
+    "Active": 65,
+    "Business": 45,
+    "Excited": 45
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "bold",
+    "all caps",
+    "sans serif",
+    "tight spacing"
+   ],
+   "note": "Heavy condensed sans in all caps, tightly spaced and punchy.",
+   "sheet": "sheet-052",
+   "at": "2026-10-03T14:04:37.507Z"
+  },
+  "Tanklager Kompakt": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Loud": 50,
+    "Active": 45
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "bold",
+    "grotesque",
+    "tight spacing"
+   ],
+   "note": "Heavy condensed sans with tight spacing and sturdy, compact letters.",
+   "sheet": "sheet-009",
+   "at": "2026-10-03T14:00:45.465Z"
+  },
+  "Tanklager Original": {
+   "moods": {
+    "Loud": 70,
+    "Active": 65,
+    "Rugged": 50,
+    "Business": 45
+   },
+   "themes": {},
+   "look": [
+    "condensed",
+    "bold",
+    "sans",
+    "tall x-height"
+   ],
+   "note": "Bold condensed grotesque sans, tightly spaced and sturdy.",
+   "sheet": "sheet-049",
+   "at": "2026-10-03T14:04:19.797Z"
+  },
+  "Techna Sans": {
+   "moods": {
+    "Loud": 65,
+    "Active": 60,
+    "Business": 55,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "bold",
+    "geometric sans",
+    "tight spacing",
+    "heavy"
+   ],
+   "note": "Heavy geometric sans with tight spacing and round bowls.",
+   "sheet": "sheet-076",
+   "at": "2026-10-03T14:06:44.147Z"
+  },
+  "Technor": {
+   "moods": {
+    "Futuristic": 80,
+    "Innovative": 75,
+    "Active": 50,
+    "Business": 40
+   },
+   "themes": {
+    "Techno": 60
+   },
+   "look": [
+    "geometric",
+    "squarish rounds",
+    "sans serif",
+    "monoline"
+   ],
+   "note": "Geometric sans with squared-off rounded forms and techy feel.",
+   "sheet": "sheet-002",
+   "at": "2026-10-03T14:00:03.222Z"
+  },
+  "Telma": {
+   "moods": {
+    "Fancy": 80,
+    "Artistic": 70,
+    "Sophisticated": 60,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "script",
+    "slanted",
+    "brush-like",
+    "flourished"
+   ],
+   "note": "Flowing connected italic script with swashy caps and calligraphic contrast.",
+   "sheet": "sheet-019",
+   "at": "2026-10-03T14:01:45.491Z"
+  },
+  "Terminal Grotesque": {
+   "moods": {
+    "Active": 60,
+    "Futuristic": 55,
+    "Innovative": 55,
+    "Loud": 45
+   },
+   "themes": {
+    "Pixel": 70
+   },
+   "look": [
+    "pixelated",
+    "bold",
+    "rounded",
+    "sans serif"
+   ],
+   "note": "Bold sans with stepped pixel edges throughout.",
+   "sheet": "sheet-051",
+   "at": "2026-10-03T14:04:29.884Z"
+  },
+  "Terminal Grotesque Open": {
+   "moods": {
+    "Futuristic": 65,
+    "Innovative": 55,
+    "Artistic": 45
+   },
+   "themes": {
+    "Pixel": 60,
+    "Techno": 50
+   },
+   "look": [
+    "outline",
+    "pixelated edges",
+    "monoline",
+    "rough"
+   ],
+   "note": "Outlined sans with jagged, pixel-stepped contours.",
+   "sheet": "sheet-031",
+   "at": "2026-10-03T14:02:41.565Z"
+  },
+  "Toren": {
+   "moods": {
+    "Sincere": 65,
+    "Competent": 65,
+    "Business": 55,
+    "Calm": 45
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "moderate contrast",
+    "bookish",
+    "sturdy"
+   ],
+   "note": "Sturdy text serif with moderate contrast and bracketed serifs.",
+   "sheet": "sheet-034",
+   "at": "2026-10-03T14:02:59.595Z"
+  },
+  "Toren Mono": {
+   "moods": {
+    "Stiff": 60,
+    "Business": 50,
+    "Vintage": 50,
+    "Competent": 40
+   },
+   "themes": {},
+   "look": [
+    "typewriter",
+    "monospaced",
+    "serif",
+    "slab serifs"
+   ],
+   "note": "Monospaced typewriter-like serif with bold strokes and wide letterspacing.",
+   "sheet": "sheet-070",
+   "at": "2026-10-03T14:06:10.027Z"
+  },
+  "Trench Slab": {
+   "moods": {
+    "Sincere": 70,
+    "Calm": 60,
+    "Business": 50,
+    "Competent": 50
+   },
+   "themes": {},
+   "look": [
+    "slab serifs",
+    "soft",
+    "sturdy",
+    "low contrast"
+   ],
+   "note": "Friendly slab serif with bracketed serifs and even, sturdy strokes.",
+   "sheet": "sheet-019",
+   "at": "2026-10-03T14:01:45.491Z"
+  },
+  "Tribalium Neue": {
+   "moods": {
+    "Fancy": 75,
+    "Artistic": 70,
+    "Playful": 55,
+    "Vintage": 40
+   },
+   "themes": {
+    "Art Nouveau": 65,
+    "Medieval": 45
+   },
+   "look": [
+    "ornate",
+    "spiky flourishes",
+    "calligraphic",
+    "decorative"
+   ],
+   "note": "Ornate script-like letters with thorny curled flourishes on every stroke.",
+   "sheet": "sheet-043",
+   "at": "2026-10-03T14:03:46.638Z"
+  },
+  "Tribalium Neue Poster": {
+   "moods": {
+    "Artistic": 65,
+    "Fancy": 60,
+    "Playful": 55,
+    "Loud": 50
+   },
+   "themes": {
+    "Wacky": 60,
+    "Art Nouveau": 45
+   },
+   "look": [
+    "bold",
+    "ornamental",
+    "curly",
+    "blobby"
+   ],
+   "note": "Heavy script-like letters with curly, thorny ornamental flourishes.",
+   "sheet": "sheet-045",
+   "at": "2026-10-03T14:04:03.469Z"
+  },
+  "Trickster": {
+   "moods": {
+    "Artistic": 70,
+    "Loud": 60,
+    "Fancy": 55,
+    "Playful": 50
+   },
+   "themes": {
+    "Art Nouveau": 50,
+    "Medieval": 40
+   },
+   "look": [
+    "heavy",
+    "calligraphic",
+    "flared",
+    "quirky"
+   ],
+   "note": "Heavy calligraphic display face with swashy flared strokes and odd quirky shapes.",
+   "sheet": "sheet-057",
+   "at": "2026-10-03T14:04:57.088Z"
+  },
+  "Typefesse Claire-Obscure": {
+   "moods": {
+    "Playful": 70,
+    "Artistic": 60,
+    "Loud": 50,
+    "Awkward": 50
+   },
+   "themes": {
+    "Wacky": 70,
+    "Inline": 50,
+    "Blobby": 40
+   },
+   "look": [
+    "outline",
+    "wide",
+    "blobby",
+    "decorative"
+   ],
+   "note": "Wide outlined letters with bulbous, hand-like blobs and odd interior shapes.",
+   "sheet": "sheet-018",
+   "at": "2026-10-03T14:01:33.694Z"
+  },
+  "Typefesse Pleine": {
+   "moods": {
+    "Loud": 80,
+    "Playful": 70,
+    "Artistic": 60,
+    "Awkward": 50
+   },
+   "themes": {
+    "Wacky": 70,
+    "Blobby": 50
+   },
+   "look": [
+    "heavy",
+    "wide",
+    "fragmented",
+    "quirky shapes"
+   ],
+   "note": "Heavy wide display letters built from odd overlapping blobs and notches.",
+   "sheet": "sheet-016",
+   "at": "2026-10-03T14:01:23.322Z"
+  },
+  "Uncut Sans": {
+   "moods": {
+    "Business": 65,
+    "Competent": 65,
+    "Calm": 50
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "neutral",
+    "grotesque",
+    "medium weight"
+   ],
+   "note": "Neutral contemporary grotesque sans with tidy, even strokes.",
+   "sheet": "sheet-062",
+   "at": "2026-10-03T14:05:25.668Z"
+  },
+  "Unifont": {
+   "moods": {
+    "Futuristic": 65,
+    "Innovative": 60,
+    "Stiff": 50
+   },
+   "themes": {
+    "Pixel": 60,
+    "Techno": 55
+   },
+   "look": [
+    "monospaced",
+    "pixel-like",
+    "thin",
+    "bitmap"
+   ],
+   "note": "Thin monospaced pixel-grid letters with stepped edges.",
+   "sheet": "sheet-026",
+   "at": "2026-10-03T14:02:19.667Z"
+  },
+  "UnifontEX": {
+   "moods": {
+    "Futuristic": 65,
+    "Innovative": 55,
+    "Awkward": 40
+   },
+   "themes": {
+    "Pixel": 85,
+    "Techno": 50
+   },
+   "look": [
+    "pixel",
+    "monospaced",
+    "bitmap",
+    "blocky"
+   ],
+   "note": "Monospaced pixel-grid letters with stepped, blocky edges.",
+   "sheet": "sheet-001",
+   "at": "2026-10-03T13:57:03.143Z"
+  },
+  "VG5000": {
+   "moods": {
+    "Happy": 65,
+    "Playful": 60,
+    "Cute": 45,
+    "Active": 40
+   },
+   "themes": {},
+   "look": [
+    "rounded",
+    "bold",
+    "geometric sans",
+    "friendly"
+   ],
+   "note": "Bold rounded geometric sans with friendly, soft curves.",
+   "sheet": "sheet-046",
+   "at": "2026-10-03T14:04:01.970Z"
+  },
+  "Valley Sans": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 55,
+    "Sincere": 45
+   },
+   "themes": {},
+   "look": [
+    "sans serif",
+    "geometric",
+    "monoline",
+    "open"
+   ],
+   "note": "Clean neutral geometric sans with open forms and even stroke.",
+   "sheet": "sheet-013",
+   "at": "2026-10-03T14:01:03.700Z"
+  },
+  "Verily Serif Mono": {
+   "moods": {
+    "Stiff": 55,
+    "Sincere": 50,
+    "Vintage": 50,
+    "Business": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "slab serifs",
+    "typewriter-like",
+    "light"
+   ],
+   "note": "Monospaced serif with slab-like serifs and typewriter feel.",
+   "sheet": "sheet-009",
+   "at": "2026-10-03T14:00:45.465Z"
+  },
+  "Version": {
+   "moods": {
+    "Playful": 60,
+    "Awkward": 55,
+    "Cute": 45,
+    "Futuristic": 40
+   },
+   "themes": {},
+   "look": [
+    "monoline",
+    "thin",
+    "monospaced",
+    "quirky"
+   ],
+   "note": "Thin monoline monospaced letters with quirky, hand-drawn angular shapes.",
+   "sheet": "sheet-040",
+   "at": "2026-10-03T14:03:29.788Z"
+  },
+  "Victorianna": {
+   "moods": {
+    "Calm": 70,
+    "Sophisticated": 55,
+    "Artistic": 50
+   },
+   "themes": {},
+   "look": [
+    "thin",
+    "monoline",
+    "light",
+    "quirky details"
+   ],
+   "note": "Hairline-thin monoline face with small slab-like feet and quirky shapes.",
+   "sheet": "sheet-035",
+   "at": "2026-10-03T14:02:59.904Z"
+  },
+  "Vintage Propagandist": {
+   "moods": {
+    "Artistic": 80,
+    "Playful": 65,
+    "Fancy": 60,
+    "Awkward": 40
+   },
+   "themes": {
+    "Art Nouveau": 65,
+    "Wacky": 50
+   },
+   "look": [
+    "curly swashes",
+    "quirky",
+    "calligraphic",
+    "decorative"
+   ],
+   "note": "Whimsical letters with curled swash terminals and uneven quirky shapes.",
+   "sheet": "sheet-046",
+   "at": "2026-10-03T14:04:01.970Z"
+  },
+  "Violet sans": {
+   "moods": {
+    "Innovative": 65,
+    "Business": 55,
+    "Active": 50,
+    "Futuristic": 40
+   },
+   "themes": {},
+   "look": [
+    "bold sans",
+    "geometric",
+    "slashed zero",
+    "wide"
+   ],
+   "note": "Bold wide geometric sans with slashed zero and modern feel.",
+   "sheet": "sheet-007",
+   "at": "2026-10-03T14:00:26.522Z"
+  },
+  "Vägra!": {
+   "moods": {
+    "Artistic": 80,
+    "Awkward": 60,
+    "Playful": 50
+   },
+   "themes": {
+    "Distressed": 70,
+    "Wacky": 65
+   },
+   "look": [
+    "wobbly",
+    "jagged outlines",
+    "small",
+    "irregular"
+   ],
+   "note": "Tiny wobbly, squiggly letters with ragged, hand-distorted outlines.",
+   "sheet": "sheet-068",
+   "at": "2026-10-03T14:06:13.656Z"
+  },
+  "Vägra! Pixel": {
+   "moods": {
+    "Rugged": 70,
+    "Artistic": 60,
+    "Awkward": 60,
+    "Playful": 40
+   },
+   "themes": {
+    "Distressed": 85
+   },
+   "look": [
+    "jittery",
+    "hand-drawn",
+    "rough edges",
+    "lowercase only"
+   ],
+   "note": "Rough, wobbly hand-drawn letters with jagged edges, all lowercase forms.",
+   "sheet": "sheet-037",
+   "at": "2026-10-03T14:03:09.352Z"
+  },
+  "W droge": {
+   "moods": {
+    "Playful": 60,
+    "Happy": 50,
+    "Active": 45
+   },
+   "themes": {},
+   "look": [
+    "bold",
+    "rounded-ish",
+    "geometric",
+    "friendly"
+   ],
+   "note": "Bold, friendly sans with quirky geometric shapes and tight spacing.",
+   "sheet": "sheet-061",
+   "at": "2026-10-03T14:05:19.391Z"
+  },
+  "WIN95FA": {
+   "moods": {
+    "Futuristic": 65,
+    "Stiff": 60,
+    "Awkward": 45,
+    "Competent": 40
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "blocky",
+    "condensed"
+   ],
+   "note": "Bitmap pixel face with stair-stepped edges and narrow proportions.",
+   "sheet": "sheet-054",
+   "at": "2026-10-03T14:04:46.228Z"
+  },
+  "Westernic": {
+   "moods": {
+    "Artistic": 75,
+    "Playful": 60,
+    "Active": 55,
+    "Vintage": 45
+   },
+   "themes": {
+    "Brush": 55
+   },
+   "look": [
+    "slanted",
+    "calligraphic",
+    "bold",
+    "angular",
+    "brush"
+   ],
+   "note": "Bold slanted calligraphic face with sharp, chiseled brush-like strokes.",
+   "sheet": "sheet-054",
+   "at": "2026-10-03T14:04:46.228Z"
+  },
+  "Whois Mono": {
+   "moods": {
+    "Competent": 70,
+    "Calm": 60,
+    "Business": 60,
+    "Innovative": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "light",
+    "monoline",
+    "technical"
+   ],
+   "note": "Light monospaced sans, clean and even, with a coding-font feel.",
+   "sheet": "sheet-064",
+   "at": "2026-10-03T14:05:37.727Z"
+  },
+  "WonderType": {
+   "moods": {
+    "Rugged": 75,
+    "Playful": 55,
+    "Artistic": 50,
+    "Vintage": 40
+   },
+   "themes": {
+    "Distressed": 80
+   },
+   "look": [
+    "rough edges",
+    "bold",
+    "serif",
+    "jagged"
+   ],
+   "note": "Bold serif with ragged, chewed, jittery outlines.",
+   "sheet": "sheet-055",
+   "at": "2026-10-03T14:04:48.301Z"
+  },
+  "Work Avec": {
+   "moods": {
+    "Happy": 60,
+    "Sincere": 55,
+    "Competent": 55,
+    "Business": 50
+   },
+   "themes": {},
+   "look": [
+    "rounded",
+    "geometric sans",
+    "medium weight",
+    "friendly"
+   ],
+   "note": "Friendly rounded geometric sans with medium weight and open spacing.",
+   "sheet": "sheet-054",
+   "at": "2026-10-03T14:04:46.228Z"
+  },
+  "Xolonium": {
+   "moods": {
+    "Futuristic": 80,
+    "Innovative": 65,
+    "Active": 45
+   },
+   "themes": {
+    "Techno": 65
+   },
+   "look": [
+    "wide",
+    "bold",
+    "squared curves",
+    "geometric"
+   ],
+   "note": "Wide bold geometric sans with squarish rounded curves, techy feel.",
+   "sheet": "sheet-025",
+   "at": "2026-10-03T14:02:11.447Z"
+  },
+  "Zina": {
+   "moods": {
+    "Fancy": 80,
+    "Vintage": 75,
+    "Sophisticated": 55,
+    "Loud": 45
+   },
+   "themes": {
+    "Art Deco": 55,
+    "Inline": 50
+   },
+   "look": [
+    "high contrast",
+    "didone",
+    "inline",
+    "condensed"
+   ],
+   "note": "High-contrast display serif with inline cuts and tight, vintage poster feel.",
+   "sheet": "sheet-075",
+   "at": "2026-10-03T14:06:49.014Z"
+  },
+  "Zodiak": {
+   "moods": {
+    "Sophisticated": 75,
+    "Calm": 60,
+    "Sincere": 55,
+    "Vintage": 40
+   },
+   "themes": {},
+   "look": [
+    "serif",
+    "moderate contrast",
+    "bookish",
+    "bracketed serifs"
+   ],
+   "note": "Elegant text serif with moderate contrast and soft bracketed serifs.",
+   "sheet": "sheet-040",
+   "at": "2026-10-03T14:03:29.788Z"
+  },
+  "iA Writer Duo": {
+   "moods": {
+    "Business": 65,
+    "Competent": 65,
+    "Stiff": 50,
+    "Calm": 45
+   },
+   "themes": {
+    "Techno": 40
+   },
+   "look": [
+    "monospaced",
+    "sans serif",
+    "even stroke",
+    "code-like"
+   ],
+   "note": "Clean monospaced sans with slab-like i, f and r details.",
+   "sheet": "sheet-050",
+   "at": "2026-10-03T14:04:26.987Z"
+  },
+  "iA Writer Mono": {
+   "moods": {
+    "Business": 70,
+    "Competent": 70,
+    "Calm": 50,
+    "Stiff": 40
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "sans serif",
+    "monoline",
+    "technical"
+   ],
+   "note": "Clean monospaced sans with even strokes and slab-like i and f.",
+   "sheet": "sheet-029",
+   "at": "2026-10-03T14:02:30.306Z"
+  },
+  "iA Writer Quattro": {
+   "moods": {
+    "Business": 70,
+    "Competent": 65,
+    "Calm": 55,
+    "Sincere": 45
+   },
+   "themes": {},
+   "look": [
+    "monospaced",
+    "light",
+    "clean",
+    "sans serif"
+   ],
+   "note": "Light monospaced grotesque with open forms and even spacing.",
+   "sheet": "sheet-051",
+   "at": "2026-10-03T14:04:29.884Z"
+  },
+  "jgs": {
+   "moods": {
+    "Futuristic": 70,
+    "Innovative": 60,
+    "Awkward": 45
+   },
+   "themes": {
+    "Pixel": 95
+   },
+   "look": [
+    "pixel",
+    "bitmap",
+    "thin",
+    "monospaced feel"
+   ],
+   "note": "Thin pixel-grid letters with stepped edges and wide spacing.",
+   "sheet": "sheet-058",
+   "at": "2026-10-03T14:05:04.713Z"
+  },
+  "xxQueen Basic": {
+   "moods": {
+    "Playful": 75,
+    "Artistic": 65,
+    "Awkward": 50,
+    "Childlike": 45
+   },
+   "themes": {
+    "Distressed": 60,
+    "Wacky": 50
+   },
+   "look": [
+    "wobbly outline",
+    "thin",
+    "handwritten",
+    "jittery edges"
+   ],
+   "note": "Thin wobbly hand-drawn letters with jittery, squiggly contours.",
+   "sheet": "sheet-025",
+   "at": "2026-10-03T14:02:11.447Z"
+  },
+  "xxQueen Juicy": {
+   "moods": {
+    "Artistic": 65,
+    "Awkward": 55,
+    "Playful": 50,
+    "Rugged": 40
+   },
+   "themes": {
+    "Distressed": 75,
+    "Wacky": 55
+   },
+   "look": [
+    "outline",
+    "wobbly",
+    "scratchy",
+    "thin"
+   ],
+   "note": "Thin wobbly outlined letters with scribbly, vine-like bumpy edges.",
+   "sheet": "sheet-045",
+   "at": "2026-10-03T14:04:03.469Z"
+  }
+ }
+}

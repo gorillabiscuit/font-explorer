@@ -1,0 +1,73 @@
+{
+  "id": "q05",
+  "kind": "motion",
+  "query": "the title of an action-packed adventure game",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 13596,
+  "results": [
+    {
+      "family": "Basalte",
+      "reason": "Condensed, bold caps with chromatic revival energy and visceral intensity"
+    },
+    {
+      "family": "Rubik One",
+      "reason": "Rounded bold grotesque with contemporary punchy momentum"
+    },
+    {
+      "family": "Bluu Next",
+      "reason": "Sharp, flared serifs and high contrast create dramatic action-title impact"
+    },
+    {
+      "family": "Outward",
+      "reason": "Ultra-condensed black with geometric density and forward visual thrust"
+    },
+    {
+      "family": "Format 1452",
+      "reason": "Industrial, modular, condensed typeface reads as engineered aggression"
+    },
+    {
+      "family": "Space Grotesk",
+      "reason": "Techno-futuristic grotesque with sharp edges and modern action-game energy"
+    },
+    {
+      "family": "Le Murmure",
+      "reason": "Condensed, tall, high-contrast titling with sharp editorial punch"
+    },
+    {
+      "family": "Boeticher",
+      "reason": "Western tuscan slab with condensed playfulness and adventure heritage"
+    },
+    {
+      "family": "Trickster",
+      "reason": "Blackletter with wonky sharpness delivers medieval adventure edge"
+    },
+    {
+      "family": "Clash Display",
+      "reason": "Bold display grotesque with editorial power and contemporary impact"
+    },
+    {
+      "family": "Bevan",
+      "reason": "Loud slab serif with fat-face momentum and geometric heaviness"
+    },
+    {
+      "family": "Syncopate",
+      "reason": "Futuristic awkward geometric sans creates kinetic tension"
+    },
+    {
+      "family": "Chivo",
+      "reason": "Quirky grotesque with indie attitude conveys unconventional adventure"
+    },
+    {
+      "family": "Oswald",
+      "reason": "Compact display grotesque delivers tight, driven momentum for titles"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 10,
+    "cacheRead": 113389,
+    "cacheWrite": 1681,
+    "output": 1253
+  }
+}

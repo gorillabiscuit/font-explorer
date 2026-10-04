@@ -1,0 +1,101 @@
+{
+  "id": "q22",
+  "kind": "shape",
+  "query": "wide and extended, like a car badge",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 10721,
+  "results": [
+    {
+      "family": "Ferrite Core DX",
+      "reason": "very wide squared monoline, strong automotive badge feel, mixed case works"
+    },
+    {
+      "family": "Panchang",
+      "reason": "light very wide geometric sans, sleek automotive extension"
+    },
+    {
+      "family": "Ferrite Core DX Display",
+      "reason": "extended heavy squared geometry, bold car-emblem presence"
+    },
+    {
+      "family": "Michroma",
+      "reason": "wide squared superellipse, classic car-badge futurism"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "wide grotesque with quirky titling character, lowercase holds well"
+    },
+    {
+      "family": "Bruno Ace",
+      "reason": "wide bold superellipse sans, sturdy emblem feel"
+    },
+    {
+      "family": "Mattone",
+      "reason": "bold extended geometric sans, punchy and poster-like"
+    },
+    {
+      "family": "Audiowide",
+      "reason": "bold wide squared, sporty engineered letters"
+    },
+    {
+      "family": "Xolonium",
+      "reason": "wide squared sans with engineered, sporty stance"
+    },
+    {
+      "family": "Lexend Giga",
+      "reason": "very wide even-width geometric sans, clean badge look"
+    },
+    {
+      "family": "Compagnon Medium",
+      "reason": "very wide squared mono, retro-tech badge look"
+    },
+    {
+      "family": "Seymour One",
+      "reason": "very wide heavy grotesque, strong nameplate impact"
+    },
+    {
+      "family": "DINish Expanded",
+      "reason": "extended DIN-style, clean and technical for automotive feel"
+    },
+    {
+      "family": "Zalando Sans Expanded",
+      "reason": "extended neo-grotesque, tidy and modern for lowercase"
+    },
+    {
+      "family": "Sinkin Sans",
+      "reason": "wide grotesque with ink-traps, bold and confident"
+    },
+    {
+      "family": "Krona One",
+      "reason": "wide bold geometric sans, rounded-confident wordmark"
+    },
+    {
+      "family": "Special Gothic Expanded One",
+      "reason": "heavy wide grotesque, bold automotive presence"
+    },
+    {
+      "family": "Lexend Peta",
+      "reason": "very wide geometric sans, calm and even"
+    },
+    {
+      "family": "Zen Dots",
+      "reason": "wide squared techno caps-like forms, sporty"
+    },
+    {
+      "family": "BBH Hegarty",
+      "reason": "wide heavy grotesque with sporty weight"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 506,
+    "output": 816
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

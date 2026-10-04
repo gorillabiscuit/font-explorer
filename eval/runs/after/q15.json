@@ -1,0 +1,101 @@
+{
+  "id": "q15",
+  "kind": "mood",
+  "query": "playful and quirky, an independent toy shop",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 7115,
+  "results": [
+    {
+      "family": "TGL 0-17",
+      "reason": "Wonky rounded letters, happy and bouncy; mixed case works"
+    },
+    {
+      "family": "Struggle",
+      "reason": "Heavy squared-curvy blobby shapes, very toylike"
+    },
+    {
+      "family": "Abordage",
+      "reason": "Friendly rounded geometric sans, cute and toy-like"
+    },
+    {
+      "family": "Grandstander",
+      "reason": "Large x-height, happy childlike letters with italic"
+    },
+    {
+      "family": "Gulax",
+      "reason": "Quirky monolinear geometric forms, playful and experimental"
+    },
+    {
+      "family": "Chewy",
+      "reason": "Heavy condensed bouncy forms, cute and playful"
+    },
+    {
+      "family": "Nighthawk",
+      "reason": "Bold wonky grotesque with cute irregular shapes"
+    },
+    {
+      "family": "Sniglet",
+      "reason": "Rounded soft sans, cute and friendly"
+    },
+    {
+      "family": "Fibel Nord",
+      "reason": "Wonky wide geometric grotesque, playful with italic"
+    },
+    {
+      "family": "Bagel Fat One",
+      "reason": "Fat curvy blobby letters, playful toy-shop feel"
+    },
+    {
+      "family": "W droge",
+      "reason": "Wonky geometric grotesque, happy and bouncy"
+    },
+    {
+      "family": "Gluten",
+      "reason": "Wide curvy upright script, happy and awkward"
+    },
+    {
+      "family": "APL333",
+      "reason": "Rounded soft letters, cute and cheerful"
+    },
+    {
+      "family": "Boogaloo",
+      "reason": "Bold condensed upright script, playful and cute"
+    },
+    {
+      "family": "Canarina",
+      "reason": "Angular brush humanist, friendly vernacular charm"
+    },
+    {
+      "family": "Modak",
+      "reason": "Inflated blobby letters, loud and cute"
+    },
+    {
+      "family": "Fredoka One",
+      "reason": "Heavy rounded geometric, friendly and toylike"
+    },
+    {
+      "family": "Kavoon",
+      "reason": "Heavy upright script, loud and playful"
+    },
+    {
+      "family": "Cherry Bomb One",
+      "reason": "Blobby curvy heavy shapes, cute and happy"
+    },
+    {
+      "family": "Sour Gummy",
+      "reason": "Rounded blobby sans, cute with italic"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 567,
+    "output": 776
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

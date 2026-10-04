@@ -78,6 +78,7 @@ function VibeSearch(props: Props) {
       constraints: { sources: filters.sources, categories: filters.categories },
       wordmark: wordmarkOf(settings),
       brief: brief.trim() || undefined,
+      italic: { on: settings.italic, only: filters.hasItalic },
     };
     const job: Running = { id: crypto.randomUUID(), query: q, abort: new AbortController() };
     setRunning((r) => [...r, job]);

@@ -1,0 +1,115 @@
+{
+  "id": "q18",
+  "kind": "mood",
+  "query": "70s retro, groovy and rounded",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 11875,
+  "results": [
+    {
+      "family": "Routed Gothic Wide",
+      "reason": "1970s tag, wide rounded-stroke gothic; friendly mixed-case retro feel"
+    },
+    {
+      "family": "Cooper Hewitt",
+      "reason": "placeholder removed"
+    },
+    {
+      "family": "Routed Gothic",
+      "reason": "1970s routed letters with round terminals, warm and playful"
+    },
+    {
+      "family": "Chango",
+      "reason": "heavy wide woodtype-style rounded display, very 70s"
+    },
+    {
+      "family": "Struggle",
+      "reason": "heavy curvy 70s blobby letterforms, groovy and rounded"
+    },
+    {
+      "family": "Shrikhand",
+      "reason": "heavy slanted curvy serif script, groovy retro"
+    },
+    {
+      "family": "Coaster Sans",
+      "reason": "heavy 1970s geometric sans with groovy blackletter twist"
+    },
+    {
+      "family": "Lobster Two",
+      "reason": "bold vintage script with rounded flow, mixed-case friendly"
+    },
+    {
+      "family": "Abordage",
+      "reason": "rounded friendly geometric sans with retro revival feel"
+    },
+    {
+      "family": "Oleo Script",
+      "reason": "bold slanted curvy script, 70s diner warmth"
+    },
+    {
+      "family": "Ouroboros",
+      "reason": "bold wide art-nouveau flared forms, psychedelic 70s vibe"
+    },
+    {
+      "family": "Chicle",
+      "reason": "heavy condensed curvy vintage display, playful"
+    },
+    {
+      "family": "APL333",
+      "reason": "rounded 2010s display, soft terminals suit retro wordmark"
+    },
+    {
+      "family": "Bagel Fat One",
+      "reason": "heavy rounded blobby letters, groovy"
+    },
+    {
+      "family": "Kikuta",
+      "reason": "heavy rounded graphic display, loud 70s punch"
+    },
+    {
+      "family": "Sonsie One",
+      "reason": "heavy wide slanted curvy vintage display"
+    },
+    {
+      "family": "Fredoka One",
+      "reason": "heavy rounded geometric sans, soft terminals"
+    },
+    {
+      "family": "Spicy Rice",
+      "reason": "heavy vintage playful rounded display"
+    },
+    {
+      "family": "Caprasimo",
+      "reason": "heavy Cooper-like transitional serif, classic 70s"
+    },
+    {
+      "family": "Titan One",
+      "reason": "heavy rounded humanist display, chunky retro"
+    },
+    {
+      "family": "Galindo",
+      "reason": "heavy playful vintage rounded display"
+    },
+    {
+      "family": "Tilt Warp",
+      "reason": "heavy vintage geometric with rounded warped feel"
+    },
+    {
+      "family": "Bevan",
+      "reason": "heavy wide slab, 70s woodtype flavor"
+    }
+  ],
+  "dropped": [
+    "Cooper Black"
+  ],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 610,
+    "output": 927
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

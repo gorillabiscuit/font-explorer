@@ -1,0 +1,77 @@
+{
+  "id": "q20",
+  "kind": "mood",
+  "query": "brutalist and raw, an underground techno club",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 9144,
+  "results": [
+    {
+      "family": "Karrik",
+      "reason": "Irregular, naive grotesque with clumsy letterforms; deliberately raw and wonky"
+    },
+    {
+      "family": "Terminal Grotesque",
+      "reason": "Lo-fi bitmap grotesque; retro computer brutalism with wonky pixels"
+    },
+    {
+      "family": "Anka/Coder",
+      "reason": "Monospace with intentional grotesque wonkiness; code-like brutalism"
+    },
+    {
+      "family": "VG5000",
+      "reason": "8-bit pixel aesthetic; condensed monospace techno energy"
+    },
+    {
+      "family": "Half",
+      "reason": "Mechanistic, geometric monospace with curveless forms; pure technical edge"
+    },
+    {
+      "family": "Mourier",
+      "reason": "Modular geometric labyrinth; abstract hard-to-read futuristic edge"
+    },
+    {
+      "family": "Elvenes",
+      "reason": "Wonky curveless geometric; mechanistic brutalist stance"
+    },
+    {
+      "family": "Format 1452",
+      "reason": "DIN-like industrial modular; technical condensed brutalism"
+    },
+    {
+      "family": "Flor de Ruina",
+      "reason": "Textured, fractured, grunge aesthetic; eroded serif with organic damage"
+    },
+    {
+      "family": "jgs",
+      "reason": "ASCII-art bitmap monospace; raw computer aesthetic"
+    },
+    {
+      "family": "Fungal",
+      "reason": "Biomorphic sans with hairy, generative texture; underground organic brutalism"
+    },
+    {
+      "family": "Sligoil",
+      "reason": "Monospace inktrap sans with sharp technical edge; micro-precision brutalism"
+    },
+    {
+      "family": "Gap Sans",
+      "reason": "Wonky curveless grotesque; deliberately damaged, raw geometry"
+    },
+    {
+      "family": "Courrrier",
+      "reason": "Typewriter serif monospace with quirky experimental slab; playful brutalism"
+    },
+    {
+      "family": "Breite Grotesk",
+      "reason": "Generative geometric grotesque; digitally constructed raw forms"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 682,
+    "output": 644
+  }
+}

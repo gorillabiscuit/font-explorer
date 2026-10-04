@@ -1,0 +1,100 @@
+{
+  "id": "q13",
+  "kind": "mood",
+  "query": "elegant and luxurious, a perfume house",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 10424,
+  "results": [
+    {
+      "family": "Cantique",
+      "reason": "Calligraphic serif with romantic swashes and elegant ligatures; luxury editorial heritage"
+    },
+    {
+      "family": "Playfair Display SC",
+      "reason": "Didone serif; sophisticated, business-vintage elegance for luxury fashion and perfume"
+    },
+    {
+      "family": "Feroniapi",
+      "reason": "Flowing art-nouveau curves, elegant and inclusive; human-made quality for perfume sophistication"
+    },
+    {
+      "family": "Cormorant",
+      "reason": "Old-style garalde serif; refined transitional proportions suit luxury editorial positioning"
+    },
+    {
+      "family": "Coconat",
+      "reason": "Warm flared wedge-serif with display presence; retro editorial sophistication for luxury goods"
+    },
+    {
+      "family": "Sprat Extended",
+      "reason": "High-contrast didone with editorial fashion pedigree; wide luxury presence on one line"
+    },
+    {
+      "family": "Bluu Next",
+      "reason": "Bold high-contrast serif with sharp flared terminals; editorial headline weight and luxury presence"
+    },
+    {
+      "family": "Rufina",
+      "reason": "Didone serif with business sophistication; vintage competence for luxury branding"
+    },
+    {
+      "family": "Grotesk",
+      "reason": "Geometric sans with art-deco spacing and elegant wide proportions; refined, spaced wordmark presence"
+    },
+    {
+      "family": "Libre Bodoni",
+      "reason": "Didone serif; rugged vintage elegance for high-end perfume house identity"
+    },
+    {
+      "family": "Gulax",
+      "reason": "Monolinear geometric sans with quirky experimental warmth; contemporary luxury without coldness"
+    },
+    {
+      "family": "Cormorant Upright",
+      "reason": "Old-style garalde with vintage sincerity; elegant proportions for luxury wordmarks"
+    },
+    {
+      "family": "Basteleur",
+      "reason": "Fantasy serif with high-contrast esoteric elegance; distinctive sharp character for niche luxury"
+    },
+    {
+      "family": "Cormorant SC",
+      "reason": "Old-style garalde serif; vintage elegance with refined small-cap presence"
+    },
+    {
+      "family": "Cinzel",
+      "reason": "Old-style garalde serif; classical refined presence suits luxury perfume positioning"
+    },
+    {
+      "family": "Boska",
+      "reason": "Display serif with magazine/poster heritage; bold luxury presence"
+    },
+    {
+      "family": "Lora",
+      "reason": "Transitional serif with clean publishing elegance; legible luxury sophistication"
+    },
+    {
+      "family": "Bespoke Serif",
+      "reason": "Magazine/poster editorial serif; refined branding presence for luxury goods"
+    },
+    {
+      "family": "Gambarino",
+      "reason": "Editorial serif with magazine/poster presence; refined luxury display qualities"
+    },
+    {
+      "family": "Spectral SC",
+      "reason": "Transitional serif with refined sincere heritage; elegant luxury presence"
+    }
+  ],
+  "dropped": [
+    "Aujourd'hui",
+    "Sentiment"
+  ],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 682,
+    "output": 1014
+  }
+}

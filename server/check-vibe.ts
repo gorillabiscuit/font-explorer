@@ -28,7 +28,9 @@ const other = buildPrompt(
   fonts,
 );
 
-console.log(`system prompt: ${system.length.toLocaleString()} chars ≈ ${Math.round(system.length / 3.5).toLocaleString()} tokens`);
+// Measured on 2026-10-03: Sonnet 5.5 counted 124,201 tokens for a 262k-character prompt, about 2.1
+// characters a token (the tag strengths and shape words are short tokens).
+console.log(`system prompt: ${system.length.toLocaleString()} chars ≈ ${Math.round(system.length / 2.1).toLocaleString()} tokens on Sonnet 5.5`);
 console.log("first catalog lines:\n" + system.split("CATALOG\n")[1].split("\n").slice(0, 5).join("\n"));
 console.log("installed block:", JSON.stringify(system.split("INSTALLED ON THIS MACHINE")[1] ?? null));
 console.log("user prompt:\n" + prompt);
@@ -122,6 +124,69 @@ const checks: [string, boolean][] = [
   ["block with no breaks", describeWordmark({ text: "UNIQLO", rendered: "UNIQLO", textCase: "upper", formation: "block" }) === 'Wordmark: "UNIQLO" set in capitals as a block of equal letter cells'],
   ["monogram", describeWordmark({ text: "Polymodal", rendered: "P", textCase: "as", formation: "mark" }) === 'Wordmark: "Polymodal" set in mixed case as a monogram of its initials (P)'],
   ["an unknown layout reads as one line", describeWordmark({ text: "ACME", rendered: "ACME", textCase: "as", formation: "spiral" as never }) === 'Wordmark: "ACME" set in capitals on one line'],
+  ["Google's mood and theme strengths ride along with their tags", /\nOrbitron \| [^\n]*Techno 100, Futuristic \d+/.test(system)],
+  ["a variable family's per-weight moods count (Exo 2 has none at family level)", /\nExo 2 \| [^\n]*Futuristic \d+/.test(system)],
+  ["a family Fontsource lists under a retired name borrows the new name's tags", /\nFredoka One \| [^\n]*Calm \d+/.test(system)],
+  ["a family with a real italic says so, one without does not", /\nExo 2 \| [^\n]*has italic/.test(system) && !/\nOrbitron \| [^\n]*has italic/.test(system)],
+  ["'Has italic' with the Italic switch on keeps only fonts with an italic", (() => {
+    const p = buildPrompt({ ...base, constraints: { sources: [], categories: [] }, italic: { on: true, only: true } }, fonts);
+    return !p.fits("orbitron") && p.fits("exo 2") && !p.fits("helvetica neue") && p.prompt.includes('Only pick fonts marked "has italic"');
+  })()],
+  ["'Has italic' counts only while the Italic switch is on", buildPrompt({ ...base, constraints: { sources: [], categories: [] }, italic: { on: false, only: true } }, fonts).fits("orbitron")],
+  ["the Italic switch is mentioned only while on", (() => {
+    const on = buildPrompt({ ...base, constraints: { sources: [], categories: [] }, italic: { on: true, only: false } }, fonts).prompt;
+    const off = buildPrompt({ ...base, constraints: { sources: [], categories: [] }, italic: { on: false, only: false } }, fonts).prompt;
+    return on.includes("The Italic switch is on") && !off.includes("Italic switch");
+  })()],
+  ["the shortlist is the newest 12 names, framed as a tie-break", (() => {
+    const names = Array.from({ length: 20 }, (_, i) => `Font ${i + 1}`);
+    const p = buildPrompt({ ...base, shortlist: names, constraints: { sources: [], categories: [] } }, fonts).prompt;
+    return p.includes("only to break ties): Font 9, Font 10") && p.includes("Font 20") && !p.includes("Font 8,");
+  })()],
+  ["the system prompt puts the request before the shortlist", system.includes("The request comes first")],
+  ["a speed request gets the forward-motion reading, after the request", (() => {
+    const p = buildPrompt({ ...base, query: "fonts that imply fast movement or action", constraints: { sources: [], categories: [] } }, fonts).prompt;
+    return /Request: fonts that imply fast movement or action\n\n[^]*- "fast": forward motion/.test(p);
+  })()],
+  ["a request with no known words gets no glossary", !buildPrompt({ ...base, query: "#3 please", constraints: { sources: [], categories: [] } }, fonts).prompt.includes("in this catalog's terms")],
+  ["the very common Google fonts are spread through their band, not bunched at its end", (() => {
+    const lines = system.split("CATALOG\n")[1].split("\n");
+    const google = lines.filter((l) => /^[^|]+\| [^|]+\| fontsource/.test(l));
+    const at = google.flatMap((l, i) => (l.includes("| very common") ? [i / google.length] : []));
+    const mean = at.reduce((a, b) => a + b, 0) / at.length;
+    return at.length > 50 && mean > 0.35 && mean < 0.65;
+  })()],
+  ["the catalog text is the same on a second build", buildPrompt(request, fonts).system === system],
+  ["with 'Has italic' on, an installed copy does not pass on its catalog row's italic", (() => {
+    const p = buildPrompt({ ...base, localFonts: [{ family: "Exo 2", category: "sans" }], constraints: { sources: ["local"], categories: [] }, italic: { on: true, only: true } }, fonts);
+    return !p.fits("exo 2");
+  })()],
+  ["a family passes on its catalog row or its installed copy, each judged whole", (() => {
+    const p = buildPrompt({ ...base, localFonts: [{ family: "Orbitron", category: "serif" }], constraints: { sources: ["fontsource"], categories: ["serif"] } }, fonts);
+    return !p.fits("orbitron");
+  })()],
+  ["the speed reading mentions italics only while the Italic switch is on", (() => {
+    const on = buildPrompt({ ...base, query: "fast", constraints: { sources: [], categories: [] }, italic: { on: true, only: false } }, fonts).prompt;
+    const off = buildPrompt({ ...base, query: "fast", constraints: { sources: [], categories: [] }, italic: { on: false, only: false } }, fonts).prompt;
+    return on.includes('any font that "has italic"') && !off.includes('any font that "has italic"');
+  })()],
+  ["a family name in the request is not read as words", (() => {
+    const p = buildPrompt({ ...base, query: "more like Space Grotesk and Shadows Into Light", constraints: { sources: [], categories: [] } }, fonts).prompt;
+    return !p.includes("in this catalog's terms");
+  })()],
+  ["a techno club is music, a techno look is type", (() => {
+    const club = buildPrompt({ ...base, query: "an underground techno club", constraints: { sources: [], categories: [] } }, fonts).prompt;
+    const look = buildPrompt({ ...base, query: "a techno look", constraints: { sources: [], categories: [] } }, fonts).prompt;
+    return !club.includes('"techno"') && look.includes('"techno": engineered');
+  })()],
+  ["'slick' does not unlock very common fonts; 'plain' does", (() => {
+    const slick = buildPrompt({ ...base, query: "slick and professional", constraints: { sources: [], categories: [] } }, fonts).prompt;
+    const plain = buildPrompt({ ...base, query: "something plain", constraints: { sources: [], categories: [] } }, fonts).prompt;
+    return !slick.includes("common fonts are fine") && plain.includes("common fonts are fine");
+  })()],
+  ["the 1970s and the seventies are retro", ["1970s posters", "seventies"].every((q) => buildPrompt({ ...base, query: q, constraints: { sources: [], categories: [] } }, fonts).prompt.includes("the past."))],
+  ["Inter is not called loud (Google rates Loud on bold weights only)", /\nInter \| [^\n]*/.test(system) && !/\nInter \| [^\n]*Loud/.test(system)],
+  ["themes survive next to many moods (DynaPuff keeps Wacky)", /\nDynaPuff \| [^\n]*Wacky \d+/.test(system)],
 ];
 for (const [label, ok] of checks) {
   if (!ok) failed++;

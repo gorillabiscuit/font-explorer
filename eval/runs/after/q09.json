@@ -1,0 +1,97 @@
+{
+  "id": "q09",
+  "kind": "mood",
+  "query": "calm and quiet, for a meditation app",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 7127,
+  "results": [
+    {
+      "family": "Absans",
+      "reason": "clean, neutral grotesk with open even shapes; quiet in mixed case"
+    },
+    {
+      "family": "Satoshi",
+      "reason": "calm, refined geometric sans with open shapes"
+    },
+    {
+      "family": "Paysage",
+      "reason": "humanist, calm, readable; swinging g gives gentle character"
+    },
+    {
+      "family": "Synonym",
+      "reason": "light, quiet sans with gentle proportions"
+    },
+    {
+      "family": "Lil Grotesk",
+      "reason": "soft, restrained grotesque; calm and sophisticated"
+    },
+    {
+      "family": "Roundo",
+      "reason": "light soft-rounded sans, calm and friendly"
+    },
+    {
+      "family": "Now Alt",
+      "reason": "quiet geometric-grotesque with even, airy letters"
+    },
+    {
+      "family": "Gambetta",
+      "reason": "light, warm serif with calm sincerity"
+    },
+    {
+      "family": "Junicode",
+      "reason": "light garalde serif; gentle, bookish calm for Northwind"
+    },
+    {
+      "family": "Chillax",
+      "reason": "light soft sans, relaxed and approachable"
+    },
+    {
+      "family": "Linux Biolinum",
+      "reason": "glyphic humanist sans, light and serene"
+    },
+    {
+      "family": "Amulya",
+      "reason": "calm, sincere sans with soft open forms"
+    },
+    {
+      "family": "Gidolinya",
+      "reason": "rounded geometric forms, soft and calm"
+    },
+    {
+      "family": "Mallanna",
+      "reason": "light rounded geometric sans, very quiet"
+    },
+    {
+      "family": "Latitude",
+      "reason": "elegant humanist serif, calm and low contrast"
+    },
+    {
+      "family": "Dongle",
+      "reason": "light rounded sans, calm and soft"
+    },
+    {
+      "family": "Tenor Sans",
+      "reason": "light humanist sans with graceful, tranquil shapes"
+    },
+    {
+      "family": "Quattrocento Sans",
+      "reason": "light humanist sans, calm and gentle"
+    },
+    {
+      "family": "Cormorant Infant",
+      "reason": "thin, delicate old-style serif; airy and serene"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 555,
+    "output": 711
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

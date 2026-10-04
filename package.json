@@ -15,7 +15,10 @@
     "check:alternates": "tsx server/check-alternates.ts",
     "check:italics": "tsx server/check-italics.ts",
     "check:help": "tsx server/check-help.ts",
-    "sources": "tsx server/build-sources.ts"
+    "check:shapes": "tsx server/check-shapes.ts",
+    "sources": "tsx server/build-sources.ts",
+    "shapes": "tsx server/build-shapes.ts",
+    "vision": "tsx server/build-vision.ts"
   },
   "dependencies": {
     "dotenv": "^18.0.5",

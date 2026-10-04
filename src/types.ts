@@ -27,6 +27,8 @@ export interface FontEntry {
   source: Source;
   category: Category;
   tags: string[];
+  /** How strongly each of Google's mood and theme tags applies, out of 100 ("Active": 89). Google rows only. */
+  tagScores?: Record<string, number>;
   weights: number[];
   license: string;
   /** Stylesheet a site would use to load this font. Local fonts have none. */
@@ -104,10 +106,14 @@ export interface VibeRequest {
   wordmark: VibeWordmark;
   /** The project's one-line brief: what it is, for whom, words to avoid. */
   brief?: string;
+  /** The Italic switch: `on` draws each family's real italic; `only` is the 'Has italic' filter, which counts only while on. */
+  italic?: { on: boolean; only: boolean };
 }
 
 export interface VibeResponse {
   results: VibeResult[];
   dropped: string[];
   usage?: { input: number; cacheRead: number; cacheWrite: number; output: number };
+  /** The models Claude Code used, the one that answered first (the fallback model, when the main one was unavailable). */
+  models?: string[];
 }

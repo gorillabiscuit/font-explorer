@@ -1,0 +1,101 @@
+{
+  "id": "q07",
+  "kind": "mood",
+  "query": "loud and punchy, shouting from a billboard",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 8654,
+  "results": [
+    {
+      "family": "Mattone",
+      "reason": "heavy extended geometric sans, punchy poster stance, full mixed-case letters"
+    },
+    {
+      "family": "Kihim",
+      "reason": "heavy slanted straight-edged display, Loud 95, forward momentum"
+    },
+    {
+      "family": "Coaster Sans",
+      "reason": "heavy blackletter-geometric hybrid, Loud 95, lowercase has character"
+    },
+    {
+      "family": "Styro",
+      "reason": "heavy very condensed squared, Loud 90, billboard headline"
+    },
+    {
+      "family": "Typefesse Pleine",
+      "reason": "solid heavy forms with big x-height, loud and humorous"
+    },
+    {
+      "family": "Archivo Black",
+      "reason": "heavy grotesque, solid mixed-case, strong at distance"
+    },
+    {
+      "family": "Tanklager Original",
+      "reason": "bold hand-painted signage grotesk, billboard energy"
+    },
+    {
+      "family": "Rubik One",
+      "reason": "heavy wide rounded grotesque, loud and friendly"
+    },
+    {
+      "family": "Manosque",
+      "reason": "heavy condensed flat-brush sign lettering, shouts retro"
+    },
+    {
+      "family": "Bowlby One",
+      "reason": "heavy wide grotesque, Loud 87, chunky lowercase"
+    },
+    {
+      "family": "Résistance Générale",
+      "reason": "bold workshop grotesque, rugged and shouty"
+    },
+    {
+      "family": "Gasoek One",
+      "reason": "heavy large x-height, Loud 92, dense and punchy"
+    },
+    {
+      "family": "Kikuta",
+      "reason": "heavy squared rounded display, Loud 80, compact punch"
+    },
+    {
+      "family": "Climate Crisis",
+      "reason": "heavy wide large x-height, loud and active"
+    },
+    {
+      "family": "Piscolabis",
+      "reason": "bold very condensed signage sans, tall headline punch"
+    },
+    {
+      "family": "Dela Gothic One",
+      "reason": "heavy wide grotesque, poster-ready weight"
+    },
+    {
+      "family": "Boxing",
+      "reason": "bold very wide squared display, woodtype loudness"
+    },
+    {
+      "family": "Titan One",
+      "reason": "heavy rounded, Loud 87, big x-height shout"
+    },
+    {
+      "family": "Alfa Slab One",
+      "reason": "heavy slab, Loud 88, classic billboard punch"
+    },
+    {
+      "family": "Special Gothic Expanded One",
+      "reason": "heavy wide grotesque, bold and confident"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 550,
+    "output": 833
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

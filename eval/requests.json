@@ -1,0 +1,30 @@
+{
+  "wordmark": { "text": "Northwind", "rendered": "Northwind", "textCase": "as", "formation": "line" },
+  "requests": [
+    { "id": "q01", "kind": "motion", "query": "fonts that imply fast movement or action" },
+    { "id": "q02", "kind": "motion", "query": "sporty and energetic, like a running shoe brand" },
+    { "id": "q03", "kind": "motion", "query": "racing, speed, motorsport" },
+    { "id": "q04", "kind": "motion", "query": "kinetic and dynamic, always moving forward", "shortlist": ["Orbitron", "Michroma", "Exo 2", "Audiowide", "Oxanium"] },
+    { "id": "q05", "kind": "motion", "query": "the title of an action-packed adventure game" },
+    { "id": "q06", "kind": "motion", "query": "quick and nimble, for a same-day delivery startup", "shortlist": ["Inter", "Manrope", "DM Sans"] },
+    { "id": "q07", "kind": "mood", "query": "loud and punchy, shouting from a billboard" },
+    { "id": "q08", "kind": "shape", "query": "heavy, chunky and confident" },
+    { "id": "q09", "kind": "mood", "query": "calm and quiet, for a meditation app" },
+    { "id": "q10", "kind": "mood", "query": "soft and gentle, for a baby skincare brand" },
+    { "id": "q11", "kind": "mood", "query": "more technological" },
+    { "id": "q12", "kind": "mood", "query": "a bit more sci-fi, but still legible" },
+    { "id": "q13", "kind": "mood", "query": "elegant and luxurious, a perfume house" },
+    { "id": "q14", "kind": "mood", "query": "slick and professional" },
+    { "id": "q15", "kind": "mood", "query": "playful and quirky, an independent toy shop" },
+    { "id": "q16", "kind": "mood", "query": "friendly and warm, a neighbourhood bakery", "shortlist": ["Space Grotesk", "Syne", "Unbounded"] },
+    { "id": "q17", "kind": "mood", "query": "handmade and organic, a ceramics studio" },
+    { "id": "q18", "kind": "mood", "query": "70s retro, groovy and rounded" },
+    { "id": "q19", "kind": "mood", "query": "an old western saloon sign" },
+    { "id": "q20", "kind": "mood", "query": "brutalist and raw, an underground techno club" },
+    { "id": "q21", "kind": "shape", "query": "very condensed and tall" },
+    { "id": "q22", "kind": "shape", "query": "wide and extended, like a car badge" },
+    { "id": "q23", "kind": "literal", "query": "pixel art, 8-bit video game" },
+    { "id": "q24", "kind": "literal", "query": "blackletter, medieval" },
+    { "id": "q25", "kind": "mood", "query": "mysterious and a little unsettling" }
+  ]
+}

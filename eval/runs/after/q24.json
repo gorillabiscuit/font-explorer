@@ -1,0 +1,97 @@
+{
+  "id": "q24",
+  "kind": "literal",
+  "query": "blackletter, medieval",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 8589,
+  "results": [
+    {
+      "family": "Trickster",
+      "reason": "Merovingian blackletter, sharp high-contrast strokes, lowercase holds up large"
+    },
+    {
+      "family": "Astloch",
+      "reason": "Monolinear generative blackletter, thin and condensed, distinctive on one line"
+    },
+    {
+      "family": "FT88 Gothique",
+      "reason": "Pixel blackletter, blends medieval gothic with bitmap edges"
+    },
+    {
+      "family": "UnifrakturMaguntia",
+      "reason": "Classic fraktur with true lowercase, strongly medieval"
+    },
+    {
+      "family": "Sinistre",
+      "reason": "Flared uncial-gothic forms, mystical medieval mixed-case feel"
+    },
+    {
+      "family": "UnifrakturCook",
+      "reason": "Bold condensed fraktur, punchy at logo size"
+    },
+    {
+      "family": "Isenheim",
+      "reason": "Lombardic old-style calligraphic serif, elegant medieval tone"
+    },
+    {
+      "family": "Pirata One",
+      "reason": "Condensed blackletter with legible lowercase, compact wordmark"
+    },
+    {
+      "family": "Centaury",
+      "reason": "Revival blackletter with high contrast and real italic"
+    },
+    {
+      "family": "Grenze Gotisch",
+      "reason": "Gothic blackletter, sturdy and readable in mixed case"
+    },
+    {
+      "family": "Aktura",
+      "reason": "Bold condensed blackletter serif, strong presence"
+    },
+    {
+      "family": "New Rocker",
+      "reason": "Bold blackletter with rock edge, clear lowercase"
+    },
+    {
+      "family": "Fruktur",
+      "reason": "Heavy upright fraktur with quirky, lively strokes"
+    },
+    {
+      "family": "Almendra Display",
+      "reason": "Thin curvy blackletter, delicate medieval character"
+    },
+    {
+      "family": "Manufacturing Consent",
+      "reason": "Formal blackletter script, distressed vintage charm"
+    },
+    {
+      "family": "Germania One",
+      "reason": "Heavy condensed blackletter, solid at large sizes"
+    },
+    {
+      "family": "Grenze",
+      "reason": "Blackletter-flavoured serif, calmer and more legible"
+    },
+    {
+      "family": "Texturina",
+      "reason": "Textura-inspired serif with italic, restrained medieval look"
+    },
+    {
+      "family": "MedievalSharp",
+      "reason": "Sharp-cut medieval lettering, clearly period"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 450,
+    "output": 809
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

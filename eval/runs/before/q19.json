@@ -1,0 +1,85 @@
+{
+  "id": "q19",
+  "kind": "mood",
+  "query": "an old western saloon sign",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 10318,
+  "results": [
+    {
+      "family": "Boeticher",
+      "reason": "Western tuscan with slab serifs, condensed and playful—perfect for saloon signage"
+    },
+    {
+      "family": "Rye",
+      "reason": "Tuscan woodtype with vintage awkwardness, perfect for authentic saloon lettering"
+    },
+    {
+      "family": "BackOut",
+      "reason": "Brutalist incised glyphs with flared edges evoke carved wood saloon signs"
+    },
+    {
+      "family": "Rokkitt",
+      "reason": "Geometric slab serif with rugged character, bold headline impact for signage"
+    },
+    {
+      "family": "Basalte",
+      "reason": "Bold condensed caps with chromatic revival character, authentic poster-style signage"
+    },
+    {
+      "family": "Sancreek",
+      "reason": "Tuscan woodtype with artistic awkwardness, classic saloon poster aesthetic"
+    },
+    {
+      "family": "Interlope",
+      "reason": "DIY calligraphic script with ornamental ligatures, amateur hand-painted charm"
+    },
+    {
+      "family": "Asset",
+      "reason": "Fat Face woodtype serif, loud vintage character for bold saloon signs"
+    },
+    {
+      "family": "Feroniapi",
+      "reason": "Art-nouveau flowing elegance with human-made character, italic swash ideal for saloon"
+    },
+    {
+      "family": "Arbutus",
+      "reason": "Tuscan slab with woodtype loudness, rugged Western aesthetic"
+    },
+    {
+      "family": "Ouroboros",
+      "reason": "Ornate flared serif with occult art-nouveau flair, decorative and distinctive"
+    },
+    {
+      "family": "Marcellus",
+      "reason": "Vintage rugged serif with West feel, strong headline presence"
+    },
+    {
+      "family": "Cantique",
+      "reason": "Romantic calligraphic serif with swashes and ligatures, elegant vintage saloon feel"
+    },
+    {
+      "family": "Passion One",
+      "reason": "Humanist sans with woodtype loudness and stiffness, bold saloon poster impact"
+    },
+    {
+      "family": "Grotesk",
+      "reason": "Wide geometric sans with art-deco spacing and elegance, strong broad character"
+    },
+    {
+      "family": "Fredoka One",
+      "reason": "Fat rounded geometric with vintage ruggedness, distinctive saloon-sign presence"
+    },
+    {
+      "family": "Alfa Slab One",
+      "reason": "Fat Face geometric slab, loud and rugged for authentic Western poster feel"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 678,
+    "output": 796
+  }
+}

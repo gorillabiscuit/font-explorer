@@ -1,0 +1,101 @@
+{
+  "id": "q25",
+  "kind": "mood",
+  "query": "mysterious and a little unsettling",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 8401,
+  "results": [
+    {
+      "family": "Basteleur",
+      "reason": "Sharp high-contrast tarot serif; esoteric, slightly eerie lowercase"
+    },
+    {
+      "family": "Grenze Gotisch",
+      "reason": "Gothic blackletter with sharp strokes, brooding and readable"
+    },
+    {
+      "family": "Sinistre",
+      "reason": "Flared uncial-gothic letters feel mystical and faintly ominous"
+    },
+    {
+      "family": "Metamorphous",
+      "reason": "Medieval fantasy letterforms with odd, uncanny rhythm"
+    },
+    {
+      "family": "Trickster",
+      "reason": "Spiky merovingian blackletter, condensed and menacing yet legible"
+    },
+    {
+      "family": "Almendra Display",
+      "reason": "Thin blackletter-ish forms, archaic and eerie"
+    },
+    {
+      "family": "Flor de Ruina",
+      "reason": "Eroded, fractured serif suggests decay and unease"
+    },
+    {
+      "family": "Aktura",
+      "reason": "Condensed blackletter display, dark and dramatic"
+    },
+    {
+      "family": "Nyght Serif",
+      "reason": "Spiky high-contrast serif with sharp spurs, cold and dark"
+    },
+    {
+      "family": "Gloock",
+      "reason": "High-contrast serif with heavy, shadowy presence"
+    },
+    {
+      "family": "Isenheim",
+      "reason": "Medieval lombardic calligraphy, old-world and occult"
+    },
+    {
+      "family": "Bodoni Moda",
+      "reason": "Razor contrast didone, cold and unsettling when large"
+    },
+    {
+      "family": "Autopia",
+      "reason": "Wonky glyphic Gaelic forms, strange and ancient feeling"
+    },
+    {
+      "family": "Uncial Antiqua",
+      "reason": "Wide uncial with high contrast, ancient and strange"
+    },
+    {
+      "family": "Aujournuit Condensed",
+      "reason": "Tall thin high-contrast serif, ghostly and elegant"
+    },
+    {
+      "family": "Cinzel Decorative",
+      "reason": "Ritual-like classical flourishes, mysterious lowercase swashes"
+    },
+    {
+      "family": "Kalnia",
+      "reason": "Sharp high-contrast serif with odd edge, slightly sinister"
+    },
+    {
+      "family": "Melodrama",
+      "reason": "Thin high-contrast with curled terminals, eerie elegance"
+    },
+    {
+      "family": "Pirata One",
+      "reason": "Condensed blackletter, ominous yet clear at size"
+    },
+    {
+      "family": "Fraunces",
+      "reason": "Wonky soft-serif quirks give a subtle uncanny feel"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 453,
+    "output": 870
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "q04",
+  "kind": "motion",
+  "query": "kinetic and dynamic, always moving forward",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 11122,
+  "results": [
+    {
+      "family": "Anta",
+      "reason": "Geometric, stiff techno typeface; tight proportions push forward relentlessly"
+    },
+    {
+      "family": "Turret Road",
+      "reason": "Techno, futuristic, stiff angles; staccato letterforms create pulsing momentum"
+    },
+    {
+      "family": "Sarpanch",
+      "reason": "Techno-stiff superellipse sans; dense, forward-leaning presence"
+    },
+    {
+      "family": "Chakra Petch",
+      "reason": "Techno, futuristic, stiff; tight geometric forms with sharp momentum"
+    },
+    {
+      "family": "Electrolize",
+      "reason": "Techno-futuristic geometric sans; sleek, propulsive letterforms"
+    },
+    {
+      "family": "Tomorrow",
+      "reason": "Geometric, futuristic, stiff; relentless forward thrust in every character"
+    },
+    {
+      "family": "Jaro",
+      "reason": "Rugged, stiff, loud, innovative; aggressive angular geometry screams motion"
+    },
+    {
+      "family": "Space Grotesk",
+      "reason": "Neo-grotesque, techno; confident width and crisp terminals drive forward"
+    },
+    {
+      "family": "Rationale",
+      "reason": "Techno, stiff, futuristic, rugged; geometric incisiveness implies velocity"
+    },
+    {
+      "family": "Chathura",
+      "reason": "Superellipse, futuristic, rugged, stiff; compressed urgency in every curve"
+    },
+    {
+      "family": "Bungee",
+      "reason": "Geometric, stiff, innovative; bold compressed forms with kinetic impact"
+    },
+    {
+      "family": "Michroma",
+      "reason": "From your shortlist; monolinear precision amplifies relentless forward motion"
+    },
+    {
+      "family": "Orbitron",
+      "reason": "From your shortlist; archetypal futuristic techno with staccato energy"
+    },
+    {
+      "family": "Stalinist One",
+      "reason": "Stiff, awkward, rugged, techno; square geometry feels engineered and advancing"
+    },
+    {
+      "family": "Iceberg",
+      "reason": "Stiff, futuristic, rugged, techno; angular letterforms imply sharp momentum"
+    }
+  ],
+  "dropped": [
+    "Gem",
+    "Offline",
+    "Epoch",
+    "Kdan Thmor Pro",
+    "Passage Extreme"
+  ],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 712,
+    "output": 1011
+  }
+}

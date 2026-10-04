@@ -1,0 +1,88 @@
+{
+  "id": "q03",
+  "kind": "motion",
+  "query": "racing, speed, motorsport",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 11092,
+  "results": [
+    {
+      "family": "Lineal",
+      "reason": "modular, clean geometric sans; architectural precision of engineered speed"
+    },
+    {
+      "family": "Space Grotesk",
+      "reason": "Neo Grotesque with technical precision; futuristic motorsport momentum"
+    },
+    {
+      "family": "Grotesk",
+      "reason": "wide-spaced, elegant geometric; smooth high-speed flow in letterforms"
+    },
+    {
+      "family": "Chakra Petch",
+      "reason": "techno geometric with stiff precision; high-tech racing instrumentation feel"
+    },
+    {
+      "family": "Gulax",
+      "reason": "monolinear geometric with quirky edge; playful yet engineered motorsport feel"
+    },
+    {
+      "family": "Quantico",
+      "reason": "techno futuristic sans; sharp, aggressive stance for speed branding"
+    },
+    {
+      "family": "Format 1452",
+      "reason": "industrial, modular DIN-inspired; raw technical precision of racing machines"
+    },
+    {
+      "family": "Oswald",
+      "reason": "condensed grotesque; muscular compression reads as acceleration"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "wide grotesque with sporty energy; letterforms built for dynamic wordmarks"
+    },
+    {
+      "family": "Michroma",
+      "reason": "superellipse futuristic sans; sleek, aerodynamic letterforms"
+    },
+    {
+      "family": "Electrolize",
+      "reason": "techno geometric sans; clinical precision of racing performance"
+    },
+    {
+      "family": "Geo",
+      "reason": "geometric futuristic; engineered stiffness conveys speed control"
+    },
+    {
+      "family": "Syne Mono",
+      "reason": "monospaced techno-distressed; raw, aggressive motorsport edge"
+    },
+    {
+      "family": "Audiowide",
+      "reason": "techno vintage; retro-futuristic racing aesthetic from design's golden age"
+    },
+    {
+      "family": "Archivo",
+      "reason": "versatile grotesque with lean structure; efficient, forward-moving letterforms"
+    },
+    {
+      "family": "Syncopate",
+      "reason": "geometric futuristic sans; awkward angles suggest kinetic tension and speed"
+    },
+    {
+      "family": "Jost",
+      "reason": "geometric sans with geometric precision; clean, purposeful momentum"
+    }
+  ],
+  "dropped": [
+    "Futura",
+    "Facade"
+  ],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 678,
+    "output": 856
+  }
+}

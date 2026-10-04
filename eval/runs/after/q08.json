@@ -1,0 +1,101 @@
+{
+  "id": "q08",
+  "kind": "shape",
+  "query": "heavy, chunky and confident",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 8210,
+  "results": [
+    {
+      "family": "Coaster Sans",
+      "reason": "heavy geometric sans with blackletter quirks; loud, confident, mixed case works"
+    },
+    {
+      "family": "Kihim",
+      "reason": "heavy slanted straight-edged display, very loud and forceful"
+    },
+    {
+      "family": "Mattone",
+      "reason": "bold wide punchy sans; sturdy even letterwidths for one line"
+    },
+    {
+      "family": "Rubik One",
+      "reason": "heavy wide rounded grotesque, chunky and friendly-confident"
+    },
+    {
+      "family": "Pescante",
+      "reason": "bold squared angular strokes, vernacular signage confidence"
+    },
+    {
+      "family": "Dela Gothic One",
+      "reason": "heavy wide gothic grotesque, dense and commanding"
+    },
+    {
+      "family": "Résistance Générale",
+      "reason": "bold quirky grotesque with workshop character, lowercase friendly"
+    },
+    {
+      "family": "Special Gothic Expanded One",
+      "reason": "heavy wide grotesque, clean and assertive"
+    },
+    {
+      "family": "Tanklager Original",
+      "reason": "bold hand-painted DIN-like grotesk, sturdy and blunt"
+    },
+    {
+      "family": "Archivo Black",
+      "reason": "heavy grotesque, solid proven chunky forms"
+    },
+    {
+      "family": "Karrik",
+      "reason": "bold raw grotesque with irregular charm, has italic"
+    },
+    {
+      "family": "Bevan",
+      "reason": "heavy wide slab serif, sturdy and confident"
+    },
+    {
+      "family": "Sinkin Sans",
+      "reason": "bold wide grotesque with ink traps, strong and modern"
+    },
+    {
+      "family": "Chango",
+      "reason": "heavy very wide display, bouncy chunky letters"
+    },
+    {
+      "family": "Ouroboros",
+      "reason": "bold wide art-nouveau flared forms, distinctive and chunky"
+    },
+    {
+      "family": "Gasoek One",
+      "reason": "heavy large x-height grotesque, blunt and bold"
+    },
+    {
+      "family": "Seymour One",
+      "reason": "heavy very wide grotesque, stout and strong"
+    },
+    {
+      "family": "BBH Hegarty",
+      "reason": "heavy wide grotesque with punchy presence"
+    },
+    {
+      "family": "Calistoga",
+      "reason": "heavy transitional serif, warm confident chunk"
+    },
+    {
+      "family": "Zina",
+      "reason": "bold readable display with vintage swagger"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 506,
+    "output": 813
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

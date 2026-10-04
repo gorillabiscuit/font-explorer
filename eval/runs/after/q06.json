@@ -1,0 +1,101 @@
+{
+  "id": "q06",
+  "kind": "motion",
+  "query": "quick and nimble, for a same-day delivery startup",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 10233,
+  "results": [
+    {
+      "family": "TGL 0-16",
+      "reason": "Slanted rounded letters give forward lean, friendly and fast"
+    },
+    {
+      "family": "Nippo",
+      "reason": "Squared jersey-style forms, sporty and fast"
+    },
+    {
+      "family": "Mattone",
+      "reason": "Wide heavy stance with stretched horizontals reads as speed"
+    },
+    {
+      "family": "Kihim",
+      "reason": "Heavy slanted straight-edged letters, strong forward drive"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "Wide sporty grotesque, quirky, lowercase holds up well"
+    },
+    {
+      "family": "Racing Sans One",
+      "reason": "Bold wide slanted racing letterforms"
+    },
+    {
+      "family": "Panamera",
+      "reason": "Wide grotesque with active feel, clean mixed-case wordmark"
+    },
+    {
+      "family": "Fugaz One",
+      "reason": "Heavy slanted geometric, sprinting energy"
+    },
+    {
+      "family": "Lunchtype Expanded",
+      "reason": "Expanded grotesque stretches horizontals, modern and nimble"
+    },
+    {
+      "family": "Faster One",
+      "reason": "Slanted wide with speed cuts, literally fast"
+    },
+    {
+      "family": "Xolonium",
+      "reason": "Wide squared engineered forms suggest quick logistics tech"
+    },
+    {
+      "family": "Sharpie",
+      "reason": "Bold slanted pen strokes with momentum"
+    },
+    {
+      "family": "Azabache",
+      "reason": "Slanted modular brush strokes carry momentum"
+    },
+    {
+      "family": "Technor",
+      "reason": "Squared large x-height, futuristic and sharp"
+    },
+    {
+      "family": "Panchang",
+      "reason": "Very wide light stance, stretched and swift"
+    },
+    {
+      "family": "Unbounded",
+      "reason": "Bold wide rounded forms, energetic startup feel"
+    },
+    {
+      "family": "Contrail One",
+      "reason": "Bold condensed slanted, aerodynamic feel"
+    },
+    {
+      "family": "Bevellier",
+      "reason": "Condensed squared italic family, compact and quick"
+    },
+    {
+      "family": "Audiowide",
+      "reason": "Wide squared rounded corners, speedy tech look"
+    },
+    {
+      "family": "Ceviche One",
+      "reason": "Slanted bold curvy script, lively and quick"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 684,
+    "output": 782
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

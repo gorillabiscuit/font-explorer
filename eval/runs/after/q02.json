@@ -1,0 +1,97 @@
+{
+  "id": "q02",
+  "kind": "motion",
+  "query": "sporty and energetic, like a running shoe brand",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 9810,
+  "results": [
+    {
+      "family": "TGL 0-16",
+      "reason": "slanted rounded letters with forward lean, lively and athletic in mixed case"
+    },
+    {
+      "family": "Kihim",
+      "reason": "heavy slanted straight-edged strokes, loud speed-poster energy"
+    },
+    {
+      "family": "Mattone",
+      "reason": "bold wide extended sans, punchy stance like sportswear"
+    },
+    {
+      "family": "Sharpie",
+      "reason": "bold slanted pen strokes with momentum, reads active"
+    },
+    {
+      "family": "Azabache",
+      "reason": "slanted curvy brush-like modular strokes, fast and playful"
+    },
+    {
+      "family": "Faster One",
+      "reason": "wide slanted racing letterforms with speed cuts"
+    },
+    {
+      "family": "Manosque",
+      "reason": "heavy condensed flat-brush sign-painter strokes, energetic"
+    },
+    {
+      "family": "Racing Sans One",
+      "reason": "bold wide slanted sans, classic racing feel"
+    },
+    {
+      "family": "Ferrite Core DX Display",
+      "reason": "very wide heavy squared forms, stretched horizontals feel fast"
+    },
+    {
+      "family": "Fugaz One",
+      "reason": "heavy slanted geometric sans, athletic momentum"
+    },
+    {
+      "family": "Pescante",
+      "reason": "bold squared angular curveless letters, sporty signage feel"
+    },
+    {
+      "family": "Nippo",
+      "reason": "squared jersey-style display, sports-team feel"
+    },
+    {
+      "family": "Kikuta",
+      "reason": "heavy squared rounded display, loud and energetic"
+    },
+    {
+      "family": "Pattaya",
+      "reason": "heavy slanted condensed script, dynamic mixed case"
+    },
+    {
+      "family": "Technor",
+      "reason": "squared large x-height sans, futuristic athletic tone"
+    },
+    {
+      "family": "Unbounded",
+      "reason": "bold wide rounded sans, modern sneaker-brand stance"
+    },
+    {
+      "family": "Contrail One",
+      "reason": "bold condensed jet-like letters, speedy"
+    },
+    {
+      "family": "Ceviche One",
+      "reason": "bold slanted curvy letters, active and cheerful"
+    },
+    {
+      "family": "Sansita Swashed",
+      "reason": "bold slanted with swashes, lively momentum"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 647,
+    "output": 785
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

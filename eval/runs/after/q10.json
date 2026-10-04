@@ -1,0 +1,101 @@
+{
+  "id": "q10",
+  "kind": "mood",
+  "query": "soft and gentle, for a baby skincare brand",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 13048,
+  "results": [
+    {
+      "family": "Abordage",
+      "reason": "Rounded geometric sans, friendly and soft, even widths for 'Northwind'"
+    },
+    {
+      "family": "Chillax",
+      "reason": "Light soft sans, cute and calm, smooth round bowls"
+    },
+    {
+      "family": "Hanken",
+      "reason": "Rounded geometric terminals, warm and quiet at regular weight"
+    },
+    {
+      "family": "Roundo",
+      "reason": "Light rounded sans, calm and sophisticated"
+    },
+    {
+      "family": "Gidolinya",
+      "reason": "Rounded geometric grotesque, calm and open, gentle lowercase"
+    },
+    {
+      "family": "Quicksand",
+      "reason": "Light rounded geometric strokes, soft and tender"
+    },
+    {
+      "family": "CMRDD",
+      "reason": "Rounded sans with soft terminals, calm and light-feeling"
+    },
+    {
+      "family": "Varela Round",
+      "reason": "Round terminals, calm and friendly humanist forms"
+    },
+    {
+      "family": "Canarina",
+      "reason": "Humanist, friendly, brushy angles soften the feel"
+    },
+    {
+      "family": "Mallanna",
+      "reason": "Light rounded geometric sans, calm and quiet"
+    },
+    {
+      "family": "Paysage",
+      "reason": "Calm readable humanist sans, swinging g, gentle"
+    },
+    {
+      "family": "Dongle",
+      "reason": "Light rounded sans, very calm and soft"
+    },
+    {
+      "family": "Lineal",
+      "reason": "Clean Futura-like geometry, light and airy, friendly"
+    },
+    {
+      "family": "Tsukimi Rounded",
+      "reason": "Light rounded geometric sans with gentle terminals"
+    },
+    {
+      "family": "Kodchasan",
+      "reason": "Rounded geometric sans, calm, open and smooth"
+    },
+    {
+      "family": "Manjari",
+      "reason": "Rounded geometric, calm and sincere, soft curves"
+    },
+    {
+      "family": "Zen Maru Gothic",
+      "reason": "Light rounded gothic, soft even strokes"
+    },
+    {
+      "family": "Nunito",
+      "reason": "Rounded terminals, friendly and calm"
+    },
+    {
+      "family": "Sulphur Point",
+      "reason": "Calm geometric sans, open even shapes"
+    },
+    {
+      "family": "Pally",
+      "reason": "Calm, informal and soft, gently rounded letterforms"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 591,
+    "output": 787
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

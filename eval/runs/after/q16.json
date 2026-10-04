@@ -1,0 +1,99 @@
+{
+  "id": "q16",
+  "kind": "mood",
+  "query": "friendly and warm, a neighbourhood bakery",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 9732,
+  "results": [
+    {
+      "family": "Abordage",
+      "reason": "Rounded friendly geometric sans, happy and playful, warm for a bakery"
+    },
+    {
+      "family": "Chillax",
+      "reason": "Soft light sans, happy and cute, gentle on one line"
+    },
+    {
+      "family": "Canarina",
+      "reason": "Humanist, informal, brushy angles; friendly vernacular charm"
+    },
+    {
+      "family": "Pally",
+      "reason": "Informal friendly sans with comic warmth"
+    },
+    {
+      "family": "Coconat",
+      "reason": "Flared wedge serifs, warm retro feel, readable in mixed case"
+    },
+    {
+      "family": "Gambarino",
+      "reason": "Warm high-contrast serif with a cosy editorial feel"
+    },
+    {
+      "family": "Halibut",
+      "reason": "Quirky warm wedge-serif, bookish and cozy"
+    },
+    {
+      "family": "Chubbo",
+      "reason": "Chunky sincere display with italic, plump bakery warmth"
+    },
+    {
+      "family": "Paysage",
+      "reason": "Humanist swinging g, calm, friendly and readable"
+    },
+    {
+      "family": "Paquito",
+      "reason": "Playful slab with vintage charm, funny and informal"
+    },
+    {
+      "family": "Hanken",
+      "reason": "Rounded geometric shapes, happy and soft"
+    },
+    {
+      "family": "Zodiak",
+      "reason": "Warm sturdy serif, sophisticated yet inviting"
+    },
+    {
+      "family": "Gidolinya",
+      "reason": "Rounded geometric grotesque, calm and approachable"
+    },
+    {
+      "family": "Sentient",
+      "reason": "Soft sincere serif, calm and approachable"
+    },
+    {
+      "family": "Boris",
+      "reason": "Monolinear playful script-sans, cute and handmade feel"
+    },
+    {
+      "family": "Erode",
+      "reason": "Soft organic serif, warm and sincere"
+    },
+    {
+      "family": "Nunito",
+      "reason": "Rounded terminals, happy and calm"
+    },
+    {
+      "family": "Fraunces",
+      "reason": "Soft wonky old-style serif, warm and characterful"
+    },
+    {
+      "family": "Sniglet",
+      "reason": "Rounded cute display, happy and soft"
+    }
+  ],
+  "dropped": [
+    "Recoleta"
+  ],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 626,
+    "output": 753
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

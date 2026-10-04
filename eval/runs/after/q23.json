@@ -1,0 +1,101 @@
+{
+  "id": "q23",
+  "kind": "literal",
+  "query": "pixel art, 8-bit video game",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 10427,
+  "results": [
+    {
+      "family": "FT88",
+      "reason": "Classic 8-bit bitmap letterforms, monospace, lowercase-capable and authentically retro"
+    },
+    {
+      "family": "Press Start 2P",
+      "reason": "The iconic arcade 8-bit face, wide blocky letters"
+    },
+    {
+      "family": "Terminal Grotesque",
+      "reason": "Bitmap grotesque with pixel steps, readable in mixed case"
+    },
+    {
+      "family": "Pixelify Sans",
+      "reason": "Clean pixel sans with true mixed-case, very legible"
+    },
+    {
+      "family": "Kobata",
+      "reason": "Modular rectangles and circles give a chunky glitchy pixel look"
+    },
+    {
+      "family": "Jersey 10",
+      "reason": "Bold squared pixel letters, compact and sporty"
+    },
+    {
+      "family": "VG5000",
+      "reason": "8-bit computer pixel font, condensed and friendly for games"
+    },
+    {
+      "family": "Silkscreen",
+      "reason": "Tiny-grid pixel caps with classic game UI feel"
+    },
+    {
+      "family": "Banquise",
+      "reason": "Heavy pixel revival with large x-height, bold at display size"
+    },
+    {
+      "family": "Tiny5",
+      "reason": "Small-grid pixel with large x-height, crisp at all sizes"
+    },
+    {
+      "family": "FT88 Expanded",
+      "reason": "Wide monoline pixel forms, strong game-title feel"
+    },
+    {
+      "family": "Micro 5",
+      "reason": "Tight pixel grid, retro console look"
+    },
+    {
+      "family": "0xA000 Pixelated",
+      "reason": "Heavy squared pixel blocks, punchy arcade presence"
+    },
+    {
+      "family": "Bitcount Prop Single",
+      "reason": "Proportional pixel with even spacing, modern 8-bit"
+    },
+    {
+      "family": "Fontlab Font",
+      "reason": "Straight-edged pixel face with a raw bitmap character"
+    },
+    {
+      "family": "Geist Pixel",
+      "reason": "Straight-edged pixel cut, polished and playful"
+    },
+    {
+      "family": "DotGothic16",
+      "reason": "Dot-matrix gothic, readable mixed-case pixel letters"
+    },
+    {
+      "family": "Coral Pixels",
+      "reason": "Heavy pixel serif-like forms with arcade character"
+    },
+    {
+      "family": "Array",
+      "reason": "Curvy-pixel display face with large x-height, bold branding"
+    },
+    {
+      "family": "VT323",
+      "reason": "Terminal-style monospace pixel, retro computer feel"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 537,
+    "output": 844
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "q25",
+  "kind": "mood",
+  "query": "mysterious and a little unsettling",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 10367,
+  "results": [
+    {
+      "family": "Basteleur",
+      "reason": "High-contrast serif with sharp, tarot-like forms creates mystery and intrigue"
+    },
+    {
+      "family": "Sinistre",
+      "reason": "Medieval uncial with flared serif—gothic mystical character"
+    },
+    {
+      "family": "Feroniapi",
+      "reason": "Art nouveau elegance with flowing curves and ligatures suggests dark romance"
+    },
+    {
+      "family": "Isobare",
+      "reason": "Wonky organic forms with damage create instability and unease"
+    },
+    {
+      "family": "Ouroboros",
+      "reason": "Occult-inspired serif with flared forms and human-made irregularity feels eerie"
+    },
+    {
+      "family": "BackOut",
+      "reason": "Incised brutalist glyphic forms suggest carved stone or ritual marks"
+    },
+    {
+      "family": "Trickster",
+      "reason": "Blackletter with merovingian sharpness creates unsettling, medieval menace"
+    },
+    {
+      "family": "Cinzel Decorative",
+      "reason": "Old style serif with medieval decorative weight—classical yet eerie"
+    },
+    {
+      "family": "Malebolge",
+      "reason": "Medieval dark gothic with spiky caps and metal aesthetic—deeply ominous"
+    },
+    {
+      "family": "Grenze Gotisch",
+      "reason": "Blackletter with serious historical weight feels dark and foreboding"
+    },
+    {
+      "family": "Flor de Ruina",
+      "reason": "Eroded textured serif feels fractured, ghostly, organic in an unsettling way"
+    },
+    {
+      "family": "Texturina",
+      "reason": "Blackletter with texture creates mysterious medieval atmosphere"
+    },
+    {
+      "family": "Pilowlava",
+      "reason": "Fluid blobby forms with psychedelic curves suggest something otherworldly"
+    },
+    {
+      "family": "Aktura",
+      "reason": "Blackletter display with poster weight—bold dark presence"
+    },
+    {
+      "family": "Fungal",
+      "reason": "Organic hairy mycelium-inspired sans with generative irregularity feels alien"
+    },
+    {
+      "family": "Crimson Pro",
+      "reason": "Old style garalde with high contrast and editorial weight suggests intrigue"
+    },
+    {
+      "family": "GFS Didot",
+      "reason": "Didone serif with classical sophistication and sharp serifs feels unsettling"
+    },
+    {
+      "family": "Fraunces",
+      "reason": "Old style serif with variable optical sizing creates mysterious dimensional depth"
+    },
+    {
+      "family": "Playfair Display",
+      "reason": "High-contrast didone with elegant sharpness—aristocratic and sinister"
+    },
+    {
+      "family": "Cormorant Garamond",
+      "reason": "Old style garalde with elegant high-contrast letterforms—sophisticated dread"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 679,
+    "output": 898
+  }
+}

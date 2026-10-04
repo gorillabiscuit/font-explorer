@@ -1,0 +1,93 @@
+{
+  "id": "q06",
+  "kind": "motion",
+  "query": "quick and nimble, for a same-day delivery startup",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 14217,
+  "results": [
+    {
+      "family": "Space Grotesk",
+      "reason": "Geometric sans with sharp angles reads fast and efficient"
+    },
+    {
+      "family": "Syne",
+      "reason": "Curveless grotesque feels decisive, built for motion and speed"
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "reason": "Tight neo-grotesque with personality, energetic without fuss"
+    },
+    {
+      "family": "Outfit",
+      "reason": "Geometric contemporary sans with clean lines, quick legibility"
+    },
+    {
+      "family": "Electrolize",
+      "reason": "Techno sans with mechanical precision, implies instant action"
+    },
+    {
+      "family": "Jost",
+      "reason": "Geometric grotesque balances warmth with forward momentum"
+    },
+    {
+      "family": "Geist",
+      "reason": "Minimal neo-grotesque with tight metrics, contemporary tech feel"
+    },
+    {
+      "family": "Epilogue",
+      "reason": "Geometric sans with efficient clean forms, modern aesthetic"
+    },
+    {
+      "family": "Geom",
+      "reason": "Geometric sans with techno edges, streamlined letterforms"
+    },
+    {
+      "family": "Instrument Sans",
+      "reason": "Geometric contemporary sans, precise and forward-moving"
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "reason": "Grotesque sans with tight spacing, efficient and sharp"
+    },
+    {
+      "family": "Source Sans Pro",
+      "reason": "Humanist sans with geometric clarity, trustworthy speed"
+    },
+    {
+      "family": "Be Vietnam Pro",
+      "reason": "Neo-grotesque with compact proportions, energetic feel"
+    },
+    {
+      "family": "Titillium Web",
+      "reason": "Geometric sans with tight letterfit, dynamic contemporary"
+    },
+    {
+      "family": "Overpass",
+      "reason": "Grotesque with humanist warmth, modern but approachable"
+    },
+    {
+      "family": "Sofia Sans",
+      "reason": "Neo-grotesque with contemporary edge, nimble presence"
+    },
+    {
+      "family": "Archivo",
+      "reason": "Compact grotesque sans, legible at speed, purposeful"
+    },
+    {
+      "family": "Albert Sans",
+      "reason": "Geometric sans with efficient proportions, forward energy"
+    },
+    {
+      "family": "Fraunces",
+      "reason": "Old-style serif with contemporary sharpness, unexpected pace"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 10,
+    "cacheRead": 113411,
+    "cacheWrite": 1770,
+    "output": 1575
+  }
+}

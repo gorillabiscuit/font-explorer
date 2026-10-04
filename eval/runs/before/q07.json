@@ -1,0 +1,97 @@
+{
+  "id": "q07",
+  "kind": "mood",
+  "query": "loud and punchy, shouting from a billboard",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 10797,
+  "results": [
+    {
+      "family": "Basalte",
+      "reason": "Condensed, bold, poster-weight caps presence scales aggressively"
+    },
+    {
+      "family": "Fuggles",
+      "reason": "Handwritten but forceful; happy aggressive energy, informal punch"
+    },
+    {
+      "family": "Outward",
+      "reason": "Ultra-condensed black slab, densely stacked letterforms dominate space"
+    },
+    {
+      "family": "Clash Display",
+      "reason": "Chunky geometric sans, bold presence cuts through clutter aggressively"
+    },
+    {
+      "family": "Le Murmure",
+      "reason": "Condensed titling sans, sharp high-contrast shout with tall stance"
+    },
+    {
+      "family": "Stardom",
+      "reason": "Branding-focused display, experimental boldness, poster-scale impact"
+    },
+    {
+      "family": "Bluu Next",
+      "reason": "High-contrast bold serif, flared terminals punch hard, editorial impact"
+    },
+    {
+      "family": "Alfa Slab One",
+      "reason": "Fat face slab, loud weight, geometric slab dominates billboard space"
+    },
+    {
+      "family": "Fungal",
+      "reason": "Organic chaos reads loud; mycelium texture creates visual noise impact"
+    },
+    {
+      "family": "Bebas Neue",
+      "reason": "Condensed neo-grotesque, tight tracking, aggressive all-caps energy"
+    },
+    {
+      "family": "Terminal Grotesque",
+      "reason": "Lo-fi bitmap crispness, retro-tech aggression, billboard-scale legibility"
+    },
+    {
+      "family": "Anton",
+      "reason": "Bold neo-grotesque loud voice, rugged vintage poster presence"
+    },
+    {
+      "family": "Résistance Générale",
+      "reason": "Rough, bold workshop grotesque; raw political power, unapologetic presence"
+    },
+    {
+      "family": "Titan One",
+      "reason": "Humanist sans loud and cute, playful punch without softness"
+    },
+    {
+      "family": "Righteous",
+      "reason": "Rugged geometric sans, vintage poster energy, uncompromising boldness"
+    },
+    {
+      "family": "Black Ops One",
+      "reason": "Stiff loud geometric, stencil edge, military-grade billboard power"
+    },
+    {
+      "family": "Lobster Two",
+      "reason": "Artistic vintage loud, theatrical presence, expressive wordmark impact"
+    },
+    {
+      "family": "Pattaya",
+      "reason": "Cute loud display, flat-brush informal, friendly billboard shout"
+    },
+    {
+      "family": "Flavors",
+      "reason": "Playful excited display, bright loud energy without aggression"
+    },
+    {
+      "family": "Striper",
+      "reason": "Experimental striped pattern, geometric poster visual punch, experimental edge"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 682,
+    "output": 886
+  }
+}

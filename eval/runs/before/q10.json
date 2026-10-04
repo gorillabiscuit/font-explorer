@@ -1,0 +1,97 @@
+{
+  "id": "q10",
+  "kind": "mood",
+  "query": "soft and gentle, for a baby skincare brand",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 9611,
+  "results": [
+    {
+      "family": "Kaeru Kaeru",
+      "reason": "Soft, blobby, rounded forms with organic woodcut warmth; gentle and playful"
+    },
+    {
+      "family": "Comfortaa",
+      "reason": "Rounded geometric with genuine warmth; calming and child-safe character"
+    },
+    {
+      "family": "Feroniapi",
+      "reason": "Flowing, elegant cursive with human warmth; calligraphic curves feel nurturing"
+    },
+    {
+      "family": "Nunito",
+      "reason": "Soft rounded sans; friendly, approachable, widely trusted for wellness"
+    },
+    {
+      "family": "Louise",
+      "reason": "Graceful connected script; swash elegance conveys care without formality"
+    },
+    {
+      "family": "Quicksand",
+      "reason": "Gentle geometric roundness; contemporary soft feel without harshness"
+    },
+    {
+      "family": "Interlope",
+      "reason": "DIY calligraphic charm; amateur warmth feels authentic and approachable"
+    },
+    {
+      "family": "Fredoka",
+      "reason": "Soft, rounded, humanist sans; contemporary gentleness for modern brands"
+    },
+    {
+      "family": "Gulax",
+      "reason": "Monolinear geometric sans with quirky personality; soft despite geometry"
+    },
+    {
+      "family": "Sora",
+      "reason": "Neo-grotesque warmth; clean modern softness suits skincare positioning"
+    },
+    {
+      "family": "Apfel Grotezk",
+      "reason": "Friendly geometric grotesk; contemporary warmth suits skincare branding"
+    },
+    {
+      "family": "Varela Round",
+      "reason": "Calm, rounded sans; sincere and gentle for care brand messaging"
+    },
+    {
+      "family": "Ribes",
+      "reason": "Playful, quirky geometric; retro friendliness softens the wordmark"
+    },
+    {
+      "family": "Pacifico",
+      "reason": "Informal script warmth; playful yet sophisticated for premium baby care"
+    },
+    {
+      "family": "Abordage",
+      "reason": "Rounded geometric sans; friendly revival feel with soft proportions"
+    },
+    {
+      "family": "Jost",
+      "reason": "Geometric with soft roundedness; contemporary and approachable warmth"
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "reason": "Neo-grotesque with character; contemporary softness, humanist appeal"
+    },
+    {
+      "family": "M PLUS Rounded 1c",
+      "reason": "Humanist rounded sans; warm, competent, gentle without cuteness"
+    },
+    {
+      "family": "Poppins",
+      "reason": "Geometric rounded; friendly, modern, widely used in lifestyle branding"
+    },
+    {
+      "family": "Kumbh Sans",
+      "reason": "Calm geometric sans; peaceful, balanced for wellness-focused brands"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 682,
+    "output": 906
+  }
+}

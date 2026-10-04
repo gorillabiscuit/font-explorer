@@ -1,0 +1,101 @@
+{
+  "id": "q21",
+  "kind": "shape",
+  "query": "very condensed and tall",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 8913,
+  "results": [
+    {
+      "family": "Aujournuit Densed",
+      "reason": "thin, very narrow high-contrast serif; tall elegant mixed-case letters"
+    },
+    {
+      "family": "Pathway Gothic One",
+      "reason": "very condensed squared grotesque, clean and tall in mixed case"
+    },
+    {
+      "family": "Sprat Condensed",
+      "reason": "condensed didone with tall proportions; sharp contrast suits a wordmark"
+    },
+    {
+      "family": "Sofia Sans Extra Condensed",
+      "reason": "very condensed neo-grotesque with italic; even, tall lowercase"
+    },
+    {
+      "family": "Halibut Condensed",
+      "reason": "condensed wedge-serif with warm quirks; lowercase stays readable"
+    },
+    {
+      "family": "Big Shoulders Display",
+      "reason": "very condensed squared display sans with a tall industrial stance"
+    },
+    {
+      "family": "Aujournuit Condensed",
+      "reason": "tall condensed serif with art-nouveau grace, distinctive in large sizes"
+    },
+    {
+      "family": "Alumni Sans",
+      "reason": "very condensed with large x-height; tall, athletic and sleek"
+    },
+    {
+      "family": "Junicode Condensed",
+      "reason": "condensed garalde with full lowercase; scholarly, tall feel"
+    },
+    {
+      "family": "Oswald",
+      "reason": "bold condensed grotesque; tall proven headline shape"
+    },
+    {
+      "family": "Format 1452",
+      "reason": "condensed DIN-like grotesque, technical and tall with mixed case"
+    },
+    {
+      "family": "Imbue",
+      "reason": "very condensed didone; razor-thin contrast, fashionable and tall"
+    },
+    {
+      "family": "Tanklager Kompakt",
+      "reason": "condensed hand-painted grotesk with signage character, bold and tall"
+    },
+    {
+      "family": "Fjalla One",
+      "reason": "heavy very condensed grotesque, strong and tall at small sizes"
+    },
+    {
+      "family": "Piscolabis",
+      "reason": "very condensed bold sans with tall ascenders, vernacular signage feel"
+    },
+    {
+      "family": "Bonny",
+      "reason": "thin condensed serif with artistic flair; elegant tall letters"
+    },
+    {
+      "family": "Wire One",
+      "reason": "thin very condensed squared sans; delicate tall lines"
+    },
+    {
+      "family": "Cossette Titre",
+      "reason": "bold very condensed grotesque, compact tall mixed-case headline"
+    },
+    {
+      "family": "Antonio",
+      "reason": "heavy very condensed sans with large x-height; punchy"
+    },
+    {
+      "family": "Pramukh Rounded",
+      "reason": "bold very condensed with soft corners; tall friendly wordmark"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 505,
+    "output": 898
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

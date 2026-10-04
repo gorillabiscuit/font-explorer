@@ -1,0 +1,101 @@
+{
+  "id": "q17",
+  "kind": "mood",
+  "query": "handmade and organic, a ceramics studio",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 11750,
+  "results": [
+    {
+      "family": "Azabache",
+      "reason": "Modular brushy hand with slanted, textured strokes; warm and crafted"
+    },
+    {
+      "family": "Gaegu",
+      "reason": "Thin wide brush-pen hand, light and natural"
+    },
+    {
+      "family": "Canarina",
+      "reason": "Angular humanist with informal, vernacular hand-cut feel; friendly"
+    },
+    {
+      "family": "Itim",
+      "reason": "Rounded brush handwriting, friendly and warm"
+    },
+    {
+      "family": "Boris",
+      "reason": "Monolinear casual script, soft and childlike like hand-thrown marks"
+    },
+    {
+      "family": "Pangolin",
+      "reason": "Informal upright hand with brushy irregular strokes"
+    },
+    {
+      "family": "Pecita",
+      "reason": "Wide thin pen script with quirky irregular lowercase"
+    },
+    {
+      "family": "Caveat Brush",
+      "reason": "Brush-pen handwriting with playful uneven weight"
+    },
+    {
+      "family": "Kaeru Kaeru",
+      "reason": "Soft blobby woodcut letters, organic and rounded like clay"
+    },
+    {
+      "family": "Fuzzy Bubbles",
+      "reason": "Soft sketchy hand, sincere and homespun"
+    },
+    {
+      "family": "Recursive Sans Casual",
+      "reason": "Casual curvy sans with relaxed handwritten rhythm"
+    },
+    {
+      "family": "Delicious Handrawn",
+      "reason": "Hand-drawn lowercase with small x-height, charming and crafted"
+    },
+    {
+      "family": "Isobare",
+      "reason": "Organic wobbly outlines with irregular, hand-worked edges"
+    },
+    {
+      "family": "Rancho",
+      "reason": "Casual brush script, warm and sincere"
+    },
+    {
+      "family": "Tribalium Neue",
+      "reason": "Organic thin curvy script with gaelic hand-drawn character"
+    },
+    {
+      "family": "Kalam",
+      "reason": "Natural slanted marker hand, legible at size"
+    },
+    {
+      "family": "Gamja Flower",
+      "reason": "Light brushy hand with gentle irregularity"
+    },
+    {
+      "family": "Handlee",
+      "reason": "Curvy hand-lettered look, approachable and crafty"
+    },
+    {
+      "family": "Patrick Hand",
+      "reason": "Upright informal hand, clean and friendly"
+    },
+    {
+      "family": "Solitreo",
+      "reason": "Slanted brush script, sincere and tactile"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 570,
+    "output": 812
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

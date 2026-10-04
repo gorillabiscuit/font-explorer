@@ -1,0 +1,81 @@
+{
+  "id": "q11",
+  "kind": "mood",
+  "query": "more technological",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 7911,
+  "results": [
+    {
+      "family": "Kobata",
+      "reason": "Geometric pixel grid with modular rectangles and circles feels computational"
+    },
+    {
+      "family": "Syne Mono",
+      "reason": "Monospace curvelessness reads as engineered; distressed texture adds edge"
+    },
+    {
+      "family": "Ampoule Neon",
+      "reason": "Dot-grid modular construction and cyberpunk signage aesthetic perfectly tech"
+    },
+    {
+      "family": "Michroma",
+      "reason": "Superellipse sans with futuristic stiff techno aesthetic"
+    },
+    {
+      "family": "Ductus Mono Geometric",
+      "reason": "Generative geometric rounded mono feels algorithmic and futuristic"
+    },
+    {
+      "family": "Goldman",
+      "reason": "Techno futuristic superellipse; stiff rugged geometric construction"
+    },
+    {
+      "family": "Lment",
+      "reason": "Modular geometric unicase with experimental futuristic construction"
+    },
+    {
+      "family": "Share Tech Mono",
+      "reason": "Monospace with futuristic stiff feel; neo-grotesque calm precision"
+    },
+    {
+      "family": "Format 1452",
+      "reason": "Industrial technical modular grotesque condensed; DIN-like engineering precision"
+    },
+    {
+      "family": "Electrolize",
+      "reason": "Techno futuristic stiff geometric sans; engineering-focused proportions"
+    },
+    {
+      "family": "Breite Grotesk",
+      "reason": "Generative geometric grotesque with mechanical proportions and cyrillic support"
+    },
+    {
+      "family": "Space Grotesk",
+      "reason": "Neo-grotesque with techno character; modern corporate tech sensibility"
+    },
+    {
+      "family": "Half",
+      "reason": "Mechanistic geometric monospace; glyphic and strictly engineered letterforms"
+    },
+    {
+      "family": "Exo 2",
+      "reason": "Superellipse sans with futuristic stiff geometric feel"
+    },
+    {
+      "family": "Audiowide",
+      "reason": "Techno futuristic display; vintage computer-age technological aesthetic"
+    },
+    {
+      "family": "Tomorrow",
+      "reason": "Geometric futuristic sans with techno stiff rugged character"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 674,
+    "output": 712
+  }
+}

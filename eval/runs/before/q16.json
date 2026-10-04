@@ -1,0 +1,97 @@
+{
+  "id": "q16",
+  "kind": "mood",
+  "query": "friendly and warm, a neighbourhood bakery",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 10441,
+  "results": [
+    {
+      "family": "Apfel Grotezk",
+      "reason": "Quirky geometric grotesk with friendly indie warmth, soft curves balance sharpness"
+    },
+    {
+      "family": "Nunito",
+      "reason": "Rounded geometric sans with friendly approachable feel, contemporary warmth"
+    },
+    {
+      "family": "Halibut",
+      "reason": "Warm wedge-serif with bookish personality, quirky letterforms feel artisanal"
+    },
+    {
+      "family": "Cabin",
+      "reason": "Humanist sans with warm friendly character, genuine neighbourhood appeal"
+    },
+    {
+      "family": "Gulax",
+      "reason": "Monolinear geometric sans with experimental charm, playful yet legible character"
+    },
+    {
+      "family": "Commissioner",
+      "reason": "Humanist sans calm and competent, warm interpersonal feel suits bakery trust"
+    },
+    {
+      "family": "Ribes",
+      "reason": "Geometric sans with retro-funky warmth, quirky playful feel suits neighbourhood charm"
+    },
+    {
+      "family": "Pally",
+      "reason": "Informal comics-like sans, playful warmth perfect for neighbourhood charm"
+    },
+    {
+      "family": "Cantique",
+      "reason": "Calligraphic serif with elegant swashes, decorative warmth feels handcrafted"
+    },
+    {
+      "family": "Chivo",
+      "reason": "Grotesque sans with quirky friendly edge, casual contemporary warmth"
+    },
+    {
+      "family": "Abordage",
+      "reason": "Geometric rounded sans, friendly and approachable with soft humanist touches"
+    },
+    {
+      "family": "Catamaran",
+      "reason": "Neo-grotesk rounded, warm humanist feel with friendly approachability"
+    },
+    {
+      "family": "Karrik",
+      "reason": "Raw naive grotesque with clumsy charm, analog irregularity reads as warmly human"
+    },
+    {
+      "family": "Aileron",
+      "reason": "Geometric sans with clean warmth, friendly screen-friendly contemporary feel"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "Wide grotesque with quirky titling personality, sporty friendliness works for casual bakery"
+    },
+    {
+      "family": "Cormorant Upright",
+      "reason": "Elegant garalde serif with warm vintage charm, neighbourhood bakery heritage"
+    },
+    {
+      "family": "Crimson Pro",
+      "reason": "Old-style garalde serif warmly sophisticated, editorial heritage feel for bakery story"
+    },
+    {
+      "family": "Spline Sans",
+      "reason": "Modern neo-grotesk with warm contemporary feel, friendly legible headlines"
+    },
+    {
+      "family": "Asap",
+      "reason": "Rounded humanist sans with soft warmth and genuine friendly personality"
+    },
+    {
+      "family": "Balsamiq Sans",
+      "reason": "Rounded sans with happy vintage charm, informal warmth suits casual bakery"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 702,
+    "output": 1006
+  }
+}

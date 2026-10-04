@@ -1,0 +1,97 @@
+{
+  "id": "q03",
+  "kind": "motion",
+  "query": "racing, speed, motorsport",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 7977,
+  "results": [
+    {
+      "family": "TGL 0-16",
+      "reason": "Slanted rounded wonky letters, lively forward lean with mixed case"
+    },
+    {
+      "family": "Kihim",
+      "reason": "placeholder"
+    },
+    {
+      "family": "DOF 3",
+      "reason": "Heavy, wide, squared with italic; strong forward-driving stance"
+    },
+    {
+      "family": "Racing Sans One",
+      "reason": "Bold wide slanted racing letterforms, purpose-built for motorsport"
+    },
+    {
+      "family": "DOF 3 Extended",
+      "reason": "Bold very wide squared letters, stretched horizontals read as speed"
+    },
+    {
+      "family": "Faster One",
+      "reason": "Slanted wide with speed cuts, high-contrast racing flair"
+    },
+    {
+      "family": "Ferrite Core DX Display",
+      "reason": "Heavy very wide squared monolinear, 90s racing-game feel"
+    },
+    {
+      "family": "Fugaz One",
+      "reason": "Heavy slanted geometric, aggressive forward lean"
+    },
+    {
+      "family": "Mattone",
+      "reason": "Bold wide extended grotesque, low heavy stance, punchy"
+    },
+    {
+      "family": "Sharpie",
+      "reason": "Bold slanted marker strokes with momentum"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "Wide sporty quirky grotesque with lowercase, athletic feel"
+    },
+    {
+      "family": "Michroma",
+      "reason": "Wide squared superellipse, low stretched stance"
+    },
+    {
+      "family": "Pescante",
+      "reason": "Bold angular squared brush strokes, signage-like momentum"
+    },
+    {
+      "family": "Nippo",
+      "reason": "Squared sporty jersey display, athletic and energetic"
+    },
+    {
+      "family": "Zen Dots",
+      "reason": "Bold wide squared techno, stretched racing look"
+    },
+    {
+      "family": "Audiowide",
+      "reason": "Bold wide squared, motorsport-style rounded corners"
+    },
+    {
+      "family": "Tomorrow",
+      "reason": "Squared straight-edged with italic, technical speed"
+    },
+    {
+      "family": "Exo 2",
+      "reason": "Squared superellipse with italic, sporty and legible"
+    },
+    {
+      "family": "Technor",
+      "reason": "Squared large x-height, futuristic engineered drive"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 640,
+    "output": 810
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

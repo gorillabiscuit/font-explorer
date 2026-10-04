@@ -1,0 +1,105 @@
+{
+  "id": "q12",
+  "kind": "mood",
+  "query": "a bit more sci-fi, but still legible",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 16332,
+  "results": [
+    {
+      "family": "Format 1452",
+      "reason": "Industrial DIN modular structure, technical yet readable"
+    },
+    {
+      "family": "Syne Mono",
+      "reason": "Curveless wide stems, geometric sci-fi edge, clean legibility"
+    },
+    {
+      "family": "Gulax",
+      "reason": "Monolinear geometric sans, experimental futuristic character"
+    },
+    {
+      "family": "Electrolize",
+      "reason": "Geometric techno angles, stiff futuristic feel, readable"
+    },
+    {
+      "family": "Lment",
+      "reason": "Modular unicase geometric, distinctive experimental futuristic"
+    },
+    {
+      "family": "Tektur",
+      "reason": "Geometric techno with soft roundness, sci-fi without harshness"
+    },
+    {
+      "family": "Ductus Geometric",
+      "reason": "Generative rounded geometric, futuristic yet warm"
+    },
+    {
+      "family": "Outfit",
+      "reason": "Geometric sans with tech appeal, forward-looking neutrality"
+    },
+    {
+      "family": "Space Grotesk",
+      "reason": "Neo-grotesque techno edge, contemporary sci-fi character"
+    },
+    {
+      "family": "Michroma",
+      "reason": "Futuristic superellipse, sleek and legible at display size"
+    },
+    {
+      "family": "Tomorrow",
+      "reason": "Geometric techno sans, geometric stiffness, readable baseline"
+    },
+    {
+      "family": "Geo",
+      "reason": "Techno stiff geometric, sci-fi precision with charm"
+    },
+    {
+      "family": "Quantico",
+      "reason": "Geometric futuristic, rugged stiffness, strong sci-fi presence"
+    },
+    {
+      "family": "Audiowide",
+      "reason": "Techno vintage, geometric character, legible display weight"
+    },
+    {
+      "family": "Goldman",
+      "reason": "Superellipse techno futuristic, readable stiff edge"
+    },
+    {
+      "family": "Turret Road",
+      "reason": "Techno futuristic, distinctive awkwardness, clear letterforms"
+    },
+    {
+      "family": "Play",
+      "reason": "Superellipse sans, futuristic calm, technical and approachable"
+    },
+    {
+      "family": "Chakra Petch",
+      "reason": "Geometric techno, futuristic stiffness, contemporary sci-fi"
+    },
+    {
+      "family": "Rubik One",
+      "reason": "Rounded grotesque geometric, modern sci-fi with warmth"
+    },
+    {
+      "family": "Jost",
+      "reason": "Geometric rounded sans, modern sci-fi edge, highly legible"
+    },
+    {
+      "family": "Aldrich",
+      "reason": "Stiff superellipse geometric, futuristic and distinctive"
+    },
+    {
+      "family": "K2D",
+      "reason": "Superellipse neo-grotesque, geometric precision, readable sci-fi"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 10,
+    "cacheRead": 113391,
+    "cacheWrite": 1694,
+    "output": 1456
+  }
+}

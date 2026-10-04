@@ -1,0 +1,101 @@
+{
+  "id": "q12",
+  "kind": "mood",
+  "query": "a bit more sci-fi, but still legible",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 8819,
+  "results": [
+    {
+      "family": "Xolonium",
+      "reason": "wide squared geometric sans, engineered feel, fully legible in mixed case"
+    },
+    {
+      "family": "Technor",
+      "reason": "squared large x-height sans, futuristic yet highly legible"
+    },
+    {
+      "family": "Grotesk",
+      "reason": "wide spaced geometric sans, art-deco futurism, large x-height"
+    },
+    {
+      "family": "Nippo",
+      "reason": "squared straight-edged sports display, techy, clear lowercase"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "wide quirky grotesque, forward-looking yet clear"
+    },
+    {
+      "family": "Panchang",
+      "reason": "very wide light sans, sleek futuristic stance"
+    },
+    {
+      "family": "Lunchtype Expanded",
+      "reason": "extended grotesque stance, innovative and very readable"
+    },
+    {
+      "family": "Tektur",
+      "reason": "squared techno display with large x-height, readable"
+    },
+    {
+      "family": "Ferrite Core DX",
+      "reason": "very wide squared monoline, strong 90s sci-fi, readable"
+    },
+    {
+      "family": "Michroma",
+      "reason": "wide squared superellipse, classic sci-fi wordmark feel"
+    },
+    {
+      "family": "Gulax",
+      "reason": "monolinear geometric with quirky techno details, open letters"
+    },
+    {
+      "family": "Exo 2",
+      "reason": "squared superellipse sans, techy but friendly text shapes"
+    },
+    {
+      "family": "Format 1452",
+      "reason": "din-like modular technical grotesque, clean and legible"
+    },
+    {
+      "family": "Oxanium",
+      "reason": "squared straight-edged techno letters, open and clear"
+    },
+    {
+      "family": "Pescante",
+      "reason": "bold squared angular curveless forms, sturdy and techy"
+    },
+    {
+      "family": "Kola",
+      "reason": "techno stencil-like display, modular, still readable"
+    },
+    {
+      "family": "Chakra Petch",
+      "reason": "chamfered squared techno sans, legible at size"
+    },
+    {
+      "family": "Zen Dots",
+      "reason": "bold wide squared techno display, strong presence"
+    },
+    {
+      "family": "Saira",
+      "reason": "squared superellipse sans, tidy engineered look"
+    },
+    {
+      "family": "Monda",
+      "reason": "squared futuristic sans, competent and readable"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 631,
+    "output": 775
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

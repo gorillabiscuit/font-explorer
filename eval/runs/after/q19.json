@@ -1,0 +1,101 @@
+{
+  "id": "q19",
+  "kind": "mood",
+  "query": "an old western saloon sign",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 8123,
+  "results": [
+    {
+      "family": "Boeticher",
+      "reason": "Tuscan western slab with playful flared serifs, saloon-poster feel"
+    },
+    {
+      "family": "Paquito",
+      "reason": "Chunky vintage slab with a quirky saloon-bill character"
+    },
+    {
+      "family": "Ouroboros",
+      "reason": "Bold wide art-nouveau flared serif, vintage and loud"
+    },
+    {
+      "family": "Hoover",
+      "reason": "Squared slab logotype face, sturdy old-signage look"
+    },
+    {
+      "family": "Coaster Sans",
+      "reason": "Heavy 70s rounded display with blackletter touches, loud"
+    },
+    {
+      "family": "Rye",
+      "reason": "Classic Tuscan woodtype, the quintessential western saloon face"
+    },
+    {
+      "family": "Flor de Ruina",
+      "reason": "Heavy eroded serif, weathered wood-sign texture"
+    },
+    {
+      "family": "Sancreek",
+      "reason": "Heavy Tuscan with curvy flares, wild-west poster look"
+    },
+    {
+      "family": "Nanook",
+      "reason": "Bold wide mechanistic serif, small x-height, vintage"
+    },
+    {
+      "family": "Smokum",
+      "reason": "Condensed Tuscan with reverse contrast, wanted-poster style"
+    },
+    {
+      "family": "Aquis",
+      "reason": "Bold condensed woodtype serif, poster-style"
+    },
+    {
+      "family": "Arbutus",
+      "reason": "Heavy wide Tuscan slab, mixed case works well"
+    },
+    {
+      "family": "Ewert",
+      "reason": "Shaded Tuscan display with ornate western flair"
+    },
+    {
+      "family": "Bevan",
+      "reason": "Heavy wide slab with italic, sturdy signboard letters"
+    },
+    {
+      "family": "Ultra",
+      "reason": "Fat face Clarendon slab, bold vintage signage"
+    },
+    {
+      "family": "Goblin One",
+      "reason": "Wide heavy woodtype fat face, rugged and vintage"
+    },
+    {
+      "family": "Holtwood One SC",
+      "reason": "Heavy slab with transitional contrast, old poster feel"
+    },
+    {
+      "family": "Graduate",
+      "reason": "Squared slab with collegiate vintage, large x-height"
+    },
+    {
+      "family": "Special Elite",
+      "reason": "Distressed typewriter slab, worn old-paper character"
+    },
+    {
+      "family": "Alfa Slab One",
+      "reason": "Heavy geometric slab, bold signpainter feel"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 123559,
+    "cacheWrite": 571,
+    "output": 823
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

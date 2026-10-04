@@ -1,0 +1,97 @@
+{
+  "id": "q14",
+  "kind": "mood",
+  "query": "slick and professional",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 10217,
+  "results": [
+    {
+      "family": "Apfel Grotezk",
+      "reason": "Quirky geometric grotesk with friendly warmth; professional yet distinctive letterforms"
+    },
+    {
+      "family": "General Sans",
+      "reason": "Curated foundry grotesque; versatile professional workhorse with contemporary flair"
+    },
+    {
+      "family": "Abordage",
+      "reason": "Geometric sans with rounded friendliness; clean, contemporary professional edge"
+    },
+    {
+      "family": "Space Grotesk",
+      "reason": "Neo-grotesque with techno character; modern, slick, and distinctively professional"
+    },
+    {
+      "family": "Karrik",
+      "reason": "Raw, naive grotesque with charming irregularity; slick yet characterful and memorable"
+    },
+    {
+      "family": "Poppins",
+      "reason": "Geometric sans with rounded warmth; professional, approachable, and universally legible"
+    },
+    {
+      "family": "Grotesk",
+      "reason": "Elegant art-deco geometric sans; wide spacing reads as refined and professional"
+    },
+    {
+      "family": "Jost",
+      "reason": "Geometric grotesque with rounded forms; slick and refined with modern flair"
+    },
+    {
+      "family": "Lineal",
+      "reason": "Modular geometric sans with clean futura-like feel; slick and structured wordmark presence"
+    },
+    {
+      "family": "Manrope",
+      "reason": "Neo-grotesque with generous curves; professional yet contemporary and friendly"
+    },
+    {
+      "family": "Format 1452",
+      "reason": "Industrial technical grotesque; condensed and modern with engineered precision"
+    },
+    {
+      "family": "Instrument Sans",
+      "reason": "Geometric sans; precise and slick with refined professional proportions"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "Wide grotesque with quirky titling character; confident and contemporary professional"
+    },
+    {
+      "family": "Work Sans",
+      "reason": "Neo-grotesque workhorse; reliable, slick, and professional across all sizes"
+    },
+    {
+      "family": "Halibut",
+      "reason": "Warm wedge-serif with quirky editorial charm; friendly yet professional depth"
+    },
+    {
+      "family": "Plus Jakarta Sans",
+      "reason": "Geometric sans with contemporary appeal; slick screen presence and professional spacing"
+    },
+    {
+      "family": "Inter",
+      "reason": "Highly legible neo-grotesque; slick, professional, and optimized for wordmarks"
+    },
+    {
+      "family": "Archivo",
+      "reason": "Grotesque sans with legible clarity; professional and distinctively contemporary"
+    },
+    {
+      "family": "Source Sans Pro",
+      "reason": "Trusted humanist sans; professional, slick, and universally reliable"
+    },
+    {
+      "family": "Sora",
+      "reason": "Legible neo-grotesque; slick logotype presence with professional confidence"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 3,
+    "cacheRead": 56354,
+    "cacheWrite": 676,
+    "output": 901
+  }
+}

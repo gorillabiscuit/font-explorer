@@ -1,0 +1,101 @@
+{
+  "id": "q24",
+  "kind": "literal",
+  "query": "blackletter, medieval",
+  "label": "before",
+  "model": "claude-haiku-4-5-20251001",
+  "wallMs": 16897,
+  "results": [
+    {
+      "family": "Trickster",
+      "reason": "High-contrast blackletter with merovingian sharpness, medieval edge"
+    },
+    {
+      "family": "Astloch",
+      "reason": "Generative blackletter with medieval playful innovation"
+    },
+    {
+      "family": "Basteleur",
+      "reason": "Tarot-inspired serif fantasy with sharp, esoteric medieval character"
+    },
+    {
+      "family": "UnifrakturMaguntia",
+      "reason": "Artistic blackletter revival with vintage medieval authenticity"
+    },
+    {
+      "family": "Malebolge",
+      "reason": "Medieval spiky gothic with ornate dark metal aesthetic"
+    },
+    {
+      "family": "UnifrakturCook",
+      "reason": "Blackletter serif with loud vintage medieval ornamentation"
+    },
+    {
+      "family": "Sinistre",
+      "reason": "Medieval uncial with gothic flared serifs, mystical quality"
+    },
+    {
+      "family": "Grenze Gotisch",
+      "reason": "Blackletter display with medieval gothic weight"
+    },
+    {
+      "family": "FT88 Gothique",
+      "reason": "Pixel blackletter with retro bitmap, medieval gothic attitude"
+    },
+    {
+      "family": "Texturina",
+      "reason": "Blackletter serif with high-contrast medieval character"
+    },
+    {
+      "family": "Manufacturing Consent",
+      "reason": "Formal blackletter with medieval artistic fancy quality"
+    },
+    {
+      "family": "Blaka",
+      "reason": "Blackletter display with loud medieval stiff presence"
+    },
+    {
+      "family": "Aktura",
+      "reason": "Blackletter display serif for posters, medieval impact"
+    },
+    {
+      "family": "Pirata One",
+      "reason": "Blackletter with vintage artistic medieval swagger"
+    },
+    {
+      "family": "Cinzel Decorative",
+      "reason": "Medieval-inspired display serif with sincere character"
+    },
+    {
+      "family": "Almendra Display",
+      "reason": "Blackletter display with awkward vintage medieval presence"
+    },
+    {
+      "family": "New Rocker",
+      "reason": "Blackletter vintage display with artistic medieval edge"
+    },
+    {
+      "family": "Medula One",
+      "reason": "Stiff blackletter display with rugged medieval look"
+    },
+    {
+      "family": "Fruktur",
+      "reason": "Upright blackletter with innovative active medieval character"
+    },
+    {
+      "family": "Germania One",
+      "reason": "Blackletter display with artistic rugged vintage quality"
+    },
+    {
+      "family": "Cagliostro",
+      "reason": "Humanist sans with vintage calm, mystical medieval tone"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 10,
+    "cacheRead": 113385,
+    "cacheWrite": 1760,
+    "output": 1715
+  }
+}

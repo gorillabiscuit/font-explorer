@@ -1,0 +1,101 @@
+{
+  "id": "q11",
+  "kind": "mood",
+  "query": "more technological",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 19098,
+  "results": [
+    {
+      "family": "Xolonium",
+      "reason": "Wide squared sans with straight edges; engineered, legible in mixed case"
+    },
+    {
+      "family": "Technor",
+      "reason": "Squared large x-height sans, forward-looking and clean"
+    },
+    {
+      "family": "Ferrite Core DX",
+      "reason": "Very wide monolinear squared forms, 1990s tech feel"
+    },
+    {
+      "family": "Michroma",
+      "reason": "Wide squared superellipse sans, classic futuristic"
+    },
+    {
+      "family": "Grotesk",
+      "reason": "Wide geometric sans, spaced and futuristic, large x-height"
+    },
+    {
+      "family": "Tomorrow",
+      "reason": "Squared straight-edged geometric sans with italic"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "Wide quirky grotesque, innovative yet legible"
+    },
+    {
+      "family": "Chakra Petch",
+      "reason": "Cut squared corners, techno character, readable lowercase"
+    },
+    {
+      "family": "Format 1452",
+      "reason": "DIN-like modular industrial grotesque, technical"
+    },
+    {
+      "family": "Oxanium",
+      "reason": "Squared straight-edged techno display with lowercase"
+    },
+    {
+      "family": "Half",
+      "reason": "Thin wide squared monospace, mechanistic"
+    },
+    {
+      "family": "Exo 2",
+      "reason": "Superellipse sans, squared, futuristic yet versatile"
+    },
+    {
+      "family": "Lunchtype Expanded",
+      "reason": "Expanded grotesque with engineered, innovative stance"
+    },
+    {
+      "family": "Panchang",
+      "reason": "Light very wide sans, futuristic and airy"
+    },
+    {
+      "family": "DOF Afield",
+      "reason": "Wide generative sans, futuristic lowercase forms"
+    },
+    {
+      "family": "Kola",
+      "reason": "Techno display, forward-looking"
+    },
+    {
+      "family": "Nippo",
+      "reason": "Squared straight-edged sporty tech display"
+    },
+    {
+      "family": "Sarpanch",
+      "reason": "Squared superellipse techno sans"
+    },
+    {
+      "family": "Zen Dots",
+      "reason": "Bold wide squared techno display"
+    },
+    {
+      "family": "Science Gothic",
+      "reason": "Wide squared straight-edged techno sans"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 4,
+    "cacheRead": 247690,
+    "cacheWrite": 1781,
+    "output": 1544
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}

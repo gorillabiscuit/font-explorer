@@ -1,0 +1,109 @@
+{
+  "id": "q01",
+  "kind": "motion",
+  "query": "fonts that imply fast movement or action",
+  "label": "after",
+  "model": "claude-sonnet-5-5",
+  "wallMs": 10552,
+  "results": [
+    {
+      "family": "TGL 0-16",
+      "reason": "Slanted rounded letters give forward lean; works in mixed case"
+    },
+    {
+      "family": "Faster One",
+      "reason": "Slanted wide racing letters with speed cuts"
+    },
+    {
+      "family": "Azabache",
+      "reason": "Slanted modular brush strokes with momentum, lowercase-friendly"
+    },
+    {
+      "family": "Racing Sans One",
+      "reason": "Bold wide slanted racing sans, mixed case"
+    },
+    {
+      "family": "Mattone",
+      "reason": "Wide heavy extended stance reads as low, fast poster type"
+    },
+    {
+      "family": "Kihim",
+      "reason": "Heavy slanted straight-edged display with forward thrust"
+    },
+    {
+      "family": "Ferrite Core DX Display",
+      "reason": "Very wide heavy squared letters suggest speed and stretch"
+    },
+    {
+      "family": "Sharpie",
+      "reason": "Bold slanted pen strokes with momentum"
+    },
+    {
+      "family": "DOF 3 Extended",
+      "reason": "Bold very wide squared forms, stretched horizontals"
+    },
+    {
+      "family": "Fugaz One",
+      "reason": "Heavy slanted geometric letters, sporty"
+    },
+    {
+      "family": "Sporting Grotesque",
+      "reason": "Wide sporty grotesque with quirky titling stance"
+    },
+    {
+      "family": "Mogra",
+      "reason": "Heavy slanted brush strokes, energetic"
+    },
+    {
+      "family": "Xolonium",
+      "reason": "Wide squared engineered forms, racing-like feel"
+    },
+    {
+      "family": "Shrikhand",
+      "reason": "Heavy slanted curvy display with forward drive"
+    },
+    {
+      "family": "Compagnon Script",
+      "reason": "Very wide slanted connected script, lowercase with motion"
+    },
+    {
+      "family": "Akronim",
+      "reason": "Condensed slanted broken forms suggest motion"
+    },
+    {
+      "family": "Nippo",
+      "reason": "Squared sporty jersey display letterforms"
+    },
+    {
+      "family": "Audiowide",
+      "reason": "Bold wide squared letters, motorsport feel"
+    },
+    {
+      "family": "Unbounded",
+      "reason": "Bold wide rounded sans with stretched stance"
+    },
+    {
+      "family": "Permanent Marker",
+      "reason": "Bold slanted marker strokes, fast-written"
+    },
+    {
+      "family": "Climate Crisis",
+      "reason": "Heavy wide bold stance, active impact"
+    },
+    {
+      "family": "Kaushan Script",
+      "reason": "Slanted brush script with quick energetic strokes"
+    }
+  ],
+  "dropped": [],
+  "usage": {
+    "input": 2,
+    "cacheRead": 0,
+    "cacheWrite": 124201,
+    "output": 849
+  },
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-5-5"
+  ]
+}
